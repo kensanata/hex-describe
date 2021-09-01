@@ -88,7 +88,8 @@ cpanm .
 ## Installation
 
 Use cpan or cpanm to install Game::HexDescribe. In the directory you
-want to run it from, create a config file like the following:
+want to run it from, create a config file named `hex-describe.conf`
+like the following:
 
 ```perl
 {
