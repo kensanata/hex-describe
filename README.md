@@ -30,7 +30,7 @@ for example.
 
 Tables looks like this:
 
-```
+```text
 ;trees
 1,some trees
 1,you encounter [forest monster]
