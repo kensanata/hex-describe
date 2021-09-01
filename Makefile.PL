@@ -19,6 +19,11 @@ WriteMakefile(
     'warnings' => 0,
     'Modern::Perl' => 1.20180701, # for '2018'
     'Mojolicious' => 0,
+    'Array::Utils' => 0,
+    'List::MoreUtils' => 0,
+    'LWP::UserAgent' => 0,
+    'Role::Tiny::With' => 0,
+    'Text::Autoformat' => 0,
   },
   CONFIGURE_REQUIRES => {
     'ExtUtils::MakeMaker' => '6.52',
