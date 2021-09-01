@@ -42,6 +42,8 @@ use Mojo::ByteStream;
 use Array::Utils qw(intersect);
 use Encode qw/decode_utf8/;
 use Text::Autoformat;
+use File::ShareDir 'dist_dir';
+use Cwd;
 
 =head2 Configuration
 
@@ -52,21 +54,26 @@ the C<loglevel> key, and if you're not running the server in a terminal, using
 the C<logfile> key to set a file.
 
 The default map and table are stored in the F<contrib> directory. You can change
-this directory using the C<default_dir> key. This is necessary when using
-Toadfarm to run the application, for example.
+this directory using the C<contrib> key. By default, the directory included with
+the distribution is used. Thus, if you're a developer, you probably want to use
+something like the following to use the files from the source directory.
 
     {
       loglevel => 'debug',
-      logfile => 'hex-describe.log',
-      default_dir => '/home/alex/farm/contrib',
+      logfile => undef,
+      contrib => 'share',
     };
 
 =cut
 
-plugin Config => {default => {
-  loglevel => 'debug',
-  logfile => undef,
-  default_dir => 'contrib', }};
+plugin Config => {
+  default => {
+    loglevel => 'debug',
+    logfile => undef,
+    contrib => dist_dir('Game-HexDescribe'),
+  },
+  file => getcwd() . '/hex-describe.conf',
+};
 
 my $log = Mojo::Log->new;
 $log->level(app->config('loglevel'));
@@ -81,7 +88,9 @@ probably read the tutorial.
 
 =cut
 
-my $dir = app->config('default_dir');
+my $dir = app->config('contrib');
+$log->debug("Contrib directory: $dir");
+
 my $default_map = Mojo::File->new("$dir/hex-describe-default-map.txt");
 my $schroeder_table = Mojo::File->new("$dir/hex-describe-schroeder-table.txt");
 my $seckler_table = Mojo::File->new("$dir/hex-describe-seckler-table.txt");
@@ -92,12 +101,24 @@ my $traveller_table = Mojo::File->new("$dir/hex-describe-traveller-table.txt");
 =head2 URLs
 
 The code needs to know where Text Mapper and the Face Generator can be found.
+You can add these to the same config file we mentioned above. This is what you
+probably want as a developer:
+
+    {
+      text_mapper_url => 'http://localhost:3010',
+      face_generator_url => 'http://localhost:3020',
+    };
 
 =cut
 
+# not used
 my $hex_describe_url = app->config('hex_describe_url') || 'https://campaignwiki.org/hex-describe';
+
 my $text_mapper_url = app->config('text_mapper_url') || 'https://campaignwiki.org/text-mapper';
+$log->debug("Text Mapper URL: $text_mapper_url");
+
 my $face_generator_url = app->config('face_generator_url') || 'https://campaignwiki.org/face';
+$log->debug("Face Generator URL: $face_generator_url");
 
 =head2 Entry Points
 
@@ -2200,7 +2221,6 @@ Alternatively, just paste your tables here:
 %= submit_button 'Submit', name => 'submit'
 
 %= end
-
 
 @@ description.html.ep
 % layout 'default';

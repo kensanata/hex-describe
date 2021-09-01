@@ -21,8 +21,6 @@ WriteMakefile(
     'Mojolicious' => 0,
     'Array::Utils' => 0,
     'List::MoreUtils' => 0,
-    'LWP::UserAgent' => 0,
-    'Role::Tiny::With' => 0,
     'Text::Autoformat' => 0,
   },
   CONFIGURE_REQUIRES => {

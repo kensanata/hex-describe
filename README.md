@@ -64,12 +64,13 @@ The app comes with a tutorial built in. See the
 
 Perl Modules (or Debian modules):
 
+* Array::Utils or libarray-utils-perl
 * IO::Socket::SSL or libio-socket-ssl-perl
 * LWP::UserAgent or liblwp-useragent-perl
 * List::MoreUtils or liblist-moreutils-perl
 * Modern::Perl or libmodern-perl-perl
 * Mojolicious or libmojolicious-perl
-* Role::Tiny::With
+* Text::Autoformat or libtext-autoformat-perl
 
 The IO::Socket::SSL dependency means that you’ll need OpenSSL
 development libraries installed as well: openssl-devel or equivalent,
