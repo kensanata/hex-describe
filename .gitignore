@@ -1,0 +1,10 @@
+*~
+*.bak
+*.conf
+.prove
+blib
+MYMETA*
+Makefile
+Makefile.old
+pm_to_blib
+test-[0-9][0-9][0-9][0-9]
