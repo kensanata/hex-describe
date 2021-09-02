@@ -87,14 +87,35 @@ cpanm .
 
 ## Installation
 
-Use cpan or cpanm to install Game::HexDescribe. In the directory you
-want to run it from, create a config file named `hex-describe.conf`
-like the following:
+Use cpan or cpanm to install Game::HexDescribe.
+
+Using `cpan`:
+
+```shell
+cpan Game::HexDescribe
+```
+
+Manual install:
+
+```shell
+perl Makefile.PL
+make
+make install
+```
+
+## Configuration
+
+In the directory you want to run it from, you may create a config file
+named `hex-describe.conf` like the following:
 
 ```perl
 {
-  # the URL where Hex Describe listens
-  hex_describe_url => 'http://localhost:3000',
+  # error, warn, info, or debug
+  loglevel => 'debug',
+  # undef means stderr, or a file name
+  logfile => undef,
+  # undef means the default directory, or a directory name
+  contrib => 'share',
   # the URL where you run Text Mapper to generate maps (optional)
   text_mapper_url => 'http://localhost:3010',
   # the URL where you run Face Generator to generate faces (optional)
@@ -102,8 +123,10 @@ like the following:
 }
 ```
 
-As a developer, morbo makes sure to restart it whenever a file
-changes:
+## Development
+
+As a developer, morbo makes sure to restart the web app whenever a
+file changes:
 
 ```bash
 morbo --mode development --listen "http://*:3000" script/hex-describe
