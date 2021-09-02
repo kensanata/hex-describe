@@ -22,6 +22,7 @@ WriteMakefile(
     'Array::Utils' => 0,
     'List::MoreUtils' => 0,
     'Text::Autoformat' => 0,
+    'File::ShareDir' => 0,
   },
   CONFIGURE_REQUIRES => {
     'ExtUtils::MakeMaker' => '6.52',

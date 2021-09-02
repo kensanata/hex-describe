@@ -71,6 +71,8 @@ Perl Modules (or Debian modules):
 * Modern::Perl or libmodern-perl-perl
 * Mojolicious or libmojolicious-perl
 * Text::Autoformat or libtext-autoformat-perl
+* File::ShareDir or libfile-sharedir-perl
+* File::ShareDir::Install or libfile-sharedir-install-perl
 
 The IO::Socket::SSL dependency means that you’ll need OpenSSL
 development libraries installed as well: openssl-devel or equivalent,
