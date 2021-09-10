@@ -118,6 +118,9 @@ probably want as a developer:
       face_generator_url => 'http://localhost:3020',
     };
 
+This assumes you are running the two locally. See L<Game::TextMapper> for Text
+Mapper.
+
 =cut
 
 # not used
@@ -253,8 +256,8 @@ I<traveller>.
 If we want to call this from the command line, we will need to request a map
 from Text Mapper, too.
 
-    ./text-mapper.pl get /alpine.txt > map.txt
-    ./hex-describe.pl get /describe --form map=@map.txt --form load=schroeder
+    text-mapper get /alpine.txt > map.txt
+    hex-describe get /describe --form map=@map.txt --form load=schroeder
 
 Pipe through C<lynx -stdin -dump -nolist> to get text instead of HTML.
 
@@ -581,7 +584,7 @@ neither is provided, the default table is used.
 
 To call this from the command line:
 
-    ./hex-describe.pl get /describe/text --form input=[village] --form load=schroeder
+    hex-describe get /describe/text --form input=[village] --form load=schroeder
 
 Pipe through C<lynx -stdin -dump -nolist> to get text instead of HTML.
 
@@ -4073,7 +4076,7 @@ You can change the CSS of the site as follows:
 
 <ol>
 <li>create a <code>public</code> directory in the same directory where
-<code>hex-describe.pl</code> is</li>
+<code>hex-describe</code> is</li>
 <li>create a <code>hex-describe.css</code> in the new directory
 </ol>
 

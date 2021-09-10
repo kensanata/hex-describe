@@ -33,6 +33,6 @@ GNU Affero General Public License
 =cut
 
 use Modern::Perl;
-use Mojo::Home;
-my $home = Mojo::Home->new;
-do $home->detect('Game::HexDescribe')->child('lib/Game/HexDescribe.pm');
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+require Game::HexDescribe;
