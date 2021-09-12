@@ -20,7 +20,7 @@ As for issues, your options are:
 
 * create an issue [on CPAN](https://rt.cpan.org/Public/Dist/Display.html?Name=Game-HexDescribe)
 
-* create an issue [on my Software Wiki](https://alexschroeder.ch/software/Text_Mapper)
+* create an issue [on my Software Wiki](https://alexschroeder.ch/software/Hex_Describe)
 
 * create an issue [on GitHub](https://github.com/kensanata/hex-describe/issues)
 
