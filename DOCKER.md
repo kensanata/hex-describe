@@ -1,4 +1,4 @@
-## Docker
+# Docker
 
 ## Quickstart
 
@@ -13,25 +13,10 @@ sudo adduser $(whoami) docker
 su - $(whoami)
 ```
 
-### Running the latest Text Mapper and Hex Describe
+## Building an image
 
-Remember, you probably want both applications. Therefore, first follow
-the instructions for a Text Mapper Docker image. Check whether it
-worked:
-
-```bash
-docker images
-```
-
-You should see the image `test/text-mapper` in the list:
-
-```text
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-test/text-mapper    latest              a080e575bd83        2 hours ago         876MB
-perl                latest              4307319f1e3e        4 weeks ago         860MB
-```
-
-The Hex Describe image we’re going to build depends on it.
+These instructions install three web applications in one image: Face
+Generator, Text Mapper and Hex Describe.
 
 There is a Dockerfile to build this in the repository. Check out the
 repository, change into the working directory, and build a docker
@@ -46,10 +31,12 @@ docker build --tag test/hex-describe .
 If you remove the `--notest` argument in the Dockerfile, this is a
 good way to check for missing dependencies. 😁
 
+## Running Face Generator, Text Mapper and Hex Describe
+
 To start the container from this image and run `hex-describe`:
 
 ```bash
-docker run --publish=3000:3000 --publish=3010:3010 test/hex-describe \
+docker run --publish=3000:3000 --publish=3010:3010 --publish=3020:3020 test/hex-describe \
   hex-describe daemon --listen "http://*:3000"
 ```
 
@@ -59,20 +46,28 @@ Find the container ID:
 ID=$(docker ps | awk '/hex-describe/ { print $1 }')
 ```
 
-And then to also run `text-mapper` in the same container:
+And then, in a new shell, run `text-mapper` in the same container:
 
 ```bash
 docker exec $ID text-mapper daemon --listen "http://*:3010"
 ```
 
-This runs both web applications in the same container and has it
-listen on both `http://127.0.0.1:3000` and `http://127.0.0.1:3010` –
-and you can access both URLs from the host.
+And finally, in a new shell, run `face-generator` in the same
+container:
+
+```bash
+docker exec $ID face-generator daemon --listen "http://*:3020"
+```
+
+This runs all three web applications in the same container and has
+them listen on `http://127.0.0.1:3000`, `http://127.0.0.1:3010`, and
+`http://127.0.0.1:3020` – and you can access the tree URLs from the
+host, in other words, from your browser.
 
 ## Troubleshooting
 
-To redo the image, you first have to prune the stopped containers
-using it.
+To redo the image with new checkouts from git, you first have to prune
+the stopped containers using it:
 
 ```bash
 docker container prune
