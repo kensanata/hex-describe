@@ -1,0 +1,28 @@
+# this file
+^MANIFEST\.SKIP
+
+# files for developers
+^Dockerfile
+^DOCKER
+^CONTRIBUTING
+^RELEASE
+^TODO
+\.conf$
+
+# generated files
+^pm_to_blib
+^MYMETA
+^Makefile$
+
+# hidden files, backup files
+^\.
+~$
+\.bak$
+\.old$
+
+# archives
+\.tar\.gz$
+
+# directories
+^blib/
+^\.git/
