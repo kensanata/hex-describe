@@ -79,3 +79,14 @@ Then you can delete the image:
 docker image rm test/hex-describe
 ```
 
+To upload to Docker Hub:
+
+```
+ID=$(docker images | awk '/test\/hex-describe/ { print $3 }')
+docker tag $ID kensanata/hex-describe:latest
+docker login
+docker push kensanata/hex-describe
+```
+
+Check it out
+[on Docker Hub](https://hub.docker.com/r/kensanata/hex-describe).
