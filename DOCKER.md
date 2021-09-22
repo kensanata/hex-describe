@@ -13,7 +13,17 @@ sudo adduser $(whoami) docker
 su - $(whoami)
 ```
 
-## Building an image
+## Running an old image you download from Docker Hub
+
+This downloads an old image and runs it. It was probably built a long
+time ago and you should *never ever* expose it to the Internet! Run it
+at home, for your own enjoyment. 😅
+
+```bash
+docker run --publish=3000:3000 --publish=3010:3010 --publish=3020:3020 kensanata/hex-describe
+```
+
+## Building a new image
 
 These instructions install three web applications in one image: Face
 Generator, Text Mapper and Hex Describe.
@@ -33,36 +43,12 @@ good way to check for missing dependencies. 😁
 
 ## Running Face Generator, Text Mapper and Hex Describe
 
-To start the container from this image and run `hex-describe`:
+To start the container from this image and run all three web
+applications:
 
 ```bash
-docker run --publish=3000:3000 --publish=3010:3010 --publish=3020:3020 test/hex-describe \
-  hex-describe daemon --listen "http://*:3000"
+docker run --publish=3000:3000 --publish=3010:3010 --publish=3020:3020 test/hex-describe
 ```
-
-Find the container ID:
-
-```
-ID=$(docker ps | awk '/hex-describe/ { print $1 }')
-```
-
-And then, in a new shell, run `text-mapper` in the same container:
-
-```bash
-docker exec $ID text-mapper daemon --listen "http://*:3010"
-```
-
-And finally, in a new shell, run `face-generator` in the same
-container:
-
-```bash
-docker exec $ID face-generator daemon --listen "http://*:3020"
-```
-
-This runs all three web applications in the same container and has
-them listen on `http://127.0.0.1:3000`, `http://127.0.0.1:3010`, and
-`http://127.0.0.1:3020` – and you can access the tree URLs from the
-host, in other words, from your browser.
 
 ## Troubleshooting
 
