@@ -4,8 +4,11 @@
 ;TOP
 1,[welcome][on names][on stats][on equipment]
 
+;END
+1,[appendix]
+
 ;welcome
-1,Welcome to the [global save space name as subsector][same subsector] subsector!<p class="sidebar"><a href="https://campaignwiki.org/travellercharacter/">Classic Traveller Character Generator</a> (with Citizens of the Imperium). <a href="https://campaignwiki.org/hex-describe/rule?rule=rogue&load=traveller">Rogues</a>.
+1,Welcome to the [global save space name as subsector][same subsector] subsector!<p class="sidebar"><a href="https://campaignwiki.org/travellercharacter/">Classic Traveller Character Generator</a> (with Citizens of the Imperium). You’ll find some pre-generated characters and ships in the <a href="#appendix">appendix</a>.
 
 ;on names
 1,<p>**Names:** When Chinese or Japanese names are being used, the order is *surname* then *given name*; other names use the order *given name* then *surname*; some people have no surname.
@@ -26,7 +29,6 @@
 ;gas
 4,There is a gas giant in this system.
 1,There are two gas giants in this system.
-1,There is a gas giant in this system. [append streamlined ship]Sensors show the *[same ship name]* scooping up unrefined fuel.
 
 ;size
 1,[size-[0|1|2|3|4|5|6|7|8|9|A]]
@@ -178,30 +180,22 @@
 1,[starport-[A|B|C|D|E|X]]
 
 ;starport-A
-1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery] [ship in orbit]
-1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery] [ship at the starport] [ship in orbit]
-1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery] [ship at the starport] [ship at the starport]
-1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery] [ship at the starport] [ship in orbit]
-1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery] [ship at the starport] [ship at the starport] [ship in orbit]
+1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery]<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.
 
 ;starport-B
-1,<p>[here store [same name] as big port][same name] has a **class B** starport. [shipyard] [refinery] [ship in orbit]
-1,<p>[here store [same name] as big port][same name] has a **class B** starport. [shipyard] [refinery] [ship at the starport]
-1,<p>[here store [same name] as big port][same name] has a **class B** starport. [shipyard] [refinery] [ship at the starport] [ship in orbit]
+1,<p>[here store [same name] as big port][same name] has a **class B** starport. [shipyard] [refinery]<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.
 
 ;starport-C
-1,<p>[same name] has a **class C** starport. [dockyard] [unrefined fuel] [ship at the starport] 
-1,<p>[same name] has a **class C** starport. [dockyard] [unrefined fuel] [ship in orbit]
-1,<p>[same name] has a **class C** starport. [dockyard] [unrefined fuel] [starport-C mission]
+1,<p>[same name] has a **class C** starport. [dockyard] [unrefined fuel]<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.
 
 ;starport-D
-1,<p>[same name] has a **class D** starport. [small starport building] [starport-D mission]
+1,<p>[same name] has a **class D** starport. [small starport building] [starport-D mission]<p class="sidebar">Pre-generated characters and ships (2 in 6 chance) are in the <a href="#appendix">appendix</a>.
 
 ;starport-E
-1,<p>[same name] has a **class E** starport.[here store [same name] as backwater system] [no facilities]
+1,<p>[same name] has a **class E** starport.[here store [same name] as backwater system] [no facilities]<p class="sidebar">Pre-generated characters and ships (1 in 6 chance, streamlined hulls only) are in the <a href="#appendix">appendix</a>.
 
 ;starport-X
-1,There is no starport, here.[here store [same name] as backwater system] This system is therefore not strictly part of the imperial network.
+1,There is no starport, here.[here store [same name] as backwater system] This system is therefore not strictly part of the imperial network.<p class="sidebar">Pre-generated characters and ships (unlikely!) are in the <a href="#appendix">appendix</a>.
 
 ;shipyard
 1,The *[shipyard name]* shipyards loom large over the starport’s various landing pads.
@@ -431,18 +425,18 @@
 ;population-3
 1,<p>A few thousand people live around the [same name] starport. [colony ship]
 1,<p>Some thousand people live around the [same name] starport, with a few thousand more in smaller villages nearby. [colony ship]
-1,<p>The [same name] starport has fallen into disrepair since the [upheaval|troubles|civil war|dark times] but the few thousand residents left still cling onto the hope of better times ahead.
+1,<p>The [same name] starport has fallen into disrepair since the [upheaval|troubles|civil war|dark times] but the few thousand residents left still cling to [here [same name] as war system] onto the hope of better times ahead.
 
 ;colony ship
 1,The first settlers arrived here about [1d4+1]00 years ago with the [colony|generation] ship *[mellow ship name]*. Tracing your ancestry back to the original settlers is a source of pride for the locals.
 1,The settlement was founded by a colony ship from *[nearby big port]* about [1d4]00 years ago. These old ties are still considered to be important by the locals.
-1,The settlement was originally a penal colony for *[nearby big port]* and gained independence [1d20]0 years ago. The resentment is still strong among the locals.
+1,The settlement was originally a penal colony for *[nearby big port]* and gained independence [1d20]0 years ago. The resentment is still strong among the locals.[store [same name] as war system]
 1,The settlement was founded by the *[company name]* company from *[nearby big port]* about [1d4]00 years ago. You can still see the logo and their products everywhere.
 1,The settlement was founded by the *[human surname]* foundation from *[nearby big port]* about [1d20]0 years ago. Their descendants are still very important people in the system.
 
 ;population-4
 1,<p>*[space name]* is a town with a few ten thousand inhabitants that has grown around the [same name] starport.
-1,<p>There are two main settlements, each with a few ten thousand inhabitants on [same name]. *Old [space name]* is built around the old starport. When it fell into disrepair in the [upheaval|troubles|civil war|dark times], it was abandoned and in recent years *New [same space name]* was built around the new starport. There is quite some rivalry, of course.
+1,<p>There are two main settlements, each with a few ten thousand inhabitants on [here [same name] as war system]. *Old [space name]* is built around the old starport. When it fell into disrepair in the [upheaval|troubles|civil war|dark times], it was abandoned and in recent years *New [same space name]* was built around the new starport. There is quite some rivalry, of course.
 1,<p>The town of [same name] sprawls around the starport, housing around [twenty|fourty|fifty|sixty|eighty|ninety] thousand people.
 
 ;population-5
@@ -585,8 +579,8 @@
 ;government-7
 1,<p>The system has fallen apart into multiple polities: each urban centre claiming sovereignty, involved in border disputes, internal squabbles, unable to deal with the imperial order in the subsector. The starport falls within the sphere of influence of *[space name]*. It’s a mess.
 1,<p>The system was settled in different places at different times. The initial phase was rough and there never developed any cohesion. Now the system is balkanized, with the local governments appealing each to their rich past, unwilling to give up any privileges. The starport is controlled by the *[space name]*. It’s tricky.
-1,<p>After the recent upheavals and the ensuing civil war, the system has splintered into different groups, each led by a warlord. [warlord situation] The starport is controlled by warlord *[human name]*.
-1,<p>The system is balkanized but stable. Many smaller states have fought cruel wars to create the illusion of a homogeneous local population. With this goal attained and stabilised using propaganda and the self-interests of the elite, things won’t be changing any time soon. This also makes the system easy prey for imperial actors, obviously. The starport is built in the *[space name]* region.
+1,<p>After the recent upheavals and the ensuing civil war on [here [same name] as war system], the system has splintered into different groups, each led by a warlord. [warlord situation] The starport is controlled by warlord *[human name]*.
+1,<p>The [here [same name] as war system] system is balkanized but stable. Many smaller states have fought cruel wars to create the illusion of a homogeneous local population. With this goal attained and stabilised using propaganda and the self-interests of the elite, things won’t be changing any time soon. This also makes the system easy prey for imperial actors, obviously. The starport is built in the *[space name]* region.
 
 ;warlord situation
 1,There’s peace right now, and negotiations are ongoing.
@@ -638,7 +632,7 @@
 
 ;government-A
 5,<p>This system is ruled by *[human name]*, a charismatic dictator. They got to power on a platform of [order|unity|fiscal discipline] and [development|progress|prosperity], and they promised to [fight corruption|break up the monopolies|enact land reform|tax the rich|find work for the young|introduce universal basic income|reform the system|regain former military glory]. [popular support]
-1,<p>This system is ruled by *[human name]*, a charismatic dictator. They deposed the old government after they had failed to put down a rebellion and got dragged into a civil war. *[same human name]* cleaned up the mess, put down the rebellion, initiated the necessary reforms, and finally deposed the government as well. [popular support]
+1,<p>This system is ruled by *[human name]*, a charismatic dictator. They deposed the old government after they had failed to put down a rebellion and got dragged into a civil war.[store [same name] as war system] *[same human name]* cleaned up the mess, put down the rebellion, initiated the necessary reforms, and finally deposed the government as well. [popular support]
 1,<p>The twenty year plans elaborated by the colleges of statecraft and economy are adhered to in exacting ways, for complex networks of informants, controllers and consultants produce a steady churn of promotions and demotions based on goal achievement with respect to “The Plan”. It is more important to follow the plan than to solve actual problems for the locals. The only way this is made bearable is a complex network of shadow markets and informal ties.
 1,<p>Old computer networks control production and distribution; the operators and programmers are servants of the system and nobody really understands the byzantine routes the logistic optimiser produces. In the end, it all works out somehow and since everybody is afraid of a breakdown, all resources are invested into maintenance and extension of the existing system, even though nobody really understands it.
 
@@ -1020,7 +1014,7 @@
 1,Cyclop
 
 ;navy squad at the base
-1, There are about [1d10x10+100] people at the base right now. If you need individuals, pick from the following squad led by [navy lieutenant]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel].
+1, There are about [1d10x10+100] people at the base right now.<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.
 
 ;scout
 1,<p>There is a **scout base** called *[here scout base name]* in the system. The current crew is small. [scout base crew] All who served here end up joining the *[here scout base friends as association of captains]*. [scout base mission]
@@ -1093,15 +1087,32 @@
 1,The **crime boss** is *[here human name as crime boss]*, [smart upp], [smart other skills]. Their **right hand** is *[human name]*, [upp], [common other skills]. There are [2d6] more *criminals* in the building, 777777, Shotgun-1.
 
 ;rogue
-1,This **rogue** is *[here human name as rogue]*, [a criminal], [upp], [common other skills].
+1,*[here human name as rogue]*, is [a criminal], [upp], [common other skills].
 
 ;a criminal
 1,a crook
 1,a hustler
 1,an operator
 1,an activist
-1,a liar
+1,a [notorious|compulsive] liar
 1,a con artist
+1,a lookout
+1,a spy
+1,a foreign agent
+1,a revolutionary
+1,an anarchist
+1,a fascist
+1,an fraudster
+1,an extortionist
+1,a thief
+1,a drug dealer
+1,a small-arms dealer
+1,a thug for hire
+1,a hired thug
+1,a security operative
+1,a hacker
+1,an undercover agent
+1,a former paramilitary
 
 # there are just three crime syndicates
 ;crime syndicate
@@ -1252,12 +1263,12 @@
 ;streamlined ship
 5,[scout/courier]
 4,[free trader]
-3,[subsidized merchant]
-2,[patrol cruiser]
+3,[subsidized merchant from here]
+2,[patrol cruiser from here]
 1,[safari ship]
 
 ;unstreamlined ship
-4,[subsidized liner]
+4,[subsidized liner from here]
 3,[yacht]
 2,[mercenary cruiser]
 1,[laboratory ship]
@@ -1292,12 +1303,16 @@
 ;free trader
 1,<p>The *[here ship name]* is a **type A** free trader (200t, streamlined). This ship is limited to jump-1 and 1-G acceleration. [free trader ship crew]
 
-;subsidized merchant
+;subsidized merchant from here
 1,<p>The *[here ship name]* is a **type R** “fat trader” (400t, streamlined), subsidized by the *[nearby big port]* government. This ship is limited to jump-1. [subsidized merchant ship crew]
+
+;subsidized merchant
 1,<p>The *[here ship name]* is a **type R** “fat trader” (400t, streamlined), subsidized by the *[other big port]* government. This ship is limited to jump-1. [subsidized merchant ship crew]
 
-;subsidized liner
+;subsidized liner from here
 1,<p>The *[here mellow ship name as ship name]* is a **type M** subsidized liner (600t, unstreamlined), subsidized by the *[nearby big port]* government to transport passengers and freight along long-haul routes through the [same subsector] subsector. This ship supports jump-3. [subsidized liner ship crew]
+
+;subsidized liner
 4,<p>The *[here mellow ship name as ship name]* is a **type M** subsidized liner (600t, unstreamlined), subsidized by the *[other big port]* government to transport passengers and freight along long-haul routes through the [same subsector] subsector. This ship supports jump-3. [subsidized liner ship crew]
 
 ;yacht
@@ -1311,10 +1326,13 @@
 1,They just brought *[human noble]* and their entourage from *[nearby big port]* to retake their fiefdom and they sure could use some help. The rival [house and leader] will be arriving within a few days. Time to prepare!
 
 ;mercenary cruiser
-1,<p>The *[here martial ship name as ship name]* is a **type M** mercenary cruiser (800t, unstreamlined). [ship captain].<p>[squad].<p>[squad].<p>[squad].
+1,<p>The *[here martial ship name as ship name]* is a **type M** mercenary cruiser (800t, unstreamlined). [ship captain].<p>[mercenary squad].<p>[mercenary squad].<p>[mercenary squad].
+
+;patrol cruiser from here
+1,<p class="sidebar">Patron<p>The *[here martial ship name as ship name]* is a **type T** patrol cruiser (400t, streamlined). They hail all incoming ships: “This is captain *[here human name as ship captain]* of the patrol cruiser *[same ship name]* hailing all incoming ships. We are looking for information on the whereabouts of pirate *[nearby crime boss]*. Do not aid and abet them. Reward for their location: 5000 Cr. Reward for their capture, dead: 10000 Cr. Reward for their capture, alive: 20000 Cr.”<p>[patrol cruiser ship crew]
 
 ;patrol cruiser
-1,<p class="sidebar">Patron<p>The *[here martial ship name as ship name]* is a **type T** patrol cruiser (400t, streamlined). They hail all incoming ships: “This is captain *[here human name as ship captain]* of the patrol cruiser *[same ship name]* hailing all incoming ships. We are looking for information on the whereabouts of pirate *[nearby crime boss]*. Do not aid and abet them. Reward for their location: 5000 Cr. Reward for their capture, dead: 10000 Cr. Reward for their capture, dead: 20000 Cr.”<p>[patrol cruiser ship crew]
+1,<p>The *[here martial ship name as ship name]* is a **type T** patrol cruiser (400t, streamlined).<p>[patrol cruiser ship crew]
 
 ;laboratory ship
 1,<p>The *[here mellow ship name as ship name]* is a **type L** laboratory ship (400t, unstreamlined). [ship captain]
@@ -1458,8 +1476,12 @@
 # some guns are a sign of pirate activity!
 1,The **first gunner** is *[human name]*, [store Gunnery as extra skill][merchant upp and skills]. Their turret has a [beam laser|pulse laser] mounted. The **second gunner** is *[human name]*, [store Gunnery as extra skill][merchant upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted. The **third gunner** is *[human name]*, [store Gunnery as extra skill][merchant upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted.
 
-;squad
-1,[lieutenant]; [mercenary]; [mercenary]; [mercenary]; [mercenary]; [mercenary]
+;mercenary squad
+1,[lieutenant]; [mercenary]; [mercenary]; [mercenary]; [mercenary]; [mercenary]; [squad origin story]
+
+;squad origin story
+1,the story goes that the *[same squad name]* fought their first engagements back on *[other war system]*
+1,they trace their history back to the fighting on *[other war system]*
 
 ;lieutenant
 1,The **lance corporal** of the *[squad name]* is *[human name]*, [upp], [lieutenant skills]
@@ -1522,7 +1544,7 @@
 ;patrol cruiser ship crew
 # pilot, navigator, engineer, medic, steward, maybe a gunner
 # the ship captain name must already be decided
-1,The **pilot** of this ship is *[same ship captain]*, [store Pilot as extra skill][navy upp and skills]. The **navigator** is *[human name]*, [store Navigation as extra skill][navy upp and skills]. The **first engineer** is *[human name]*, [store Engineer as extra skill][navy upp and skills]. The **second engineer** is *[human name]*, [store Engineer as extra skill][navy upp and skills]. The **third engineer** is *[human name]*, [store Engineer as extra skill][navy upp and skills]. The **medic** is *[human name]*, [store Medical as extra skill][navy upp and skills]. The **first gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser] mounted. The **second gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted. The **third gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted. The **fourth gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted. [maybe navy squad]
+1,The **pilot** of this ship is *[same ship captain]*, [store Pilot as extra skill][navy upp and skills]. The **navigator** is *[human name]*, [store Navigation as extra skill][navy upp and skills]. The **first engineer** is *[human name]*, [store Engineer as extra skill][navy upp and skills]. The **second engineer** is *[human name]*, [store Engineer as extra skill][navy upp and skills]. The **third engineer** is *[human name]*, [store Engineer as extra skill][navy upp and skills]. The **medic** is *[human name]*, [store Medical as extra skill][navy upp and skills]. The **first gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser] mounted. The **second gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted. The **third gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted. The **fourth gunner** is *[human name]*, [store Gunnery as extra skill][navy upp and skills]. Their turret has a [beam laser|pulse laser|missile racks|sandcasters] mounted.<p>[maybe navy squad]
 
 ;yacht crew
 1,The **pilot** of this ship is *[here human name as ship captain]*, [store Pilot as extra skill][merchant upp and skills]. The **engineer** is *[human name]*, [store Engineer as extra skill][merchant upp and skills]. The **steward** is *[human name]*, [store Steward as extra skill][merchant upp and skills]. The **medic** is *[human name]*, [store Medical as extra skill][merchant upp and skills]. [maybe a merchant gunner]
@@ -1567,8 +1589,11 @@
 1,Admin
 
 ;maybe navy squad
-1,The ship also transports a navy squad of eight from *[nearby naval base name]* base: [navy lieutenant]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel].
+1,The ship also transports a navy squad of eight from *[nearby naval base name]* base: [navy squad]
 1,
+
+;navy squad
+1,[navy lieutenant]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel]; [navy personnel].
 
 ;navy personnel
 2,**private** *[human name]*, [upp], [with navy skill]-1 [and navy skill]-1 [and navy skill]-1
@@ -1791,6 +1816,14 @@
 1,dog
 
 ;martial animal
+1,wolf
+19,[regular martial animal]
+
+;martial animals
+1,wolves
+19,[regular martial animal]s
+
+;regular martial animal
 1,eagle
 1,hawk
 1,merlin
@@ -1806,8 +1839,13 @@
 1,cheetah
 # other carnivores
 1,hyena
-1,wolf
 1,python
+1,shark
+1,ray
+1,scorpion
+1,boar
+1,bear
+# if you add to this list, update the numbers above!
 
 ;weapon
 1,claw
@@ -1822,7 +1860,7 @@
 1,axe
 
 ;squad name
-1,[martial verb] [capitalize martial animal]
+1,[martial verb] [capitalize martial animals]
 
 ;martial verb
 1,Grinning
@@ -13347,3 +13385,36 @@
 
 ;vocal
 1,[a|e|i|o|u]
+
+;appendix
+1,<h2 id="appendix">Appendix</h2>[rogues][squads][scouts][traders][patrol cruisers]
+
+;rogues
+1,<h3 id="rogues">Rogues</h3><p>These are the petty criminals and hustlers you’ll find everywhere in the subsector hanging around spaceports.<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]<p>[rogue]
+
+;squads
+1,<h3 id="squads">Squads of soldiers</h3>[navy squads][mercenary squads]
+
+;navy squads
+1,<h4 id="navy">Navy Squads</h4><p>Navy personnel is trained in all sorts of technical and martial skills. They are used at navy bases and on space ships.<p>[navy squad]<p>[navy squad]<p>[navy squad]<p>[navy squad]<p>[navy squad]
+
+;mercenary squads
+1,<h4 id="mercenary">Mercenary Squads</h4><p>Mercenaries are trained in the use of weapons. Space ships bring them to their destination, and there they’ll fight. They’re not spacers, usually.<p>[mercenary squad].<p>[mercenary squad].<p>[mercenary squad].<p>[mercenary squad].<p>[mercenary squad].
+
+;scouts
+1,<h3 id="scouts">Scouts</h2><p>The small decommissioned scout ships provide a cheap pool of couriers, blockade runners, drug smugglers, spies, and agents.[scout/courier][scout/courier][scout/courier][scout/courier][scout/courier]
+
+;traders
+1,<h3 id="traders">Traders</h3>[free traders][fat traders][subsidized liners]
+
+;free traders
+1,<h4 id="free">Free Traders</h4><p>The free traders are lowest of the rung, working the outermost shipping lanes where margins are low, criminal activity abounds, and corruption is just another fact of life.[free trader][free trader][free trader][free trader][free trader]
+
+;fat traders
+1,<h4 id="fat">Fat Traders</h4><p>The “fat” traders are subsidized merchants.[subsidized merchant][subsidized merchant][subsidized merchant][subsidized merchant][subsidized merchant]
+
+;subsidized liners
+1,<h4 id="liner">Subsidized Liners</h4><p>The subsidized liners are even bigger and better. They have unstreamlined hulls and need an orbital spaceport (this excludes systems with class E starports, or no starport, i.e. X).[subsidized liner][subsidized liner][subsidized liner][subsidized liner][subsidized liner]
+
+;patrol cruisers
+1,<h3 id="patrol">Patrol Cruisers</h3><p>Patrol cruisers are used for inspections and to fight piracy.[patrol cruiser][patrol cruiser][patrol cruiser][patrol cruiser]
