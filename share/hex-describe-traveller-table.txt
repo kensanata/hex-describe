@@ -629,10 +629,55 @@
 1,<p>Society has splintered into various group, each trying to live according to slightly different rules. In order to allow for this, an elaborate system of [labels|rituals] and [traditions|organisations] has been set up such that each person can be ruled according to their allegiance. The entire system is controlled by a caste of [programmers|administrators|tech wizards|government service providers]. It all sounds very benevolent until you find that it’s hard to switch your allegiance – and then it dawns on you that you’re living in a feudal technocracy.
 
 ;government-6
-1,<p>This is a colony of the *[nearby big port]*. The local [administration|puppet government] is led by the *[human name]*. The locals are squeezed for all they’re worth and suffer. The [rebellion|resistance] is gaining power, led by the charismatic *[human name]*. There is going to be violence, soon. 
-1,<p>This is a colony of the *[nearby big port]*. The local [administration|puppet government] is led by the *[human name]*. The parent system has been subsidising all the recent developments, but money is starting to run out. They are no longer willing to fund the colony and *[same human name]* is struggling to prepare the locals for independence. Should the transition fail, all hell is going to break loose.
-1,<p>In a recent conflict with *[nearby big port]*, the entire local government was replaced by a new administration more [amenable|agreeable] to the victors. The leader of the new administration is *[human name]*, [acquiescent|submissive] and quick to say that now is the time to [forgive and forget|make amends], not to seek revenge for fear of reprisals.
-1,<p>When terrorists on *[nearby big port]* turned out to be from *[same name]*, it didn’t take long before the navy showed up, overthrew the old order on [same name], and installed a puppet government, currently led by *[human name]*. Curfews, patrols, interrogations, allegations of torture, and occasional revelations thereof provide fertile grounds for more shootings, more bombs, more assassinations. These are bad times.
+1,<p>This is a colony of the *[nearby big port]*. The local [administration|puppet government] is led by **[colonizer title]** [person]. The locals are squeezed for all they’re worth and suffer. The [rebellion|resistance] is gaining power, led by the charismatic [person]. There is going to be violence, soon. [rebellion people]
+1,<p>This is a colony of the *[nearby big port]*. The local [administration|puppet government] is led by **[colonizer title]** [person]. The parent system has been subsidising all the recent developments, but money is starting to run out. They are no longer willing to fund the colony and *[same human name]* is struggling to prepare the locals for independence. Should the transition fail, all hell is going to break loose. [rebellion people]
+1,<p>In a recent conflict with *[nearby big port]*, the entire local government was replaced by a new administration more [amenable|agreeable] to the victors. The leader of the new administration is **[colonizer title]** [person], [acquiescent|submissive] and quick to say that now is the time to [forgive and forget|make amends], not to seek revenge for fear of reprisals. [rebellion people]
+1,<p>When terrorists on *[nearby big port]* turned out to be from *[same name]*, it didn’t take long before the navy showed up, overthrew the old order on [same name], and installed a puppet government, currently led by **[colonizer title]** [person]. Curfews, patrols, interrogations, allegations of torture, and occasional revelations thereof provide fertile grounds for more shootings, more bombs, more assassinations. These are bad times. [rebellion people]
+
+;colonizer title
+1,administrator
+1,burgrave
+1,captain
+1,commander
+1,custodian
+1,director
+1,exarch
+1,governor
+1,guardian
+1,principal
+1,shepherd
+1,tetrarch
+1,viceroy
+1,warden
+
+;rebellion people
+1,<p>Some people involved in recent events: <ul><li>**[with rebellion job]** [person]<li>**[and rebellion job]** [person]<li>**[and rebellion job]** [person]<li>**[and rebellion job]** [person]</ul>
+1,<p>Some people involved in recent events: <ul><li>**[with rebellion job]** [person]<li>**[and rebellion job]** [person]<li>**[and rebellion job]** [person]<li>**[and rebellion job]** [person]<li>**[and rebellion job]** [person]</ul>
+
+;rebellion job
+1,cop
+1,undercover cop
+1,secret police
+1,agent provocateur
+1,detective
+1,journalist
+1,observer
+1,desperate parent
+1,confused
+1,student
+1,servant
+1,clerk
+1,soldier
+1,security officer
+1,militia
+1,terrorist
+1,thief
+1,priest
+1,demonstrator
+1,activist
+1,civilian
+1,victim
+1,spectator
 
 ;government-7
 1,<p>The system has fallen apart into multiple polities: each urban centre claiming sovereignty, involved in border disputes, internal squabbles, unable to deal with the imperial order in the subsector. The starport falls within the sphere of influence of *[space name]*. It’s a mess.
