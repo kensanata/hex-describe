@@ -415,7 +415,7 @@
 1,<p>There is a small and unimportant research station on [same name], at least according to imperial standards. A few dozen [science people] live here.
 1,<p>A few dozen people live on [same name].
 1,<p>[Twenty|Thirty|Fourty|Fifty] or so people have recently arrived to establish a new colony here on [same name].
-1,<p>*[shipyard name]* has set up a base of about [thirty|fourty|fifty|sixty|seventy] people here to see what resources can be found on [same name].
+1,<p>*[shipyard name as company name]* has set up a base of about [thirty|fourty|fifty|sixty|seventy] people here to see what resources can be found on [same name].
 
 ;population-2
 1,<p>There is a single settlement with a few hundred people on [same name]. [colony ship]
@@ -457,20 +457,27 @@
 ;population-A
 1,<p>Several dozen billion people live on the planet.
 
+;science person
+1,zoologist
+1,botanist
+1,chemist
+1,weapon researcher
+1,nuclear physicist
+1,xenobiologist
+1,astrophysicist
+1,geologist
+1,quantum field researche
+1,background radiation researcher
+1,solar dynamics researcher
+1,planetologist
+1,palaeontologist
+1,archaeologist
+1,xenoarcheologist
+1,historian
+1,mathematician
+
 ;science people
-1,zoologists
-1,botanists
-1,chemists
-1,weapon researchers
-1,nuclear physicists
-1,xenobiologists
-1,astrophysicists
-1,geologists
-1,quantum field researches
-1,background radiation researchers
-1,solar dynamics researchers
-1,planetologists
-1,xenoarcheologists
+1,[science person]s
 
 # Government interacts with population. Government is
 # 2d6-7+population. Thus, population-0 can still result in
@@ -494,11 +501,62 @@
 1,<p>While unsettled, the system is claimed as a by *[company name]* from *[nearby big port]*. Economic activity without a permit draws their ire.
 1,<p>While unsettled, the system is claimed as a by *[company name]* from *[nearby big port]*. Economic activity is allowed within a 50:50 sharing agreement. Almost nobody is willing to accept this deal, however. Workarounds exist.
 
+;population-1 government-1
+1,<p>The entire colony is incorporated as the *[same company name]*. There simply is no alternative, but it’s not so bad. [small company people]
+1,<p>*[same company name]* owns everything, here: all the buildings, all the jobs, the company shop, and the bar, the *[bar]*. Everyone is indebted to the company. [small company people] [bar people]
+
 ;government-1
-1,<p>The society is ruled by a number of mega-corporations, the biggest of which is *[company name]*. People are unhappy because the near system-wide monopoly on all civil cervices has given rise to increased rent-seeking. There are service fees to be paid for everything. This is seen as an inherently unfair head tax by many and *[human name]* (not their real name) is trying to organise a reform from the shadows.
-1,<p>The society is ruled by a number of mega-corporations, with *[with company name]* and *[and company name]* being the biggest ones. Competition has driven down prices, but corporate power has also made sure that everything has a price, including air and water. To them, anything without a price is worthless, or there for the taking.
-1,<p>This is a mercantilist society, where the state is run by the *[company name]* company for the benefit of all. This is only a problem for those not found in their registries: new arrivals, refugees, illegals, people avoiding the benevolent surveillance. 
-1,<p>This is a late stage capitalist society, where everything has been privatised; the state and the *[company name]* company are essentially the same and everybody is being exploited. The locals don’t know how to organise themselves: if somebody were to oppose this corporatism, how would they live and breathe without a company to pay for it? How would their voice get heard without owning media channels and public relation channels? It is inconceivable to succeed outside their system, they say.
+1,<p>The society is ruled by a number of mega-corporations, the biggest of which is *[company name]*. People are unhappy because the near system-wide monopoly on all civil cervices has given rise to increased rent-seeking. There are service fees to be paid for everything. This is seen as an inherently unfair head tax by many and *[human name]* (not their real name) is trying to organise a reform from the shadows. [company people]
+1,<p>The society is ruled by a number of mega-corporations, with *[with company name]* and *[and company name as second company name]* being the biggest ones. Competition has driven down prices, but corporate power has also made sure that everything has a price, including air and water. To them, anything without a price is worthless, or there for the taking. [small company people] [second small company people]
+1,<p>This is a mercantilist society, where the state is run by the *[company name]* company for the benefit of all. This is only a problem for those not found in their registries: new arrivals, refugees, illegals, people avoiding the benevolent surveillance. [company people]
+1,<p>This is a late stage capitalist society, where everything has been privatised; the state and the *[company name]* company are essentially the same and everybody is being exploited. The locals don’t know how to organise themselves: if somebody were to oppose this corporatism, how would they live and breathe without a company to pay for it? How would their voice get heard without owning media channels and public relation channels? It is inconceivable to succeed outside their system, they say. [company people]
+
+;small company people
+1,<p>Some people working at *[same company name]*: <ul><li>**[with company job]** [person]<li>**[and company job]** [person]</ul>
+1,<p>Some people working at *[same company name]*: <ul><li>**[with company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]</ul>
+
+;second small company people
+1,<p>Some people working at *[same second company name]*: <ul><li>**[with company job]** [person]<li>**[and company job]** [person]</ul>
+1,<p>Some people working at *[same second company name]*: <ul><li>**[with company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]</ul>
+
+;company people
+1,<p>Some people working at *[same company name]*: <ul><li>**[with company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]</ul>
+1,<p>Some people working at *[same company name]*: <ul><li>**[with company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]<li>**[and company job]** [person]</ul>
+
+;company job
+1,chief [executive|financial|security|information|space] officer
+1,[head of the board|board member]
+1,head of [security|engineering|sales|training|communication|logistics]
+1,[security|engineering|medical] [manager|officer]
+1,[project|sales|sanitation] manager
+1,programmer
+1,clerk
+1,secretary
+1,engineer
+1,supervisor
+1,writer
+1,data scientist
+1,harbour master
+1,cleaner
+1,epidemiologist
+1,technician
+1,cook
+
+;bar people
+1,<p>Some people you might find at the *[same bar]*: <ul><li>**[with bar job]** [person]<li>**[and bar job]** [person]</ul>
+1,<p>Some people you might find at the *[same bar]*: <ul><li>**[with bar job]** [person]<li>**[and bar job]** [person]<li>**[and bar job]** [person]</ul>
+
+;bar job
+1,owner
+1,servant
+1,dancer
+1,regular
+1,headhunter
+1,gambler
+1,undercover cop
+1,actor
+1,student
+1,[science person]
 
 ;population-0 government-2
 1,<p>While unsettled, there’s an old satellite system still in operation that provides a forum for visitors. A bunch of ship captains calling themselves the *[here system friends as association of captains]* uses the forum to deliberate on rare policy decisions and enforces them, using the surveillance systems of satellite network to identify trespassers. No [mining|hunting|landing] on [same name]!
@@ -942,8 +1000,8 @@
 # Bases
 
 ;naval
-1,<p>There is a **naval base** called *[here naval base name]* in the system under **commander** *[here upcoming as navy captain]*, [smart upp], [with smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1. [navy squad at the base]
-1,<p>There is a **naval base** called *[here naval base name]* in the system under **captain** *[here upstart as navy captain]*, [smart upp], [with smart navy skill]-3 [and smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1. [navy squad at the base]
+1,<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.<p>There is a **naval base** called *[here naval base name]* in the system under **commander** *[here upcoming as navy captain]*, [smart upp], [with smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1. There are about [1d10x10+100] people at the base right now.
+1,<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.<p>There is a **naval base** called *[here naval base name]* in the system under **captain** *[here upstart as navy captain]*, [smart upp], [with smart navy skill]-3 [and smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1. There are about [1d10x10+100] people at the base right now.
 
 ;naval base name
 1,[mythical beast]-[1d9]
@@ -1012,9 +1070,6 @@
 1,Warlock
 1,Sorcerer
 1,Cyclop
-
-;navy squad at the base
-1, There are about [1d10x10+100] people at the base right now.<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.
 
 ;scout
 1,<p>There is a **scout base** called *[here scout base name]* in the system. The current crew is small. [scout base crew] All who served here end up joining the *[here scout base friends as association of captains]*. [scout base mission]
@@ -2560,7 +2615,11 @@
 1,worm
 1,slug
 
-# human names
+# humans
+
+;person
+# no skills
+1,*[human name]*, [upp]
 
 ;human name
 1,[nobility][african name] ([symbol])
