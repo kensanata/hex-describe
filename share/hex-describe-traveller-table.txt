@@ -180,22 +180,22 @@
 1,[starport-[A|B|C|D|E|X]]
 
 ;starport-A
-1,<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery]<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.
+1,<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.<p>[here store [same name] as big port][same name] has a **class A** starport. [shipyard] [refinery]
 
 ;starport-B
-1,<p>[here store [same name] as big port][same name] has a **class B** starport. [shipyard] [refinery]<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.
+1,<p><p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.<p>[here store [same name] as big port][same name] has a **class B** starport. [shipyard] [refinery]
 
 ;starport-C
-1,<p>[same name] has a **class C** starport. [dockyard] [unrefined fuel]<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.
+1,<p class="sidebar">Pre-generated characters and ships are in the <a href="#appendix">appendix</a>.<p>[same name] has a **class C** starport. [dockyard] [unrefined fuel]
 
 ;starport-D
-1,<p>[same name] has a **class D** starport. [small starport building] [starport-D mission]<p class="sidebar">Pre-generated characters and ships (2 in 6 chance) are in the <a href="#appendix">appendix</a>.
+1,<p class="sidebar">Pre-generated characters and ships (2 in 6 chance) are in the <a href="#appendix">appendix</a>.<p>[same name] has a **class D** starport. [small starport building] [starport-D mission]
 
 ;starport-E
-1,<p>[same name] has a **class E** starport.[here store [same name] as backwater system] [no facilities]<p class="sidebar">Pre-generated characters and ships (1 in 6 chance, streamlined hulls only) are in the <a href="#appendix">appendix</a>.
+1,<p class="sidebar">Pre-generated characters and ships (1 in 6 chance, streamlined hulls only) are in the <a href="#appendix">appendix</a>.<p>[same name] has a **class E** starport.[here store [same name] as backwater system] [no facilities]
 
 ;starport-X
-1,There is no starport, here.[here store [same name] as backwater system] This system is therefore not strictly part of the imperial network.<p class="sidebar">Pre-generated characters and ships (unlikely!) are in the <a href="#appendix">appendix</a>.
+1,<p class="sidebar">Pre-generated characters and ships (unlikely!) are in the <a href="#appendix">appendix</a>.<p>There is no starport, here.[here store [same name] as backwater system] This system is therefore not strictly part of the imperial network.
 
 ;shipyard
 1,The *[shipyard name]* shipyards loom large over the starport’s various landing pads.
