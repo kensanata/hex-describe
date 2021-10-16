@@ -1688,16 +1688,23 @@ sub closest {
   my $coordinates = shift;
   my $key = shift;
   my $redirects = shift;
-  my @coordinates = sort {
-    distance($coordinates, $a) <=> distance($coordinates, $b)
-  } grep { $_ ne $coordinates } keys %{$globals->{$key}};
+  my @coordinates = grep { $_ ne $coordinates } keys %{$globals->{$key}};
   if (not @coordinates) {
     $log->info("Did not find any hex with $key ($coordinates)");
     return "…";
   }
-  # the first one is the closest
-  return $globals->{$key}->{$coordinates[0]}
-  . qq{ (<a href="#desc$coordinates[0]">$coordinates[0]</a>)}; # see resolve_later!
+  if ($coordinates !~ /^\d+$/) {
+    # if $coordinates is "TOP" or "END" or something like that, we cannot get
+    # the closest one and we need to return a random one
+    my $random = one(@coordinates);
+    return $globals->{$key}->{$random}
+    . qq{ (<a href="#desc$random">$random</a>)}; # see resolve_later!
+  } else {
+    @coordinates = sort { distance($coordinates, $a) <=> distance($coordinates, $b) } @coordinates;
+    # the first one is the closest
+    return $globals->{$key}->{$coordinates[0]}
+    . qq{ (<a href="#desc$coordinates[0]">$coordinates[0]</a>)}; # see resolve_later!
+  }
 }
 
 =item distance

@@ -692,10 +692,10 @@
 1,There’s peace right now but all the warlords are hiring military specialists so the outlook is dim.
 
 ;government-8
-1,<p>The civil service bureaucracy on [same name] has served the population well: through all the ups and downs of recent decades, the unchanging civil service exams make sure that the ranks of government are filled with competent experts. People study long and hard when they’re young, which makes for good candidates, but it also takes its toll: drop outs end up with lousy jobs. Depression and suicides are common. The [worst of the lot|most prestigious institution] is the *[civil service institution]*.
-1,<p>The state maintains elite civil service institutes to train its next generation of civil servants. This has served the population well: through all the ups and downs of recent decades, the unchanging civil service exams make sure that the ranks of government are filled with competent experts. People study long and hard when they’re young, which makes for good candidates, but it also takes its toll: drop outs end up with lousy jobs; depression and suicides are common. The [worst of the lot|most prestigious institution] is the *[civil service institution]*.
-1,<p>Every young citizen on [same name] spends two years in the civil service. On the one hand, this means that you find trainees on all levels of government. On the other hand, this means citizens all know what it’s like to work inside the government. The best administrators stay and make their careers in government. There is a lot of grumbling about those two years, but there is also a lot of pride. The [most prestigious institution|the harshest one ] is the *[civil service institution]*.
-1,<p>The influence of the empire comes and goes. What keeps the government running is the civil service bureaucracy. Everything of strategic importance is run by the state: the postal services, transportation networks, markets, construction, the energy sector. Things are slow to change because all important changes haven through the political system. On the other hand, people feel that resources are allocated fairly. The [most prestigious one is|current members of government all met at] the *[civil service institution]*.
+1,<p>The civil service bureaucracy on [same name] has served the population well: through all the ups and downs of recent decades, the unchanging civil service exams make sure that the ranks of government are filled with competent experts. People study long and hard when they’re young, which makes for good candidates, but it also takes its toll: drop outs end up with lousy jobs. Depression and suicides are common. The [worst of the lot|most prestigious institution] is the *[civil service institution]*. [civil service institution people]
+1,<p>The state maintains elite civil service institutes to train its next generation of civil servants. This has served the population well: through all the ups and downs of recent decades, the unchanging civil service exams make sure that the ranks of government are filled with competent experts. People study long and hard when they’re young, which makes for good candidates, but it also takes its toll: drop outs end up with lousy jobs; depression and suicides are common. The [worst of the lot|most prestigious institution] is the *[civil service institution]*. [civil service institution people]
+1,<p>Every young citizen on [same name] spends two years in the civil service. On the one hand, this means that you find trainees on all levels of government. On the other hand, this means citizens all know what it’s like to work inside the government. The best administrators stay and make their careers in government. There is a lot of grumbling about those two years, but there is also a lot of pride. The [most prestigious institution|the harshest one ] is the *[civil service institution]*. [civil service institution people]
+1,<p>The influence of the empire comes and goes. What keeps the government running is the civil service bureaucracy. Everything of strategic importance is run by the state: the postal services, transportation networks, markets, construction, the energy sector. Things are slow to change because all important changes haven through the political system. On the other hand, people feel that resources are allocated fairly. The [most prestigious one is|current members of government all met at] the *[civil service institution]*. [civil service institution people]
 
 ;civil service institution
 1,[Ministry|Institute|University|School] of [civil service topic]
@@ -727,21 +727,152 @@
 1,Philosophy
 1,Theology
 
+;civil service institution people
+1,<p>Some people involved at the *[same civil service institution]*: <ul><li>**[with civil service institution job]** [person], [bureaucracy skill]-1<li>**[and civil service institution job]** [person], [bureaucracy skill]-1<li>**[and civil service institution job]** [person], [bureaucracy skill]-1<li>**[and civil service institution job]** [person]</ul>
+1,<p>Some people involved at the *[same civil service institution]*: <ul><li>**[with civil service institution job]** [person], [bureaucracy skill]-1<li>**[and civil service institution job]** [person], [bureaucracy skill]-1<li>**[and civil service institution job]** [person], [bureaucracy skill]-1<li>**[and civil service institution job]** [person]<li>**[and civil service institution job]** [person]</ul>
+
+;civil service institution job
+1,clerk
+1,administrator
+1,bureaucrat
+1,overseer
+1,planner
+1,controller
+1,professor of [same civil service field of knowledge]
+1,teacher
+1,secretary
+1,dean
+1,department head
+1,head of [reporting|statistics|logistics|science|public relations|sanitation]
+1,project manager
+1,team leader
+1,student
+1,intern
+1,journalist
+1,cook
+1,mechanic
+1,engineer
+1,union leader
+1,union member
+
 ;government-9
-1,<p>The impersonal bureaucracy of [same name] is a meat grinder. More than two dozen ministries run the state; more than three dozen secret services monitor communications and commerce. The rules contradict each other, the laws are different on all three levels of the state; precedents are important but access to the law is restricted. If you’re investigated by the state, you’ll always be in infraction of some rule or another. Everything is labyrinthine and nepotism is the only way to assure things actually work, at least occasionally. The [worst of them all is the|breeding ground for all this corruption is the all-mighty] *[civil service institution]*.
-1,<p>The codes and laws governing [same name] have remained unchanged for centuries. New directives are piled on old ones, executive orders partially overturn some rules but not other. The court system is huge and lawyers are the most important human resources for everybody. Taxation is fairly low but court fees are unavoidable and significant.
-1,<p>Professional politicians are elected into government and hardly ever leave. This encourages them to promise whatever is necessary at the beginning but soon “The Game” begins, jockeying for positions, forming and betraying alliances, backstabbing. Should some clueless soul such as *[human name]* most recently decide to stand for office with the stated intent of “cleaning up” they’ll soon find themselves inundated in accusations of molestation, bribery, and incompetence; and if that doesn’t help, organised crime is going to break into their homes, kidnap their family members, kill their pets.
-1,<p>The central government ordains what is to be done, the local branches of government follow orders or are replaced. The machinations in the centre of power are inscrutable and it doesn’t matter who you vote for, the result is always the same. And yet, it somehow works. Occasionally there are strikes, and the burning of trash and disruption of commerce, but then everything calms down again and business as usual resumes. The local governor responsible for the starport is *[human name]*. Follow orders is their core competency.
+1,<p>The impersonal bureaucracy of [same name] is a meat grinder. More than two dozen ministries run the state; more than three dozen secret services monitor communications and commerce. The rules contradict each other, the laws are different on all three levels of the state; precedents are important but access to the law is restricted. If you’re investigated by the state, you’ll always be in infraction of some rule or another. Everything is labyrinthine and nepotism is the only way to assure things actually work, at least occasionally. The [worst of them all is the|breeding ground for all this corruption is the all-mighty] *[civil service institution]*. [bureaucracy people] [civil service institution people]
+1,<p>The codes and laws governing [same name] have remained unchanged for centuries. New directives are piled on old ones, executive orders partially overturn some rules but not other. The court system is huge and lawyers are the most important human resources for everybody. Taxation is fairly low but court fees are unavoidable and significant. [bureaucracy people]
+1,<p>Professional politicians are elected into government and hardly ever leave. This encourages them to promise whatever is necessary at the beginning but soon “The Game” begins, jockeying for positions, forming and betraying alliances, backstabbing. Should some clueless soul such as *[human name]* most recently decide to stand for office with the stated intent of “cleaning up” they’ll soon find themselves inundated in accusations of molestation, bribery, and incompetence; and if that doesn’t help, organised crime is going to break into their homes, kidnap their family members, kill their pets. [bureaucracy people]
+1,<p>The central government ordains what is to be done, the local branches of government follow orders or are replaced. The machinations in the centre of power are inscrutable and it doesn’t matter who you vote for, the result is always the same. And yet, it somehow works. Occasionally there are strikes, and the burning of trash and disruption of commerce, but then everything calms down again and business as usual resumes. The local governor responsible for the starport is *[human name]*. Follow orders is their core competency. [bureaucracy people]
+
+;bureaucracy people
+1,<p>Some people involved in the bureaucracy running [same name]: <ul><li>**[with bureaucracy job]** [person], [bureaucracy skill]-1<li>**[and bureaucracy job]** [person], [bureaucracy skill]-1<li>**[and bureaucracy job]** [person], [bureaucracy skill]-1<li>**[and bureaucracy job]** [person]</ul>
+1,<p>Some people involved in the bureaucracy of [same name]: <ul><li>**[with bureaucracy job]** [person], [bureaucracy skill]-1<li>**[and bureaucracy job]** [person], [bureaucracy skill]-1<li>**[and bureaucracy job]** [person], [bureaucracy skill]-1<li>**[and bureaucracy job]** [person]<li>**[and bureaucracy job]** [person]</ul>
+
+;bureaucracy job
+1,clerk
+1,administrator
+1,bureaucrat
+1,overseer
+1,planner
+1,forecaster
+1,controller
+1,head of [reporting|statistics|mathematics|logistics|transportation|public constructions]
+1,project manager
+1,[youth|team] leader
+1,enforcer
+1,secret agent
+1,secret police
+1,detective
+1,cop
+
+;bureaucracy skill
+3,Admin
+2,Bribery
+2,Forgery
+1,[common other skill]
 
 ;government-A
-5,<p>This system is ruled by *[human name]*, a charismatic dictator. They got to power on a platform of [order|unity|fiscal discipline] and [development|progress|prosperity], and they promised to [fight corruption|break up the monopolies|enact land reform|tax the rich|find work for the young|introduce universal basic income|reform the system|regain former military glory]. [popular support]
-1,<p>This system is ruled by *[human name]*, a charismatic dictator. They deposed the old government after they had failed to put down a rebellion and got dragged into a civil war.[store [same name] as war system] *[same human name]* cleaned up the mess, put down the rebellion, initiated the necessary reforms, and finally deposed the government as well. [popular support]
-1,<p>The twenty year plans elaborated by the colleges of statecraft and economy are adhered to in exacting ways, for complex networks of informants, controllers and consultants produce a steady churn of promotions and demotions based on goal achievement with respect to “The Plan”. It is more important to follow the plan than to solve actual problems for the locals. The only way this is made bearable is a complex network of shadow markets and informal ties.
-1,<p>Old computer networks control production and distribution; the operators and programmers are servants of the system and nobody really understands the byzantine routes the logistic optimiser produces. In the end, it all works out somehow and since everybody is afraid of a breakdown, all resources are invested into maintenance and extension of the existing system, even though nobody really understands it.
+5,<p>This system is ruled by *[human name]*, a charismatic dictator. They got to power on a platform of [order|unity|fiscal discipline] and [development|progress|prosperity], and they promised to [fight corruption|break up the monopolies|enact land reform|tax the rich|find work for the young|introduce universal basic income|reform the system|regain former military glory]. [popular support] [dictatorship people]
+1,<p>This system is ruled by *[human name]*, a charismatic dictator. They deposed the old government after they had failed to put down a rebellion and got dragged into a civil war.[store [same name] as war system] *[same human name]* cleaned up the mess, put down the rebellion, initiated the necessary reforms, and finally deposed the government as well. [popular support] [dictatorship people]
+1,<p>The twenty year plans elaborated by the colleges of statecraft and economy are adhered to in exacting ways, for complex networks of informants, controllers and consultants produce a steady churn of promotions and demotions based on goal achievement with respect to “The Plan”. It is more important to follow the plan than to solve actual problems for the locals. The only way this is made bearable is a complex network of shadow markets and informal ties. [shadow people]
+1,<p>Old computer networks control production and distribution; the operators and programmers are servants of the system and nobody really understands the byzantine routes the logistic optimiser produces. In the end, it all works out somehow and since everybody is afraid of a breakdown, all resources are invested into maintenance and extension of the existing system, even though nobody really understands it. [programmer people]
 
 ;popular support
 1,They are riding a wave of popular support, for now.
 1,The underlying causes are far from resolved, however.
+
+;dictatorship people
+1,<p>Some people involved in the dictatorship: <ul><li>**[with dictatorship job]** [person], [bureaucracy skill]-1<li>**[and dictatorship job]** [person], [bureaucracy skill]-1<li>**[and dictatorship job]** [person], [bureaucracy skill]-1<li>**[and dictatorship job]** [person]</ul>
+1,<p>Some people involved in the dictatorship: <ul><li>**[with dictatorship job]** [person], [bureaucracy skill]-1<li>**[and dictatorship job]** [person], [bureaucracy skill]-1<li>**[and dictatorship job]** [person], [bureaucracy skill]-1<li>**[and dictatorship job]** [person]<li>**[and dictatorship job]** [person]</ul>
+
+;dictatorship job
+1,clerk
+1,administrator
+1,overseer
+1,planner
+1,controller
+1,head of [reporting|statistics|mathematics|logistics|transportation|public constructions|incarceration]
+1,[prison|project|reeducation camp|education campaign] manager
+1,[youth|team|precinct] leader
+1,enforcer
+1,secret agent
+1,secret police
+1,detective
+1,cop
+1,undercover cop
+1,warden
+1,jailer
+1,armed guard
+1,union buster
+1,<span title="torturer">interrogation specialist</span>
+
+;shadow people
+1,<p>Some people involved in the shadow hierarchy: <ul><li>**[with shadow job]** [person], [shadow skill]-1<li>**[and shadow job]** [person], [shadow skill]-1<li>**[and shadow job]** [person], [shadow skill]-1<li>**[and shadow job]** [person]</ul>
+1,<p>Some people involved in the shadow hierarchy: <ul><li>**[with shadow job]** [person], [shadow skill]-1<li>**[and shadow job]** [person], [shadow skill]-1<li>**[and shadow job]** [person], [shadow skill]-1<li>**[and shadow job]** [person]<li>**[and shadow job]** [person]</ul>
+
+;shadow job
+1,project manager
+1,team leader
+1,guide
+1,bureaucrat
+1,enforcer
+1,secret agent
+1,smuggler
+1,facilitator
+1,crook
+1,fence
+1,thief
+1,extortionist
+1,teacher
+1,martial artist
+1,swindler
+1,actor
+1,musician
+1,scrounger
+
+;shadow skill
+3,Admin
+1,Computer
+1,Bribery
+1,Forgery
+1,Streetwise
+1,[common other skill]
+
+;programmer people
+1,<p>Some people involved in the hierarchy: <ul><li>**[with programmer job]** [person], [programmer skill]-1<li>**[and programmer job]** [person]<li>**[and programmer job]** [person], [programmer skill]-1<li>**[and programmer job]** [person]</ul>
+1,<p>Some people involved in the hierarchy: <ul><li>**[with programmer job]** [person], [with programmer skill]-1, [and programmer skill]-1<li>**[and programmer job]** [person], [programmer skill]-1<li>**[and programmer job]** [person], [programmer skill]-1<li>**[and programmer job]** [person]<li>**[and programmer job]** [person]</ul>
+1,<p>Some people involved in the hierarchy: <ul><li>**[with programmer job]** [person], [with programmer skill]-2, [and programmer skill]-1<li>**[with programmer job]** [person], [with programmer skill]-1, [and programmer skill]-1<li>**[and programmer job]** [person], [programmer skill]-1<li>**[and programmer job]** [person], [programmer skill]-1<li>**[and programmer job]** [person]<li>**[and programmer job]** [person]</ul>
+
+;programmer job
+1,chief [economic|information] officer
+1,programming director
+1,head [of assignments|of programming|of planning|bureaucrat|of administration|of testing]
+1,[logistics|project|team|network|test] manager
+1,[computing|programming|procedural] clerk
+1,[system|software|network|test|integration] engineer
+1,[delivery|software|information|solution] architect
+
+;programmer skill
+3,Computer
+2,Admin
+1,[common other skill]
 
 ;government-B
 1,<p>When *[human name]* passed away, [their protege|the vice chancellor|the vice president|the senate head] *[human name]* took over and tried to [uphold the old order|live up to their predecessor’s legacy|institute smaller reforms], but they lack charisma and slowly popular support has been eroding.
@@ -1045,13 +1176,33 @@
 # Bases
 
 ;naval
-1,<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.<p>There is a **naval base** called *[here naval base name]* in the system under **commander** *[here upcoming as navy captain]*, [smart upp], [with smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1. There are about [1d10x10+100] people at the base right now.
-1,<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.<p>There is a **naval base** called *[here naval base name]* in the system under **captain** *[here upstart as navy captain]*, [smart upp], [with smart navy skill]-3 [and smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1. There are about [1d10x10+100] people at the base right now.
+1,<p class="sidebar">Pre-generated squads are in the <a href="#navy">appendix</a>.<p>There is a **naval base** called *[here naval base name]* with about [1d10x10+100] people in the system. [navy base people]
 
 ;naval base name
 1,[mythical beast]-[1d9]
 1,[All|United] [mythical beast]s
 3,[Glorious|Victorious|Superior|Terrible|Furious|Angry] [mythical beast][|s]
+
+;mythical beast
+# must allow plural with an s
+1,Dragon
+1,Minotaur
+1,Hydra
+1,Chimera
+1,Ettin
+1,Giant
+1,Ogre
+1,Goblin
+1,Giant Eagle
+1,Orc
+1,Wizard
+1,Warlock
+1,Sorcerer
+1,Cyclop
+
+;navy base people
+1,<p>Some people at the base:<ul><li>**commander** *[here upcoming as navy captain]* ([symbol]), [smart upp], [with smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1<li>**harbour master** [person], Admin-2, [navy skills]<li>**[with navy job]** [person], [navy skills], Admin-1<li>**[and navy job]** [person], [bureaucracy skill]-1</ul>
+1,<p>Some people at the base:<ul><li>**captain** *[here upstart as navy captain]* ([symbol]), [smart upp], [with smart navy skill]-3 [and smart navy skill]-2 [and smart navy skill]-2 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1 [and smart navy skill]-1<li>**harbour master** [person], Admin-2, [navy skills]<li>**[with navy job]** [person], [navy skills], Admin-1<li>**[and navy job]** [person], [bureaucracy skill]-1</ul>
 
 ;upcoming
 # modeled on [human name]
@@ -1099,31 +1250,22 @@
 2,[store C as soc][baron]
 1,[store C as soc][baron]
 
-;mythical beast
-# must allow plural with an s
-1,Dragon
-1,Minotaur
-1,Hydra
-1,Chimera
-1,Ettin
-1,Giant
-1,Ogre
-1,Goblin
-1,Giant Eagle
-1,Orc
-1,Wizard
-1,Warlock
-1,Sorcerer
-1,Cyclop
+;navy job
+1,clerk
+1,team manager
+1,head of [shipping|logistics|repairs|security|transportation|space elevator operations|port operations|refuelling]
+1,security officer
+1,maintenance manager
+1,refuelling manager
 
 ;scout
-1,<p>There is a **scout base** called *[here scout base name]* in the system. The current crew is small. [scout base crew] All who served here end up joining the *[here scout base friends as association of captains]*. [scout base mission]
+1,<p>There is a **scout base** called *[here scout base name]* in the system. [scout base crew]<p>All who served here end up joining the *[here scout base friends as association of captains]*. [scout base mission]
 
 ;scout base crew
-1,The only person on duty is **commander** *[human name as base commander]*, [smart upp], [smart scout skills].
-1,The **commander** is *[human name as base commander]*, [smart upp], [smart scout skills]. Their **partner** is *[human name]*, [smart upp], [smart scout skills].
-1,The **commander** is *[human name as base commander]*, [smart upp], [smart scout skills]. Their **partner** is *[human name]*, [upp], [scout skills].
-1,The **commander** is *[human name as base commander]*, [smart upp], [smart scout skills]. Their **senior partner** in their team is *[human name]*, [upp], [scout skills]. Their **junior partner** is *[human name]*, [upp], [scout skills].
+1,<ul><li>**commander** *[human name as base commander]*, [smart upp], [smart scout skills]</ul>
+1,<ul><li>**commander** *[human name as base commander]*, [smart upp], [smart scout skills]<li>**partner** *[human name]*, [smart upp], [smart scout skills]</ul>
+1,<ul><li>**commander** *[human name as base commander]*, [smart upp], [smart scout skills]<li>**partner** *[human name]*, [upp], [scout skills]</ul>
+1,<ul><li>**commander** *[human name as base commander]*, [smart upp], [smart scout skills]<li>**senior partner** *[human name]*, [upp], [scout skills]<li>**junior partner** *[human name]*, [upp], [scout skills]</ul>
 
 ;scout base name
 1,[same name] [Observatory|Intelligence|Surveillance|Exploration|Mission|Uplift|Listening Post]
@@ -1373,21 +1515,6 @@
 2,[mercenary cruiser]
 1,[laboratory ship]
 
-;ship at the starport
-2,<p>[append streamlined ship]The *[same ship name]* is currently being [ship activity] at the port.
-1,<p>[append streamlined ship]The *[same ship name]* is on one of the landing pads.
-
-;ship in orbit
-1,<p>[append ship]The *[same ship name]* is in orbit, [preparing to leave|having just arrived].
-1,<p>[append ship]The *[same ship name]* is approaching the system.
-1,<p>[append unstreamlined ship]The *[same ship name]* is being [ship activity] in orbit.
-
-;rich-end
-1,<p>[append subsidized liner]The *[same ship name]* is in orbit, [preparing to leave|having just arrived].
-1,<p>[append subsidized liner]The *[same ship name]* is approaching the system.
-1,<p>[append subsidized liner]The *[same ship name]* is being [ship activity] in orbit.
-3,
-
 ;ship activity
 5,refueled
 4,loaded
@@ -1609,6 +1736,7 @@
 1,[common other skill]-1
 
 ;common other skill
+# no Computer, no Admin
 1,[vehicle skill]
 2,Gambling
 2,Brawling
@@ -1668,6 +1796,7 @@
 4,[limited smart navy skill]-1
 
 ;limited navy skill
+# no Admin
 1,Ship’s Boat
 2,Vacc Suit
 1,Fwd Obsvr
