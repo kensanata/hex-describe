@@ -350,7 +350,7 @@
 1,<p class="sidebar">Patron<p>The **harbour master** *[here human name as harbour master]* is nowhere to be seen which is strange as they usually greet new arrivals in person. Further investigation reveals [same harbour master] [lying sick in bed|dead out the back|doesn’t appear to be here at all|has packed up and left in a hurry].
 
 ;starport-D mission fix wiring
-1,<p class="sidebar">Patron<p>[humble harbour master] They are looking for someone to mend the wiring. It’s always shorting out and [same habour master] can’t work out why. They’ll pay 2000 Cr to anyone that sorts it out for good.
+1,<p class="sidebar">Patron<p>[humble harbour master] They are looking for someone to mend the wiring. It’s always shorting out and [same harbour master] can’t work out why. They’ll pay 2000 Cr to anyone that sorts it out for good.
 
 ;starport-D mission broken drone
 1,<p class="sidebar">Patron<p>[humble harbour master] They have a drone that needs repairing and then returning to *[nearby big port]*.
@@ -359,10 +359,10 @@
 1,<p class="sidebar">Patron<p>[humble harbour master] They are seeking someone to help them with the mountain of paperwork they need to complete because an inspector from *[nearby big port]* will be visiting soon. *[same harbour master]* offers 200 Cr a day and says there is [1d6+1] day’s worth of work. [help with paperwork smuggling]
 
 ;help with paperwork smuggling
-1,Some of the paperwork suggests a smuggling ring is operating through this starport. [habour master smuggler]
+1,Some of the paperwork suggests a smuggling ring is operating through this starport. [harbour master smuggler]
 2,
 
-;habour master smuggler
+;harbour master smuggler
 1,It also mentions *[same harbour master] by name so it looks like they may be involved in some way.
 3,
 
