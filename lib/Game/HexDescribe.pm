@@ -3642,7 +3642,7 @@ Remember: "nearby X" and "here X" must match up.
 
 The keyword "here" can be combined with "save" and "store". In the following
 example, half the temples are dedicated to a Greek god and the other half are
-dedicated to Heracles. Since he's not a god, we're simple using "here store
+dedicated to Heracles. Since he's not a god, we're simply using "here store
 Heracles as temple" to store the name "Heracles" as a temple location on the
 map, and thus half the time pilgrims will be looking for a Heracles temple.
 
