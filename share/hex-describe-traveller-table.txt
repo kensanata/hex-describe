@@ -490,12 +490,42 @@
 1,<p>While unsettled, the system is claimed as a protectorate by *[nearby big port]*. Nobody cares about that, however.
 
 ;government-0
-1,<p>There is no government to speak of. The family is the highest good, here. Marriages are alliance contracts. If you’re not connected to the right people, things are difficult.
-1,<p>This is an anarchist society. Networks of family relations and informal obligations regulate public life. Getting things done requires a lot of legwork.
-1,<p>This is an anarcho-collectivist society. Property is collectively owned outside starports. Profit is illegal.
-1,<p>This is an anarcho-communist society. A gift-economy is used to regulate obligations. Profit is illegal. No wages are earned.
-1,<p>This is an anarcho-syndicalist society. All economic activity is organised in small-scale cooperatives.
-1,<p>The original settlers were anarcho-primitivists and people still live far apart from each other, all trying to live as independently as possible.
+1,<p>There is no government to speak of. The family is the highest good, here. Marriages are alliance contracts. If you’re not connected to the right people, things are difficult. [anarchist people]
+1,<p>This is an anarchist society. Networks of family relations and informal obligations regulate public life. Getting things done requires a lot of legwork. [anarchist people]
+1,<p>This is an anarcho-collectivist society. Property is collectively owned outside starports. Profit is illegal. [anarchist people]
+1,<p>This is an anarcho-communist society. A gift-economy is used to regulate obligations. Profit is illegal. No wages are earned. [anarchist people]
+1,<p>This is an anarcho-syndicalist society. All economic activity is organised in small-scale cooperatives. [anarchist people]
+1,<p>The original settlers were anarcho-primitivists and people still live far apart from each other, all trying to live as independently as possible. [anarchist people]
+
+;anarchist people
+1,<p>Some people you might find here: <ul><li>**[with anarchist job]** [person], [anarchist skill]-1<li>**[and anarchist job]** [person], [anarchist skill]-1<li>**[and anarchist job]** [person], [anarchist skill]-1<li>**[and anarchist job]** [person]</ul>
+1,<p>Some people with connections: <ul><li>**[with anarchist job]** [person], [anarchist skill]-1<li>**[and anarchist job]** [person], [anarchist skill]-1<li>**[and anarchist job]** [person], [anarchist skill]-1<li>**[and anarchist job]** [person]<li>**[and anarchist job]** [person]</ul>
+
+;anarchist job
+1,singer
+1,writer
+1,poet
+1,actor
+1,farmer
+1,maker
+1,operator
+1,baker
+1,cook
+1,teacher
+1,cleaner
+1,designer
+1,fabricator
+1,hunter
+
+;anarchist skill
+4,Jack-o-T
+3,Computer
+2,Streetwise
+1,Mechanical
+1,Streetwise
+1,Electronic
+1,[blade combat]
+1,[gun combat]
 
 ;population-0 government-1
 1,<p>While unsettled, the system is claimed as a by *[company name]* from *[nearby big port]*. Economic activity without a permit draws their ire.
