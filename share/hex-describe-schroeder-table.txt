@@ -2932,7 +2932,7 @@
 1,High Priestess [strange name for women]
 
 ;necropolis central area
-1,The necropolis itself consists of dozens of mausoleums, each built according to the same plan: a fake entrance leading an altar where descendants left flowers and food for the dead, with paintings of their exploits and achievements, and a *hidden* entrance from above, sealed with a heavy drop stone, trapped by spiked pits below and crushing stones above, filled with poison dust or a brazier of *warp* blood resulting in terrible mutations. And finally, [1d8 mummies] patiently waiting for news from the world of the living ([mummy stats]). They want to know about the world outside but they are unwilling to part with any treasure they might have.
+1,The necropolis itself consists of dozens of mausoleums, each built according to the same plan: a fake entrance leading to an altar where descendants left flowers and food for the dead, with paintings of their exploits and achievements, and a *hidden* entrance from above, sealed with a heavy drop stone, trapped by spiked pits below and crushing stones above, filled with poison dust or a brazier of *warp* blood resulting in terrible mutations. And finally, [1d8 mummies] patiently waiting for news from the world of the living ([mummy stats]). They want to know about the world outside but they are unwilling to part with any treasure they might have.
 1,The necropolis itself is an endless graveyard, tombstone after tombstone, filling every slope in this valley, stone statues, inscriptions, pictures, headstones engraved with [Set decoration] or [Pazuzu decoration]. At night the ghosts rise from their graves, lamenting the state of their graves and the lack of care, the sloth of their descendants, and they curse them and their world, not realising that their world has already faded and that they are the only ones left. Appropriate rites and sacrifices, a purification and a hallowing might bring them peace.
 1,This might have been a necropolis hundreds of years ago but now it’s more like a meadow. There are still some overgrown headstones to see, some mausoleums are still standing, some statues can be discerned, but most of it is pasture now, [mountain animals] grazing and a bunch of orcs working on their [mountain orc product]. The banners on their tents intents identify them as [evil tribe] orcs. [orcs] [mountain orc leader specialty]
 1,The valley is filled with ruins. This must have been a large monastic complex in its heyday. These days the ceilings have fallen, walls have crumbled, weeds are growing everywhere and anything not made of stone has rotten away. It’s hard to say what these buildings were used for. Here you can see an engravings of [Pazuzu decoration], over there is an engraving of [Set decoration].
@@ -2940,7 +2940,7 @@
 
 ;necropolis sphinx
 1,In the middle of all this is a platform that rises 20ft into the air. Wide stairs lead up to a baldachin and under this canopy rests the [sphinx]
-1,In the middle of all this is a column an perched on it, 60ft above the surrounding land rests the [sphinx]
+1,In the middle of all this is a column and perched on it 60ft above the surrounding land rests the [sphinx]
 1,In the middle of all this is a platform made of stone, circular and about five feet high. On it a wooden structure rises up into the air and at the very top rests the [sphinx]
 
 ;sphinx
@@ -6203,7 +6203,7 @@
 1,<p>[green tower in this lake]
 
 ;nixie problem
-1,A herd of *centaurs* have been carousing in the area and scaring away the wildlife.<p>The lake shore has become the home of [centaurs].<p>
+1,A herd of *centaurs* have been carousing in the area and disturbing the peace.<p>The lake shore has become the home of [centaurs].<p>
 1,A *chimera* is guarding a cave on the island of their lake, terrorising them.<p>The **chimera** is guarding an iron wrought gate decorated with [Niflheim decoration] leading to *Niflheim* ([chimera stats])<p>[road to Niflheim]
 1,A clan of *dwarves* is erecting a waterwheel at the other end of the lake.<p>Actually, this is going to get worse. The waterwheel is just the beginning: they are trying to start a small forge! [5d8] **dwarves** work and live here ([dwarf stats]), led by [dwarf with portrait] (level [1d6+2 as level]). [luxurious context] [dwarven treasure]<p>
 
@@ -14352,7 +14352,12 @@
 1,The dragon hunter **[human class]** [human with portrait] (level [1d4+5 as level]) is trying to hire two score desperate peasants to go and slay *[nearby dragon name]*. “[sharing agreement]” [spellbook for [same class]] [leader treasure for [same class]]
 
 ;bard
-1,The [bard adjective] [singing humanoid] **bard** *[[same singing humanoid] with portrait]* is here, playing the [instrument] and [with performing] *[with story]* and [and performing] *[and story]*. [audience reaction] If you ask them about the war, they’ll say that [nearby war fact].
+1,The [bard adjective] [singing humanoid] **bard** *[[same singing humanoid] with portrait]* is here, playing the [instrument] and [with performing] *[with story]* and [and performing] *[and story]*. [audience reaction] If you ask them about the war, they’ll say that [nearby war fact]. [bard mission]
+
+;bard mission
+1,They’re looking for a legendary weapon called *[nearby legendary weapon]*. Have you seen it?
+1,They’re looking for a book called *[nearby library book]*. Have you seen it?
+1,[maybe a book]
 
 ;bard adjective
 1,wandering
@@ -14680,7 +14685,7 @@
 
 ;caravan special
 3,
-2,<p>The caravan has a **bard** called [human with portrait] who is on their way to *[nearby village name]*.[store human as singing humanoid] [maybe a book] The songs they like to perform are *[with story]* and *[and story]*.
+2,<p>The caravan has a **bard** called [human with portrait] who is on their way to *[nearby village name]*.[store human as singing humanoid] [maybe a book] The songs they like to perform are *[with story]* and *[and story]*. [maybe a book]
 2,<p>*[[same race] name]* is a **secret agent** of the *[one of the secret societies]*. [description for a secret society ([same alignment])]
 2,<p>*[[same race] name]* is selling blessed [metal mat] amulets of [good power].
 2,<p>*[[same race] name as cultist]* is an **evil cultist** of [evil power]. If you know the cult, you will recognise their amulet: it shows [[same evil power] decoration]. They already befriended a kid called *[human name]* but swore them to secrecy. Before the caravan leaves, *[same cultist]* is planning to sacrifice them to their demon lord.
@@ -15974,17 +15979,17 @@
 # neutrality vs chaos
 1,Half the buildings in this town have been burnt to the ground. There is an on-going all-out war between two secret societies. Choose your side wisely.<p>The society of the *[name for a secret society (neutrality)]* is led by [secret society boss] [description for a secret society (neutrality)]<p>The society of the *[name for a secret society (law)]* is led by [secret society boss] [description for a secret society (law)]
 # law vs chaos
-1,The local secret society [name for a secret society (law)] is being infiltrated. It is led by [secret society boss] [description for a secret society (law)]<p>The [name for a secret society (chaos)] have been plotting to overthrow them, led by [secret society boss] [description for a secret society (chaos)]
+1,The local secret society *[name for a secret society (law)]* is being infiltrated. It is led by [secret society boss] [description for a secret society (law)]<p>The *[name for a secret society (chaos)]* have been plotting to overthrow them, led by [secret society boss] [description for a secret society (chaos)]
 # neutrality vs law
 1,A volatile truce has recently been formed between the two local secret societies. Both are still unsure and suspicious of each other, and will be watching any visitors closely to try to figure out their allegiances.<p>The society of the *[name for a secret society (law)]* is led by [secret society boss] [description for a secret society (law)]<p>The society of the *[name for a secret society (neutrality)]* is led by [secret society boss] [description for a secret society (neutrality)]
 # neutrality vs chaos
 1,Talk of a treaty between the two local secret societies seems to be the biggest bit of gossip around town.<p>The society of the *[name for a secret society (neutrality)]* is led by [secret society boss] [description for a secret society (neutrality)]<p>The society of the *[name for a secret society (chaos)]* is led by [secret society boss] [description for a secret society (chaos)]
 # law vs chaos
-1,Strife is turning sibling against sibling and parents against their children.<p>The legendary *[story mcguffin] of [human story hero]* used to belong to the [name for a secret society (law)], but now it is gone. Their leader is [secret society boss], and they are intent on getting it back. The goals of the society itself are not that important, for now. [description for a secret society (law)]<p>The accused are another secret society, the [name for a secret society (chaos)]. They are led by [secret society boss] [description for a secret society (chaos)]
+1,Strife is turning sibling against sibling and parents against their children.<p>The legendary *[story mcguffin] of [human story hero]* used to belong to the *[name for a secret society (law)]*, but now it is gone. Their leader is [secret society boss], and they are intent on getting it back. The goals of the society itself are not that important, for now. [description for a secret society (law)]<p>The accused are another secret society, the *[name for a secret society (chaos)]*. They are led by [secret society boss] [description for a secret society (chaos)]
 # neutrality vs chaos
-1,The locals are forced to pay protection money to [name for a secret society (chaos)], led by [secret society boss] [description for a secret society (chaos)]<p>The recent arrival of [name for a secret society (neutrality)] has disrupted this lucrative enterprise. This secret society is led by [secret society boss] [description for a secret society (neutrality)]
+1,The locals are forced to pay protection money to *[name for a secret society (chaos)]*, led by [secret society boss] [description for a secret society (chaos)]<p>The recent arrival of *[name for a secret society (neutrality)]* has disrupted this lucrative enterprise. This secret society is led by [secret society boss] [description for a secret society (neutrality)]
 # neutrality vs law
-1,The [name for a secret society (law)] are recruiting new members for an ongoing feud. They are led by [secret society boss] [description for a secret society (law)]<p>They are trying to drive the [name for a secret society (neutrality)] out of town. This secret society is led by [secret society boss] [description for a secret society (neutrality)]
+1,The *[name for a secret society (law)]* are recruiting new members for an ongoing feud. They are led by [secret society boss] [description for a secret society (law)]<p>They are trying to drive the *[name for a secret society (neutrality)]* out of town. This secret society is led by [secret society boss] [description for a secret society (neutrality)]
 
 ;secret society boss
 1,[a boss]. [spellbook for [same class]] [leader treasure for [same class]]
@@ -16324,7 +16329,7 @@
 1,[save 1d6+4 as level][save spellbook for elves][4d6] **light elves** ([elf stats]) in gleaming armour, with spears and shields, led by [elf with portrait] (level [same level]). [same spellbook for elves] [leader treasure]. They are accompanied by [2d4] *elfhounds* ([wolf stats]).<blockquote>[Yggdrasil mission]</blockquote><p>
 
 ;Yggdrasil mission
-1,They want to avenge the death of *elf name*, legendary author of [store elf as singing humanoid]*[story]*, killed by the fire giant *[fire giant name]* in Muspelheim. Their current location is unknown. This is going to be a long side-quest.
+1,They want to avenge the death of *[elf name]*, legendary author of [store elf as singing humanoid]*[story]*, killed by the fire giant *[fire giant name]* in Muspelheim. Their current location is unknown. This is going to be a long side-quest.
 1,They went to see the demon-oracle of *[demon name]* and got the answer they needed. Now all they need to do is get back home.
 1,They succeeded in bringing down the thief of the elven *long sword* +1 with [elven inscription][here store the sword of [same owner] as elf treasure]
 1,They failed in tracking the thief of the elven *long sword* +1 with [elven inscription]. It must still be down there somewhere, in Muspelheim.
@@ -39677,25 +39682,25 @@
 2,A dwarven *crossbow* +2.
 2,A goblin assassin’s black iron *crossbow* +1, decorated with the seven heads of Set.
 1,A goblin assassin’s *short bow* +1 with plenty of notches along its side.
-1,An orcish *zweihänder* +1/+3 vs. city dwellers, in the [orc sword tradition].
+1,The orcish zweihänder *Wall Cutter*[here store Wall Cutter as legendary weapon] +1/+3 vs. city dwellers, in the [orc sword tradition].
 1,An orcish *mace* +1 with [orcish runes].
 1,An orcish *mace* +1 marked with the runes of [evil power].
-1,The orcish spear *Dog Impaler* +1/+3 vs. elves, created by *[orc name]* in [orc war].
-1,The orcish sword *Monkey Slicer* +1/+3 vs. humans used by *[orc name]* in [orc war].
-1,The ancient spear *Fur Hunter* +1/+3 vs. mammals, a relic of the Old Lizard Wars, blessed by Set.
-1,The long sword *Moonfire* +1/+3 vs. lycanthropes, inscribed with silver runes of death and banishment, forged by the high inquisitors of *[wight realm]*.
-1,The long sword *Razorblade* +1/+3 vs. spell casters, forged by ancient machines in the Philosophers’ War.
-1,The holy long sword *Angelfire* +1/+3 vs. undead, forged in Asgard by *[dwarf name]* during the Vampire Wars.
-1,The long sword *Meteorstrike* +1/+3 vs. dragons, an old elven sword forged in the Dragon Wars.
-1,The long sword *Dragonslayer* +1/+3 vs. dragons, blessed by Marduk.
-1,The dwarven hammer *Ironslayer* +1/+3 vs. armoured foes, made by the legendary *[dwarf name]* of *[dwarf forge]*.
-1,A *long sword of light* +3 (60ft), made in Asgard for the valkyrie *[valkyrie name]* (the sword rejects anybody who refuses to join three fights while carrying the sword).
-1,The *club of the slayer* +1/+3 vs. giants, blessed by Marduk.
+1,The orcish spear *Dog Impaler*[here store Dog Impaler as legendary weapon] +1/+3 vs. elves, created by *[orc name]* in [orc war].
+1,The orcish sword *Monkey Slicer*[here store Monkey Slicer as legendary weapon] +1/+3 vs. humans used by *[orc name]* in [orc war].
+1,The ancient spear *Fur Hunter*[here store Fur Hunter as legendary weapon] +1/+3 vs. mammals, a relic of the Old Lizard Wars, blessed by Set.
+1,The long sword *Moonfire*[here store Moonfire as legendary weapon] +1/+3 vs. lycanthropes, inscribed with silver runes of death and banishment, forged by the high inquisitors of *[wight realm]*.
+1,The long sword *Razorblade*[here store Razorblade as legendary weapon] +1/+3 vs. spell casters, forged by ancient machines in the Philosophers’ War.
+1,The holy long sword *Angelfire*[here store Angelfire as legendary weapon] +1/+3 vs. undead, forged in Asgard by *[dwarf name]* during the Vampire Wars.
+1,The long sword *Meteorstrike*[here store Meteorstrike as legendary weapon] +1/+3 vs. dragons, an old elven sword forged in the Dragon Wars.
+1,The long sword *Dragonslayer*[here store Dragonslayer as legendary weapon] +1/+3 vs. dragons, blessed by Marduk.
+1,The dwarven hammer *Ironslayer*[here store Ironslayer as legendary weapon] +1/+3 vs. armoured foes, made by the legendary *[dwarf name]* of *[dwarf forge]*.
+1,A *long sword of light* +3 (60ft), made in Asgard for the valkyrie *[valkyrie name]*[here store [same valkyie name]’s sword as legendary weapon] (the sword rejects anybody who refuses to join three fights while carrying the sword).
+1,The *Club of the Slayer*[here store club of the slayer as legendary weapon] +1/+3 vs. giants, blessed by Marduk.
 1,A smoking, quivering *black arrow of death* +2, carrying the curse of Nergal, ready to take root in a target: if hit, save vs. death or die; the arrow’s curse is lost when shot whether it hits or misses.
-1,The two handed *Icekiller* +3, forged by the frost giant *[frost giant name]* in Jotunheim; when the blade is drawn, snow flakes form; when it is stuck into water, a layer of ice forms (10ft); when left unsheathed, a glacier will eventually form.
-1,The long sword *Swampfire* +1/+3 vs. runners, forged in the depths of Myrkheim by frogling priests of Tsathoggua; it eeks a phosphorous glowing liquid and smells of rotten eggs; when left unsheathed, everything around it becomes water logged and eventually turns into a swamp.
-1,The *trident of fishes* +1 gives you long, webbed toes and the ability to breathe under water when you step into it, and you can speak the language of fishes.
-1,The ancient war hammer *Earth Hammer* +3, made by *[orc name]* in the *War of the Landgrab*: it can smash any structure built by man in three blows.
+1,The two handed *Icekiller*[here store Icekiller as legendary weapon] +3, forged by the frost giant *[frost giant name]* in Jotunheim; when the blade is drawn, snow flakes form; when it is stuck into water, a layer of ice forms (10ft); when left unsheathed, a glacier will eventually form.
+1,The long sword *Swampfire*[here store Swampfire as legendary weapon] +1/+3 vs. runners, forged in the depths of Myrkheim by frogling priests of Tsathoggua; it eeks a phosphorous glowing liquid and smells of rotten eggs; when left unsheathed, everything around it becomes water logged and eventually turns into a swamp.
+1,The *Trident of Fishes*[here store Trident of Fishes as legendary weapon] +1 gives you long, webbed toes and the ability to breathe under water when you step into it, and you can speak the language of fishes.
+1,The ancient war hammer *Earth Hammer*[here store Earth Hammer as legendary weapon] +3, made by *[orc name]* in the *War of the Landgrab*: it can smash any structure built by man in three blows.
 1,[neolithic magic weapon]
 
 ;magic weapon for magic user
@@ -39705,14 +39710,14 @@
 1,A *dagger* +1 with the pommel being a small talking head of [power] always there to recommend a violent course of action.
 1,A *dagger* +1 consecrated to [evil power] poisoning your thoughts with images of you stabbing anybody you are talking to.
 1,The dagger *Lifeblood* +1 which allows you to transfer the power of life by cutting somebody and having somebody else drink it.
-1,The dagger *Stonecutter* +1 which allows you to slowly cut through stone.
+1,The dagger *Stonecutter*[here store Stonecutter as legendary weapon] +1 which allows you to slowly cut through stone.
 1,A magic *tongue dagger* +1 with a sticky tongue wrapped around its grip which can pick up unguarded items within 2m, consecrated to Tsathoggua.
 3,A dwarven *dagger* +2 with [dwarven inscription]
-1,The dagger *Tin Opener* +1/+3 vs. armoured foes, with etchings on its blade showing a peasant stabbing a knight into the visor.
-1,The black dagger *Kingslayer* +1, blessed by Set: a target hit in the surprise round must save vs. poison or die.
-1,The dagger *Heart Eater* +1/+3 vs. humans, with etchings on its blade showing a human sacrifice.
-1,An elven *silver dagger* +1/+3 vs. devils.
-1,A magic *silver rune dagger* +1/+3 vs. were-creatures.
+1,The dagger *Tin Opener*[here store Tin Opener as legendary weapon] +1/+3 vs. armoured foes, with etchings on its blade showing a peasant stabbing a knight into the visor.
+1,The black dagger *Kingslayer*[here store Kingslayer as legendary weapon] +1, blessed by Set: a target hit in the surprise round must save vs. poison or die.
+1,The dagger *Heart Eater*[here store Heart Eater as legendary weapon] +1/+3 vs. humans, with etchings on its blade showing a human sacrifice.
+1,The elven silver dagger *Celestial Guardian*[here store Celestial Guardian as legendary weapon] +1/+3 vs. devils.
+1,A magic silver rune dagger *Moonshine*[here store Moonshine as legendary weapon] +1/+3 vs. were-creatures.
 
 ;magic armour
 3,[magic armour for magic user]
