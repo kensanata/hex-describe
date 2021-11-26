@@ -1342,7 +1342,7 @@
 1,[necropolis]
 1,[naga temple]
 1,[dwarf outpost]
-1,[vulture demon fortress]
+1,[vulture demon eyrie]
 
 # ------------------------------------------------------------
 
@@ -2838,16 +2838,27 @@
 
 # ------------------------------------------------------------
 
-;vulture demon fortress
+;vulture demon eyrie
 1,[vulture demon sacrifice]
+1,[tengu settlement]
+
+;tengu settlement
+1,A sheer cliff rises at the end of this valley, two or three thousand feet, perhaps. Somewhere in the upper third, giant petrified roots stretch out into the emptiness, and an ingenious people has used these structures to build a settlement. [2d12] **tengu**, led by the master swordsman *[tengu name]* ([tengu stats]). [scout treasure] Master *[same tengu name]* can [teach a fighter].<p>A barred gate blocks the entrance into the mountain itself. [vulture demon bleeding]
+
+;vulture demon bleeding
+1,The tunnel leads to a cavern about 60ft high. The **vulture demon** *[demon name]* is hanging from the ceiling, wrapped in iron chains. It has been cut and bled a thousand times. On the floor below is a silver chalice with which the steaming blood is collected, to be used for ritual magic. [vulture demon promise]
+1,The tunnel leads to a cavern about 60ft high, illuminated by green fire burning in its centre. There, held in place by iron chains, writhes the **vulture demon** *[demon name]*, forever regenerating. [vulture demon promise]
 
 ;vulture demon sacrifice
 1,Atop the highest mountain here stands the ruin of an ancient temple to the five winds: a circle of sixty columns, each 100ft high. In the middle of this circle lies a stone block. The **vulture demon** *[demon name]* has been nailed to it with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
 1,There is a crack in the mountain here, a narrow gorge lying in shadows with an icy wind blowing through it and a tumultuous river gnawing itself into the rock. At the far end is a waterfall from the snow fields above and under the water the **vulture demon** *[demon name]* has been nailed to the rocks with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
 
 ;vulture demon promise
-1,“Release me, fellow travellers! Release me now and I will grant you want your heart’s desires!” It’s whispers follow you around on this mountain.
-1,“I beg you! Release me! I was innocently nailed to this altar, betrayed by my brothers and sisters.” It’s begging is inescapable up here.
+1,It whispers, “Release me, fellow travellers! Release me now and I will grant you want your heart’s desires!”
+1,It begs, “I beg you! Release me! I was innocently nailed to this altar, betrayed by my brothers and sisters.”
+1,It whimpers, “Put and end to my suffering. Kill me now, I beg you!”
+1,It moans incomprehensible words, its face contorted in pain.
+1,It says, “Drink my blood, be my sibling, and together we will avenge this madness!”
 
 ;vulture demon guardian
 1,The **invisible stalker** called *[invisible stalker name]* guards the demon ([invisible stalker stats]). It is a formidable hunter and prefers to attack with surprise. Stab first, make demands later – that is how it thinks. “I swore to guard this fiend for all eternity. Leave this place!”
@@ -16322,7 +16333,6 @@
 
 ;pazuzu place
 1,Hell
-1,the [pazuzu place]
 1,the [pazuzu adjective] [pazuzu location]
 1,the [old gods]
 1,Giants
