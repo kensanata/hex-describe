@@ -2162,7 +2162,7 @@
 1,**scorched pedestal with statue of [power] holding a [gem]**: fire magic detectable; statue’s hand with the gem is connected to the arm with a hinge → movement of the hand unleashes a *fireball*, 5d6 damage to all in the room, save vs. explosions for half
 1,**skunk chest**: [chest], musty smell if examined closely → booby-trapped with skunk oil spray; all present are odoriferous for the next 3 days, i.e. fail all Charisma checks, random encounters underground are doubled: roll 2d6 instead of 1d6
 1,**smoke trap**: obscures visibility while attackers enter from another room
-1,**spiked ball**: save vs breath or 2d6 dmg
+1,**spiked ball**: save vs. breath or 2d6 dmg
 1,**stagnant pool**: boat on the far side
 # from Holmes’ sample dungeon!
 1,**statue pointing**: points at door just entered; must be rotated on base to point to another door; any door it is pointed at can’t be opened
@@ -2839,19 +2839,20 @@
 # ------------------------------------------------------------
 
 ;vulture demon eyrie
-1,[vulture demon sacrifice]
-1,[tengu settlement]
+1,[vulture demon sacrifice] [road to Vanaheim]
+1,[tengu settlement] [road to Vanaheim]
 
 ;tengu settlement
-1,A sheer cliff rises at the end of this valley, two or three thousand feet, perhaps. Somewhere in the upper third, giant petrified roots stretch out into the emptiness, and an ingenious people has used these structures to build a settlement. [2d12] **tengu**, led by the master swordsman *[tengu name]* ([tengu stats]). [scout treasure] Master *[same tengu name]* can [teach a fighter].<p>A barred gate blocks the entrance into the mountain itself. [vulture demon bleeding]
+1,A sheer cliff rises at the end of this valley, two or three thousand feet, perhaps. Somewhere in the upper third, giant petrified roots stretch out into the emptiness, and an ingenious people has used these structures to build a settlement. [2d12] **tengu**, led by the master swordsman *[tengu name]* ([tengu stats]). [scout treasure] Master *[same tengu name]* can [teach a fighter]<p>A barred gate blocks the entrance into the mountain itself. [vulture demon bleeding]
 
 ;vulture demon bleeding
-1,The tunnel leads to a cavern about 60ft high. The **vulture demon** *[demon name]* is hanging from the ceiling, wrapped in iron chains. It has been cut and bled a thousand times. On the floor below is a silver chalice with which the steaming blood is collected, to be used for ritual magic. [vulture demon promise]
-1,The tunnel leads to a cavern about 60ft high, illuminated by green fire burning in its centre. There, held in place by iron chains, writhes the **vulture demon** *[demon name]*, forever regenerating. [vulture demon promise]
+1,The tunnel leads to a cavern about 60ft high. The **vulture demon** *[with demon name]* is hanging from the ceiling, wrapped in iron chains ([vulture demon stats]). It has been cut and bled a thousand times. On the floor below is a silver chalice with which the steaming blood is collected, to be used for ritual magic. [vulture demon promise]
+1,The tunnel leads to a cavern about 60ft high, illuminated by green fire burning in its centre. There, held in place by iron chains, writhes the **vulture demon** *[with demon name]*, forever regenerating ([vulture demon stats]). [vulture demon promise]
 
 ;vulture demon sacrifice
-1,Atop the highest mountain here stands the ruin of an ancient temple to the five winds: a circle of sixty columns, each 100ft high. In the middle of this circle lies a stone block. The **vulture demon** *[demon name]* has been nailed to it with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
-1,There is a crack in the mountain here, a narrow gorge lying in shadows with an icy wind blowing through it and a tumultuous river gnawing itself into the rock. At the far end is a waterfall from the snow fields above and under the water the **vulture demon** *[demon name]* has been nailed to the rocks with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
+1,Atop the highest mountain here stands the ruin of an ancient temple to the five winds: a circle of sixty columns, each 100ft high. In the middle of this circle lies a stone block. The **vulture demon** *[with demon name]* has been nailed to it with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
+1,There is a crack in the mountain here, a narrow gorge lying in shadows with an icy wind blowing through it and a tumultuous river gnawing itself into the rock. At the far end is a waterfall from the snow fields above and under the water the **vulture demon** *[with demon name]* has been nailed to the rocks with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
+1,On the mountain peak you can see a gleaming needle, 20ft high. If you approach, you can hear the **vulture demon** *[with demon name]* [moaning and whimpering|howling] ([vulture demon stats]). It has been impaled here, since time immemorial, unable to die. [vulture demon promise]<p>[vulture demon guardian]
 
 ;vulture demon promise
 1,It whispers, “Release me, fellow travellers! Release me now and I will grant you want your heart’s desires!”
@@ -2868,6 +2869,22 @@
 ;vulture demon lore
 1,Apparently, *[same demon name]* is a traitor from the back in the days when the gods fought amongst themselves.
 1,Apparently, *[same demon name]* is an agent of Pazuzu, a plague demon bent on destroying the world.
+1,Apparently, the gods have bound agents of Pazuzu near gates to Vanaheim, as a warning to all.
+
+;road to Vanaheim
+1,<p>The passage to Vanaheim is sealed by the life blood of *[same demon name]*. If it is killed, the **vulture demons** *[and demon name]* and *[and demon name]* can *planeshift* here from Vanaheim, bent on avenging their sibling. If it is freed, it will try to kill as many of it’s enemies as it can, and then *planeshift* back to Vanaheim. For the trained eye, the foot passage is revealed: [a spidery network of silver veins in the rock|traces of red sand|whispering warm winds] lead the way towards a black crevice in the rock face.<p>[road to Vanaheim obstacle]<p>[exit to Vanaheim]
+
+;road to Vanaheim obstacle
+1,You hear roaring thunder up ahead. The tunnel emerges on a storm swept mountain peak where the sky is boiling purple and lightning shows the **blue dragon** *[here blue dragon name as dragon name]*[dragon portrait] [flying|circling] up above ([blue dragon stats]). “Who dares trespass into my realm?” [dragon treasure] From here, the trail leads down into Vanaheim.
+1,The tunnel leads into a crypt with countless life-like stone warriors, each with a noble faces, carrying their polearm. At the centre of this petrified army: [1d4 spectres] ([spectre stats]), on a scythed war chariot, a *life stealer bow* +1 (deals and extra 1d6 damage and heals the archer by the same amount). When approached, the chariot charges into its enemies: save vs. death or suffer 3d6 damage from the magic scythes. [ancient treasure] From here, the tunnel leads to Vanaheim.
+
+;exit to Vanaheim
+1,Before you stretches a land of red rocks and dust, with green valleys cut into the surface. Down there, water flows and trees grow. Up on the red hillsides stand ancient castle and temple ruins, and countless burial mounds. The sun is about to set and the sky is turning dark purple. At night, wraiths roam the land: [1d6 wraiths] ([wraith stats]). It’s a long way to the safety of the nearest village. Clearing out a tomb is of course also an option. [dead treasure]
+1,Before you stretches a land of red rocks and sand. The sky is pale pink. It promises to be a hot day. In the distance, on a red mountain surrounded by a forest of thorns, stands an ancient tower. This is *Sandstein*, the hall where Pazuzu, the demon lord of [pestilence|famine] and [disease|hunger] holds court. Countless [crows|vultures] circle above. On the dusty road ahead you can see a company of [soldiers]
+
+;soldiers
+1,[1d4x10] **soldiers** ([human stats]). [average treasure] They are led by the **[human class]** [human with portrait] (level [1d4+1 as level]). [spellbook for [same class]] [leader treasure for [same class]]
+1,[1d4x10] **soldiers** ([human stats]). [average treasure] They are led by the **spectre** ([spectre stats]). [ancient treasure]
 
 # ------------------------------------------------------------
 
@@ -10802,10 +10819,10 @@
 ;neolithic magic weapon
 1,An *arrow* +1 with an obsidian tip.
 1,A *sling stone* +1.
-1,An *arrow* +1/+3 vs. reptiles, a relic from the Old Lizard Wars.
-1,The ancient spear *Scale Eater* +1/+3 vs. reptiles, a relic of the Old Lizard Wars, blessed by Pazuzu.
+1,An *arrow* +1/+3 vs. reptiles, a relic from the *Old Lizard Wars*.
+1,The ancient spear *Scale Eater*[here store Scale Eater as legendary weapon] +1/+3 vs. reptiles, a relic of the *Old Lizard Wars*, blessed by Pazuzu.
 1,A *javelin of thunder* that explodes like a *fireball* dealing 6d6 to all nearby, save vs. spells for half.
-1,A *bow of the hunter* +1/+3 vs. giants and extinct megafauna, e.g. sabre tooth tigers, mammoths, or giant elk.
+1,The ancient bow *Giant Killer*[here store Giant Killer as legendary weapon] +1/+3 vs. giants and extinct megafauna, e.g. sabre tooth tigers, mammoths, or giant elk.
 
 ;neolithic wondrous item
 1,A *stone of orientation* that always points north.
@@ -11145,7 +11162,7 @@
 1,These lizard people like to sing the *Songs of Loss and Longing*, a cycle of heroic poems involving the wars against *[an old wight leader]*.
 1,These lizard people like to sing the *Songs of Remembrance*, a cycle of ballads involving the wars against *[an old wight leader]*.
 1,These lizard people like to sing songs from the *Epics of Reason*, long and winding poems about ancient machines in the Philosophers’ War.
-1,These lizard people like to sing some of the *Songs from the Dead*, songs about doomed heroes in the Old Liberation Wars which the lizard people lost oh so long ago.
+1,These lizard people like to sing some of the *Songs from the Dead*, songs about doomed heroes in the *Old Liberation Wars* which the lizard people lost oh so long ago.
 
 ;lizard people stats
 1,HD 2+1 AC 5 1d8 F2 MV 12 ML 7 XP 200
@@ -39793,13 +39810,13 @@
 1,The orcish zweihänder *Wall Cutter*[here store Wall Cutter as legendary weapon] +1/+3 vs. city dwellers, in the [orc sword tradition].
 1,An orcish *mace* +1 with [orcish runes].
 1,An orcish *mace* +1 marked with the runes of [evil power].
-1,The orcish spear *Dog Impaler*[here store Dog Impaler as legendary weapon] +1/+3 vs. elves, created by *[orc name]* in [orc war].
-1,The orcish sword *Monkey Slicer*[here store Monkey Slicer as legendary weapon] +1/+3 vs. humans used by *[orc name]* in [orc war].
-1,The ancient spear *Fur Hunter*[here store Fur Hunter as legendary weapon] +1/+3 vs. mammals, a relic of the Old Lizard Wars, blessed by Set.
+1,The orcish spear *Dog Impaler*[here store Dog Impaler as legendary weapon] +1/+3 vs. elves, created by *[orc name]* in *[orc war]*.
+1,The orcish sword *Monkey Slicer*[here store Monkey Slicer as legendary weapon] +1/+3 vs. humans used by *[orc name]* in *[orc war]*.
+1,The ancient spear *Fur Hunter*[here store Fur Hunter as legendary weapon] +1/+3 vs. mammals, a relic of the *Old Lizard Wars*, blessed by Set.
 1,The long sword *Moonfire*[here store Moonfire as legendary weapon] +1/+3 vs. lycanthropes, inscribed with silver runes of death and banishment, forged by the high inquisitors of *[wight realm]*.
-1,The long sword *Razorblade*[here store Razorblade as legendary weapon] +1/+3 vs. spell casters, forged by ancient machines in the Philosophers’ War.
-1,The holy long sword *Angelfire*[here store Angelfire as legendary weapon] +1/+3 vs. undead, forged in Asgard by *[dwarf name]* during the Vampire Wars.
-1,The long sword *Meteorstrike*[here store Meteorstrike as legendary weapon] +1/+3 vs. dragons, an old elven sword forged in the Dragon Wars.
+1,The long sword *Razorblade*[here store Razorblade as legendary weapon] +1/+3 vs. spell casters, forged by ancient machines in the *Philosophers’ War*.
+1,The holy long sword *Angelfire*[here store Angelfire as legendary weapon] +1/+3 vs. undead, forged in Asgard by *[dwarf name]* during the *Vampire Wars*.
+1,The long sword *Meteorstrike*[here store Meteorstrike as legendary weapon] +1/+3 vs. dragons, an old elven sword forged in the *Dragon Wars*.
 1,The long sword *Dragonslayer*[here store Dragonslayer as legendary weapon] +1/+3 vs. dragons, blessed by Marduk.
 1,The dwarven hammer *Ironslayer*[here store Ironslayer as legendary weapon] +1/+3 vs. armoured foes, made by the legendary *[dwarf name]* of *[dwarf forge]*.
 1,A *long sword of light* +3 (60ft), made in Asgard for the valkyrie *[valkyrie name]*[here store [same valkyie name]’s sword as legendary weapon] (the sword rejects anybody who refuses to join three fights while carrying the sword).
@@ -39809,6 +39826,7 @@
 1,The long sword *Swampfire*[here store Swampfire as legendary weapon] +1/+3 vs. runners, forged in the depths of Myrkheim by frogling priests of Tsathoggua; it eeks a phosphorous glowing liquid and smells of rotten eggs; when left unsheathed, everything around it becomes water logged and eventually turns into a swamp.
 1,The *Trident of Fishes*[here store Trident of Fishes as legendary weapon] +1 gives you long, webbed toes and the ability to breathe under water when you step into it, and you can speak the language of fishes.
 1,The ancient war hammer *Earth Hammer*[here store Earth Hammer as legendary weapon] +3, made by *[orc name]* in the *War of the Landgrab*: it can smash any structure built by man in three blows.
+1,The long bow *Life Ender*[here store Life Ender as legendary weapon] +1/+3 vs. the living, forged in the *Vampire Wars*
 1,[neolithic magic weapon]
 
 ;magic weapon for magic user
