@@ -329,7 +329,7 @@
 1,[grass intro] [grass dressing] [grass landmark] A ruined tower standing on a small rise is home to the **ettin** called *[ettin]* ([ettin stats]). [robber treasure] [ettin tower protection]
 1,[grass intro] [grass dressing] [grass landmark] In the old days, this rocky pit was [a gem] quarry. Concealed in a rocky crevice is the hidden barrow of [1d8 wights] ([wight stats]).
 1,[grass intro] [grass dressing] [grass landmark] There is a huge dirt mound with small holes for windows and a rough wooden door. [goblins]
-1,The [grass name] looks burned and shrivelled here and the smell of sulphur hangs in the air. A **manticore** named *[manticore]* [manticore activity] ([manticore stats]).
+1,The [grass name] looks burned and shrivelled here and the smell of sulphur hangs in the air. A **manticore** named *[manticore name]* [manticore activity] ([manticore stats]).
 3,[grass intro] [grass dressing] [grass landmark]  If you stay here long, you’ll soon attract the attention of [boars].
 1,[grass intro] A burbling spring seeps out of a small cave here, save vs. poison or spend the rest of the day vomiting. This cave is home to a **basilisk** ([basilisk stats]). The poisonous vapours have polluted the spring water.
 1,[grass intro] [grass dressing] [grass landmark] An abandoned shrine to *[power]* stands here, partly covered in lichens. Patrolling the corridors inside the crumbling shrine is a **straw golem** ([straw golem stats]). <span class="treasure">[2d6] [gem] gems can be recovered from the golem.</span>
@@ -517,7 +517,7 @@
 1,repairing their tents after a hailstorm
 1,dressed in dark coats with woven bands of [with colour] and [and colour]
 1,drying [same cows] meat on wooden racks in the sun
-1,preparing to hunt the [grass monster] that raided their camp last night
+1,preparing to hunt whoever killed *[human name]*, yesterday: the [grass monster]
 1,debating to choose their next leader
 1,breaking new horses
 1,racing horses near the camp
@@ -525,16 +525,19 @@
 1,sitting on the floor, playing a dice game
 
 ;grass monster
-1,**manticore** *[manticore]* ([manticore stats]). [robber treasure]
+1,**manticore** *[manticore name]* ([manticore stats]). [robber treasure]
 1,**tiger** ([tiger stats]).
-1,**giant lizard** ([giant lizard stats])
-1,**invisible stalker** ([invisible stalker stats]).
+1,**giant lizard** ([giant lizard stats]).
+1,**invisible stalker** *[invisible stalker name]* ([invisible stalker stats]).
 1,[3d6] **gnolls** led by *[gnoll name]* ([gnoll stats]). [robber treasure]
-1,**vulture demon** *[demon name]* ([vulture demon stats])
+1,**vulture demon** *[demon name]* ([vulture demon stats]).
 1,[bandits]
 
 ;invisible stalker stats
 1,HD 8 AC 3 2d8 F8 MV 12 ML 12 XP 800; surprise on 1–5 in 6
+
+;invisible stalker name
+1,[Hate|Death|Pain|Stab|Maim|Maul]
 
 ;gnoll stats
 1,HD 2+1 AC 5 1d10 F2 MV 9 ML 8 XP 200
@@ -621,7 +624,7 @@
 1,The [name for hills] are dry and forbidding. The only animals you can see are some **goats**. [hills landmark]
 1,[hills landmark] Narrow creeks have dug deep [gorge]s into the [name for hills]. One of these [same gorge]s is home to [some canyon wights] ([wight stats]). During they day they lie in the flooded cellar of a ruined toll tower guarding a ford. [dead treasure]
 1,[hills landmark] Deep [gorge]s cut through the [name for hills]. A cave in one of those dry riverbeds is home to [giant scorpions] ([giant scorpion stats]).
-1,[hills landmark] On one of the [name for hills] stands an old tower overlooking the lands below. This is the home of a **manticore** called *[manticore]* ([manticore stats]). [robber treasure]
+1,[hills landmark] On one of the [name for hills] stands an old tower overlooking the lands below. This is the home of a **manticore** called *[manticore name]* ([manticore stats]). [robber treasure]
 1,[hills landmark] On one of the [name for hills] stands [a warlock fortress]
 1,[hills landmark] The [name for hills] are home to a dungeon. [dungeon]
 
@@ -1335,6 +1338,7 @@
 1,[necropolis]
 1,[naga temple]
 1,[dwarf outpost]
+1,[vulture demon fortress]
 
 # ------------------------------------------------------------
 
@@ -1792,7 +1796,7 @@
 
 ;Greek mythology boss
 1,a **gorgon** ([gorgon stats])[store terror as treasure type]
-1,a **manticore** named *[manticore]* ([manticore stats])[store robber as treasure type]
+1,a **manticore** named *[manticore name]* ([manticore stats])[store robber as treasure type]
 1,a **medusa** named *[medusa name]* ([medusa stats])[store terror as treasure type]
 1,a **minotaur** named *[minotaur name]* ([minotaur stats])[store poor as treasure type]
 
@@ -2827,6 +2831,28 @@
 1,off to the left
 1,off to the right
 1,receding
+
+# ------------------------------------------------------------
+
+;vulture demon fortress
+1,[vulture demon sacrifice]
+
+;vulture demon sacrifice
+1,Atop the highest mountain here stands the ruin of an ancient temple to the five winds: a circle of sixty columns, each 100ft high. In the middle of this circle lies a stone block. The **vulture demon** *[demon name]* has been nailed to it with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
+1,There is a crack in the mountain here, a narrow gorge lying in shadows with an icy wind blowing through it and a tumultuous river gnawing itself into the rock. At the far end is a waterfall from the snow fields above and under the water the **vulture demon** *[demon name]* has been nailed to the rocks with silver spikes ([vulture demon stats]). [vulture demon promise]<p>[vulture demon guardian]
+
+;vulture demon promise
+1,“Release me, fellow travellers! Release me now and I will grant you want your heart’s desires!” It’s whispers follow you around on this mountain.
+1,“I beg you! Release me! I was innocently nailed to this altar, betrayed by my brothers and sisters.” It’s begging is inescapable up here.
+
+;vulture demon guardian
+1,The **invisible stalker** called *[invisible stalker name]* guards the demon ([invisible stalker stats]). It is a formidable hunter and prefers to attack with surprise. Stab first, make demands later – that is how it thinks. “I swore to guard this fiend for all eternity. Leave this place!”
+1,The **jinni** called *[jinn name]* guards the demon ([jinn stats]). Before turning into a whirlwind, it warns you: “Do not touch this fiend, for I have sworn to keep it here for all eternity.” [vulture demon lore]
+1,The **jinni** called *[jinn name]* guards the demon ([jinn stats]) with an illusion of corrupting black and green fire surrounding the demon. If anybody approaches, it shows itself as a flame spirit and warns you: “Do not approach or the corruption of this demon will transform you into hell maggots.” The demon disagrees, of course! “Don’t fall for this illusion! The flames are not real.”
+
+;vulture demon lore
+1,Apparently, *[same demon name]* is a traitor from the back in the days when the gods fought amongst themselves.
+1,Apparently, *[same demon name]* is an agent of Pazuzu, a plague demon bent on destroying the world.
 
 # ------------------------------------------------------------
 
@@ -5935,7 +5961,7 @@
 
 ;green mountain tower entrance
 1,<p>There is no visible entrance, but a person carrying an amulet of passage bearing the [name for a clan of the netherworld elves] sigil will see the hidden door.
-1,<p>Attempting to enter the tower draws the attention of *[jinn name]*, a **jinn** who guards the tower ([jinn stats]).
+1,<p>Attempting to enter the tower draws the attention of *[jinn name]*, a **jinni** who guards the tower ([jinn stats]).
 1,<p>An ornate archway stands open at the base of the tower allowing any to pass within. In the archway, however, lie [victims of lightning]. Those who do are struck by a *rune of protection* unless copper or iron wiring is used to short-circuit the trap: *lightning bolt* (5d6 damage, save vs. spells for half)
 1,<p>The delicately carved [tree] wood doors of the tower have been ripped open and splintered. The bottom floor of the tower is home to [[den type]], [den mood] ([[same den type] stats]).
 1,<p>Inside the tower, in the entry hall, [1d2+1] **crystal living statues** stand silent guard ([stone golem stats]). Unless the party speaks the name of the tower’s builder, *[elf name]*, the guardians will attack any who attempt to ascend to the next level.
@@ -5967,39 +5993,47 @@
 
 ;another realm
 # details in the corresponding [[another relm] decoration] tables
-1,Vanaheim
-1,Muspelheim
-1,Niflheim
+1,Asgard
 1,Alfheim
+1,Midgard
 1,Myrkheim
+1,Jötunheim
+1,Vanaheim
+1,Niflheim
+1,Muspelheim
 
-;Vanaheim decoration
-1,vultures
-1,four winged demons
-1,snakes
-1,skulls
-1,corpses
-1,starving people
-
-;Muspelheim decoration
-1,flames
-1,vulcanoes
-1,smoke
-1,bulls
-1,people swearing an oath
-
-;Niflheim decoration
-1,a snow-covered forest
-1,many icicles
-1,an endless forests
-1,a group of trolls
-1,a sleeping dragon
+;Asgard decoration
+1,the sun
+1,golden roofed halls
+1,a rainbow bridge
+1,an island on a sea of stars
+1,a man wielding a huge hammer
+1,a one-eyed man wielding a spear
+1,a man ridding on an eight-legged horse
+1,a raven
+1,a woman in a wagon pulled by cats
+1,a woman with an apple in her hand
 
 ;Alfheim decoration
 1,dancing elves
 1,frolicking unicorns
 1,musical instruments
 1,flying sprites
+1,a tree with leaves of silver
+1,a tree with leaves of gold
+1,an acorn
+1,a maple leaf
+1,an elf with flowers in their hair
+1,a fox
+
+;Midgard decoration
+1,mountains
+1,ships
+1,fishes
+1,peasants sowing seeds
+1,peasants swinging a scythe
+1,a bread oven
+1,horses
 
 ;Myrkheim decoration
 1,endless caves
@@ -6012,6 +6046,28 @@
 1,mountain peaks
 1,frost giants
 1,a polar bear
+
+;Vanaheim decoration
+1,vultures
+1,four winged demons
+1,snakes
+1,skulls
+1,corpses
+1,starving people
+
+;Niflheim decoration
+1,a snow-covered forest
+1,many icicles
+1,an endless forests
+1,a group of trolls
+1,a sleeping dragon
+
+;Muspelheim decoration
+1,flames
+1,vulcanoes
+1,smoke
+1,bulls
+1,people swearing an oath
 
 ;moon phase
 1,new moon (🌑)
@@ -9502,7 +9558,7 @@
 1,Up in these drylands, a massive fortress built by giants long ago is home to the *[evil tribe]* tribe. [orcs] The fortress is [orc fort] [orc plans]
 1,Up here on these hills and overlooking the shrublands is a massive fortress built by giants long ago. [outlaw camp]
 1,There are caves beneath these badlands. [caves]
-1,The dry lands up here are the hunting grounds of a **manticore** called *[manticore]* living in the ruins of an old tower ([manticore stats]). [robber treasure] [manticore companions]
+1,The dry lands up here are the hunting grounds of a **manticore** called *[manticore name]* living in the ruins of an old tower ([manticore stats]). [robber treasure] [manticore companions]
 1,A dreadful *stench* hangs in the air as you approach the top of the hill. Dozens of decomposing [bodies|corpses|soldiers|warriors] cover the ground. [a war party]Searching the remains you find a *[the war party colour]* flag of *[the war party]*. These were mercenaries. They weren’t killed by force of arms: they were poisoned.[here store captain *[human name]* was last seen in the badlands near *[nearby village name]* carrying the banner of *[the war party]* as war fact]
 1,A **green dragon** named *[here green dragon name as dragon name]*[dragon portrait] lives at [hill name], one of the hills overlooking these shrublands ([green dragon stats]). [dragon treasure]
 1,The overgrown scrub is difficult to traverse. Concealed by the thorny bracken is the entrance to a dungeon. [dungeon]
@@ -9901,15 +9957,15 @@
 1,the Reborn
 
 ;manticore
-1,Old Man [manticore name]
-1,Old [manticore name]
-1,Lord [manticore name]
-1,Grandfather [manticore name]
-1,[manticore name]
-1,Bastard of [manticore name]
-1,Ancient [manticore name]
+1,Old Man [manticore sin]
+1,Old [manticore sin]
+1,Lord [manticore sin]
+1,Grandfather [manticore sin]
+1,[manticore sin]
+1,Bastard of [manticore sin]
+1,Ancient [manticore sin]
 
-;manticore name
+;manticore sin
 1,Pain
 1,Greed
 1,Spite
@@ -12386,7 +12442,7 @@
 1,well-travelled
 
 ;forest monster
-1,**manticore** *[manticore]* ([manticore stats]). [robber treasure]
+1,**manticore** *[manticore name]* ([manticore stats]). [robber treasure]
 1,**bear** *[bear name]* ([bear stats]).
 1,[bandits]
 1,[6d10] **goblins** led by [goblin] ([goblin stats]). [poor treasure]
@@ -13516,7 +13572,7 @@
 
 # These are the fir forests next to thorps (thorps themselves are firs)
 ;fir-forest
-1,[fir highlands] The land up here is the hunting ground of a **manticore** called *[manticore]* living in the ruins of an old tower overlooking the area ([manticore stats]). [robber treasure] [maybe barrow]
+1,[fir highlands] The land up here is the hunting ground of a **manticore** called *[manticore name]* living in the ruins of an old tower overlooking the area ([manticore stats]). [robber treasure] [maybe barrow]
 1,[fir highlands] This fir forest is home to a pack of [3d6] **wolves** ([wolf stats]). [maybe a road to Niflheim]
 1,[fir highlands] At dusk and dawn, you can sometimes see [boars]. [maybe barrow] [forest event]
 1,[fir highlands] There is a cave housing the **ettin** called *[ettin]* ([ettin stats]). [robber treasure] [maybe barrow] [forest event]
@@ -39817,7 +39873,7 @@
 
 # some complications because of the indefinite article!
 ;elemental lord
-3,a jinn[store jinn as lord]
+3,a jinni[store jinn as lord]
 2,an ifrit[store ifrit as lord]
 1,a marid[store marid as lord]
 
