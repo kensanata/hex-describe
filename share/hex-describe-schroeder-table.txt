@@ -2843,7 +2843,22 @@
 1,[tengu settlement] [road to Vanaheim]
 
 ;tengu settlement
-1,A sheer cliff rises at the end of this valley, two or three thousand feet, perhaps. Somewhere in the upper third, giant petrified roots stretch out into the emptiness, and an ingenious people has used these structures to build a settlement. [2d12] **tengu**, led by the master swordsman *[tengu name]* ([tengu stats]). [scout treasure] Master *[same tengu name]* can [teach a fighter]<p>A barred gate blocks the entrance into the mountain itself. [vulture demon bleeding]
+1,A sheer cliff rises at the end of this valley, two or three thousand feet, perhaps. Somewhere in the upper third, giant petrified roots stretch out into the emptiness, and an ingenious people has used these structures to build a settlement. [2d12 tengus] [tengu guardian misgivings]<p>[vulture demon in a cave]
+1,As you leave behind the trees, you notice piles of skulls every now and then. A closer look reveals both humanoid skulls and beaked ones. A thin trail leads up the mountain side and ends at a crevasse: hundreds of feet below, a small creek; and a hundred feet across, a tengu fort. [2d12 tengus] [tengu guardian misgivings]<p>[vulture demon in a cave]
+
+;2d12 tengus
+1,[2d12] **tengu**, led by the master swordsman *[tengu name]* ([tengu stats]). [scout treasure] Master *[same tengu name]* can [teach a fighter]
+
+;tengu guardian misgivings
+1,“You may pray at the shrine of our lord Pazuzu, but you must leave before nightfall.”
+1,“This land is forbidden to those without wings. Turn back now before you force our hand.”
+1,“In ancient times we swore to guard this mountain against all incursions. Leave peacefully and you shall not be harmed.”
+1,“You have defiled the holy grounds of our people and only your blood can wash this sin away. Prepare to die.”
+1,“Your skulls will make a suitable addition to the piles our ancestors have collected.”
+
+;vulture demon in a cave
+1,A barred gate engraved with [Vanaheim decoration] blocks the entrance into the mountain itself. [vulture demon bleeding]
+1,Overlooking it all is a big vulture head made of stone. A climbing chain leads up to the beak where a tunnel opens. You can hear a low [whimpering|moaning|wailing], barely distinguishable from the blowing wind. [vulture demon bleeding]
 
 ;vulture demon bleeding
 1,The tunnel leads to a cavern about 60ft high. The **vulture demon** *[with demon name]* is hanging from the ceiling, wrapped in iron chains ([vulture demon stats]). It has been cut and bled a thousand times. On the floor below is a silver chalice with which the steaming blood is collected, to be used for ritual magic. [vulture demon promise]
@@ -2856,7 +2871,7 @@
 
 ;vulture demon promise
 1,It whispers, “Release me, fellow travellers! Release me now and I will grant you want your heart’s desires!”
-1,It begs, “I beg you! Release me! I was innocently nailed to this altar, betrayed by my brothers and sisters.”
+1,It begs, “Please, release me! I was innocently nailed to this altar, betrayed by my brothers and sisters.”
 1,It whimpers, “Put and end to my suffering. Kill me now, I beg you!”
 1,It moans incomprehensible words, its face contorted in pain.
 1,It says, “Drink my blood, be my sibling, and together we will avenge this madness!”
@@ -2880,11 +2895,22 @@
 
 ;exit to Vanaheim
 1,Before you stretches a land of red rocks and dust, with green valleys cut into the surface. Down there, water flows and trees grow. Up on the red hillsides stand ancient castle and temple ruins, and countless burial mounds. The sun is about to set and the sky is turning dark purple. At night, wraiths roam the land: [1d6 wraiths] ([wraith stats]). It’s a long way to the safety of the nearest village. Clearing out a tomb is of course also an option. [dead treasure]
-1,Before you stretches a land of red rocks and sand. The sky is pale pink. It promises to be a hot day. In the distance, on a red mountain surrounded by a forest of thorns, stands an ancient tower. This is *Sandstein*, the hall where Pazuzu, the demon lord of [pestilence|famine] and [disease|hunger] holds court. Countless [crows|vultures] circle above. On the dusty road ahead you can see a company of [soldiers]
+1,Before you stretches a land of red rocks and sand. The sky is pale pink. It promises to be a hot day. In the distance, on a red mountain surrounded by a forest of thorns, stands an ancient tower. This is *Sandstein*, the hall where Pazuzu, the demon lord of [pestilence|famine] and [disease|hunger] holds court. Countless [crows|vultures] circle above. On the dusty road ahead you can see a company of [Vanaheim soldiers] [Vanaheim soldiering]
 
-;soldiers
-1,[1d4x10] **soldiers** ([human stats]). [average treasure] They are led by the **[human class]** [human with portrait] (level [1d4+1 as level]). [spellbook for [same class]] [leader treasure for [same class]]
-1,[1d4x10] **soldiers** ([human stats]). [average treasure] They are led by the **spectre** ([spectre stats]). [ancient treasure]
+;Vanaheim soldiers
+1,[1d4x10] **soldiers** ([human stats]). [average treasure] They are led by the **[human class]** [Vanaheim title] [human with portrait] (level [1d4+1 as level]). [spellbook for [same class]] [leader treasure for [same class]]
+1,[1d4x10+10] **soldiers** ([human stats]). [average treasure] They are led by the **spectre** Jarl *[old name]* ([spectre stats]). [ancient treasure]
+
+;Vanaheim title
+1,[Huskarl|Merkismathr|Hersir|Thane]
+
+;Vanaheim soldiering
+1,“Join us now for [fame and glory|everlasting fame] as we attack Jarl *[old name]* in his mountain fastness.”
+1,“Join us now for [fame and glory|everlasting fame] as we attack Jarl *[old name]* in his mountain mausoleum.”
+1,“Join us now for [fame and glory|everlasting fame] as we attack the hold of [Vanaheim title] *[human name]*.”
+1,“Join us now for [fame and glory|everlasting fame] as we attack the hold of the cursed jinni *[jinn name]*.”
+1,“Join us now as we raid the oasis of *[jinn name]* in the name of Pazuzu, lord of [disease|pestilence].”
+1,“Join us now as we raid the oasis of [Vanaheim title] *[human name]* to spread *[diseases]* in the name of Pazuzu.”
 
 # ------------------------------------------------------------
 
@@ -2968,7 +2994,7 @@
 
 ;teach a fighter
 1,teach a fighter about the duelling stance: study a target for two rounds and attack on the third round with a +4 bonus for triple damage. [here store the duelling stance of master *[same tengu name]* as fighter study topic]
-1,teach a fighter about quick drawing a sword: gain an extra attack when your target. [here store the quick-draw technique of master *[same tengu name]* as fighter study topic]
+1,teach a fighter about quick drawing a sword: gain an extra attack on your first attack. [here store the quick-draw technique of master *[same tengu name]* as fighter study topic]
 1,teach a fighter about the blood rain sword fighting style: once per round, make an extra attack when you kill a target. [here store the blood-rain fighting style of master *[same tengu name]* as fighter study topic]
 1,teach a fighter about the left hand: use a shorter blade in your off hand to give you a shield bonus *and* whenever your opponent rolls a 1 as they attack you, make an extra attack with that blade. [here store the left-hand technique of master *[same tengu name]* as fighter study topic]
 1,teach a flying (!) fighter about attacking from above: this allows you to deal double damage in the first round if you hit. [here store the drop attack of master *[same tengu name]* as fighter study topic]
@@ -39948,10 +39974,12 @@
 1,a marid[store marid as lord]
 
 ;jinn name
-1,Builder of the Seven Towers
+1,Builder of the Seven [Towers|Castles]
 1,White Beard of Wisdom
-1,Eye of the Storm
-1,Master of the Seven Winds
+1,Eye of [the Storm|Misfortune|Fortune]
+1,Master of the [Seven Winds|One Thousand Needles|[capitalize directions] Wind]
+1,Destroyer of [Worlds|People|Kingdoms]
+1,[Lord|Lady] of [Fertility|Life|Wisdom|the Seven Lives|the Seven Towers|the Seven Castles|the Wind]
 
 ;marid name
 1,Tyranny of Water
