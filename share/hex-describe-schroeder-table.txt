@@ -10014,7 +10014,7 @@
 1,of the Valley
 1,the Reborn
 
-;manticore
+;manticore name
 1,Old Man [manticore sin]
 1,Old [manticore sin]
 1,Lord [manticore sin]
