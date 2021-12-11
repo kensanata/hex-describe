@@ -426,7 +426,10 @@
 1,[1d4x10] **humans** ([human stats]) led by *[archer leader name as human name]*[human portrait]. They keep [2d4x10] *[cows]*. They are also excellent *horse archers*. [horse archer activities] They will trade [same cows] cheese and pickled [root veg] for [mine content] or spices. For an extravagant sum, they might even trade a prized hunting eagle. Their wool tents are arranged in a circle around the tent of their leader and are protected by [human companions]. [average treasure]
 
 ;human stats
-1,HD 1 AC 8 1d6 F1 MV 12 ML 7 XP 100
+1,HD 1 AC 8 1d6 F1 MV 12 ML 7 XP 100; shield, spear
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; spear
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; dagger
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; hand axe
 
 ;archer leader name
 1,[archer leader name 1] [archer leader name 2]
