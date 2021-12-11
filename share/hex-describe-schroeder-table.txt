@@ -13688,23 +13688,25 @@
 1,
 
 ;druid acolytes
-1,The **druid acolyte** *[old names for men]* is nearly ready for the test ([druid acolyte stats]).
-1,[1d4+1] **druid acolytes** are painting each other with blue patterns; the highest initiate is *[old names for men]* ([druid acolyte stats]).
-1,[1d4+1] **druid acolytes** are wrestling with each other, trying to learn the ways of the bear; the highest initiate is *[old names for men]* ([druid acolyte stats]).
-1,[1d4+1] **druid acolytes** are mixing berries and bark into a blue pulp; the highest initiate is *[old names for men]* ([druid acolyte stats]).
-1,[1d4+1] **druid acolytes** are practising staff fighting; the highest initiate is *[old names for men]* ([druid acolyte stats]).
-1,[1d4+1] **druid acolytes** are disemboweling a pure white deer to scrutinize the entrails for prophetic signs.
-1,[1d4+1] **druid acolytes** are roughly shaping a large boulder with primitive hammer stones.
-1,[1d4+1] **druid acolytes** are scattering offerings of fermented meat for their unkindness of **ravens**.
-1,[1d4+1] **druid acolytes** are gouging a sigil into the turf using shallow ditches dug with flint hand tools.
-1,[1d4+1] **druid acolytes** are savaging their weakest member with thorned switches to teach them the pecking order of the pack.
-1,[1d4+1] **druid acolytes** are lugging dead-fall branches to construct a massive bonfire.
-1,[1d4+1] **druid acolytes** are intently weaving [wicker desc] baskets and mats.
-1,[1d4+1] **druid acolytes** are frenetically dancing while passing venomous **serpents** back and forth.
-1,[1d4+1] **druid acolytes** are distributing sacred, hallucinogenic toadstools amongst themselves.
-1,[1d4+1] **druid acolytes** are sketching a battle plan in the dirt with fire-sharpened sticks. They intend to destroy *[nearby village name]*.
-1,[1d4+1] **druid acolytes** are sketching a battle plan in the dirt with fire-sharpened sticks. They intend to destroy the witch *[nearby witch]*.
-1,[1d4+1] **druid acolytes** are mending the torn wing of a majestic **eagle** who was shot with an arrow.
+1,[1d4+1] **druid acolytes** ([druid acolyte stats]) led by *[old names for men]* are [druid acolyte activity]
+
+;druid acolyte activity
+1,painting each other with blue patterns
+1,wrestling with each other, trying to learn the ways of the bear
+1,mixing berries and bark into a blue pulp
+1,practising staff fighting
+1,disembowelling a pure white deer to scrutinize the entrails for prophetic signs.
+1,roughly shaping a large boulder with primitive hammer stones.
+1,scattering offerings of fermented meat for their unkindness of **ravens**.
+1,gouging a sigil into the turf using shallow ditches dug with flint hand tools.
+1,savaging their weakest member with thorned switches to teach them the pecking order of the pack.
+1,lugging dead-fall branches to construct a massive bonfire.
+1,intently weaving [wicker desc] baskets and mats.
+1,frenetically dancing while passing venomous **serpents** back and forth.
+1,distributing sacred, hallucinogenic toadstools amongst themselves.
+1,sketching a battle plan in the dirt with fire-sharpened sticks. They intend to destroy *[nearby village name]*.
+1,sketching a battle plan in the dirt with fire-sharpened sticks. They intend to destroy the witch *[nearby witch]*.
+1,mending the torn wing of a majestic **eagle** who was shot with an arrow.
 
 ;druid acolyte stats
 1,HD 3 AC 7 1d6 + 1d6 *crushing staff* F3 MV 12 ML 9 XP 300; *heat metal*; *crushing staff*
