@@ -31,7 +31,7 @@
 1,[procedures]<p>[spells][gems]<p>[treasure]<p>[history]
 
 ;procedures
-1,<strong>Procedures</strong>: <em>random encounters</em> are 1 in 6 per day and 1 in 6 per night if you’re not behind walls. If you’re <em>looking for something</em> that isn’t as obvious as a town or village built in plain sight, your chance of finding it is also just 1 in 6 per day; underground encounters are 1 in 6 every two turns, e.g. whenever leaving a room.
+1,<strong>Procedures</strong>: <em>random encounters</em> are 1 in 6 per day and 1 in 6 per night if you’re not behind walls. Travel time is 1 hex/day without a trail, 2 hexes/day on a trail. If you’re <em>looking for something</em> that isn’t as obvious as a town or village built in plain sight, your chance of finding it is 1 in 6 per day; each search party also has to roll for their own random encounter. Underground encounters are 1 in 6 every two turns, e.g. whenever leaving a room.
 
 ;spells
 1,<strong>Scrolls, prayers and spells</strong>: a <em>scroll</em> can only be read by magic users and elves that know the spell or have access to <em>read magic</em>; a <em>prayer</em> can be read by anyone. The spells used are from the <a href="https://alexschroeder.ch/pdfs/spellcasters/">Spellcasters</a> project.
