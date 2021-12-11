@@ -1846,9 +1846,11 @@ sub describe_map {
   }
   for my $coord (keys %$map_data) {
     # with redirects means we keep images
-    $descriptions{$coord} =
+    my $description =
 	process(describe($map_data, $table_data, 1,
 			 $coord, $map_data->{$coord}, $redirects), $redirects);
+    # only set the description if there is one (empty hexes are not listed)
+    $descriptions{$coord} = $description if $description;
   }
   resolve_nearby($map_data, $table_data, \%descriptions, $redirects);
   resolve_other($map_data, $table_data, \%descriptions, $redirects);
