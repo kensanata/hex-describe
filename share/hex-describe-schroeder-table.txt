@@ -13754,11 +13754,13 @@
 
 ;druid prisoners
 1,a **prisoner** called *[human name]*
-5,[1d5+1] **prisoners** led by *[human name]*
+1,two **prisoners** called *[human name]* and *[human name]*
+4,[1d4+2] **prisoners** led by *[human name]*
 
 ;are druid prisoners
 1,is a **prisoner** called *[human name]*
-5,are [1d5+1] **prisoners** led by *[human name]*
+1,are two **prisoners** called *[human name]* and *[human name]*
+4,are [1d4+2] **prisoners** led by *[human name]*
 
 ;druid allies
 1,<p>[druid cause] The druids have found powerful allies in the forest: [1d8 treants] ([treant stats]).
