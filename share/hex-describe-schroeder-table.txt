@@ -2855,7 +2855,7 @@
 ;refuge castle inhabitants
 1,The site is current abandoned. Carvings on a wooden post proclaim this to be the refuge castle for the people of *[nearby village name]*.
 1,[3d6] **refugees** from *[nearby village name]* live up here ([human stats]) led by *[human name]*[human portrait] and protected by [human companions]. They decided not to return to their village after the latest raid of *[any war party]*.
-1,Here lives the **goat herder** [human with portrait] (level 1) from *[nearby village name]* while the place is not used.
+1,Here lives the **goat herder** [human with portrait] ([human stats]) from *[nearby village name]* while the place is not used.
 1,The *[evil tribe]* tribe has settled the place, raising [mountain animals] and making their [mountain orc product]. [orcs] [mountain orc leader specialty] The settlement is [orc fort] [orc plans]
 
 # ------------------------------------------------------------
@@ -9724,10 +9724,10 @@
 1,At the foot of a hill you find a burned down cabin. This must have happened [some time ago].
 1,On the hill is a small tower. [necromancer]
 1,On the hill is a small tower. [vivimancer]
-1,[some ruins] Here lives the **hermit** [human with portrait] (level 1).
-1,[some ruins] Here lives the **hermit** [human with portrait] (level 1) and a **puma** ([puma stats]).
-1,[some ruins] Here lives the **hermit** [human with portrait] (level 1) and a **jaguar** ([jaguar stats]).
-1,[some ruins] Here lives the **hermit** halfling [halfling with portrait] (level 1) with some sheep.
+1,[some ruins] Here lives the **hermit** [human with portrait] ([human stats]).
+1,[some ruins] Here lives the **hermit** [human with portrait] ([human stats]) and a **puma** ([puma stats]).
+1,[some ruins] Here lives the **hermit** [human with portrait] ([human stats]) and a **jaguar** ([jaguar stats]).
+1,[some ruins] Here lives the **hermit** halfling [halfling with portrait] ([halfling stats]) with some sheep.
 
 ;large cat
 1,puma
