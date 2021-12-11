@@ -1346,6 +1346,7 @@
 1,[naga temple]
 1,[dwarf outpost]
 1,[vulture demon eyrie]
+1,[refuge castle]
 
 # ------------------------------------------------------------
 
@@ -2838,6 +2839,24 @@
 1,off to the left
 1,off to the right
 1,receding
+
+# ------------------------------------------------------------
+
+;refuge castle
+1,On a spur further up there is a [refuge castle description]. [refuge castle inhabitants]
+
+;refuge castle description
+1,hill fort, protected by an earthen wall
+1,hill fort, protected by a ditch and a palisade
+1,fortified temple of [power], reachable only by ladders and a narrow trail
+1,peasant burg, an open space protected by a rampart and wooden spikes
+1,refuge castle, protected by an earth wall and a palisade
+
+;refuge castle inhabitants
+1,The site is current abandoned. Carvings on a wooden post proclaim this to be the refuge castle for the people of *[nearby village name]*.
+1,[3d6] **refugees** from *[nearby village name]* live up here ([human stats]) led by *[human name]*[human portrait] and protected by [human companions]. They decided not to return to their village after the latest raid of *[any war party]*.
+1,Here lives the **goat herder** [human with portrait] (level 1) from *[nearby village name]* while the place is not used.
+1,The *[evil tribe]* tribe has settled the place, raising [mountain animals] and making their [mountain orc product]. [orcs] [mountain orc leader specialty] The settlement is [orc fort] [orc plans]
 
 # ------------------------------------------------------------
 
