@@ -9839,66 +9839,13 @@
 1,[cave use] The caves are inhabited by [1d8 trolls] ([troll stats]). [robber treasure]
 1,[cave use] The caves have been abandoned a long time ago.
 
-;slime
-1,[slime color close span] [slime type]</span> ([slime stats]; [slime special ability]; immune to *sleep* and *charm*)
-;slimes
-1,[slime color close span] [slime type]s</span> ([slime stats]; [slime special ability]; immune to *sleep* and *charm*)
+# The mini setting has just five types of slime!
 
-#close the span here after calling, used to generate text with color
-#more color goodness here: https://en.wikipedia.org/wiki/List_of_colors_(compact)
-;slime color close span
-1,<span style="font-weight:bold;color:#93C572;">pistachio green
-1,<span style="font-weight:bold;color:#FD7C6E;">coral
-1,<span style="font-weight:bold;color:#e48400;">fulvous
-1,<span style="font-weight:bold;color:#9966CC;">amethyst
-1,<span style="font-weight:bold;background-color:#FEF6CC;">eburnean
-1,<span style="font-weight:bold;color:#893F45;">cordovan
-1,<span style="font-weight:bold;color:#CAE00D;">bitter lemon
-1,<span style="font-weight:bold;color:#E34234;">vermilion
-1,<span style="font-weight:bold;color:#F56FA1;">cyclamen
-1,<span style="font-weight:bold;color:#6082B6;">glaucous
-1,<span style="font-weight:bold;background-color:#fadfae;">sarcoline
-1,<span style="font-weight:bold;background-color:#DFFF00;">chartreuse
-1,<span style="font-weight:bold;color:#DF73FF;">heliotrope
-1,<span style="font-weight:bold;color:#FFDB58;">pale mustard
-1,<span style="font-weight:bold;background-color:#BFFF00;">lime
-1,<span style="font-weight:bold;color:#00A86B;">jade green
-1,<span style="font-weight:bold;color:#592720;">cardinal purple
-1,<span style="font-weight:bold;color:#ED872D;">cadmium orange
-1,<span style="font-weight:bold;color:#623034;">burnt sienna
-1,<span style="font-weight:bold;color:#02A4D3;">cerulean
-1,<span style="font-weight:bold;background-color:#C3CDE6;">periwinkle
-1,<span style="font-weight:bold;color:#e34234;">cinnabar
-1,<span style="font-weight:bold;color:#8D90A1;">manatee
-1,<span style="font-weight:bold;color:#C9A0DC;">wisteria
-1,<span style="font-weight:bold;color:#66023C;">tyrian purple
-1,<span style="font-weight:bold;color:#9A4EAE;">puprureus
-1,<span style="font-weight:bold;color:#C154C1;">fuchsia
-1,<span style="font-weight:bold;color:#3FFF00;">harlequin green
-1,<span style="font-weight:bold;background-color:#F2BDCD;">orchid pink
-1,<span style="font-weight:bold;color:#CB410B;">sinopia
-1,<span style="font-weight:bold;color:#0014A8;">zaffre
-1,<span style="font-weight:bold;color:#8A3324;">burnt umber
-1,<span style="font-weight:bold;color:#614051;">aubergine
-1,<span style="font-weight:bold;background-color:#EDEAE0;">alabaster
-1,<span style="font-weight:bold;color:#87A96B;">asparagus
-1,<span style="font-weight:bold;color:#0BDA51;">malachite
-1,<span style="font-weight:bold;color:#DE6FA1;">thulian pink
-1,<span style="font-weight:bold;color:#007FFF;">azure
-1,<span style="font-weight:bold;color:#354230;">kombu green
-1,<span style="font-weight:bold;color:#6B4423;">kobicha brown
-1,<span style="font-weight:bold;color:#F4CA16;">jonquil
-1,<span style="font-weight:bold;color:#006A4E;">bottle green
-1,<span style="font-weight:bold;color:#ACE1AF;">celadon
-1,<span style="font-weight:bold;background-color:#F0FFF0;">honey dew
-1,<span style="font-weight:bold;background-color:#7FFFD4;">aquamarine
-1,<span style="font-weight:bold;color:#4A5D23;">dark moss green
-1,<span style="font-weight:bold;background-color:#FFFFF0;">ivory
-1,<span style="font-weight:bold;background-color:#FFF8DC;">cornsilk
-1,<span style="font-weight:bold;background-color:#DCD0FF;">pale lavender
-1,<span style="font-weight:bold;color:#a99a86;">grullo
-1,<span style="font-weight:bold;color:#98817B;">cinereous
-1,<span style="font-weight:bold;color:#673147;">wine dregs
+;slime
+1,[store [slime type] as thing][a slime description]
+
+;slimes
+1,[store [slime type]s as thing][a slime description]
 
 ;slime type
 # must allow plural by appending an s
@@ -9910,20 +9857,53 @@
 1,skum
 1,pudding
 
+;a slime description
+1,[name for a slime 1]
+1,[name for a slime 2]
+1,[name for a slime 3]
+1,[name for a slime 4]
+1,[name for a slime 5]
+
+;name for a slime 1
+1,[slime description]
+
+;name for a slime 2
+1,[slime description]
+
+;name for a slime 3
+1,[slime description]
+
+;name for a slime 4
+1,[slime description]
+
+;name for a slime 5
+1,[slime description]
+
+;slime description
+1,**[slime colour] [same thing]** ([slime stats]; [slime effect] [slime weakness]; [slime special ability]; immune to *sleep* and *charm*)
+
+;slime colour
+1,[blood|bright|carmine|purple|rust|ruby|orange] red
+1,[sky|deep|midnight|bright|sapphire] blue
+1,[sulphur|golden|lemon|green|mustard|orange] yellow
+1,[ivory|chalk|putrid] white
+1,[tar|coal] black
+1,[rust|red|dark|light] brown
+
 ;slime stats
-1,HD 3 AC 5 [slime attack] F3 MV 9 ML 12 XP 300; [slime effect] [slime weakness]
-1,HD 3+1 AC 6 1d8 F1 MV 15 ML 9 XP 300; [slime effect] [slime weakness]
-1,HD 2 AC 6 1d4/1d4/1d4 + [slime attack] F2 MV 9 ML 9 XP 200; [slime effect] [slime weakness]
-1,HD 6+1 AC 4 1d6/1d6/1d10 F6 MV 12 ML 10 XP 600; [slime effect] [slime weakness]
+1,HD 3 AC 5 [slime attack] F3 MV 9 ML 12 XP 300
+1,HD 3+1 AC 6 1d8 F1 MV 15 ML 9 XP 300
+1,HD 2 AC 6 1d4/1d4/1d4 + [slime attack] F2 MV 9 ML 9 XP 200
+1,HD 6+1 AC 4 1d6/1d6/1d10 F6 MV 12 ML 10 XP 600
 
 ;slime special ability
-1,dissolves metal
-1,rots wood
-1,weakens stone
-1,eats spells
-1,destroys fabrics
-1,shatters glass
-1,makes eyes water uncontrollably
+1,dissolves metal: chain and plate armor is destroyed when hit
+1,rots wood: clubs, axes, spears, polearms, shields on a hit
+1,weakens stone: 1 in 6 chance for ceiling or floor collapse causing 2d6 damage
+1,eats spells: add 1d6 hp per spell level absorbed
+1,destroys fabrics: cloaks, gloves, girdle, shirt, pants are lost on a hit
+1,shatters glass: potions, oil flasks and lanterns within 20ft are destroyed
+1,makes eyes water: anybody within 10ft suffers -4 to hit
 
 ;slime attack
 1,*drain*
@@ -9934,7 +9914,7 @@
 1,only harmed by
 1,double damage from
 1,attracted to
-1,*regenerates* unless damaged by
+1,*regenerates* 1/rd unless damaged by
 
 ;slime weakness
 1,magic or magic weapons
@@ -9948,6 +9928,8 @@
 1,water
 1,oil
 1,vinegar
+
+# Orcs
 
 ;orc stats
 1,HD 1 AC 6 1d6 F1 MV 12 ML 8 XP 100
