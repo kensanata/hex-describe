@@ -327,7 +327,13 @@ Same thing for a map using the Alpine algorithm and the Schroeder random tables.
 get '/describe/random/alpine' => sub {
   my $c = shift;
   my $labels = $c->param('labels');
-  my $url = $c->param('url') || "$text_mapper_url/alpine/random/text";
+  my $seed = $c->param('seed');
+  my $url = $c->param('url');
+  if (not $url) {
+    $url = "$text_mapper_url/alpine/random/text";
+    $url .= "?seed=$seed" if $seed;
+  }
+  srand($seed) if $seed;
   my $map = get_data($url);
   my $table = decode_utf8($schroeder_table->slurp);
   init();
@@ -1844,7 +1850,8 @@ sub describe_map {
     # only set the TOP and END key if there is a description
     $descriptions{$coords} = $description if $description;
   }
-  for my $coord (keys %$map_data) {
+  # sort the coordinates so that it is reproducible
+  for my $coord (sort keys %$map_data) {
     # with redirects means we keep images
     my $description =
 	process(describe($map_data, $table_data, 1,
