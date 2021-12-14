@@ -39873,7 +39873,7 @@
 1,The long sword *Meteorstrike*[here store Meteorstrike as legendary weapon] +1/+3 vs. dragons, an old elven sword forged in the *Dragon Wars*.
 1,The long sword *Dragonslayer*[here store Dragonslayer as legendary weapon] +1/+3 vs. dragons, blessed by Marduk.
 1,The dwarven hammer *Ironslayer*[here store Ironslayer as legendary weapon] +1/+3 vs. armoured foes, made by the legendary *[dwarf name]* of *[dwarf forge]*.
-1,A *long sword of light* +3 (60ft), made in Asgard for the valkyrie *[valkyrie name]*[here store [same valkyie name]’s sword as legendary weapon] (the sword rejects anybody who refuses to join three fights while carrying the sword).
+1,A *long sword of light* +3 (60ft), made in Asgard for the valkyrie *[valkyrie name]*[here store [same valkyrie name]’s sword as legendary weapon] (the sword rejects anybody who refuses to join three fights while carrying the sword).
 1,The *Club of the Slayer*[here store club of the slayer as legendary weapon] +1/+3 vs. giants, blessed by Marduk.
 1,A smoking, quivering *black arrow of death* +2, carrying the curse of Nergal, ready to take root in a target: if hit, save vs. death or die; the arrow’s curse is lost when shot whether it hits or misses.
 1,The two handed *Icekiller*[here store Icekiller as legendary weapon] +3, forged by the frost giant *[frost giant name]* in Jotunheim; when the blade is drawn, snow flakes form; when it is stuck into water, a layer of ice forms (10ft); when left unsheathed, a glacier will eventually form.
