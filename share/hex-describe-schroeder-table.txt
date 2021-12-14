@@ -1332,7 +1332,7 @@
 ;mountain
 1,The green valley up here has some [mountain animals] and a **kid** called *[human name]* guarding them.
 1,Up here in the mountains lies lake *[lake name]*. [lake inhabitants]
-1,[mountain valley] [mountain monolith]
+1,[mountain valley] [moon monolith]
 1,[mountain valley] [mountain hill giants]
 1,[mountain valley] Amidst the rocks, there is a hidden entrance to a dungeon. [dungeon]
 1,Steep cliffs make progress practically impossible without climbing gear. [mountain secret]
@@ -5702,14 +5702,8 @@
 1,small loaf
 1,fist-sized loaf
 
-;mountain monolith
-1,A [here monolith] stands here. In the weeks when the sky is clear and a full moon casts its silvery light onto the monolith’s surface, silvery spirals can be seen. If you trace them with your finger, you are transported to a similar [other monolith].
-1,A [here monolith] stands here. In the weeks when the sky is clear and a full moon casts its silvery light onto the monolith’s surface, silvery spirals can be seen. If you trace them with your finger, you are transported to a similar [other monolith].
-
-;monolith
-1,strange monolith
-1,grey monolith
-1,tall monolith
+;moon monolith
+1,A [strange|grey|tall] **[here monolith]** stands here. In the weeks when the sky is clear and a full moon casts its silvery light onto the monolith’s surface, silvery spirals can be seen. If you trace them with your finger, you are transported to a similar [other monolith].
 
 ;mountain secret
 1,[way up], [a secret mountain thing]
@@ -6627,6 +6621,7 @@
 1,A **white dragon** called *[here white dragon name as dragon name]*[dragon portrait] lives in a ruined mountain fortress guarding the approaches to the [name for white big mountains] ([white dragon stats]). [dragon treasure]
 1,[ghostly glacier procession]
 1,Secreted among the [mountain obstacle] beneath the [name for white big mountains] is a dungeon. [dungeon]
+1,Amidst the ice stands a rock. [moon monolith]
 
 ;ghostly glacier procession
 1,A cold wind blows snow and ice down the mountain. Visibility is down to maybe 30ft. This is the [name for white big mountains] glacier. Every night, a **procession ghosts** struggles barefoot across the ice. You can hear their wailing, their tiny bells ringing, and you can see the flickering candles they are carrying. If you follow them for an hour, you are going to cross over into Jötunheim with them. The procession leads you to the castle of the **frost giant** *[frost giant name]*. [2d4] **frost giants** and [frost giant companions] live here. [rich treasure]<p>To release the ghosts from their eternal wandering, you need to [ghostly glacier procession solution]
@@ -8562,6 +8557,7 @@
 1,[faerie witch]
 1,The [forest name] rises up into these hills. [halfling valley] This is the home of [halflings]
 1,The hills of [forest name] are dotted with ruins. Among the ruins is the entrance to a dungeon. [dungeon]
+1,The forest here is quiet and steep. At the top, bare rock shows itself. [moon monolith]
 
 # tree names from http://blog.d4caltrops.com/2019/04/see-forest-for-trees.html
 
@@ -10627,7 +10623,7 @@
 ;swamp
 1,[swamp intro] [swamp dressing] [giant fish] can be seen below the water surface ([giant fish stats]). [maybe island barrow]
 1,[swamp intro] [swamp dressing] Without a guide, you soon end up in the lands of the [witch]
-1,[swamp intro] [swamp dressing] There are plenty of [swamp animals]. Those who know how to find it can gather *[here magic plant]*.
+1,[swamp intro] [swamp dressing] There are plenty of [swamp animals]. Those who know how to find it can gather *[here magic plant]*. [moon monolith]
 1,[swamp intro] [swamp dressing] [lizard people] [maybe barrow]
 1,[swamp intro] [swamp dressing] [froglings] [maybe barrow]
 1,[swamp intro] [swamp dressing] A ruined tower standing on a small island is home to the **ettin** called *[ettin]* ([ettin stats]). [robber treasure] [ettin tower protection] [maybe island barrow]
