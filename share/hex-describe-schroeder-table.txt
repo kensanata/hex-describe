@@ -9773,7 +9773,7 @@
 ;necromancer tower
 1,It is surrounded by a moat and inside the moat lives a **pyrohydra** chained to the foundations of the tower ([pyrohydra stats]).
 1,The stinking dungeons below the tower are filled with cells where a hundred people or more must have died over the years. A pit of rotten flesh and bones awaits all who die here.
-1,Below the tower is a conjuration room with a circle of protection. There’s a book here: [here necronomicon as library book].
+1,Below the tower is a conjuration room with a circle of protection. There’s a book here: <span class="treasure book">*[here necronomicon as library book]*</span>.
 1,It is surrounded by permanent darkness spells, and in the darkness lie spiked pits and poison trees, and [3d6] **shadow wolves**.
 
 ;necronomicon
@@ -14358,7 +14358,7 @@
 1,a prayer machine.
 1,a prayer drum.
 1,a herbal garden known for its *[here magic plant]*.
-1,a small library dedicated to *St. [old name]* for travelling philosophers and sages. If you’re looking for books, you’ll find *[with library book]* and *[and library book]*. [maybe a sage]
+1,a small library dedicated to *St. [old name]* for travelling philosophers and sages. If you’re looking for books, you’ll find <span class="treasure book">*[with library book]*</span> and <span class="treasure book">*[and library book]*</span>. [maybe a sage]
 1,a small hospital dedicated to *St. [old name]*. There are currently [2d6] sick **humans** up here, hoping to recover in the clean, cold air of the mountains.
 1,a small hospice dedicated to *St. [old name]*. There are currently [1d6+1] terminally ill **humans** up here, all hoping to be closer to heaven if they die.
 
