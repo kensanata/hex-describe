@@ -15315,7 +15315,7 @@
 1,<img class="portrait" src="[[redirect https://campaignwiki.org/face/redirect/alex/demon?seed=$seed]]" alt="[same devil name]" title="[same devil name]"/>
 
 ;local smith
-1,The local **smith** is [smith description] called [human with portrait]. You can get your [donkeys|horses|mounts|mules|oxen] shod and your [axes|farm implements|ploughs|scythes|shears|sickles|spades] [fixed|repaired]. [local smith inventory description:] [local smith inventory].
+1,The local **smith** is [smith description] called [human with portrait]. [local smith inventory description:] [local smith inventory].
 
 ;smith description
 1,a simpleton
@@ -15330,7 +15330,6 @@
 1,There is little here for adventurers, though:
 1,Some of the stuff the locals aren’t buying:
 1,Recently somebody dropped off the following:
-1,They probably robbed a corpse for this stuff:
 1,Looks like they pillaged this from somewhere:
 1,Surprisingly, they have some interesting things for sale:
 
