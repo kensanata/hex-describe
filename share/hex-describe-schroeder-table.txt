@@ -2893,10 +2893,10 @@
 
 ;vulture demon promise
 1,It whispers, “Release me, fellow travellers! Release me now and I will grant you want your heart’s desires!”
-1,It begs, “Please, release me! I was innocently nailed to this altar, betrayed by my brothers and sisters.”
+1,It begs, “Please, release me! I was betrayed by my brothers and sisters. I do not deserve this!”
 1,It whimpers, “Put and end to my suffering. Kill me now, I beg you!”
 1,It moans incomprehensible words, its face contorted in pain.
-1,It says, “Drink my blood, be my sibling, and together we will avenge this madness!”
+1,It says, “Drink my blood, I shall grant you my strength and we shall be siblings. Together we will avenge this!”
 
 ;vulture demon guardian
 1,The **invisible stalker** called *[invisible stalker name]* guards the demon ([invisible stalker stats]). It is a formidable hunter and prefers to attack with surprise. Stab first, make demands later – that is how it thinks. “I swore to guard this fiend for all eternity. Leave this place!”
@@ -2909,11 +2909,12 @@
 1,Apparently, the gods have bound agents of Pazuzu near gates to Vanaheim, as a warning to all.
 
 ;road to Vanaheim
-1,<p>The passage to Vanaheim is sealed by the life blood of *[same demon name]*. If it is killed, the **vulture demons** *[and demon name]* and *[and demon name]* can *planeshift* here from Vanaheim, bent on avenging their sibling. If it is freed, it will try to kill as many of it’s enemies as it can, and then *planeshift* back to Vanaheim. For the trained eye, the foot passage is revealed: [a spidery network of silver veins in the rock|traces of red sand|whispering warm winds] lead the way towards a black crevice in the rock face.<p>[road to Vanaheim obstacle]<p>[exit to Vanaheim]
+1,<p>The passage to Vanaheim is sealed by the life blood of *[same demon name]*. If it is killed, the **vulture demons** *[and demon name]* and *[and demon name]* can *planeshift* here from Vanaheim, bent on avenging their sibling. If it is freed, it will try to kill as many of it’s enemies as it can, and then *planeshift* back to Vanaheim. For the trained eye, the foot passage is revealed: [a spidery network of silver veins in the rock|traces of red sand|whispering warm winds] lead the way towards a black [tunnel|crevice] in the rock face.<p>[road to Vanaheim obstacle]<p>[exit to Vanaheim]
 
 ;road to Vanaheim obstacle
 1,You hear roaring thunder up ahead. The tunnel emerges on a storm swept mountain peak where the sky is boiling purple and lightning shows the **blue dragon** *[here blue dragon name as dragon name]*[dragon portrait] [flying|circling] up above ([blue dragon stats]). “Who dares trespass into my realm?” [dragon treasure] From here, the trail leads down into Vanaheim.
 1,The tunnel leads into a crypt with countless life-like stone warriors, each with a noble faces, carrying their polearm. At the centre of this petrified army: [1d4 spectres] ([spectre stats]), on a scythed war chariot, a *life stealer bow* +1 (deals and extra 1d6 damage and heals the archer by the same amount). When approached, the chariot charges into its enemies: save vs. death or suffer 3d6 damage from the magic scythes. [ancient treasure] From here, the tunnel leads to Vanaheim.
+1,You hear the a rumbling, a croaking, a bleating, animal voices… and then there is the stench of a hundred corpses. The tunnel leads to a mist filled cavern with visibility limited to 10ft. In the centre of the cavern is a 30ft. rock; stairs lead up to a temple decorated with [[power] decoration]. It is dedicated to [same power] and guarded by a **chimera** ([chimera stats]). [terror treasure] At the back, there is a long and narrow stair from the temple going up.
 
 ;exit to Vanaheim
 1,Before you stretches a land of red rocks and dust, with green valleys cut into the surface. Down there, water flows and trees grow. Up on the red hillsides stand ancient castle and temple ruins, and countless burial mounds. The sun is about to set and the sky is turning dark purple. At night, wraiths roam the land: [1d6 wraiths] ([wraith stats]). It’s a long way to the safety of the nearest village. Clearing out a tomb is of course also an option. [dead treasure]
