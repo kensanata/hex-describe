@@ -1475,15 +1475,19 @@ sub describe {
 	$log->error("[$key] is undefined for $coordinates");
 	return "…";
       }
-    } elsif ($word =~ /^with (.+?)(?: as (.+))?$/) {
-      my ($key, $alias) = ($1, $2);
+    } elsif ($word =~ /^(?:(here|global) )?with (.+?)(?: as (.+))?$/) {
+      my ($global, $key, $alias) = ($1, $2, $3);
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
       next unless $text;
       $locals{$key} = [$text]; # start a new list
       $locals{$alias} = $text if $alias;
+      $globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
+      $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
+      $globals->{$key}->{global} = $text if $global and $global eq 'global';
+      $globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
       push(@descriptions, $text);
-    } elsif ($word =~ /^and (.+?)(?: as (.+))?$/) {
-      my ($key, $alias) = ($1, $2);
+    } elsif ($word =~ /^(?:(here|global) )?and (.+?)(?: as (.+))?$/) {
+      my ($global, $key, $alias) = ($1, $2, $3);
       my $found = 0;
       # limited attempts to find a unique entry for an existing list (instead of
       # modifying the data structures)
@@ -1495,6 +1499,10 @@ sub describe {
 	push(@{$locals{$key}}, $text);
 	push(@descriptions, $text);
 	$locals{$alias} = $text if $alias;
+	$globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
+	$globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
+	$globals->{$key}->{global} = $text if $global and $global eq 'global';
+	$globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
 	$found = 1;
 	last;
       }

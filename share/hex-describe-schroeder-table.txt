@@ -14340,7 +14340,7 @@
 1,a prayer machine.
 1,a prayer drum.
 1,a herbal garden known for its *[here magic plant]*.
-1,a small library dedicated to *St. [old name]* for travelling philosophers and sages. If you’re looking for books, you’ll find <span class="treasure book">*[with library book]*</span> and <span class="treasure book">*[and library book]*</span>. [maybe a sage]
+1,a small library dedicated to *St. [old name]* for travelling philosophers and sages. If you’re looking for books, you’ll find <span class="treasure book">*[here with library book]*</span> and <span class="treasure book">*[here and library book]*</span>. [maybe a sage]
 1,a small hospital dedicated to *St. [old name]*. There are currently [2d6] sick **humans** up here, hoping to recover in the clean, cold air of the mountains.
 1,a small hospice dedicated to *St. [old name]*. There are currently [1d6+1] terminally ill **humans** up here, all hoping to be closer to heaven if they die.
 
@@ -15425,13 +15425,13 @@
 
 ;some books
 1,<span class="treasure book">*[here library book]*</span>
-1,<span class="treasure book">*[with library book]*</span> and <span class="treasure book">*[and library book]*</span>
-1,<span class="treasure book">*[with library book]*</span>, <span class="treasure book">*[and library book]*</span> and <span class="treasure book">*[and library book]*</span>
+1,<span class="treasure book">*[here with library book]*</span> and <span class="treasure book">*[here and library book]*</span>
+1,<span class="treasure book">*[here with library book]*</span>, <span class="treasure book">*[here and library book]*</span> and <span class="treasure book">*[here and library book]*</span>
 
 ;maybe a book
 1,
-1,*[here [same human name] as book owner]* also happens to own a book: <span class="treasure book">*[library book]*</span>.
-1,*[here [same human name] as book thief]* also happens to own a book: <span class="treasure book">*[library book]*</span>.
+1,*[here [same human name] as book owner]* also happens to own a book: <span class="treasure book">*[here library book]*</span>.
+1,*[here [same human name] as book thief]* also happens to own a book: <span class="treasure book">*[here library book]*</span>.
 
 ;library mission
 1,
