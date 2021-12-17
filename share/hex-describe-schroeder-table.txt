@@ -2953,7 +2953,6 @@
 1,[grey tower description]<p>[grey tower inside]<p>[grey tower top]
 
 ;grey tower description
-# usage: The first tower is [grey tower description]
 1,Towering above the walls is a bulging *tower* with vertical slits serving as windows, like the visor of a fancy helmet.
 1,Rising above the wall is a massive *tower* that suffered mightily under some heavy blows. It still stands but it is smashed open, the insides laid bare for all to see.
 1,To the right of the gate stands a massive *tower* that had its top blown off. Over the years, this has allowed plants to gain a foothold. Bushes and grass grow from the top like green hair from a huge stone face.
@@ -3043,7 +3042,7 @@
 1,The necropolis itself is an endless graveyard, tombstone after tombstone, filling every slope in this valley, stone statues, inscriptions, pictures, headstones engraved with [Set decoration] or [Pazuzu decoration]. At night the ghosts rise from their graves, lamenting the state of their graves and the lack of care, the sloth of their descendants, and they curse them and their world, not realising that their world has already faded and that they are the only ones left. Appropriate rites and sacrifices, a purification and a hallowing might bring them peace.
 1,This might have been a necropolis hundreds of years ago but now it’s more like a meadow. There are still some overgrown headstones to see, some mausoleums are still standing, some statues can be discerned, but most of it is pasture now, [mountain animals] grazing and a bunch of orcs working on their [mountain orc product]. The banners on their tents intents identify them as [evil tribe] orcs. [orcs] [mountain orc leader specialty]
 1,The valley is filled with ruins. This must have been a large monastic complex in its heyday. These days the ceilings have fallen, walls have crumbled, weeds are growing everywhere and anything not made of stone has rotten away. It’s hard to say what these buildings were used for. Here you can see an engravings of [Pazuzu decoration], over there is an engraving of [Set decoration].
-1,The necropolis turned to dust over the years and now nothing but a few statues and crumbled mausoleums remain. Amidst this decay stand newer huts made of wood and dried mud, covered in grass and decorated with banners of [with colour] and [and colour]. [6d6] **lizard people** ([lizard people stats]) live up here, led by *[lizard leader]* (HD [1d4+2 as level]). [leader treasure] The huts are guarded by [lizard companions]. [average treasure] At night they gather around a central fire and sing songs of old, of love, of longing and of leaving, of great deeds and the old days.
+1,The necropolis turned to dust over the years and now nothing but a few statues and crumbled mausoleums remain. Amidst this decay stand newer huts made of wood and dried mud, covered in grass and decorated with banners of [with simple colour] and [and simple colour]. [6d6] **lizard people** ([lizard people stats]) live up here, led by *[lizard leader]* (HD [1d4+2 as level]). [leader treasure] The huts are guarded by [lizard companions]. [average treasure] At night they gather around a central fire and sing songs of old, of love, of longing and of leaving, of great deeds and the old days.
 
 ;necropolis sphinx
 1,In the middle of all this is a platform that rises 20ft into the air. Wide stairs lead up to a baldachin and under this canopy rests the [sphinx]
@@ -4965,7 +4964,7 @@
 1,black dragon name
 1,wight name
 1,ettercap name
-1,manticore
+1,manticore name
 1,tengu name
 1,demon name
 1,evil tribe
@@ -4999,11 +4998,11 @@
 1,coal wagons
 
 ;dwarven clan fame
-1,The [dwarf clan] clan are best known for their [dwarven equipment].
+1,The *[dwarf clan]* clan are best known for their [dwarven equipment].
 
 ;dwarf outpost
 1,The mountain ridge above is black and forbidding. Stairs wind their way up to [dwarf tower]
-1,At the entrance of this valley is an outcrop on which the dwarven [dwarf clan] clan has built a trading post many centuries ago. It has long since been abandoned. You can see their clan insignia carved into the weathered knots of stone: [with dwarven equipment] and [and dwarven equipment]. The platform is still surrounded by columns, the raised blocks used as tables are still there but everything else is gone.<p>The underground storage rooms are being used by the **orcs** of the *[evil tribe]* tribe. They roam this valley, raising [mountain animals] and making their [mountain orc product]. [orcs]<p>[mountain orc leader specialty]
+1,At the entrance of this valley is an outcrop on which the dwarven *[dwarf clan]* clan has built a trading post many centuries ago. It has long since been abandoned. You can see their clan insignia carved into the weathered knots of stone: [with dwarven equipment] and [and dwarven equipment]. The platform is still surrounded by columns, the raised blocks used as tables are still there but everything else is gone.<p>The underground storage rooms are being used by the **orcs** of the *[evil tribe]* tribe. They roam this valley, raising [mountain animals] and making their [mountain orc product]. [orcs]<p>[mountain orc leader specialty]
 1,Among the cliffs a ridge stands out, sheer where the others are rocky. A secret door at its base opens upon a long, steep rising tunnel that exits in a valley with [dwarf tower]
 1,A long shallow pool covered in a sickly green algae guards a far cliff. The waters occasionally swirl and eddy, hinting at some leviathan underneath. In fact, the waters are unseasonably warm, with bubbling hot springs below. From the blocked cliff rises [dwarf tower]
 1,A wide stagnant moat has overflowed its channel and turned to fens, surrounding [dwarf tower]
@@ -13670,10 +13669,10 @@
 1,[1d4+1] **druid acolytes** ([druid acolyte stats]) led by *[old names for men]* are [druid acolyte activity]
 
 ;druid acolyte activity
-1,painting each other with blue patterns
-1,wrestling with each other, trying to learn the ways of the bear
-1,mixing berries and bark into a blue pulp
-1,practising staff fighting
+1,painting each other with blue patterns.
+1,wrestling with each other, trying to learn the ways of the bear.
+1,mixing berries and bark into a blue pulp.
+1,practising staff fighting.
 1,disembowelling a pure white deer to scrutinize the entrails for prophetic signs.
 1,roughly shaping a large boulder with primitive hammer stones.
 1,scattering offerings of fermented meat for their unkindness of **ravens**.
@@ -13704,8 +13703,8 @@
 1,an unnatural seeming hill, surrounded by sharpened stakes
 
 ;druid
-1,The **druid** *[here old names for men as druid]* has freed himself from the shackles of civilisation and lives here like a wild beast in a hovel ([druid stats]).
-1,The **druid** *[here old names for women as druid]* has freed herself from the shackles of civilisation and lives here like a wild beast in a hovel ([druid stats]).
+1,The **druid** *[here old names for men as druid]* has freed himself from the shackles of civilisation and lives here like a wild beast ([druid stats]).
+1,The **druid** *[here old names for women as druid]* has freed herself from the shackles of civilisation and lives here like a wild beast ([druid stats]).
 
 ;druid stats
 1,HD 9 AC 7 1d6 F9 MV 12 ML 9 XP 900; *heat metal*; *tree travel*; *animate tree* (3×/day): [animated tree stats]; *limited shape change* into a bear: [bear stats]
