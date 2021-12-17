@@ -16737,7 +16737,7 @@
 1,**[human class]** [human with portrait] (level [1d2+8 as level])[here store [same human name] as human patron]
 
 ;human retainer
-1,Their retainer is the **[human class]** [human with portrait] (level [1d2+6 as level]). [spellbook for [same class]] [leader treasure for [same class]]
+1,Their [retainer] is the **[human class]** [human with portrait] (level [1d2+6 as level]). [spellbook for [same class]] [leader treasure for [same class]]
 
 ;retainer
 1,retainer
@@ -16745,6 +16745,7 @@
 1,best friend
 1,companion
 1,partner
+1,soul mate
 
 ;human friends
 1,Their [aide], the **[human class]** [human with portrait] (level [1d4+1 as level]), also lives here. [spellbook for [same class]] [leader treasure for [same class]]
