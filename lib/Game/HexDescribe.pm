@@ -1467,13 +1467,14 @@ sub describe {
       return $locals{$key}->[0] if exists $locals{$key} and ref($locals{$key}) eq 'ARRAY';
       return $locals{$key} if exists $locals{$key};
       return $globals->{$key}->{global} if $globals->{$key} and $globals->{$key}->{global};
+      $log->warn("[same $key] is undefined for $coordinates, attempt picking a new one");
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
       if ($text) {
 	$locals{$key} = $text;
 	push(@descriptions, $text);
       } else {
 	$log->error("[$key] is undefined for $coordinates");
-	return "…";
+	push(@descriptions, "…");
       }
     } elsif ($word =~ /^(?:(here|global) )?with (.+?)(?: as (.+))?$/) {
       my ($global, $key, $alias) = ($1, $2, $3);
@@ -1507,26 +1508,9 @@ sub describe {
 	last;
       }
       if (not $found) {
+	$log->warn("[and $key] not unique in $coordinates");
 	push(@descriptions, "…");
       }
-    } elsif ($word =~ /^(?:(here|global) )?(?:(save|store|quote) )?(.+?)(?: as (.+))?$/) {
-      my ($global, $action, $key, $alias) = ($1, $2, $3, $4);
-      my $text;
-      if (not $action or $action eq "save") {
-	# no action and save are with lookup
-	$text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
-      } else {
-	# quote and store are without lookup
-	$text = $key;
-      }
-      next unless $text;
-      $locals{$key} = $text;
-      $locals{$alias} = $text if $alias;
-      $globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
-      $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
-      $globals->{$key}->{global} = $text if $global and $global eq 'global';
-      $globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
-      push(@descriptions, $text) if not $action or $action eq "quote";
     } elsif ($word =~ /^capitalize (.+)/) {
       my $key = $1;
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
@@ -1551,6 +1535,24 @@ sub describe {
       next unless $text;
       $locals{$key} = $text;
       push(@descriptions, $text);
+    } elsif ($word =~ /^(?:(here|global) )?(?:(save|store|quote) )?(.+?)(?: as (.+))?$/) {
+      my ($global, $action, $key, $alias) = ($1, $2, $3, $4);
+      my $text;
+      if (not $action or $action eq "save") {
+	# no action and save are with lookup
+	$text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
+      } else {
+	# quote and store are without lookup
+	$text = $key;
+      }
+      next unless $text;
+      $locals{$key} = $text;
+      $locals{$alias} = $text if $alias;
+      $globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
+      $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
+      $globals->{$key}->{global} = $text if $global and $global eq 'global';
+      $globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
+      push(@descriptions, $text) if not $action or $action eq "quote";
     } elsif ($level > 1 and not exists $table_data->{$word} and not $locals{$word}) {
       # on level one, many terrain types do not exist (e.g. river-start)
       $log->error("unknown table for $coordinates/$level: $word");
