@@ -3113,9 +3113,9 @@
 5,The stables nearby hold [1d4+1] **giant lizards** ([giant lizard stats]).
 
 ;temple of Set
-1,Once past the entrance, a tunnel winds itself up into the hollow sphere of the snake sanctum: the upper hemisphere is decorated with [with Set decoration] and [and Set decoration]. Above hangs a chandelier about 50ft wide beset with a thousand stones glowing in a warm light. It’s impossibly hot in here.<p>Ramps connect rows and rows of circular platforms leading down the lower hemisphere to the bottom of the sphere. One these platforms are the huts of [temple servants]<p>At the very bottom of the sphere is a ramp descending into the darkness below.
-1,Inside, the central temple contains four bronze snake statues oriented towards the cardinal directions. Large red candles at the base of each statute give a flickering and smoky light. Each statute has a different colored gem set in its forehead (500gp each). The north wall contains a giant mural of [with Set decoration] and the floor is decorated with a mosaic of [and Set decoration].<p> Under the mural, a passage leads further north, past the quarters of [temple servants]<p>At the end of the hallway, stairs lead upwards.
-1,The air inside the temple is surprisingly warm and damp. Lush green plants scramble over stairs and wrap around pools of steaming water. Hidden in the greenery, humans with patches of iridescent scales on their skin observe and wait, for now. [snake people]
+1,[here store Set as temple power][here store temple of [same temple power]]Once past the entrance, a tunnel winds itself up into the hollow sphere of the snake sanctum: the upper hemisphere is decorated with [with Set decoration] and [and Set decoration]. Above hangs a chandelier about 50ft wide beset with a thousand stones glowing in a warm light. It’s impossibly hot in here.<p>Ramps connect rows and rows of circular platforms leading down the lower hemisphere to the bottom of the sphere. One these platforms are the huts of [temple servants]<p>At the very bottom of the sphere is a ramp descending into the darkness below.
+1,[here store Set as temple power][here store temple of [same temple power]]Inside, the central temple contains four bronze snake statues oriented towards the cardinal directions. Large red candles at the base of each statute give a flickering and smoky light. Each statute has a different colored gem set in its forehead (500gp each). The north wall contains a giant mural of [with Set decoration] and the floor is decorated with a mosaic of [and Set decoration].<p> Under the mural, a passage leads further north, past the quarters of [temple servants]<p>At the end of the hallway, stairs lead upwards.
+1,[here store Set as temple power][here store temple of [same temple power]]The air inside the temple is surprisingly warm and damp. Lush green plants scramble over stairs and wrap around pools of steaming water. Hidden in the greenery, humans with patches of iridescent scales on their skin observe and wait, for now. [snake people]
 
 ;temple servants
 1,[snake people]
@@ -6638,7 +6638,7 @@
 
 ;small temple near giant apes
 1,
-1,Hidden away and protected from the elements there is a small temple of *[here power as temple power]*.
+1,Hidden away and protected from the elements there is a small temple of *[here power as temple power][here store temple of [same temple power]]*.
 
 ;mountain obstacle
 1,snow fields
@@ -6980,7 +6980,7 @@
 1,[fire giant ground floor]<p>[fire giant top floor]
 
 ;fire giant temple
-1,This is a temple of [here fire power as temple power]. The huge [fire material] gates are decorated with [[same fire power] decoration]. [fire giant ground floor]<p>[fire giant temple of [same fire power]] [fire giant temple interior]<p>[1d4 fire giants]
+1,This is a temple of [here fire power as temple power][here store temple of [same temple power]]. The huge [fire material] gates are decorated with [[same fire power] decoration]. [fire giant ground floor]<p>[fire giant temple of [same fire power]] [fire giant temple interior]<p>[1d4 fire giants]
 
 ;fire giant temple of Pazuzu
 1,At the entrance of the temple stands the statue of a four-winged vulture demon made of [fire material].
@@ -8509,7 +8509,7 @@
 1,HD 2 AC 7 1d6 F1 MV 12 ML 8 XP 200
 
 ;froglings
-1,[5d8] **froglings** ([frogling stats]) live here, led by *[frogling with portrait]*, a priest of Tsathoggua: *lightning bolt* 2×/day (5d6, save vs. spells for half). [poor treasure] The mud village built around the temple[here store Tsathoggua as temple power] is guarded by [frogling companions].
+1,[5d8] **froglings** ([frogling stats]) live here, led by *[frogling with portrait]*, a priest of Tsathoggua: *lightning bolt* 2×/day (5d6, save vs. spells for half). [poor treasure] The mud village built around the temple[here store Tsathoggua as temple power][here store temple of [same temple power]] is guarded by [frogling companions].
 
 ;frogling with portrait
 1,*[frogling name]*<img class="portrait" src="[[redirect https://campaignwiki.org/face/redirect/alex/frog?seed=$seed]]" alt="[same frogling name]" title="[same frogling name]"/>
@@ -10542,7 +10542,7 @@
 1,her *chest of replenishing curses*. The inscription reads: "Do not open!" Opening the chest releases all her stored curses. Anybody interested in the chest must save vs. spells or be cursed by one of the following: 1. *weakness* (strength 3); 2. *shakes* (dexterity 3); 3. *wheezing cough* (constitution 3); 4. *stupidity* (intelligence 3); 5. *foolishness* (wisdom 3); 6. *foul tongue* (charisma 3); 7. *sloth* (every odd roll on a d20 is an automatic fail); 8. *lunacy* (whenever you see dogs or wolves, drop everything you are carrying, howl like mad and run for the woods to live with your kin); 9. *paranoia* (do not trust your friends, not accept their help, do not help them); 10. *swan* (turn into a swan); 11. *frog* (turn into a frog); 12. *martyrdom* (take blows for everybody, sacrifice yourself if possible).
 1,her soul-dead lover in a cage. This is *[man]*, his mind long gone, his hairless body tortured and nursed back to life so many times it has achieved a waxy sheen.
 1,a terrible mobile of baby skulls and rib cages, artfully arranged and carefully balanced such that the slightest whiff sets it in motion, the hollow knocking of the tiny skulls producing a soothing rhythm.
-1,a small altar of *[here evil power as temple power]*, surrounded by a hundred *eternal candles* and the names of three demons inscribed on blood soaked paper. They all owe her a boon for babies trafficked: *[demon name]*, *[demon name]*, and *[demon name]* ([vulture demon stats]).
+1,a small altar of *[here evil power as temple power][here store temple of [same temple power]]*, surrounded by a hundred *eternal candles* and the names of three demons inscribed on blood soaked paper. They all owe her a boon for babies trafficked: *[demon name]*, *[demon name]*, and *[demon name]* ([vulture demon stats]).
 1,her *guard broom*, a strong willed broom that will attack intruders and raise a ruckus ([animate object stats]).
 
 ;animate object stats
@@ -11405,9 +11405,9 @@
 1,we are all goblins
 
 ;goblin town
-1,The goblin town has two factions: the *[[with goblin town companions as g1] name as g1name]* and the *[[and goblin town companions as g2] name as g2name]*.<p>The *[same g1name]* live in the upper parts of town, near the temple of *[here evil power as temple power]*. [goblin town faction] [[same g1]]<p>The *[same g2name]* faction controls access to the [goblin town water], and the goblin *market*. [goblin town faction] [[same g2]]<p>[goblin market]
-2,The goblin town has three factions: the *[[with goblin town companions as g1] name as g1name]*, the *[[and goblin town companions as g2] name as g2name]*, and the *[[and goblin town companions as g3] name as g3name]*.<p>The *[same g1name]* live in the upper parts of town, near the entrance. [goblin town faction] [[same g1]]<p>The *[same g2name]* faction live in the middle part town, around the temple of *[here evil power as temple power]*. [goblin town faction] [[same g2]]<p>The *[same g3name]* faction controls access to the [goblin town water], and the goblin *market*. [goblin town faction] [[same g3]]<p>[goblin market]
-1,The goblin town has four factions: the *[[with goblin town companions as g1] name as g1name]*, the *[[and goblin town companions as g2] name as g2name]*, the *[[and goblin town companions as g3] name as g3name]*, and the *[[and goblin town companions as g4] name as g4name]*.<p>The *[same g1name]* live in the upper parts of town, near the entrance. [goblin town faction] [[same g1]]<p>The *[same g2name]* faction live in the middle part town, around the temple of *[here evil power as temple power]*. [goblin town faction] [[same g2]]<p>The *[same g4name]* faction live below the *[same evil power]* temple and run a *fight pit*. [goblin town faction] [[same g2]]<p>[goblin fight pit]<p>The *[same g3name]* faction controls access to the [goblin town water], and the goblin *market*. [goblin town faction] [[same g3]]<p>[goblin market]
+1,The goblin town has two factions: the *[[with goblin town companions as g1] name as g1name]* and the *[[and goblin town companions as g2] name as g2name]*.<p>The *[same g1name]* live in the upper parts of town, near the temple of *[here evil power as temple power][here store temple of [same temple power]]*. [goblin town faction] [[same g1]]<p>The *[same g2name]* faction controls access to the [goblin town water], and the goblin *market*. [goblin town faction] [[same g2]]<p>[goblin market]
+2,The goblin town has three factions: the *[[with goblin town companions as g1] name as g1name]*, the *[[and goblin town companions as g2] name as g2name]*, and the *[[and goblin town companions as g3] name as g3name]*.<p>The *[same g1name]* live in the upper parts of town, near the entrance. [goblin town faction] [[same g1]]<p>The *[same g2name]* faction live in the middle part town, around the temple of *[here evil power as temple power][here store temple of [same temple power]]*. [goblin town faction] [[same g2]]<p>The *[same g3name]* faction controls access to the [goblin town water], and the goblin *market*. [goblin town faction] [[same g3]]<p>[goblin market]
+1,The goblin town has four factions: the *[[with goblin town companions as g1] name as g1name]*, the *[[and goblin town companions as g2] name as g2name]*, the *[[and goblin town companions as g3] name as g3name]*, and the *[[and goblin town companions as g4] name as g4name]*.<p>The *[same g1name]* live in the upper parts of town, near the entrance. [goblin town faction] [[same g1]]<p>The *[same g2name]* faction live in the middle part town, around the temple of *[here evil power as temple power][here store temple of [same temple power]]*. [goblin town faction] [[same g2]]<p>The *[same g4name]* faction live below the *[same evil power]* temple and run a *fight pit*. [goblin town faction] [[same g2]]<p>[goblin fight pit]<p>The *[same g3name]* faction controls access to the [goblin town water], and the goblin *market*. [goblin town faction] [[same g3]]<p>[goblin market]
 
 ;goblin town companions
 1,goblin town failures
@@ -14332,9 +14332,9 @@
 1,<p>[temple of law]
 
 ;temple of law
-1,On a peak nearby stands a statue of *[here good power as temple power]*, built by [ancients]. At the foot of the statue, a few followers of [same good power] have built a small temple consisting of a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
-1,Between these mountains lies a hidden valley where the [name for a secret society (law)] have built a temple dedicated to *[here good power as temple power]*. The members of this secret society have erected a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
-1,Between these mountains lies a hidden valley where the followers of *[here good power as temple power]* have built a temple containing a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
+1,On a peak nearby stands a statue of *[here good power as temple power][here store temple of [same temple power]]*, built by [ancients]. At the foot of the statue, a few followers of [same good power] have built a small temple consisting of a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
+1,Between these mountains lies a hidden valley where the [name for a secret society (law)] have built a temple dedicated to *[here good power as temple power][here store temple of [same temple power]]*. The members of this secret society have erected a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
+1,Between these mountains lies a hidden valley where the followers of *[here good power as temple power][here store temple of [same temple power]]* have built a temple containing a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
 
 ;lawful temple feature
 1,a prayer machine.
@@ -14366,11 +14366,11 @@
 1,<p>[temple of chaos]
 
 ;temple of chaos
-1,In these water logged woods, a statue of *[here disease power as temple power]* was built on top of a little hill. Around it, his followers have built a series of wooden huts and a sacrificial pit full of carcasses, maggots and flies. The stench is overpowering. The humans pray for deliverance, for change, for a remaking of the world and the forest. [cultists]
-1,The water pools between the trees here are black and oily. Dead birds, dead fish, everywhere you look there are dead animals. Here is a mound of ash and bones, and standing on it a pillar of pain dedicated to *[here disease power as temple power]*. Humans have gathered here, to worship and to pray. Their faces are ashen and their eyes infected, their tongue black. They pray for the world to end and to be remade, whole and new. [cultists]
-1,From the stagnant water rises a pyramid. It’s bottom lies under the surface, but there is an opening further up. The waters around the pyramid harbour [1d6 crocodiles]. The boat is well hidden (1 in 6 chance per day and search party). Inside the pyramid is a sacrificial altar of *[here Set as temple power]*, a [Set animal] pit, and the halls of the assassins in training, the Set acolytes. [cultists]
-1,The trees here are stunted and black, the water is grey and the air carries the smell of sulphur. Beneath the surface lie [undead guardians] waiting for anybody about to enter the water. The boat is well hidden (1 in 6 chance per day and search party). An island made of huge bones rises from the water. On it, necromancers have built a temple to *[here Orcus as temple power]*, including an altar, a bone hall, a skull mound, and several small huts surrounding it all. [cultists]
-1,The trees here are painted with the blood of pigs and men. Carcasses full of maggots hang from hooks and the air is buzzing with flies. This is where a coven of witches has built an altar to *[here Hel as temple power]*, the goddess of magic. They live in the wooden tree houses nearby. The area is guarded by [2d4] **hell hounds** ([hell hound stats]). [cultists led by a woman]
+1,In these water logged woods, a statue of *[here disease power as temple power][here store temple of [same temple power]]* was built on top of a little hill. Around it, his followers have built a series of wooden huts and a sacrificial pit full of carcasses, maggots and flies. The stench is overpowering. The humans pray for deliverance, for change, for a remaking of the world and the forest. [cultists]
+1,The water pools between the trees here are black and oily. Dead birds, dead fish, everywhere you look there are dead animals. Here is a mound of ash and bones, and standing on it a pillar of pain dedicated to *[here disease power as temple power][here store temple of [same temple power]]*. Humans have gathered here, to worship and to pray. Their faces are ashen and their eyes infected, their tongue black. They pray for the world to end and to be remade, whole and new. [cultists]
+1,From the stagnant water rises a pyramid. It’s bottom lies under the surface, but there is an opening further up. The waters around the pyramid harbour [1d6 crocodiles]. The boat is well hidden (1 in 6 chance per day and search party). Inside the pyramid is a sacrificial altar of *[here Set as temple power][here store temple of [same temple power]]*, a [Set animal] pit, and the halls of the assassins in training, the Set acolytes. [cultists]
+1,The trees here are stunted and black, the water is grey and the air carries the smell of sulphur. Beneath the surface lie [undead guardians] waiting for anybody about to enter the water. The boat is well hidden (1 in 6 chance per day and search party). An island made of huge bones rises from the water. On it, necromancers have built a temple to *[here Orcus as temple power][here store temple of [same temple power]]*, including an altar, a bone hall, a skull mound, and several small huts surrounding it all. [cultists]
+1,The trees here are painted with the blood of pigs and men. Carcasses full of maggots hang from hooks and the air is buzzing with flies. This is where a coven of witches has built an altar to *[here Hel as temple power][here store temple of [same temple power]]*, the goddess of magic. They live in the wooden tree houses nearby. The area is guarded by [2d4] **hell hounds** ([hell hound stats]). [cultists led by a woman]
 
 # these are necessary because of the aliasing
 ;Set
@@ -14808,7 +14808,7 @@
 3,
 2,<p>The caravan has a **bard** called [[same race] with portrait] who is on their way to *[nearby village name]*.[store [same race] as singing humanoid] [maybe a book] The songs they like to perform are *[with story]* and *[and story]*. [maybe a book]
 2,<p>*[[same race] with portrait]* is a **secret agent** of the *[one of the secret societies]*. [description for a secret society ([same alignment])]
-2,<p>*[[same race] with portrait]* is selling blessed [metal mat] amulets of [good power]. If you ask them about it, they’ll say they’re interested in visiting [nearby temple of [same good power]].
+2,<p>*[[same race] with portrait]* is selling blessed [metal mat] amulets of [good power]. If you ask them about it, they’ll say they’re interested in visiting the [nearby temple of [same good power]].
 2,<p>*[[same race] with portrait][store [same [same race] name] as cultist]* is an **evil cultist** of [evil power]. If you know the cult, you will recognise their amulet: it shows [[same evil power] decoration]. They already befriended a kid called *[human name]* but swore them to secrecy. Before the caravan leaves, *[same cultist]* is planning to sacrifice them to their demon lord.
 1,<p>One of the members of the trade caravan is a **witch** in disguise. Travelling under the name *[[same race] with portrait]*, her real name is *[here old names for women as witch]*, [the witch]. [caravan witch goal] ([witch stats]). Any valuables are well hidden in her wagon. [terror treasure]
 1,<p>The caravan has a **travelling alchemist** called [[same race] with portrait] who can supply a [with scroll], a [and scroll], a [and scroll] at 1000gp each. They also have a [with potion] and a [and potion] for sale at 500gp each. [maybe a book]
@@ -16120,7 +16120,7 @@
 1,*[same human patron]* is willing to pay 500gp to whoever brings back [nearby wanted dead or alive], dead or alive.
 
 ;temple
-1,There is a temple dedicated to *[here power as temple power]*. [small temple dedicated to [same power]]
+1,There is a temple dedicated to *[here power as temple power][here store temple of [same temple power]]*. [small temple dedicated to [same power]]
 
 ;And a secret society
 1,Luckily, no secret societies have established themselves here.
