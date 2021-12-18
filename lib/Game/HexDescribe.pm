@@ -1509,9 +1509,16 @@ sub describe {
       if (not $found) {
 	push(@descriptions, "…");
       }
-    } elsif ($word =~ /^(?:(here|global) )?save (.+?)(?: as (.+))?$/) {
-      my ($global, $key, $alias) = ($1, $2, $3);
-      my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
+    } elsif ($word =~ /^(?:(here|global) )?(?:(save|store|quote) )?(.+?)(?: as (.+))?$/) {
+      my ($global, $action, $key, $alias) = ($1, $2, $3, $4);
+      my $text;
+      if (not $action or $action eq "save") {
+	# no action and save are with lookup
+	$text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
+      } else {
+	# quote and store are without lookup
+	$text = $key;
+      }
       next unless $text;
       $locals{$key} = $text;
       $locals{$alias} = $text if $alias;
@@ -1519,28 +1526,7 @@ sub describe {
       $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
       $globals->{$key}->{global} = $text if $global and $global eq 'global';
       $globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
-      # no description
-    } elsif ($word =~ /^(?:(here|global) )?store (.+) as (.+)$/) {
-      my ($global, $text, $alias) = ($1, $2, $3);
-      $locals{$alias} = $text;
-      $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here';
-      $globals->{$alias}->{global} = $text if $global and $global eq 'global';
-      # no description
-    } elsif ($word =~ /^here (.+?)(?: as (.+))?$/) {
-      my ($key, $alias) = ($1, $2);
-      my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
-      $text //= $key;
-      $locals{$key} = $text;
-      $locals{$alias} = $text if $alias;
-      $globals->{$key}->{$coordinates} = $text;
-      $globals->{$alias}->{$coordinates} = $text if $alias;
-      push(@descriptions, $text);
-    } elsif (my ($key, $alias) = $word =~ /^(.+) as (.+)/) {
-      my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
-      next unless $text;
-      $locals{$key} = $text;
-      $locals{$alias} = $text;
-      push(@descriptions, $text);
+      push(@descriptions, $text) if not $action or $action eq "quote";
     } elsif ($word =~ /^capitalize (.+)/) {
       my $key = $1;
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
@@ -2570,20 +2556,21 @@ page is my attempt at writing a tutorial.
 <li><a href="#same">Reuse: same</a></li>
 <li><a href="#alias">Alias: as</a></li>
 <li><a href="#save">No output: save and store</a></li>
+<li><a href="#quote">No lookup: quote</a></li>
 <li><a href="#indirection">Reuse: indirection</a></li>
 <li><a href="#naming_things">Naming Things</a></li>
 <li><a href="#naming_features">Naming Features</a></li>
 <li><a href="#indirection_again">Reuse: combining indirection and named features</a></li>
 <li><a href="#adjacent">Adjacent Hexes</a></li>
 <li><a href="#links">Linking to Other Hexes</a></li>
+<li><a href="#lists">Lists of unique things: with, and</a></li>
 <li><a href="#quests">Simple Quests: here, nearby, other</a></li>
 <li><a href="#combining">Combining it: here, save, store</a></li>
 <li><a href="#here">Reuse: here, same, and nearby</a></li>
-<li><a href="#global">Reuse: global, save, store, and same</a></li>
-<li><a href="#unique">Unique results</a></li>
+<li><a href="#global">Global values</a></li>
 <li><a href="#append">Rearranging the output: append</a></li>
+<li><a href="#unique">Unique results</a></li>
 <li><a href="#later">Delayed nested lookup: later</a></li>
-<li><a href="#lists">Lists of unique things: with, and</a></li>
 <li><a href="#capitalization">Capitalization</a></li>
 <li><a href="#images">Images</a></li>
 <li><a href="#files">Static Files</a></li>
@@ -3095,7 +3082,6 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,[mountain]
 
 ;mountain
-1,The air up here is cold.
 1,[ice monster lair]
 
 ;ice monster lair
@@ -3134,7 +3120,6 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,[mountain]
 
 ;mountain
-1,The air up here is cold.
 1,[monster lair]
 
 ;monster lair
@@ -3162,6 +3147,9 @@ Sometimes you need to write a lot of things that depend on the results of
 previous tables. In order to make this easier, there are two keywords that store
 things without producing any output: "save … as …" does a table lookup and
 stores it, where as "store … as …" just stores whatever text you give it.
+Neither produces output. In the example below, "evil power" is the result of a
+table lookup, where as "Thor" is just that, a text that is being stored. Both
+"gate" and "statue" can now refer to "same power".
 
 %= example begin
 ;temple
@@ -3196,6 +3184,35 @@ that you're using [same power] before using [power]. In order to make this less
 likely, determine the important local results beforehand and then write your
 actual entries without worrying about the order of things.
 
+<h2 id="quote">No lookup: quote</h2>
+
+<p>
+Sometimes you need to print a constant, and you want to store it. But writing
+"Thor[store Thor as power]" is cumbersome. Using "quote" simplifiesthis.
+
+%= example begin
+;temple
+3,This is a ruined temple of [evil power as power]. [gate] [statue]
+1,This is a temple of [quote Thor as power]. [gate] [statue]
+
+# no temples for Odin and Freya
+;good power
+1,Odin
+1,Freya
+1,Thor
+
+;evil power
+1,Orcus
+1,Set
+1,Pazuzu
+
+;gate
+1,The gate is inscribed with the *[same power]* rune.
+
+;statue
+1,The statue of *[same power]* dominates the courtyard.
+% end
+
 <h2 id="indirection">Reuse: indirection</h2>
 
 <p>
@@ -3224,7 +3241,6 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,[mountain]
 
 ;mountain
-1,The air up here is cold.
 1,[ice monster lair]
 
 ;ice monster lair
@@ -3253,7 +3269,6 @@ them.
 
 %= example begin
 ;forest
-...
 1,Under the trees is a little campsite with [1d8 bugbears].
 
 ;1d8 bugbears
@@ -3292,15 +3307,15 @@ them.
 
 <p>
 The pattern “name for a <em>thing</em>” (or “name for an <em>other thing</em>”)
-is key, here. Whenever a table has this name, it will determine the result for
-the table and keep returning that. Thus, with the tables as they are, eventually
-all the bugbear bands will have one of three names as “name for a bugbear
-band1-3” are eventually determined.
+is key, here. Whenever a table name matches this pattern, it will determine the
+result for the table and keep returning that. Thus, with the tables as they are,
+eventually all the bugbear bands will have one of three names as “name for a
+bugbear band1-3” are eventually determined.
 
 <p>
 An alternative would be to set <a href="#global">global values</a>.
 
-<h2 id="naming_features">Naming Features</h2>
+<h2 id="naming_features">Naming Map Features</h2>
 
 <p>
 Rivers, trails, canyons, mountains, swamps, forests – all these
@@ -3533,6 +3548,43 @@ which have the feature "neighbour" which is none of them), you can refer to it
 multiple times: once for the link target and once for the link text. Yeah, it's
 hack. But it works.
 
+<h2 id="lists">Lists of unique things: with, and</h2>
+
+<p>
+Sometimes you want to generate lists of unique things, for example a selection
+of spells for a scroll should not contain duplicates. Use "with" to start a new
+list and use "and" to add items from the same list to it.
+
+%= example begin
+;scroll 1
+1,[spell 1]
+1,[with spell 1], [and spell 1]
+1,[with spell 1], [and spell 1], [and spell 1]
+
+;spell 1
+1,sleep
+1,charm person
+1,magic missile
+1,read magic
+% end
+
+<p>
+Any item being added to the list using "and" is picked 10 times. If no match can
+be found with 10 attempts, an ellipsis is added instead. In the following
+example, the scroll wants four unique spells but the list can only generate
+three different results. Clearly, this can't work.
+<p>
+
+%= example begin
+;impossible scroll
+1,[with spell 1], [and spell 1], [and spell 1], [and spell 1]
+
+;spell 1
+1,sleep
+1,charm person
+1,magic missile
+% end
+
 <h2 id="quests">Simple Quests: here, nearby, other</h2>
 
 <p>
@@ -3723,7 +3775,6 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,[white mountain]
 
 ;white mountain
-1,The air up here is cold.
 1,[ice monster lair]
 
 ;ice monster lair
@@ -3743,19 +3794,20 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,The village alchemist is looking for the horn of a [nearby ice monster].
 % end
 
-<h2 id="global">Reuse: global, save, store, and same</h2>
+<h2 id="global">Global values</h2>
 
 <p>
 Sometimes you want to establish some sort of fact and access it from everywhere.
 This can be achieved by <a href="#naming_things">naming things</a>. But but you
-could also do it using "save" and "store" if only the two had a way to make the
-value global.
+could also do it using the rules mentioned previously: "save", "store", "quote"
+and regular lookups, if you use the "global" modifier.
 
 <p>
-In the following example, we establish a conflict in the <a
-href="#introduction">introduction</a>. Compare how much effort is to set up a
-separate table for each ruler's name as opposed to the single "global store"
-lookup.
+In the following example, we establish a conflict between two rulers in the <a
+href="#introduction">introduction</a>. The names are picked using the <a
+href="#naming_things">naming things</a> pattern, but the colour that goes along
+with each ruler is stored globally using "global store <em>something</em> as
+<em>something else</em>".
 
 %= example begin
 0101 green grass village
@@ -3963,43 +4015,6 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 
 ;relic of Odin
 1,eye patch of Odin
-% end
-
-<h2 id="lists">Lists of unique things: with, and</h2>
-
-<p>
-Sometimes you want to generate lists of unique things, for example a selection
-of spells for a scroll should not contain duplicates. Use "with" to start a new
-list and use "and" to add items from the same list to it.
-
-%= example begin
-;scroll 1
-1,[spell 1]
-1,[with spell 1], [and spell 1]
-1,[with spell 1], [and spell 1], [and spell 1]
-
-;spell 1
-1,sleep
-1,charm person
-1,magic missile
-1,read magic
-% end
-
-<p>
-Any item being added to the list using "and" is picked 10 times. If no match can
-be found with 10 attempts, an ellipsis is added instead. In the following
-example, the scroll wants four unique spells but the list can only generate
-three different results. Clearly, this can't work.
-<p>
-
-%= example begin
-;impossible scroll
-1,[with spell 1], [and spell 1], [and spell 1], [and spell 1]
-
-;spell 1
-1,sleep
-1,charm person
-1,magic missile
 % end
 
 <h2 id="capitalization">Capitalization</h2>
