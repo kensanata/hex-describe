@@ -5703,7 +5703,7 @@
 1,fist-sized loaf
 
 ;moon monolith
-1,A [strange|grey|tall] **[here monolith]** stands here. In the weeks when the sky is clear and a full moon casts its silvery light onto the monolith’s surface, silvery spirals can be seen. If you trace them with your finger, you are transported to a similar [other monolith].
+1,A [strange|grey|tall] **[here quote monolith]** stands here. In the weeks when the sky is clear and a full moon casts its silvery light onto the monolith’s surface, silvery spirals can be seen. If you trace them with your finger, you are transported to a similar [other monolith].
 
 ;mountain secret
 1,[way up], [a secret mountain thing]
