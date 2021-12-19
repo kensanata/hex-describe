@@ -10599,9 +10599,6 @@
 1,Ridge
 1,Rock
 
-;swamp2
-1,[swamp]
-
 ;swamp
 1,[swamp intro] [swamp dressing] [giant fish] can be seen below the water surface ([giant fish stats]). [maybe island barrow]
 1,[swamp intro] [swamp dressing] Without a guide, you soon end up in the lands of the [witch]
@@ -14362,6 +14359,10 @@
 1,elves
 1,dwarves
 
+# swamp2 is only for locations where a [chaos] follows
+;swamp2
+1,[swamp intro] [swamp dressing]
+
 ;chaos
 2,<p>[temple of chaos]
 0,<p>[elementalist school]
@@ -14411,7 +14412,7 @@
 1,[elementalist school description] [elementalist school village]<blockquote><p>[elementalist job]</blockquote><p>[elementalist school wizards]<p>[And a secret society]<p>[elementalist village trouble]
 
 ;elementalist school description
-1,There are signs of beaver activity in this swamp: gnawed trees fallen into the water, dams, standing water. Progress would be difficult even with light boats since the water ways are blocked again and again. And then: a little fishing village of stilt houses rising from the water, platforms connected by rickety bridges, and a large tower in the middle. Atop the tower you can see banners showing the symbols of earth (🜃), water (🜄), air (🜁), and fire (🜂). In the village itself, all the houses and all the adults are similarly marked with a coloured dot: earth (brown), water ([green|blue]), air ([yellow|white]), and fire (red).
+1,Fallen trees, beaver dams, standing water – progress is difficult even with light boats since the water ways are blocked again and again. And then: an opening, a small lake. A little fishing village of stilt houses rises from the water, platforms connected by rickety bridges, and a wooden tower in the middle. Make yourself known and a fisher may come and investigate, e.g. *[human with portrait]* (marked as a member of the [element] house).<p>Atop the tower you can see banners showing the symbols of earth (🜃), water (🜄), air (🜁), and fire (🜂). In the village itself, all the houses and all the adults are similarly marked with a coloured dot: earth (brown), water ([green|blue]), air ([yellow|white]), and fire (red).
 
 ;elementalist school village
 1,<p>This is [here village name], a village of [3d6x10] **humans** ([human stats]). [elementalist village elder] [average treasure] 
@@ -14425,7 +14426,7 @@
 1,The four elementalist masters and their students rely on these people to provide them with all they require.
 
 ;elementalist job
-1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] has been squeezing us for months, now. The other elementalists won’t help us so you are our only hope. Free us from this [plague spirit|bone devil|vampire]!” If you investigate you will find tales of coercion, molestation and disappearances from [human name], [human name], and [human name]. The situation really is unbearable.
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] has been squeezing us for months, now. The other elementalists won’t help us so you are our only hope. Free us from this [plague spirit|bone devil|vampire]!” If you investigate you will find tales of coercion, molestation and disappearances from *[human name]*, *[human name]*, and *[human name]*. The situation really is unbearable.
 1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] is a corrupt worshipper of [evil power]! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, you do find an altar decorated with [Set decoration] in their home.
 1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [with elementalist type] is a corrupt worshipper of [evil power]! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, however, you find no confirmation for this accusation. Eventually it turns out that the [and elementalist type] is behind it all, insinuating wrongdoings and planting false evidence – and *[same human name]* fell for it.
 1,If *[same human name]* takes a liking to you, they’ll ask for your help: “The situation here is about to descend into chaos. You must help us! The [with elementalist type] and [and elementalist type] are about to kill each other. Please help diffuse the situation!”
@@ -14453,7 +14454,7 @@
 1,The [eel|crab|carp] fishers of *[same village name]* are plagued by [1d6 crocodiles].
 1,The [eel|crab|carp] fishers of *[same village name]* are plagued by occasional encounters with goblins. [goblins]
 1,The poor people of *[same village name]* have lost some of their *[here magic plant]* gatherers to froglings. [froglings]
-1,The poor people of *[same village name]* have lost some of their *[here magic plant]* gatherers to spider people. [ettercaps]
+1,The poor people of *[same village name]* have lost some of their *[here magic plant]* gatherers to spider people. Where the trees stand thick, it is no longer safe. This is the hunting ground of [2d6] **giant spiders** ([giant spider stats]). Up in the trees are some tree houses connected by ropes. They are home to [2d4] **ettercaps** led by [ettercap with portrait] ([ettercap stats]). [average treasure] [ettercap prisoners]
 1,The inhabitants of *[same village name]* no longer dare leave their homes because rumour has it a **black dragon** has moved in. This is correct. Not too long ago, *[here black dragon name as dragon name]*[dragon portrait] has decided to build their lair not far from the village ([black dragon stats]). [dragon treasure]
 1,The [eel|crab|carp] fishers of *[same village name]* are reporting many dead fish. They are right, for [3d12] **swamp cranes** have recently moved in and their dung is poisonous ([swamp crane stats]).
 
