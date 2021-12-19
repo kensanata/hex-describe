@@ -1492,7 +1492,7 @@ sub describe {
       my $found = 0;
       # limited attempts to find a unique entry for an existing list (instead of
       # modifying the data structures)
-      for (1 .. 10) {
+      for (1 .. 20) {
 	my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
 	$log->warn("[and $key] is used before [with $key] is done in $coordinates") if ref $locals{$key} ne 'ARRAY';
 	$locals{$key} = [$text] if ref $locals{$key} ne 'ARRAY';
