@@ -14363,7 +14363,8 @@
 1,dwarves
 
 ;chaos
-1,<p>[temple of chaos]
+2,<p>[temple of chaos]
+0,<p>[elementalist school]
 
 ;temple of chaos
 1,In these water logged woods, a statue of *[here disease power as temple power][here store temple of [same temple power]]* was built on top of a little hill. Around it, his followers have built a series of wooden huts and a sacrificial pit full of carcasses, maggots and flies. The stench is overpowering. The humans pray for deliverance, for change, for a remaking of the world and the forest. [cultists]
@@ -14403,6 +14404,60 @@
 
 ;cultists led by a woman
 1,[1d4x10] **cultists** ([human stats]) live here. [average treasure] They are led by their cult leader [woman with portrait] (level [1d6+1 as level]), [cult leader description]. [leader treasure for magic user]
+
+# elementalist school
+
+;elementalist school
+1,[elementalist school description] [elementalist school village]<blockquote><p>[elementalist job]</blockquote><p>[elementalist school wizards]<p>[And a secret society]<p>[elementalist village trouble]
+
+;elementalist school description
+1,There are signs of beaver activity in this swamp: gnawed trees fallen into the water, dams, standing water. Progress would be difficult even with light boats since the water ways are blocked again and again. And then: a little fishing village of stilt houses rising from the water, platforms connected by rickety bridges, and a large tower in the middle. Atop the tower you can see banners showing the symbols of earth (🜃), water (🜄), air (🜁), and fire (🜂). In the village itself, all the houses and all the adults are similarly marked with a coloured dot: earth (brown), water ([green|blue]), air ([yellow|white]), and fire (red).
+
+;elementalist school village
+1,<p>This is [here village name], a village of [3d6x10] **humans** ([human stats]). [elementalist village elder] [average treasure] 
+
+;elementalist village elder
+1,They are led by [elder|warden|bailie|mayor|council|commissar|councillor] *[human with portrait]* (marked as a member of the [element] house).
+1,Every night, they meet at the [tea house|ale house|brew house|sauna|steam bath|hot bath] belonging to *[human with portrait]* (marked as a member of the [element] house).
+
+;elementalist relationship
+1,These people live to serve the four elementalist masters and their students.
+1,The four elementalist masters and their students rely on these people to provide them with all they require.
+
+;elementalist job
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] has been squeezing us for months, now. The other elementalists won’t help us so you are our only hope. Free us from this [plague spirit|bone devil|vampire]!” If you investigate you will find tales of coercion, molestation and disappearances from [human name], [human name], and [human name]. The situation really is unbearable.
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] is a corrupt worshipper of [evil power]! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, you do find an altar decorated with [Set decoration] in their home.
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [with elementalist type] is a corrupt worshipper of [evil power]! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, however, you find no confirmation for this accusation. Eventually it turns out that the [and elementalist type] is behind it all, insinuating wrongdoings and planting false evidence – and *[same human name]* fell for it.
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “The situation here is about to descend into chaos. You must help us! The [with elementalist type] and [and elementalist type] are about to kill each other. Please help diffuse the situation!”
+
+;elementalist type
+1,pyromancer
+1,aeromancer
+1,aquamancer
+1,geomancer
+
+;element
+1,fire
+1,air
+1,water
+1,earth
+
+;elementalist school wizards
+1,[store pyromancer as type][elementalist][store aeromancer as type][elementalist][store aquamancer as type][elementalist][store geomancer as type][elementalist]
+1,[store geomancer as type][elementalist][store aquamancer as type][elementalist][store aeromancer as type][elementalist][store pyromancer as type][elementalist]
+
+;elementalist
+1,<p>The **[same type]** [human with portrait] (level [1d4+6 as level])[here store [same human name] as human patron][here store [same human name] as [same type]] [spellbook for [same type]s] [leader treasure for magic user]
+
+;elementalist village trouble
+1,The [eel|crab|carp] fishers of *[same village name]* are plagued by [1d6 crocodiles].
+1,The [eel|crab|carp] fishers of *[same village name]* are plagued by occasional encounters with goblins. [goblins]
+1,The poor people of *[same village name]* have lost some of their *[here magic plant]* gatherers to froglings. [froglings]
+1,The poor people of *[same village name]* have lost some of their *[here magic plant]* gatherers to spider people. [ettercaps]
+1,The inhabitants of *[same village name]* no longer dare leave their homes because rumour has it a **black dragon** has moved in. This is correct. Not too long ago, *[here black dragon name as dragon name]*[dragon portrait] has decided to build their lair not far from the village ([black dragon stats]). [dragon treasure]
+1,The [eel|crab|carp] fishers of *[same village name]* are reporting many dead fish. They are right, for [3d12] **swamp cranes** have recently moved in and their dung is poisonous ([swamp crane stats]).
+
+# settlement stuff
 
 ;settlement event
 3,[war event]
@@ -17388,6 +17443,19 @@
 ;vivimancer spellbook
 1,korokoro
 
+;pyromancer spellbook
+1,ysabala
+
+;aeromancer spellbook
+1,asphyx
+# 1,versim
+
+;aquamancer spellbook
+1,jezembal
+
+;geomancer spellbook
+1,zorkan
+
 # this allows us to use [same spellbook] later
 ;a famous spellbook
 1,[[spellbook]]
@@ -17397,6 +17465,18 @@
 
 ;a famous vivimancer spellbook
 1,[[vivimancer spellbook as spellbook]]
+
+;a famous pyromancer spellbook
+1,[[pyromancer spellbook as spellbook]]
+
+;a famous aeromancer spellbook
+1,[[aeromancer spellbook as spellbook]]
+
+;a famous aquamancer spellbook
+1,[[aquamancer spellbook as spellbook]]
+
+;a famous geomancer spellbook
+1,[[geomancer spellbook as spellbook]]
 
 ;a famous elven spellbook
 1,[[elf spellbook as spellbook]]
@@ -17409,6 +17489,18 @@
 
 ;spellbook for vivimancers
 1,The spells known are based on [a famous vivimancer spellbook]: [spellbook [same level]].
+
+;spellbook for pyromancers
+1,The spells known are based on [a famous pyromancer spellbook]: [spellbook [same level]].
+
+;spellbook for aeromancers
+1,The spells known are based on [a famous aeromancer spellbook]: [spellbook [same level]].
+
+;spellbook for aquamancers
+1,The spells known are based on [a famous aquamancer spellbook]: [spellbook [same level]].
+
+;spellbook for geomancers
+1,The spells known are based on [a famous geomancer spellbook]: [spellbook [same level]].
 
 ;spellbook for magic user
 1,The spells known are based on [a famous spellbook]: [spellbook [same level]].
