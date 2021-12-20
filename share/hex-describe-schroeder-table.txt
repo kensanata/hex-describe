@@ -9639,6 +9639,8 @@
 1,A **green dragon** named *[here green dragon name as dragon name]*[dragon portrait] lives at [hill name], one of the hills overlooking these shrublands ([green dragon stats]). [dragon treasure]
 1,The overgrown scrub is difficult to traverse. Concealed by the thorny bracken is the entrance to a dungeon. [dungeon]
 
+# outlaws
+
 ;outlaw camp
 1,There is a camp of [1d4x10] **outlaws** ([outlaw stats]) led by *[outlaw leader as human name]*[human portrait] here.[here store the outlaw *[same human name]* as wanted dead or alive] [average treasure] They call themselves the *[adjective] [organisation name]*. The camp is protected by [outlaw companions]. These outlaws are [two outlaw activities]. [outlaw feature] 
 
@@ -9705,6 +9707,8 @@
 1,Badlands full of shrubs and wild hedges.
 1,Dry lands full of tumbleweed and thorn bushes.
 
+# old fort
+
 ;old fort
 1,On a pedestal outside the fort there is a withered statue of *[power]* overlooking the lands below.
 1,There is [old fort passage] leading to a ditch filled with thorn bushes far below.
@@ -9715,6 +9719,8 @@
 1,a secret escape passage via a trapdoor inside the main building
 1,a secret passage via the well inside the fort
 1,a secret passage from the cellar below the watch tower
+
+# loner
 
 ;loner
 1,At the foot of a hill you find a burned down cabin. This must have happened [some time ago].
@@ -9751,6 +9757,8 @@
 1,A few large boulders stand close together and somebody built a little shelter using wooden lattice and some straw.
 1,Somebody dug a hole under one of the larger boulders.
 1,Sheltered behind one of the boulders and well hidden by some bushes there is a tent.
+
+# Necromancer
 
 ;necromancer
 1,Here lives the **necromancer** [human with portrait][here store [same human name] as alchemist patron] (level [1d3+4 as level]), protected by [necromancer companions]. [spellbook for necromancers] [necromancer tower] [luxurious context] [leader treasure for magic user]
@@ -9805,6 +9813,21 @@
 1,Humans
 1,[old name]
 1,[an old wight leader]
+
+# Agrimach
+
+;home of Agrimach
+1,One of the dry patches of land has some shabby wooden huts on it, connected by gangways. This is the home of [bandits] These people are [lazy drunkards|reckless fools|greedy bastards|mean bullies robbing the poor], and yet they are protected by the necromancer *Agrimach*.<p>[swamp gnome spies] They act as the eyes and ears of the necromancer *Agrimach*.<p>The necromancer’s tower stands in a small lake guarded by a **pyrohydra** ([pyrohydra stats]).<p>The main hall is guarded by 20 watchful **zombies** ([zombie stats]) and the loyal **ghoul** *Fiala* ([ghoul stats]), a distant ancestor of *[same human name]*, the bandit leader.<p>The upper level of the necromancer’s lair is protected by [Agrimach companions].<p>Above all of this lives the **necromancer** *[quote Agrimach as human name]*<img class="portrait" src="https://campaignwiki.org/pics/Spellcasters/Agrimach.png" alt="[same human name]" title="[same human name]"/>[here store [same human name] as alchemist patron] himself (level [10 as level]). [spellbook for necromancers]. [luxurious context] [leader treasure for magic user]
+
+;Agrimach companions
+1,[4d6] **skeletons** standing guard for decades, with unrelenting attention ([skeleton stats])
+1,[2d6] **werewolves** in human disguise, deferential but rough when he’s not looking ([werewolf stats])
+1,[2d4] **hell hounds** endlessly sniffing the air and searching for intruders ([hell hound stats])
+
+;swamp gnome spies
+1,The deep swamp is the realm of [1d4x10] **swamp gnomes** ([swamp gnome stats]) led by [gnome with portrait] (HD 5). [rich treasure] The gnomes live in [swamp gnome dwellings], protected by [swamp gnome companions].
+
+# Vivimancer
 
 ;vivimancer
 1,Here lives the **vivimancer** [human with portrait][here store [same human name] as alchemist patron] (level [1d3+4 as level]), protected by [3d6] **myconids** ([myconid stats]). [alchemist job] [luxurious context] [poor treasure] [spellbook for vivimancers] [leader treasure for magic user]
@@ -10619,6 +10642,7 @@
 1,[swamp intro] [swamp dressing] [swamp gnome colony]
 1,[swamp intro] [swamp dressing] On a rocky outcrop stands a tower. [necromancer]
 1,[swamp intro] [swamp dressing] On a rocky outcrop stands a tower. [vivimancer]
+0,[swamp intro] [swamp dressing] [home of Agrimach]
 1,[swamp intro] [swamp dressing] At it's heart are abandoned ruins that lead to a dungeon. [dungeon]
 
 ;swamp intro
@@ -14364,8 +14388,8 @@
 1,[swamp intro] [swamp dressing]
 
 ;chaos
-2,<p>[temple of chaos]
-0,<p>[elementalist school]
+3,<p>[temple of chaos]
+1,<p>[elementalist school]
 
 ;temple of chaos
 1,In these water logged woods, a statue of *[here disease power as temple power][here store temple of [same temple power]]* was built on top of a little hill. Around it, his followers have built a series of wooden huts and a sacrificial pit full of carcasses, maggots and flies. The stench is overpowering. The humans pray for deliverance, for change, for a remaking of the world and the forest. [cultists]
