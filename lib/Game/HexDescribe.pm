@@ -48,8 +48,9 @@ use Mojo::Log;
 use Mojo::File;
 use Mojo::Util qw(html_unescape url_escape);
 use Mojo::ByteStream;
+use List::Util qw(shuffle);
 use Array::Utils qw(intersect);
-use Encode qw/decode_utf8/;
+use Encode qw(decode_utf8);
 use Text::Autoformat;
 use File::ShareDir 'dist_dir';
 use Cwd;
@@ -1846,8 +1847,8 @@ sub describe_map {
     # only set the TOP and END key if there is a description
     $descriptions{$coords} = $description if $description;
   }
-  # sort the coordinates so that it is reproducible
-  for my $coord (sort keys %$map_data) {
+  # shuffle sort the coordinates so that it is reproducibly random
+  for my $coord (shuffle sort keys %$map_data) {
     # with redirects means we keep images
     my $description =
 	process(describe($map_data, $table_data, 1,
