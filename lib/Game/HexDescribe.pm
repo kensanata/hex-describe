@@ -1434,6 +1434,7 @@ sub describe {
 	  next unless $name;
 	  push(@descriptions, $name);
 	  $line->{name} = $name;
+	  $globals->{$key}->{$_} = $name for @{$line->{line}}[1..$#{$line->{line}}];
 	  # name the first one without a name, don't keep adding names
 	  last;
 	}
@@ -2077,6 +2078,7 @@ sub spread_name {
   my @keys = split(/\//, $key); # ("white")
   my $name = shift; # "Vesuv"
   my %seen = ($coordinates => 1);
+  $globals->{$key}->{$coordinates} = $name;
   # $log->debug("$word: $coordinates = $name");
   my @queue = map { neighbour($coordinates, $_) } 0..5;
   while (@queue) {
@@ -2088,6 +2090,8 @@ sub spread_name {
       $log->error("$word for $coord is already something else")
 	  if $names{"$word for $coord"};
       $names{"$word: $coord"} = $name; # "name for white big mountain: 0102"
+      $log->debug("$coord: $name for @keys");
+      $globals->{$_}->{$coord} = $name for @keys;
       # $log->debug("$word: $coord = $name");
       push(@queue, map { neighbour($coord, $_) } 0..5);
     }
