@@ -324,6 +324,75 @@
 1,The dunes make progress slow.
 1,Bare stones wherever you look and no shade.
 
+# Grass comes in three colours: light-grey grass, light-green grass, and dust grass.
+
+;grass name
+1,[name for grass/bush/bushes]
+
+;name for grass/bush/bushes
+1,<span class="grass">[grass name1] [grass name2]</span>
+
+;grass name1
+1,Lonely
+1,Windy
+1,Tallgrass
+1,Shortgrass
+1,Rolling
+1,Dusty
+1,[capitalize cows]
+
+;grass name2
+1,Prairie
+1,Steppe
+1,Plain
+1,Savanna
+1,Scrublands
+
+# Grass up in the mountains, in the wind shadows of mountains
+;light-grey grass
+1,[mountain grass]
+
+# Grasslands at a higher altitude than nearby rivers, or far away from
+# rivers
+;light-green grass
+1,[grass]
+
+# Badlands, even drier than light-green grass
+;dust grass
+1,[steppe]
+
+# mountain grass
+
+;mountain grass
+1,This valley above the tree line lies in the wind shadow of the nearby mountains. There’s only grass up here. [mountain grass detail] [mountain grass inhabitants]
+
+;mountain grass detail
+1,Glacial erratics dot the landscape, [huge boulders piled on top of each other|rising from the grass like islands in the sea|like people petrified ages ago and rounded down by wind and rain].
+1,*[magic plant]* grows here, if you know how to find it.
+1,In ancient times, a small canal carried water here from the [nearby white]. It fell into ruin many years ago.
+
+;mountain grass inhabitants
+1,[2d6] [poor|destitute] **shepherds** from *[nearby village name]* [care for|herd|watch over|graze] their [bleating|thick-fleeced|freshly sheared|timid] [sheep|goats] ([shepherd stats]). They are [superstitiously averting their eyes and making the sign of protection from evil with their right hand|cheerfully singing as they care for their flock|mournfully staring into the distance]. The [most respected one|oldest one|most cunning one|most talkative one] is *[human name]*. They sleep in [very crude|dilapidated|ramshackle] shelters.
+1,There is a camp of [horse archers]
+1,Plenty of sheep can be seen grazing. There is a crude stone hall built on a small hill dominating this pasture. [hill giants]
+1,[centaur camp]
+1,At night, the plain belongs to [wolves or worse].
+1,There local goats are hunted by a [cat style] [mountain cat].
+
+;centaur camp
+1,A handful of tents stands here. Dozens of sheep can be seen grazing. This is the camp of [centaurs] [centaur companions]
+
+;centaurs
+1,**centaur** *[centaur]* ([centaur stats]).
+2,the **centaurs** *[centaur]* and  *[centaur]* ([centaur stats]).
+18,[1d18+2] **centaurs** led by *[centaur]* ([centaur stats]).
+
+;centaur companions
+1,
+1,The herd is protected by [1d4+1] [curious|vicious|alert] **herd dogs** ([wolf stats])
+
+# regular grass or prairie
+
 ;grass
 5,[grass intro] [grass dressing] [grass landmark] **[capitalize cows]** can be seen grazing in the distance to the [direction].
 1,[grass intro] [grass dressing] [grass landmark] Without a guide, you may be ambushed by [1d12+1] [warrior ants] protecting their colony from intruders. The ant lair is not far.<p>[giant ant lair]
@@ -385,32 +454,50 @@
 1,Some noisome weed is [on the wind|in the breeze|blooming nearby], noses are [sneezing|stuffed|runny] and eyes grow [bloodshot|itchy|watery].
 1,In the distance, [2d6] [superstitious|friendly|suspicious|singing] **shepherds** [herd|call out to|watch over|graze] their [bleating|thick-fleeced|freshly sheared|timid] sheep. They are led by *[human name]*.
 
+# Steppe
+
+;steppe
+1,[steppe intro] [steppe detail] [steppe inhabitants]
+
+;steppe intro
+1,The wind blows over the [grass name], unhindered by any trees.
+1,No trees grow in this part of the [grass name]. If it rains, all the flowers bloom, but when it does not, everything wilts away.
+1,This part of the [grass name] is land of thorns. Watch your feet.
+1,This section of the [grass name] is dry and burnt by the sun.
+1,The sun is burning bright in the blue sky overhead. The ground of [grass name] is parched.
+
+;steppe detail
+1,Large stretches of cactus make it difficult to traverse the landscape.
+1,A small herd of [cows] is grazing on the brown grass. This is poor pasture.
+1,There’s a dry valley here. The last time it flooded must have been many years ago.
+1,There’s a shallow watering hole in this area. Here, a herd of [cows] is drinking.
+
+;steppe inhabitants
+1,[steppe camp] [3d6] **gnolls** led by *[gnoll name]* ([gnoll stats]). [robber treasure]
+1,[steppe camp] [bandits]
+1,[steppe camp] [cactus people]
+1,A **[large cat]** is waiting for prey ([[same large cat] stats]).
+
+;steppe camp
+1,There’s a small collection of tents, here.
+1,In the shade beneath some thorny trees is a small camp.
+
+;cactus people
+1,[3d6] **cactus people** led by *[cactus people name]* ([cactus people stats]; [slings|short bow], [club|spear]). [robber treasure]
+
+;cactus people name
+1,[Spikey|Spine|Thorn|Blade] [Head|Face|Boss|Man|Woman|Fist|Death|Destiny]
+1,[Spine of|Needle of|Piercing] [Death|Pain|Poison]
+
+;cactus people stats
+1,HD 2 AC 7 1d6/1d6 F2 MV 12 ML 7 XP 200
+
+# Grass inhabitants
+
 ;manticore activity
 1,has built its lair in an abandoned burial mound
 1,lurks in the grasses here, waiting to ambush travellers with his bitter ferocity
 1,hunts the region, surveying the grassland from above and attacking travellers from the air
-
-;grass name
-1,[name for grass/bush/bushes]
-
-;name for grass/bush/bushes
-1,<span class="grass">[grass name1] [grass name2]</span>
-
-;grass name1
-1,Lonely
-1,Windy
-1,Tallgrass
-1,Shortgrass
-1,Rolling
-1,Dusty
-1,[capitalize cows]
-
-;grass name2
-1,Prairie
-1,Steppe
-1,Plain
-1,Savanna
-1,Scrublands
 
 ;elephant stats
 1,HD 9 AC 5 4d8 *with +4 to hit* F5 MV 12 ML 8 XP 900
@@ -419,17 +506,23 @@
 1,HD 1 AC 9 1d6 MV 12 ML 12 XP 100; immune to *arrows*, immune to *poison*; immune to *spells*
 
 ;basilisk stats
-1,HD 6+1 AC 4 1d10 F6 MV 6 ML 9 XP 600; save vs. poison if closer than 30ft because of the *poisoned air*, or when its *killing gaze* falls on you, or when bitten by the *poisonous fangs*; <span class="treasure">*basilisk bile* is worth 5000gp to an alchemist</span>[here store basilisk bile as alchemist quest]
+1,HD 6+1 AC 4 1d10 F6 MV 6 ML 9 XP 600; save vs. poison or die if closer than 30ft because of the *poisoned air*, or when its *killing gaze* falls on you, or when bitten by the *poisonous fangs*; <span class="treasure">*basilisk bile* is worth 5000gp to an alchemist</span>[here store basilisk bile as alchemist quest]
 
 ;horse archers
-1,[1d4x10] **humans** ([human stats]) led by *[archer leader name as human name]*[human portrait]. They are hunters and gatherers, following the herds of *[cows]*, and they are also excellent *horse archers*. [horse archer activities] They will trade dried meat and finely woven cloth for jewelry or [gem]. Their wool tents are decorated with [with colour] and [and colour] banners and protected by [human companions]. [average treasure]
-1,[1d4x10] **humans** ([human stats]) led by *[archer leader name as human name]*[human portrait]. They keep [2d4x10] *[cows]*. They are also excellent *horse archers*. [horse archer activities] They will trade [same cows] cheese and pickled [root veg] for [mine content] or spices. For an extravagant sum, they might even trade a prized hunting eagle. Their wool tents are arranged in a circle around the tent of their leader and are protected by [human companions]. [average treasure]
+1,[1d4x10] **humans** ([archer stats]) led by *[archer leader name as human name]*[human portrait]. They are hunters and gatherers, following the herds of *[cows]*, and they are also excellent *horse archers*. [horse archer activities] They will trade dried meat and finely woven cloth for jewelry or [gem]. Their wool tents are decorated with [with colour] and [and colour] banners and protected by [human companions]. [average treasure]
+1,[1d4x10] **humans** ([archer stats]) led by *[archer leader name as human name]*[human portrait]. They keep [2d4x10] *[cows]*. They are also excellent *horse archers*. [horse archer activities] They will trade [same cows] cheese and pickled [root veg] for [mine content] or spices. For an extravagant sum, they might even trade a prized hunting eagle. Their wool tents are arranged in a circle around the tent of their leader and are protected by [human companions]. [average treasure]
 
 ;human stats
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100
+
+;militia stats
 1,HD 1 AC 8 1d6 F1 MV 12 ML 7 XP 100; shield, spear
-1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; spear
-1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; dagger
-1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; hand axe
+
+;shepherd stats
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; club, sling
+
+;archer stats
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; short bow
 
 ;archer leader name
 1,[archer leader name 1] [archer leader name 2]
@@ -506,7 +599,8 @@
 1,bison
 1,wisent
 1,antelope
-1,wild sheep
+1,sheep
+1,goat
 1,yak
 1,wild donkey
 1,elk
@@ -557,10 +651,10 @@
 1,Hungry
 1,Eater
 
-;centaurs
-1,the **centaur** *[centaur]* ([centaur stats])
-10,[1d19+1] **centaurs** led by *[centaur]* ([centaur stats])
-9,[1d19+1] drunken **centaurs** led by *[centaur]* ([centaur stats])
+;possibly drunk centaurs
+1,the [taciturn|drunk] **centaur** *[centaur]* ([centaur stats])
+1,the [taciturn|drunk] **centaurs** *[centaur]* and *[centaur]* ([centaur stats])
+18,[1d18+2] [taciturn|drunk] **centaurs** led by *[centaur]* ([centaur stats])
 
 ;centaur stats
 1,HD 4 AC 5 1d6/1d6/1d8 F4 MV 18 ML 8 XP 400
@@ -1798,7 +1892,7 @@
 #GREEK MYTHOLOGY THEME
 ;Greek mythology encounter
 1,a **basilisk** [monster activities] ([basilisk stats])
-1,[centaurs]
+1,[possibly drunk centaurs]
 1,a **chimera** [monster activities] ([chimera stats])
 2,[2d4] **satyrs** [monster activities] ([satyr stats])
 
@@ -2855,7 +2949,7 @@
 ;refuge castle inhabitants
 1,The site is current abandoned. Carvings on a wooden post proclaim this to be the refuge castle for the people of *[nearby village name]*.
 1,[3d6] **refugees** from *[nearby village name]* live up here ([human stats]) led by *[human name]*[human portrait] and protected by [human companions]. They decided not to return to their village after the latest raid of *[any war party]*.
-1,Here lives the **goat herder** [human with portrait] ([human stats]) from *[nearby village name]* while the place is not used.
+1,Here lives the **goat herder** [human with portrait] ([shepherd stats]) from *[nearby village name]* while the place is not used.
 1,The *[evil tribe]* tribe has settled the place, raising [mountain animals] and making their [mountain orc product]. [orcs] [mountain orc leader specialty] The settlement is [orc fort] [orc plans]
 
 # ------------------------------------------------------------
@@ -2921,8 +3015,8 @@
 1,Before you stretches a land of red rocks and sand. The sky is pale pink. It promises to be a hot day. In the distance, on a red mountain surrounded by a forest of thorns, stands an ancient tower. This is *Sandstein*, the hall where Pazuzu, the demon lord of [pestilence|famine] and [disease|hunger] holds court. Countless [crows|vultures] circle above. On the dusty road ahead you can see a company of [Vanaheim soldiers] [Vanaheim soldiering]
 
 ;Vanaheim soldiers
-1,[1d4x10] **soldiers** ([human stats]). [average treasure] They are led by the **[human class]** [Vanaheim title] [human with portrait] (level [1d4+1 as level]). [spellbook for [same class]] [leader treasure for [same class]]
-1,[1d4x10+10] **soldiers** ([human stats]). [average treasure] They are led by the **spectre** Jarl *[old name]* ([spectre stats]). [ancient treasure]
+1,[1d4x10] **soldiers** ([mercenary stats]). [average treasure] They are led by the **[human class]** [Vanaheim title] [human with portrait] (level [1d4+1 as level]). [spellbook for [same class]] [leader treasure for [same class]]
+1,[1d4x10+10] **soldiers** ([mercenary stats]). [average treasure] They are led by the **spectre** Jarl *[old name]* ([spectre stats]). [ancient treasure]
 
 ;Vanaheim title
 1,[Huskarl|Merkismathr|Hersir|Thane]
@@ -6333,7 +6427,7 @@
 1,<p>[green tower in this lake]
 
 ;nixie problem
-1,A herd of *centaurs* have been carousing in the area and disturbing the peace.<p>The lake shore has become the home of [centaurs].<p>
+1,A herd of *centaurs* have been carousing in the area and disturbing the peace.<p>The lake shore has become the home of [possibly drunk centaurs].<p>
 1,A *chimera* is guarding a cave on the island of their lake, terrorising them.<p>The **chimera** is guarding an iron wrought gate decorated with [Niflheim decoration] leading to *Niflheim* ([chimera stats])<p>[road to Niflheim]
 1,A clan of *dwarves* is erecting a waterwheel at the other end of the lake.<p>Actually, this is going to get worse. The waterwheel is just the beginning: they are trying to start a small forge! [5d8] **dwarves** work and live here ([dwarf stats]), led by [dwarf with portrait] (level [1d6+2 as level]). [luxurious context] [dwarven treasure]<p>
 
@@ -6621,7 +6715,7 @@
 1,A **white dragon** called *[here white dragon name as dragon name]*[dragon portrait] lives in a ruined mountain fortress guarding the approaches to the [name for white big mountains] ([white dragon stats]). [dragon treasure]
 1,[ghostly glacier procession]
 1,Secreted among the [mountain obstacle] beneath the [name for white big mountains] is a dungeon. [dungeon]
-1,Amidst the ice stands a rock. [moon monolith]
+1,Amidst the ice of the [name for white big mountains] stands a rock. [moon monolith]
 
 ;ghostly glacier procession
 1,A cold wind blows snow and ice down the mountain. Visibility is down to maybe 30ft. This is the [name for white big mountains] glacier. Every night, a **procession ghosts** struggles barefoot across the ice. You can hear their wailing, their tiny bells ringing, and you can see the flickering candles they are carrying. If you follow them for an hour, you are going to cross over into Jötunheim with them. The procession leads you to the castle of the **frost giant** *[frost giant name]*. [2d4] **frost giants** and [frost giant companions] live here. [rich treasure]<p>To release the ghosts from their eternal wandering, you need to [ghostly glacier procession solution]
@@ -10658,7 +10752,7 @@
 1,From the gnarled boughs of ancient [tree] trees dangles [hanging moss] moss.
 1,The bleak, black, and brackish water teems with mosquito larvae and lily pads.
 1,Vibrant green duckweed floats still on the stagnant water’s surface.
-1,The smell of wood-rot is strong. A waterlogged [tree] trunks bob lazily in the mire.
+1,The smell of wood-rot is strong. A waterlogged [tree] trunk bobs lazily in the mire.
 1,Pale yellow froth clings to the [tree] roots here. A distant splash is followed by frantic waterfowl calls.
 1,The woodpeckers never stop hammering up above in the trees. Incessant buzzing betrays the mosquitoes desperately looking for a place to land.
 1,Turtle rest on a floating log in a murky pool and slip slowly into the water when approached. The air is thick and humid.
@@ -12340,7 +12434,7 @@
 1,a woman
 
 ;forest
-1,This is the [forest name]. [easy to get lost] In the shadows of the [tree] trees live [centaurs]. [forest event]
+1,This is the [forest name]. [easy to get lost] In the shadows of the [tree] trees live [possibly drunk centaurs]. [forest event]
 1,The tall [tree] trees of [forest name] and their dense canopy keep the sunlight away. [easy to get lost] Down here in the shade there are big mushrooms everywhere. [mushrooms] [forest event]
 1,This part of [forest name] is under the protection of [1d8 treants] ([treant stats]). They mostly stand around near the [forest feature]. [easy to get lost] [forest event]
 1,The [tree] trees of [forest name] are full of spider webs here. [easy to get lost] Anybody climbing the trees or travelling on their own will get attacked by [2d4] **giant spiders** ([giant spider stats]). [forest event]
@@ -13767,7 +13861,7 @@
 1,<p>[druid cause] The druids have found powerful allies in the forest: [1d8 treants] ([treant stats]).
 1,<p>[druid cause] The woods around here are patrolled by the druids’ pack: [3d6] **wolves** ([wolf stats]).
 1,<p>[druid cause] The druids are protected by [1d4 bears] ([bear stats]).
-1,<p>[druid cause] The druids have found unruly allies in the forest: [centaurs].
+1,<p>[druid cause] The druids have found unruly allies in the forest: [possibly drunk centaurs].
 1,<p>[druid cause] The druids know everything that moves in this part of the forest for the **crows** act as their eyes and ears. They’re everywhere!
 
 ;druid cause
@@ -15266,7 +15360,7 @@
 ;holiday event
 1,It is the festival of *Saint [old names for women]*, celebrated throughout the land for her miraculous ability to *[sacred ability]*. For the duration of the festival, all visitors are treated to a free meal of [rural meat prep] [food meat] [seasoning method] [with food seasonings] and as much [fruit] [distilled beverage] as they can drink.
 1,From sunrise to sunset, the villagers here celebrate an ancient *Naming Festival*. Anyone whose name begins with the letter *[with random letter]* is treated royally and bedecked with flower wreaths, while anyone whose name begins with *[and random letter]* is playfully chastised and teased. It's also considered highly lucky for babies to be named by a visiting stranger on this day.
-1,Today marks the birth of the hero: *[an old hero]* is rumored to hail from these parts. Friendly competitions (foot races, weight-lifting) may be hard to pass up, for the prize is a [a gem] encrusted [metal jewelry singular] (worth [3d6]00gp).
+1,Today marks the birth of a hero: *[an old hero]* is rumored to hail from these parts. Friendly competitions (foot races, weight-lifting) may be hard to pass up, for the prize is a [a gem] encrusted [metal jewelry singular] (worth [3d6]00gp).
 
 ;sacred ability
 1,predict the future
