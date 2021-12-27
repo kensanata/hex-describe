@@ -2092,7 +2092,7 @@ sub spread_name {
       $log->error("$word for $coord is already something else")
 	  if $names{"$word for $coord"};
       $names{"$word: $coord"} = $name; # "name for white big mountain: 0102"
-      $log->debug("$coord: $name for @keys");
+      # $log->debug("$coord: $name for @keys");
       $globals->{$_}->{$coord} = $name for @keys;
       # $log->debug("$word: $coord = $name");
       push(@queue, map { neighbour($coord, $_) } 0..5);
