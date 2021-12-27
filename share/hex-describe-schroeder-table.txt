@@ -1501,7 +1501,9 @@
 1,14
 
 # New "dungeon themes" can be added here, but will need [boss] and
-# [encounter] tables in the ENCOUNTER section.
+# [encounter] tables in the ENCOUNTER section. Each dungeon type also
+# has their own specific rule so that it can be easily linked.
+
 ;dungeontype
 1,[elements] elemental
 1,bandit
@@ -1515,46 +1517,6 @@
 1,amalgam
 # The amalgam type just mashes up all tables for a random gonzo
 # dungeon experience.
-
-# Listing all the themes separately for easy demonstration.
-;fire elemental dungeon
-1,[store fire elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;air elemental dungeon
-1,[store air elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;water elemental dungeon
-1,[store water elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;earth elemental dungeon
-1,[store earth elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;bandit dungeon
-1,[store bandit as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;goblin dungeon
-1,[store goblin as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;Greek mythology dungeon
-1,[store Greek mythology as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;Gygaxian dungeon
-1,[store Gygaxian as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;lizard dungeon
-1,[store lizard as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;magic user dungeon
-1,[store magic user as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;snake dungeon
-1,[store snake as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;undead dungeon
-1,[store undead as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
-
-;amalgam dungeon
-1,[store amalgam as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
 
 ;dungeon name
 1,The [capitalize dungeon adjective] [capitalize dungeon noun 1] of [capitalize dungeon noun 2]
@@ -1832,7 +1794,6 @@
 1,<u>Treasure Room:</u> [treasure room desc]
 1,[interior room]
 
-
 #TREASURE: a chance for treasure exists by Room Feature, this would generally be in addition to carried treasure
 #Moldvay Unguarded Treasure Stocking:
 #Monsters have treasure on 1-3 dice roll (50% of the time), Traps have treasure on a 1-2 dice roll (33%), and Empty rooms have treasure on dice roll of 1 (16% of the time).
@@ -1848,7 +1809,6 @@
 ;empty treasure
 6,
 1,</li><li>[unguarded treasure]</li>
-
 
 # Using the treasure type assigned with the boss monster (including “unguarded”)
 ;final room treasure
@@ -1901,6 +1861,9 @@
 
 #GOBLIN THEME
 
+;goblin dungeon
+1,[store goblin as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;goblin encounter
 1,[vermin encounter]
 2,[1d6+1] **goblins** led by *[goblin name]*, [monster activities] ([goblin stats])
@@ -1917,9 +1880,13 @@
 1,a **hobgoblin leader** called *[hobgoblin name]* ([hobgoblin leader stats]) and their [2d4] **loyal hobgoblin retainers** ([hobgoblin stats])[store scout as treasure type]
 1,a **goblin moss-warper** called *[goblin name]* (level [1d3+4 as level]), protected by [3d6] **myconids** ([myconid stats])[store poor as treasure type]
 1,a **recently assassinated goblin chieftain** being devoured by [vermin encounter][store unguarded as treasure type]
-1,a **goblin pest-whisperer** called *[goblin name]* (level [1d3+4 as level]), protected by [vermin encounter][store unguarded as treasure type]
+1,a **goblin pest-whisperer** called *[goblin name]* (level [1d3+4 as level]), protected by [vermin encounter][store poor as treasure type]
 
-#GREEK MYTHOLOGY THEME
+# GREEK MYTHOLOGY THEME
+
+;Greek mythology dungeon
+1,[store Greek mythology as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;Greek mythology encounter
 1,a **basilisk** [monster activities] ([basilisk stats])
 1,[possibly drunk centaurs]
@@ -1932,7 +1899,11 @@
 1,a **medusa** named *[medusa name]* ([medusa stats])[store terror as treasure type]
 1,a **minotaur** named *[minotaur name]* ([minotaur stats])[store poor as treasure type]
 
-#GYGAXIAN THEME
+# GYGAXIAN THEME
+
+;Gygaxian dungeon
+1,[store Gygaxian as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;Gygaxian encounter
 1,[1d12 bugbears]
 1,an **ettercap** [monster activities] ([ettercap stats])
@@ -1946,7 +1917,11 @@
 1,[wererat boss][store poor as treasure type]
 1,an **ettin** ([ettin stats])[store robber as treasure type]
 
-#UNDEAD THEME
+# UNDEAD THEME
+
+;undead dungeon
+1,[store undead as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;undead encounter
 #can call out to the necromancer companions table for this (might add to this eventually)
 3,[necromancer companions] 
@@ -1966,7 +1941,11 @@
 #This could be useful for theming dungeons somewhat by element: ICE dungeons/FIRE Dungeons, etc. 
 #Not currently used, but could envision this working a bit like magic mirrors for a planar gateway in a green glass tower/etc.
 
-#EARTH
+# EARTH THEME
+
+;earth elemental dungeon
+1,[store earth elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;earth elemental encounter
 1,[1d4+1] **lesser earth elementals** ([lesser earth elemental stats]) 
 4,[2d6] **[pebble|dust|chalk] mephits**  [monster activities] ([kobold stats])
@@ -1981,7 +1960,11 @@
 3,the **medusa** *[medusa name]* ([medusa stats]) protected by [earth elemental encounter][store terror as treasure type]
 1,a **basilisk** ([basilisk stats])[store terror as treasure type]
 
-#WATER
+# WATER THEME
+
+;water elemental dungeon
+1,[store water elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;water elemental encounter
 1,[1d4+1] **lesser water elementals** ([lesser water elemental stats])
 4,[2d6] **[steam|tear|brine|frost] mephits** [monster activities] ([kobold stats])
@@ -1996,7 +1979,11 @@
 1,an **aboleth** ([aboleth stats]) [lurking|brooding|plotting world domination] in a large pool, served tirelessly by [2d10] **slime coated goblin servants** ([goblin stats])[store terror as treasure type]
 1,a **serpentine sea dragon** ([sea dragon stats])[store dragon as treasure type]
 
-#AIR
+# AIR THEME
+
+;air elemental dungeon
+1,[store air elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;air elemental encounter
 #more air creatures go here: Sylphs, Mephits, etc
 1,[1d4+1] **lesser air elementals** ([lesser air elemental stats]) 
@@ -2005,7 +1992,11 @@
 1,an **air elemental lord** ([greater air elemental stats])[store ancient as treasure type]
 1,the **blue dragon** *[here blue dragon name as dragon name]*[dragon portrait] ([blue dragon stats])[store dragon as treasure type]
 
-#FIRE
+# FIRE THEME
+
+;fire elemental dungeon
+1,[store fire elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;fire elemental encounter
 #more fire creatures go here: Salamanders, Fire Giants, Hell Hounds, etc
 1,[1d4+1] **lesser fire elementals** ([lesser fire elemental stats])
@@ -2018,8 +2009,11 @@
 1,a **fire elemental lord** ([greater fire elemental stats])[store ancient as treasure type]
 1,the **red dragon** *[here red dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
 
+# LIZARD THEME
 
-#LIZARD THEME
+;lizard dungeon
+1,[store lizard as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;lizard encounter
 1,[1d6+1] **kobolds** [monster activities] ([kobold stats])
 1,**giant lizard** ([giant lizard stats])
@@ -2033,8 +2027,11 @@
 1,*[naga name]* the **[Cobra Hooded|Rattle Tail|Coral Striped|Reticulated] Naga** ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span> and her [charmed|ensorcelled|adoring] [lizard encounter][store terror as treasure type]
 1,the **red dragon** *[here red dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
 
-
 #MAGIC USER THEME
+
+;magic user dungeon
+1,[store magic user as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;magic user encounter
 2,[1d4+1] **suits of armor** standing against the wall ([skeleton stats])
 2,[1d6+1] **animated brooms** sweeping the halls ([kobold stats])
@@ -2063,6 +2060,9 @@
 
 # BANDIT THEME
 
+;bandit dungeon
+1,[store bandit as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;bandit encounter
 1,[1d6+1] **thugs** led by *[human name]*, [monster activities] ([human stats]; club)
 1,[1d6+1] **assassins** led by *[human name]*, [monster activities] ([human stats]; dagger)
@@ -2079,9 +2079,15 @@
 1,The [infamous|wanted|recently escaped] **[human class]** [human with portrait] (level [1d4+1 as level]) leading [2d6] **bandits** ([bandit stats]). [here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]][store poor as treasure type]
 
 #SNAKE THEME
+
+;snake dungeon
+1,[store snake as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;snake encounter
+1,[snake artist]
 1,[1d4 giant snakes]
 1,[1d8 snakes]
+1,[1d6 snake people]
 
 ;snake boss
 1,a **gorgon** guarding a broken [statue|effigy|altar] of Set ([gorgon stats])[store terror as treasure type]
@@ -2089,8 +2095,13 @@
 1,the **naga** *[naga name]* ([naga stats])[store terror as treasure type]
 1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure][store poor as treasure type]
 
-#AMALGAM THEME
-#This one just takes entries from the other themes and mashes them together for a true gonzo random dungeon experience
+# AMALGAM THEME
+
+;amalgam dungeon
+1,[store amalgam as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+# This one just takes entries from the other themes and mashes them
+# together for a true gonzo random dungeon experience.
 
 ;amalgam encounter
 1,[goblin encounter]
@@ -2106,6 +2117,15 @@
 1,[[elements] elemental boss]
 1,[lizard boss]
 1,[magic user boss]
+
+# DEVIL THEME
+
+# This is not themed correctly!
+;devil dungeon
+1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&seed=$seed]]" alt="5 room dungeon" title="5 room dungeon"/><ol><li>The cave entrance is filled with **hot steam** (1d6 scalding damage to each non-devil who enters), but the water smells and tastes of [sulfur|decaying corpses|burnt bones], revolting all who enter.<li>Stretched on a metal rack is a prisoner with scalded skin, [ettercap prisoner feeling]. This is *[human name]* from *[same village name]*, taken while [herding|fetching water|worshiping|going to see the smith].<li>Here, [1d4+1] [devils] [cavort|caper in a macabre dance|sing in disharmony|strum soundless lutes] ([devil stats]). An [unearthly|unsettling|undulating] music echoes in these halls.<li>This chamber contains a sunken bath, warmed by the hot springs. A [devil] hangs upside down in one of [2d20] niches, asleep. The devil will wake and attack if anyone [whispers|tiptoes|touches the water].<li>A great hall holds a throne and tables full of food and wine. Queen *[devil name]*, a [devil], presides over her court here, [1d6+1] [devils] and [1d2+1] [devils]. The devils will fight to the death to protect their queen ([devil stats]).</li></ol>
+
+
+# Monster stats
 
 ;aerial servant stats
 1,HD 16 AC 3 8d4 F10 MV 24 ML 10 XP 1600; surprise on 1–4 in 6; pins human-sized creatures on a hit
@@ -3212,6 +3232,10 @@
 1,a *gate of snakes*: a knot of two impossibly large stone snakes with a passage underneath illuminated by torches and guarded by [snake people]
 1,a *maw of thorns*: a tunnel with a thousand inwards pointing needles several feet long and but a thin path winding its way through it. In front of the maw is a platform, facing south. It is much warmer here than one would expect this far up. [lizard people]
 1,a *walkway* lined on either side by carved stone pillars, each shaped to give the appearance of an enormous snake wrapped around it, there opened mouths threatening those who pass. If you misstep, the snakes' mouths shoot **poison darts** at the unwary: save vs. poison or die.
+
+;1d6 snake people
+1,**snake person** *[lizard leader]* ([lizard people stats]; *charm person* 3×/day)
+1,[1d5+1] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]*
 
 ;snake people
 1,[6d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure] [snake people companions] [average treasure]
@@ -6120,7 +6144,7 @@
 
 ;road to Muspelheim obstacle
 1,You enter a cave with that smells of stomach acid and wet dog. The air is warm and the sound of breathing surrounds you. This is the home of the **three-headed giant hell hound** *[cerberus name]* ([cerberus stats]). [terror treasure]
-1,The tunnels start branching off in all directions and the heat grows more intense. Some of these passages glowing red hot. These are the hunting grounds of [2d4] **hell hounds* led by *[hell hound name]* ([hell hound stats]).
+1,The tunnels start branching off in all directions and the heat grows more intense. Some of these passages glowing red hot. These are the hunting grounds of [2d4] *hell hounds* led by *[hell hound name]* ([hell hound stats]).
 1,The air grows hotter, a red glow fills the tunnel, and finally it opens into a cavern filled with a lava lake inhabited by [2d4] **salamanders** led by *[salamander name]* ([salamander stats]). [terror treasure]
 1,The tunnel opens up into a cavern 100ft across and at the far end, the exit is guarded by a **pyrohydra** ([pyrohydra stats]).
 1,The tunnel leads up to a great iron gate. This is the upper gate of the dwarven forge *[here dwarf forge]*. [5d8] **dwarves** live and work here ([dwarf stats]) led by [dwarf with portrait] (level [1d6+2 as level]). [luxurious context] [dwarven treasure] From the lower gate, the tunnel continues towards Muspelheim.
@@ -16469,6 +16493,9 @@
 
 ;snake stats
 1,HD 2 AC 6 1d4 + *poison* F1 MV 9 ML 7 XP 200; *poison*: when bitten, save vs. poison or die
+
+;snake artist
+1,The **snake artist** *[human with portrait]* ([human stats]; flute, club) and their [2d4] **snakes** in woven baskets ([snake stats])
 
 ;small temple dedicated to Orcus
 1,[small temple]
