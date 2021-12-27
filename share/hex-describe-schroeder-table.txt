@@ -1772,9 +1772,9 @@
 1,[2d3] [crumbling|moss covered|vandalized|smashed] [stone|bronze|iron|terracotta] statues
 1,[cheap metal] [cage|chains] hold a dead [orc|human|goblin|elf|dwarf|halfling|frogling|pixie|ogre]
 1,cave paintings
-1,frescoes of [power]
+1,frescoes of *[power]*
 1,decorations featuring [[power] decoration]
-1,magic mouth reciting [terrible poetry|[store human as singing humanoid]*[story]*|a loud warning to the denizens of the dungeon|praises to [power]|curses to followers of [power]]
+1,magic mouth reciting [terrible poetry|[store human as singing humanoid]*[story]*|a loud warning to the denizens of the dungeon|praises to *[power]*|curses to followers of *[power]*]
 1,filled [ankle-high|waist-high|to the brim] with [colour] [mist|fog]
 1,narrow path along a charnel pit with [random corpses]
 1,[blood spattered|hastily engraved|gouged|painted] runes in the wall spelling out *[dwarf name]*
@@ -1803,7 +1803,7 @@
 1,A pile of rags
 1,A small pool
 1,A small curtain concealing an empty small alcove
-1,A [beautiful|desecrated|mutilated|defaced|painted|blood smeared] wooden statue of [power]
+1,A [beautiful|desecrated|mutilated|defaced|painted|blood smeared] wooden statue of *[power]*
 1,An empty shelf
 1,A doll lying inside a dingy crib
 1,A table and two benches
@@ -1864,9 +1864,9 @@
 1,a [lose flagstone|pile of rags] → gravel → buried beneath it
 1,a small pool → muddy bottom → buried
 1,a dingy curtain → hiding a small alcove
-1,a [beautiful|desecrated|mutilated|defaced|painted|blood smeared] wooden statue of [power] → hidden inside
+1,a [beautiful|desecrated|mutilated|defaced|painted|blood smeared] wooden statue of *[power]* → hidden inside
 1,an empty [barrel|crate] → move aside to reveal a box hidden beneath
-1,a [beautiful|desecrated|mutilated|defaced|painted|blood smeared] [power] statue → on a [wooden|stone] pedestal → hidden inside
+1,a [beautiful|desecrated|mutilated|defaced|painted|blood smeared] *[power]* statue → on a [wooden|stone] pedestal → hidden inside
 1,a [rafter|shelf] above → hidden in the shadows → a bag
 1,a brick wall → a fake brick → behind it is a small hollow
 1,a painted wall → plastered → a small hollow stuffed with straw and rat bones → behind it
@@ -2353,7 +2353,7 @@
 1,A partition in the corner sets off a vestry, with [chest] containing new vestments in many sizes, including [albas|cassocks|cottas|robes|surplices].
 1,A [size] cobweb-covered vestry sits forlornly on the far wall of this room.
 1,A triangular table in a corner is for the sacristy, with [chests] containing ceremonial [food and plates|drinks and cups|candles and charms|lamps and oil].
-1,A rough [masonry mat] idol, more boulder than sculpture, squats in a corner. (An ancient image of [power].)
+1,A rough [masonry mat] idol, more boulder than sculpture, squats in a corner. (An ancient image of *[power]*.)
 1,A giant [cheap metal] lamp dangles from a chain from the ceiling.
 
 ;religious walls
@@ -2371,7 +2371,7 @@
 ;altar desc
 1,A low [masonry mat] plinth crowns a [crumbling|collapsing|squat] dais covered in [cobwebs|dried blood|dust]. [religious walls]
 1,Decades of melted wax form a frozen dribble and cover a wide [ornately|primitively|austerely] decorated [masonry mat] pedestal. [religious periphery]
-1,A carefully sculptured marble altar shows images of [power]. But instead of an offering it holds only [old bones|dried flower petals|a dessicated rat].
+1,A carefully sculptured marble altar shows images of *[power]*. But instead of an offering it holds only [old bones|dried flower petals|a dessicated rat].
 1,An enormous stone table, brimming with [occult|dark|evil|vile] [energy|magic], dominates this room. Ceremonial stone knives line the edges. [[religious periphery]|[religious walls]]
 
 ;chantry desc
@@ -2390,16 +2390,16 @@
 1,[chapel desc center] [altar desc]
 
 ;shrine desc
-1,Within an ornate alcove rests a small votive sculpture of [power]. [religious walls]
+1,Within an ornate alcove rests a small votive sculpture of *[power]*. [religious walls]
 1,A hazy film of soot clings to every surface here, the smell of incense and [smells] hangs in the air. [religious walls]
 1,At the foot of a defaced stone statue rest small bones, fragile flower petals, and the stubs of consumed candles. [[religious periphery]|[religious walls]]
 1,The room is centered on a mausoleum. [[religious periphery]|[religious walls]] 
 1,A [height] [bright|sharp|unnatural|smoky] [colour] flame rises from the floor in the [center|middle] of this [room|chamber]. [[religious periphery]|[religious walls]] 
 1,The room is centered on a mausoleum. [[religious periphery]|[religious walls]] 
-1,A [whitened sepulchre|sarcophagus] holds the remains of a prophet of [power], her name written in strange runes that line its sides. [[religious periphery]|[religious walls]] 
+1,A [whitened sepulchre|sarcophagus] holds the remains of a prophet of *[power]*, her name written in strange runes that line its sides. [[religious periphery]|[religious walls]]
 1,A philatory the size of an enormous coffin, with a thick glass cover protected by blessings, reveals the skeleton of a [troll|ogre|giant|jotunn]. [[religious periphery]|[religious walls]] 
 1,A bronze reliquary stands on a pedestal (warded by a necrotic curse that will reduce to 3 for the day the strength of anyone who touches it). [[religious periphery]|[religious walls]] 
-1,At the bottom of a shallow pool, [1d100]0 silver coins reflect any torchlight; the head of the coins shows [power]. ([The water is a transparent acid that|Silvery jawfish (the jaw is half its body size)|Cursed water] will do 2d6 damage per turn to any exposed to it.)
+1,At the bottom of a shallow pool, [1d100]0 silver coins reflect any torchlight; the head of the coins shows *[power]*. ([The water is a transparent acid that|Silvery jawfish (the jaw is half its body size)|Cursed water] will do 2d6 damage per turn to any exposed to it.)
 
 ;temple desc
 1,Rows of stone pillars form a square around a [masonry mat] table, which has bolted into it a giant [cheap metal] grotesquerie of a [devil]. [[religious periphery]|[religious walls]] 
@@ -2952,7 +2952,7 @@
 ;refuge castle description
 1,hill fort, protected by an earthen wall
 1,hill fort, protected by a ditch and a palisade
-1,fortified temple of [power][here store temple of [same power]], reachable only by ladders and a narrow trail
+1,fortified temple of *[power]*[here store temple of [same power]], reachable only by ladders and a narrow trail
 1,peasant burg, an open space protected by a rampart and wooden spikes
 1,refuge castle, protected by an earth wall and a palisade
 
@@ -6165,8 +6165,8 @@
 ;how to free an elven ghost
 1,by smashing the tower to bits
 1,by washing the tower of the millennia of blood
-1,by dedicating it to [power]
-1,by building an altar to [power]
+1,by dedicating it to *[power]*
+1,by building an altar to *[power]*
 1,by returning [nearby elf treasure]
 
 ;another realm
@@ -12463,7 +12463,7 @@
 1,The smell of burning wood is in the air and if you go looking for its source, you’ll soon find a burning kiln and a nearby wooden hut. Here lives the charcoal burner [human with portrait]. They lead a lonely life out here in the [forest name]. [charcoal burner extra] [forest event]
 
 ;charcoal burner extra
-1,Out in the back you can find a crude statue of [power] cut from wood.
+1,Out in the back you can find a crude statue of *[power]* cut from wood.
 1,They used to be an important player in the [name for a secret society ([chaos|law|neutrality])].
 1,They [fled|were exiled] from *[nearby village name]* many years ago. They don’t want to speak about it. [cause for exile]
 
@@ -14558,8 +14558,8 @@
 
 ;elementalist job
 1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] has been squeezing us for months, now. The other elementalists won’t help us so you are our only hope. Free us from this [plague spirit|bone devil|vampire]!” If you investigate you will find tales of coercion, molestation and disappearances from *[human name]*, *[human name]*, and *[human name]*. The situation really is unbearable.
-1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] is a corrupt worshipper of [evil power]! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, you do find an altar decorated with [Set decoration] in their home.
-1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [with elementalist type] is a corrupt worshipper of [evil power]! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, however, you find no confirmation for this accusation. Eventually it turns out that the [and elementalist type] is behind it all, insinuating wrongdoings and planting false evidence – and *[same human name]* fell for it.
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [elementalist type] is a corrupt worshipper of *[evil power]*! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, you do find an altar decorated with [Set decoration] in their home.
+1,If *[same human name]* takes a liking to you, they’ll ask for your help: “Our [with elementalist type] is a corrupt worshipper of *[evil power]*! We must act now before the other elementalists fall to this corruption. They refuse to see what lies in plain sight.” If you investigate, however, you find no confirmation for this accusation. Eventually it turns out that the [and elementalist type] is behind it all, insinuating wrongdoings and planting false evidence – and *[same human name]* fell for it.
 1,If *[same human name]* takes a liking to you, they’ll ask for your help: “The situation here is about to descend into chaos. You must help us! The [with elementalist type] and [and elementalist type] are about to kill each other. Please help diffuse the situation!”
 
 ;elementalist type
@@ -14620,8 +14620,8 @@
 # no captain!
 1,As the wounded start dying, the stench is spreading. Flies are everywhere. Soon, cholera and typhus will be showing up. The locals want the refugees gone, but who is going to argue with armed men? Better to stab them during the night, some might say.
 1,The locals are no longer willing to support the refugees, calling them maggots and worms and worse. Nobody is willing to kill, however, and so the situation just lingers, the refugees too weak to kill the locals and simply take what they need and the locals to afraid to do away with the extra mouths.
-1,The young **[human class]** *[human with portrait]* is a devout servant of [good power]. They are trying to find a solution to the problem. Surely some land could be cleared for these poor souls? Let them settle.
-1,The young **[human class]** *[human with portrait]* is a devout servant of [evil power]. They have shrewdly insinuated that the locals are simply waiting for them to weaken even further until one night they’ll all just stab them. So why not take things into your own hands and act first? Strike now and take what you need!
+1,The young **[human class]** *[human with portrait]* is a devout servant of *[good power]*. They are trying to find a solution to the problem. Surely some land could be cleared for these poor souls? Let them settle.
+1,The young **[human class]** *[human with portrait]* is a devout servant of *[evil power]*. They have shrewdly insinuated that the locals are simply waiting for them to weaken even further until one night they’ll all just stab them. So why not take things into your own hands and act first? Strike now and take what you need!
 
 ;the presence of corpses is a problem
 # no captain!
@@ -14631,7 +14631,7 @@
 
 ;the influence of a temple can be a problem
 1,[a different war party]At their destination however, [1d4x10] **mercenaries** ([mercenary stats]) are already waiting. You can see the *[the war party colour]* banner of *[the war party]* (blazon: *[the war party blazon]*). [average treasure] They are led by the mercenary captain **[human class]** [human with portrait][store [same human name] as captain] (level [1d4+2 as level]). [spellbook for [same class]] [leader treasure for [same class]]
-1,Having heard of this, [1d4x10] [power] **cultists** ([human stats]) have decided to follow the mercenaries. Every night they drink and squabble. How will this end? [average treasure] They are led by [human with portrait] (level [1d6+1 as level]), [cult leader description]. [leader treasure for magic user]
+1,Having heard of this, [1d4x10] *[power]* **cultists** ([human stats]) have decided to follow the mercenaries. Every night they drink and squabble. How will this end? [average treasure] They are led by [human with portrait] (level [1d6+1 as level]), [cult leader description]. [leader treasure for magic user]
 
 ;cult leader description
 1,a charismatic fool
@@ -14989,8 +14989,8 @@
 3,
 2,<p>The caravan has a **bard** called [[same race] with portrait] who is on their way to *[nearby village name]*.[store [same race] as singing humanoid] [maybe a book] The songs they like to perform are *[with story]* and *[and story]*. [maybe a book]
 2,<p>*[[same race] with portrait]* is a **secret agent** of the *[one of the secret societies]*. [description for a secret society ([same alignment])]
-2,<p>*[[same race] with portrait]* is selling blessed [metal mat] amulets of [good power]. If you ask them about it, they’ll say they’re interested in visiting the [nearby temple of [same good power]].
-2,<p>*[[same race] with portrait][store [same [same race] name] as cultist]* is an **evil cultist** of [evil power]. If you know the cult, you will recognise their amulet: it shows [[same evil power] decoration]. They already befriended a kid called *[human name]* but swore them to secrecy. Before the caravan leaves, *[same cultist]* is planning to sacrifice them to their demon lord.
+2,<p>*[[same race] with portrait]* is selling blessed [metal mat] amulets of *[good power]*. If you ask them about it, they’ll say they’re interested in visiting the [nearby temple of [same good power]].
+2,<p>*[[same race] with portrait][store [same [same race] name] as cultist]* is an **evil cultist** of *[evil power]*. If you know the cult, you will recognise their amulet: it shows [[same evil power] decoration]. They already befriended a kid called *[human name]* but swore them to secrecy. Before the caravan leaves, *[same cultist]* is planning to sacrifice them to their demon lord.
 1,<p>One of the members of the trade caravan is a **witch** in disguise. Travelling under the name *[[same race] with portrait]*, her real name is *[here old names for women as witch]*, [the witch]. [caravan witch goal] ([witch stats]). Any valuables are well hidden in her wagon. [terror treasure]
 1,<p>The caravan has a **travelling alchemist** called [[same race] with portrait] who can supply a [with scroll], a [and scroll], a [and scroll] at 1000gp each. They also have a [with potion] and a [and potion] for sale at 500gp each. [maybe a book]
 1,<p>The caravan has a **botanist** called [[same race] with portrait] who will sell potted *[with magic plant]* or *[and magic plant]* at 50gp each (20 of each available), and the very costly *[and magic plant]* at 500gp each (just 2 available). [maybe a book]
@@ -15438,7 +15438,7 @@
 1,Z
 
 ;devil troubles
-1,Those who live here are often in terror. [Sheep|Goats|Cattle|Pigs] are found mutilated. [Dog|Cat|Rabbit] entrails are spread around sites holy to [power]. Herders have reported seeing a [devil] [late at night|early in the morning|after sunset|before sunrise].<p>A natural hot springs blocks the entrance to a cavern, which hides a shallow cave complex occupied by a coven of devils. They derive psychic energy from the terror of others.<p>[dungeon map with 5 rooms]<ol><li>The cave entrance is filled with **hot steam** (1d6 scalding damage to each non-devil who enters), but the water smells and tastes of [sulfur|decaying corpses|burnt bones], revolting all who enter.<li>Stretched on a metal rack is a prisoner with scalded skin, [ettercap prisoner feeling]. This is *[human name]* from *[same village name]*, taken while [herding|fetching water|worshiping|going to see the smith].<li>Here, [1d4+1] [devils] [cavort|caper in a macabre dance|sing in disharmony|strum soundless lutes] ([devil stats]). An [unearthly|unsettling|undulating] music echoes in these halls.<li>This chamber contains a sunken bath, warmed by the hot springs. A [devil] hangs upside down in one of [2d20] niches, asleep. The devil will wake and attack if anyone [whispers|tiptoes|touches the water].<li>A great hall holds a throne and tables full of food and wine. Queen *[devil name]*, a [devil], presides over her court here, [1d6+1] [devils] and [1d2+1] [devils]. The devils will fight to the death to protect their queen ([devil stats]).</li></ol>
+1,Those who live here are often in terror. [Sheep|Goats|Cattle|Pigs] are found mutilated. [Dog|Cat|Rabbit] entrails are spread around sites holy to *[power]*. Herders have reported seeing a [devil] [late at night|early in the morning|after sunset|before sunrise].<p>A natural hot springs blocks the entrance to a cavern, which hides a shallow cave complex occupied by a coven of devils. They derive psychic energy from the terror of others.<p>[devil dungeon]
 
 ;devil
 1,**devil** with [devil wings][devil chimera] [devil beast]
@@ -15546,7 +15546,7 @@
 1,half plate @ [2d4x100-100]gp
 2,a hand axe @ [2d4]gp
 2,a helmet @ [3d6+5]gp
-1,a silver holy symbol of [power] depicting [[same power] decoration] @ 35gp
+1,a silver holy symbol of *[power]* depicting [[same power] decoration] @ 35gp
 5,a javelin @ 1gp
 2,a lance @ 7gp
 2,a lantern @ 10gp
@@ -15951,7 +15951,7 @@
 1,infertile and desperate, bargaining with local fey
 # assisting the Priest as they bless Holy Water
 # changed church to temple
-1,laying the cornerstone of a new [power] temple
+1,laying the cornerstone of a new *[power]* temple
 1,attempting to halt a runaway Ox plowing the streets
 1,lugging buckets to fill a large boiling cauldron
 1,averting their eyes as you approach for at least an hour
@@ -16126,7 +16126,7 @@
 1,
 
 ;cleric or not
-1,<li>The **cleric** *[human name]* tends [an altar for|a chapel to|a church of|a shrine to] [good power] and [accepts donations|offers blessings|[sells] indulgences].</li>
+1,<li>The **cleric** *[human name]* tends [an altar for|a chapel to|a church of|a shrine to] *[good power]* and [accepts donations|offers blessings|[sells] indulgences].</li>
 1,
 
 ;gossip
@@ -16205,7 +16205,7 @@
 1,shoemaker
 
 ;zealot or not
-1,<li>The **[zealot trade]** *[human name]*, [[an avowed|a devoted] follower|a fanatic|a zealot] of [good power], [travels|wanders] [around|town] [panhandling|praying|preaching|proselytizing|singing hymns]. [tradesperson goal or feud]</li>
+1,<li>The **[zealot trade]** *[human name]*, [[an avowed|a devoted] follower|a fanatic|a zealot] of *[good power]*, [travels|wanders] [around|town] [panhandling|praying|preaching|proselytizing|singing hymns]. [tradesperson goal or feud]</li>
 
 ;factional deputy
 # to fit the alphabetical order, titles most come after _trader_!
@@ -16273,8 +16273,8 @@
 
 ;townsperson goal
 1,([Secretly] [favors|supports] [name for a war party 1].)
-1,([Secretly] [worships|follows] [evil power].)
-1,([Prays to|Worships] [good power].)
+1,([Secretly] [worships|follows] *[evil power]*.)
+1,([Prays to|Worships] *[good power]*.)
 6,(A member of *[name for a secret society ([chaos|law|neutrality])]*.)
 3,
 
@@ -40097,7 +40097,7 @@
 1,A goblin assassin’s *short bow* +1 with plenty of notches along its side.
 1,The orcish zweihänder *Wall Cutter*[here store Wall Cutter as legendary weapon] +1/+3 vs. city dwellers, in the [orc sword tradition].
 1,An orcish *mace* +1 with [orcish runes].
-1,An orcish *mace* +1 marked with the runes of [evil power].
+1,An orcish *mace* +1 marked with the runes of *[evil power]*.
 1,The orcish spear *Dog Impaler*[here store Dog Impaler as legendary weapon] +1/+3 vs. elves, created by *[orc name]* in *[orc war]*.
 1,The orcish sword *Monkey Slicer*[here store Monkey Slicer as legendary weapon] +1/+3 vs. humans used by *[orc name]* in *[orc war]*.
 1,The ancient spear *Fur Hunter*[here store Fur Hunter as legendary weapon] +1/+3 vs. mammals, a relic of the *Old Lizard Wars*, blessed by Set.
@@ -40120,9 +40120,9 @@
 ;magic weapon for magic user
 5,An elven *dagger* +1 with [elven inscription][here store the dagger of [same owner] as elf treasure]
 3,A goblin assassin’s *dagger* +1 with grip covered by rats’ teeth and lizard skin.
-2,A *dagger* +1 consecrated to [power].
-1,A *dagger* +1 with the pommel being a small talking head of [power] always there to recommend a violent course of action.
-1,A *dagger* +1 consecrated to [evil power] poisoning your thoughts with images of you stabbing anybody you are talking to.
+2,A *dagger* +1 consecrated to *[power]*.
+1,A *dagger* +1 with the pommel being a small talking head of *[power]* always there to recommend a violent course of action.
+1,A *dagger* +1 consecrated to *[evil power]* poisoning your thoughts with images of you stabbing anybody you are talking to.
 1,The dagger *Lifeblood* +1 which allows you to transfer the power of life by cutting somebody and having somebody else drink it.
 1,The dagger *Stonecutter*[here store Stonecutter as legendary weapon] +1 which allows you to slowly cut through stone.
 1,A magic *tongue dagger* +1 with a sticky tongue wrapped around its grip which can pick up unguarded items within 2m, consecrated to Tsathoggua.
@@ -40141,28 +40141,28 @@
 2,A dwarven *shield* +2 with [dwarven inscription]
 1,A suit of elven *plate armour of fire resistance* +1 made with scales of the red dragon *[red dragon name]*, forged by *[elf name]*.
 1,A suit of dwarven *plate armour cold resistance* +1 made with scales of the white dragon *[white dragon name]*, forged by *[dwarf name]* of *[dwarf forge]*.
-1,An orcish *spiked plate armour* +1 forged by *[orc name]*, preventing all sorts of wrestling and hugging by bears, cats, gorillas and the like
+1,An orcish *spiked plate armour* +1 forged by *[orc name]*, preventing all sorts of wrestling and hugging by bears, cats, gorillas and the like.
 1,A black *plate armour of [evil power]* +3, inscribed with runes of fire spelling doom and despair.
 1,The *shield of the lion* +2: when you hit your opponent, it bites for an extra 1d6 damage.
 1,A black *plate armour of the dark lord* + 2, giving your voice a magical force, if you are not attacking: the person addressed must save vs. spells or obey a one-word command, if they understand.
 1,A helmet with the gilded face mask of *[wight leader]* emanating an aura of fear, reducing enemy morale by 1.
 
 ;magic armour for magic user
-3,A pair of *silver armlets* +1 dedicated to [power].
-1,A pair of *golden armlets* +2 dedicated to [good power].
-1,A pair of *black iron broken manacles* +2 with fiendish runes dedicating its wearer to [evil power].
-1,Two sets of *black iron chains* +2 to wrap around your arms, with the runes of [evil power] on every link.
-3,A *silver diadem* +1 dedicated to [power].
+3,A pair of *silver armlets* +1 dedicated to *[power]*.
+1,A pair of *golden armlets* +2 dedicated to *[good power]*.
+1,A pair of *black iron broken manacles* +2 with fiendish runes dedicating its wearer to *[evil power]*.
+1,Two sets of *black iron chains* +2 to wrap around your arms, with the runes of *[evil power]* on every link.
+3,A *silver diadem* +1 dedicated to *[power]*.
 1,A *silver crown* +1 commemorating the immortal *[elf name]*.
-1,A *golden diadem* +2 dedicated to [good power].
+1,A *golden diadem* +2 dedicated to *[good power]*.
 1,A *golden crown* +2 commemorating the ascension of *[dwarf name]* to the throne of *[dwarf forge]*.
-1,A *black iron crown* +2 proclaiming the wearer to be loyal slave of [evil power].
+1,A *black iron crown* +2 proclaiming the wearer to be loyal slave of *[evil power]*.
 1,A *black iron crown* +2 proclaiming the wearer to be [orc name], king of kings.
-3,A *silver necklace* +1 dedicated to [power].
-1,A *golden necklace* +2 dedicated to [good power].
-1,A *black iron slave collar* +2 dedicating its wearer to [evil power].
-1,A *living silver tattoo* +1 dedicated to [good power].
-1,A *living black tattoo* +1 dedicating its wearer to [evil power].
+3,A *silver necklace* +1 dedicated to *[power]*.
+1,A *golden necklace* +2 dedicated to *[good power]*.
+1,A *black iron slave collar* +2 dedicating its wearer to *[evil power]*.
+1,A *living silver tattoo* +1 dedicated to *[good power]*.
+1,A *living black tattoo* +1 dedicating its wearer to *[evil power]*.
 
 ;1d8 wondrous items
 1,[[1d8] wondrous items]
