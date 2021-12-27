@@ -4174,6 +4174,7 @@ The tables contain material by the following people:
 <li>J. Alan Henning (<a href="https://twitter.com/jalanhenning">@jalanhenning</a> on Twitter)
 <li>Josh Johnston
 <li>Vicky Radcliffe
+<li><a href="https://nilisnotnull.blogspot.com/">Peter Fröhlich </a>
 </ul>
 
 <p>
