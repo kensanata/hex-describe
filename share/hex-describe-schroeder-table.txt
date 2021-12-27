@@ -510,16 +510,19 @@
 
 ;horse archers
 1,[1d4x10] **humans** ([archer stats]) led by *[archer leader name as human name]*[human portrait]. They are hunters and gatherers, following the herds of *[cows]*, and they are also excellent *horse archers*. [horse archer activities] They will trade dried meat and finely woven cloth for jewelry or [gem]. Their wool tents are decorated with [with colour] and [and colour] banners and protected by [human companions]. [average treasure]
-1,[1d4x10] **humans** ([archer stats]) led by *[archer leader name as human name]*[human portrait]. They keep [2d4x10] *[cows]*. They are also excellent *horse archers*. [horse archer activities] They will trade [same cows] cheese and pickled [root veg] for [mine content] or spices. For an extravagant sum, they might even trade a prized hunting eagle. Their wool tents are arranged in a circle around the tent of their leader and are protected by [human companions]. [average treasure]
+1,[1d4x10] **humans** ([archer stats]) led by *[archer leader name as human name]*[human portrait]. They keep [2d4x10] *[cows]*. They are also excellent *horse archers*. [horse archer activities] They will trade [same cows] cheese and pickled [root veg] for [mine content] or spices. For 500gp, they might even trade a prized hunting eagle. Their wool tents are arranged in a circle around the tent of their leader and are protected by [human companions]. [average treasure]
 
 ;human stats
 1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100
+
+;bandit stats
+1,[human stats]; [club|dagger|spear|hand axe|sling, club|long bow, dagger]
 
 ;militia stats
 1,HD 1 AC 8 1d6 F1 MV 12 ML 7 XP 100; shield, spear
 
 ;shepherd stats
-1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; club, sling
+1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; [club|staff], sling
 
 ;archer stats
 1,HD 1 AC 9 1d6 F1 MV 12 ML 7 XP 100; short bow
@@ -1453,45 +1456,47 @@
 # that tie into the same monster list.
 
 #MAIN GENERATOR
-;dungeon header
-1,[save dungeontype as monsters]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>
-
 ;dungeon
-# 5 rooms (the first being an entrance and the last being the “boss”)
-5,[dungeon header][dungeon map with 5 rooms]<ol>[entrance room html][interior room html][interior room html][interior room html][final room html]</ol>
-# 7 rooms (the first being an entrance and the last being the “boss”)
-4,[dungeon header][dungeon map with 7 rooms]<ol>[entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html]</ol>
-# 10 rooms (5+5)
-3,[dungeon header][dungeon map with 10 rooms]<ol>[entrance room html][interior room html][interior room html][interior room html][final room html][entrance room html][interior room html][interior room html][interior room html][final room html]</ol>
-# 12 rooms (5+7)
-2,[dungeon header][dungeon map with 12 rooms]<ol>[entrance room html][interior room html][interior room html][interior room html][final room html][entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html]</ol>
-# 14 rooms (7+7)
-1,[dungeon header][dungeon map with 14 rooms]<ol>[entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html][entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html]</ol>
+1,[save dungeontype as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon header][dungeon map with [same rooms] rooms]
 
-# Anytime we repeat things, such as rooms, we want have liked to make sure no element repeats itself, but every change in dungeon denizen numbers would already count as a difference and so we’re not going to pay attention to all that.
+;dungeon map with 5 rooms
+1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&seed=$seed]]" alt="5 room dungeon" title="5 room dungeon"/><ol>[entrance room html][interior room html][interior room html][interior room html][final room html]</ol>
+
+;dungeon map with 7 rooms
+1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=7&seed=$seed]]" alt="7 room dungeon" title="7 room dungeon"/>[dungeon header]<ol>[entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html]</ol>
+
+;dungeon map with 10 rooms
+1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=10&seed=$seed]]" alt="10 room dungeon" title="10 room dungeon"/>[dungeon header]<ol>[entrance room html][interior room html][interior room html][interior room html][final room html][entrance room html][interior room html][interior room html][interior room html][final room html]</ol>
+
+;dungeon map with 12 rooms
+1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=12&seed=$seed]]" alt="12 room dungeon" title="12 room dungeon"/>[dungeon header]<ol>[entrance room html][interior room html][interior room html][interior room html][final room html][entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html]</ol>
+
+;dungeon map with 14 rooms
+1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=14&seed=$seed]]" alt="14 room dungeon" title="14 room dungeon"/><ol>[entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html][entrance room html][interior room html][interior room html][interior room html][interior room html][interior room html][final room html]</ol>
+
 ;entrance room html
 1,<li>[entrance room]</li>
+
 ;interior room html
 1,<li>[interior room]<ul><li>[room feature]</li></ul></li>
+
 ;final room html
 1,<li>[final room]<ul><li>[[same monsters] boss]</li><li>[final room treasure]</li></ul></li>
 
-;dungeon map with 5 rooms
-1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&seed=$seed]]" alt="5 room dungeon" title="5 room dungeon"/>
+;rooms
+# 5 rooms (the first being an entrance and the last being the “boss”)
+5,5
+# 7 rooms (the first being an entrance and the last being the “boss”)
+4,7
+# 10 rooms (5+5)
+3,10
+# 12 rooms (5+7)
+2,12
+# 14 rooms (7+7)
+1,14
 
-;dungeon map with 7 rooms
-1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=7&seed=$seed]]" alt="7 room dungeon" title="7 room dungeon"/>
-
-;dungeon map with 10 rooms
-1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=10&seed=$seed]]" alt="10 room dungeon" title="10 room dungeon"/>
-
-;dungeon map with 12 rooms
-1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=12&seed=$seed]]" alt="12 room dungeon" title="12 room dungeon"/>
-
-;dungeon map with 14 rooms
-1,<img class="map" src="[[redirect https://campaignwiki.org/text-mapper/gridmapper/redirect?pillars=0&rooms=14&seed=$seed]]" alt="14 room dungeon" title="14 room dungeon"/>
-
-#new "dungeon themes" can be added here, but will need [boss] and [encounter] tables in the ENCOUNTER section
+# New "dungeon themes" can be added here, but will need [boss] and
+# [encounter] tables in the ENCOUNTER section.
 ;dungeontype
 1,[elements] elemental
 1,bandit
@@ -1503,9 +1508,48 @@
 1,snake
 1,undead
 1,amalgam
-#amalgam type just mashes up all tables for a random gonzo dungeon experience.
-#Loads more potential here, but they are a little time consuming to create
-#other ideas for themes: cultists, smugglers, bandits
+# The amalgam type just mashes up all tables for a random gonzo
+# dungeon experience.
+
+# Listing all the themes separately for easy demonstration.
+;fire elemental dungeon
+1,[store fire elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;air elemental dungeon
+1,[store air elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;water elemental dungeon
+1,[store water elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;earth elemental dungeon
+1,[store earth elemental as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;bandit dungeon
+1,[store bandit as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;goblin dungeon
+1,[store goblin as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;Greek mythology dungeon
+1,[store Greek mythology as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;Gygaxian dungeon
+1,[store Gygaxian as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;lizard dungeon
+1,[store lizard as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;magic user dungeon
+1,[store magic user as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;snake dungeon
+1,[store snake as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;undead dungeon
+1,[store undead as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;amalgam dungeon
+1,[store amalgam as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
 
 ;dungeon name
 1,The [capitalize dungeon adjective] [capitalize dungeon noun 1] of [capitalize dungeon noun 2]
@@ -1643,8 +1687,7 @@
 1,[devil name]
 1,[human name]
 1,[a strange royal]
-1,[strange name for men]
-1,[strange name for women]
+1,[strange name]
 1,[snake place]
 1,[ancient capital]
 1,[dwarf name]
@@ -1660,10 +1703,9 @@
 1,[spellbook]
 1,the [title]
 
-#AREA SECTION
+# AREA SECTION
 
-#ENTRANCES/FIRST AREA SECTION
-#It's very tempting to add a chance of consolidating these with the rooms below
+# ENTRANCES/FIRST AREA SECTION
 ;entrance room
 1,<u>Catacombs:</u> In one wall of the entrance are many deep niches, each containing [a human|an elf|a dwarf|a goblin|an orc|a frogling] skeleton.
 1,<u>Charnel Pit:</u> Most of the entrance is around a deep pit, filled with bones and corpses of indeterminate type.
@@ -1672,8 +1714,6 @@
 1,<u>Mine Shaft:</u> The beginnings of a mine for a vein that soon tapped out. Some abandoned mattock and pick blades are here, their wooden handles long rotted.
 1,<u>Natural Cavern:</u> [capitalize entrance description].
 
-#There might be a better way to call and format these eventually
-#I made the common rooms all a 4 in frequency and rare rooms (e.g., Vestry, Chantry) a 1
 ;interior room
 18,[interior religious room]
 4,<u>Antechamber:</u> [antechamber desc]
@@ -1713,22 +1753,13 @@
 4,<u>Temple:</u> [temple desc]
 1,<u>Vestry:</u> [vestry desc]
 
-;shortcut
-#not currently used
-#rooms avoided by the denizens of the dungeon
-#this is a little trickier, might need to call this with a new "room feature" subtable with no Encounter chances instead
-1,bat cave
-1,dusty room
-1,spider cave: fake floor made by a trapdoor spider: 1 in 6 per PC to fall into a pit (1d6) with a **giant spider** ([giant spider stats])
-1,spider hiding along the ceiling: **giant spider** ([giant spider stats]) waits patiently to drop on the last party member
-
-#AREA FEATURES - These should appear as sub-bullets
-#Moldvay Stocking rules: Contents: 1-2 Monster, 3 Trap, 4 Special, 5-6 Empty
+# AREA FEATURES - These should appear as sub-bullets
+# Moldvay Stocking rules: Contents: 1-2 Monster, 3 Trap, 4 Special, 5-6 Empty
 ;room feature
-2, [[same monsters] encounter] [encounter treasure]
-1, [trap] [trap treasure]
-1, [capitalize special] [sense feature] [empty treasure]
-2, [capitalize empty dressing] [sense feature] [empty treasure]
+2,[[same monsters] encounter] [encounter treasure]
+1,[trap] [trap treasure]
+1,[capitalize special] [sense feature] [empty treasure]
+2,[capitalize empty dressing] [sense feature] [empty treasure]
 
 ;sense feature
 #base 25% chance of an additional sensory bullet in Empty/Special Rooms
@@ -1756,7 +1787,7 @@
 1,A heap of [bird|rat|snake|[race]|goat] bones
 1,A heap of rotten [rags|apples|tubers]
 1,A [midden|dung heap|heap of broken shells]
-1,Phosphorescent Fungus [softly|brightly|balefully] glowing [colour]
+1,Phosphorescent fungus [softly|brightly|balefully] glowing [colour]
 1,Rat tunnels
 1,Rodent nests
 1,A minor rockfall, the remaining ceiling seems stable enough
@@ -1856,14 +1887,7 @@
 1,[2d6] **giant rats** ([giant rat stats])
 1,[2d6] **giant beetles** ([giant beetle stats])
 1,[2d4] **giant centipedes** ([giant centipede stats])
-1,a **corpse crawler** ([corpse crawler stats])
-1,[1d6+1] **giant bats** ([giant bat stats])
-1,[2d3] **giant vampire bats** ([giant vampire bat stats])
-1,[2d20] **bats** ([bat stats])
-1,[2d6] **cave locusts** ([cave locust stats])
-1,[2d4] **robber flies** ([robber fly stats])
-1,a **swarm of [insect swarm type]** ([insect swarm stats])
-1,[5d10] **rats** ([rat stats])
+1,a **creeper** ([creeper])
 1,[1d2+1] **giant spiders** ([giant spider stats])
 1,[1d4+1] **giant beetles** ([giant beetle stats])
 1,[2d6] **large spiders** ([big spider stats])
@@ -1871,23 +1895,24 @@
 1,a **cave fisher** lurking on the ceiling ([cave fisher stats])
 
 #GOBLIN THEME
+
 ;goblin encounter
 1,[vermin encounter]
-2,[1d6+1] **goblins** [monster activities] ([goblin stats])
-2,[2d4] **hobgoblins** [monster activities] ([hobgoblin stats])
-2,[1d4+1] **orcs** [monster activities] ([orc stats]) 
-1,[1d4+1] **trolls** [monster activities] ([troll stats]) 
+2,[1d6+1] **goblins** led by *[goblin name]*, [monster activities] ([goblin stats])
+2,[2d4] **hobgoblins** led by *[hobgoblin name]*, [monster activities] ([hobgoblin stats])
+2,[1d4+1] **orcs** led by *[orc name]*, [monster activities] ([orc stats])
+1,[1d4+1] **trolls** led by *[troll name]*, [monster activities] ([troll stats])
 
 ;goblin boss
-1,a **goblin chieftain** ([orc stats]) and [2d4] **goblins** [monster activities] ([goblin stats])[store poor as treasure type]
-1,a **goblin shaman** (level [1d3+1 as level]). [spellbook for magic user] and [2d6] **goblins** [monster activities] ([goblin stats])[store poor as treasure type]
-1,a **troll taskmaster** ([troll stats]) and [2d4] **goblin flunkies** [monster activities] ([goblin stats])[store robber as treasure type]
-1,an **ogre bully** ([ogre stats]) and [2d4] **goblin toadies** [monster activities] ([goblin stats])[store robber as treasure type]
-1,a **doppelgänger** (impersonating the former chieftain) ([doppelgänger stats]) and [2d3] **suspicious goblins**  [monster activities] ([goblin stats])[store poor as treasure type]
-1,a **hobgoblin majordomo** ([bugbear stats]) and [his|her] [2d4] **loyal hobgoblin retainers** ([hobgoblin stats])[store scout as treasure type]
-1,a **goblin moss-warper** (level [1d3+4 as level]), protected by [3d6] **myconids** ([myconid stats])[store poor as treasure type]
+1,a **goblin chieftain** called *[goblin name]* ([orc stats]) and [2d4] **goblins** [monster activities] ([goblin stats])[store poor as treasure type]
+1,a **goblin shaman** called *[goblin name]* (level [1d3+1 as level]). [spellbook for magic user] and [2d6] **goblins** [monster activities] ([goblin stats])[store poor as treasure type]
+1,a **troll taskmaster** called *[troll name]* ([troll stats]) and [2d4] **goblin flunkies** [monster activities] ([goblin stats])[store robber as treasure type]
+1,an **ogre bully** called *[ogre name]* ([ogre stats]) and [2d4] **goblin toadies** [monster activities] ([goblin stats])[store robber as treasure type]
+1,a **doppelgänger** (impersonating the former goblin chieftain *[goblin name]*) ([doppelgänger stats]) and [2d3] **suspicious goblins**  [monster activities] ([goblin stats])[store poor as treasure type]
+1,a **hobgoblin leader** called *[hobgoblin name]* ([hobgoblin leader stats]) and their [2d4] **loyal hobgoblin retainers** ([hobgoblin stats])[store scout as treasure type]
+1,a **goblin moss-warper** called *[goblin name]* (level [1d3+4 as level]), protected by [3d6] **myconids** ([myconid stats])[store poor as treasure type]
 1,a **recently assassinated goblin chieftain** being devoured by [vermin encounter][store unguarded as treasure type]
-1,a **goblin pest-whisperer** (level [1d3+4 as level]), protected by [vermin encounter][store unguarded as treasure type]
+1,a **goblin pest-whisperer** called *[goblin name]* (level [1d3+4 as level]), protected by [vermin encounter][store unguarded as treasure type]
 
 #GREEK MYTHOLOGY THEME
 ;Greek mythology encounter
@@ -2031,19 +2056,22 @@
 ;wererat boss
 1,a *wererat* ([werewolf stats])[store poor as treasure type]
 
-#BANDIT THEME
+# BANDIT THEME
+
 ;bandit encounter
-3,[1d6+1] **bandits** [monster activities] ([human stats])
-2,[1d6+1] **bandit [archers|assassins|slingers]** [monster activities] ([human stats])
+1,[1d6+1] **thugs** led by *[human name]*, [monster activities] ([human stats]; club)
+1,[1d6+1] **assassins** led by *[human name]*, [monster activities] ([human stats]; dagger)
+1,[1d6+1] **archers** led by *[human name]*, [monster activities] ([human stats]; long bow, dagger)
+1,[1d6+1] **rogue militia members** from *[nearby village]* led by *[human name]*, [monster activities] ([militia stats])
+1,[1d6+1] **deserters** that used to fight for *[any war party]* led by *[human name]*, [monster activities] ([mercenary stats])
 1,a [chained|mangy|starving|vicious] **war dog** ([wolf stats])
 1,[1d6+1] [chained|mangy|starving|vicious] **war dogs** ([wolf stats])
-1,recently arrived and plaguing this complex: [vermin encounter]
+1,recently arrived [vermin encounter]
 1,the **dwarf mercenary** [dwarf with portrait] (level [1d6+2 as level]), [working for the highest bidder|blackmailed into service|hoping to usurp the leader]
 1,[ogre leader] ([ogre stats]) who claims a large part of the bandit’s spoils
 
 ;bandit boss
-1,the [infamous|wanted|recently escaped] **[human class]** [human with portrait] (level [1d4+1 as level]) leads these bandits.[here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]][store poor as treasure type]
-
+1,The [infamous|wanted|recently escaped] **[human class]** [human with portrait] (level [1d4+1 as level]) leading [2d6] **bandits** ([bandit stats]). [here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]][store poor as treasure type]
 
 #SNAKE THEME
 ;snake encounter
@@ -2078,7 +2106,7 @@
 1,HD 16 AC 3 8d4 F10 MV 24 ML 10 XP 1600; surprise on 1–4 in 6; pins human-sized creatures on a hit
 
 ;cave fisher stats
-1,HD 3 AC 4 2d4/2d4 F2 MV 3 ML 9 XP 300; 60' sticky filament, +3 to hit, reels in prey at 15ft/rd
+1,HD 3 AC 4 2d4/2d4 or *sticky filament* F2 MV 3 ML 9 XP 300; 60ft sticky filament vs. AC 9: reels in victim at 15ft/rd
 
 ;caryatid column stats
 1,HD 5 AC 5 2d4 F10 MV 6 ML 12 XP 500l; always 22hp; non-magical weapons only do half damage
@@ -2090,37 +2118,19 @@
 1,HD 8 AC 1 3d8 F8 MV 18 ML 9 XP 800; *[boiling jets of steam|blasting rays of salt and sand]* (as much as the dragon has hp left, save vs. dragon breath for half)
 
 ;giant crab stats
-1,HD 3 AC 2 2d6/2d6 F2 MV 6 ML 7 XP 300
+1,HD 3 AC 3 2d6/2d6 F1 MV 6 ML 6 XP 300
 
 ;aboleth stats
 1,AC 4 HD 8    MV Swim 180'(60') DMG 1d6/1d6/1d6/1d6 Save F8 ML 10    AL C XP    2,060 Special: slime and enslavement abilities. Ground movement 30'(10')
 
 ;giant centipede stats
-1,AC 9 HD 1d4 hp  MV 60' (20')  DMG Poison  Save NM  ML 7  AL N  XP 5
+1,HD ½ 1d4 hp AC 9 *poison* NM MV 6 ML 7 XP 50; when hit, save vs. paralysis or move at half speed for the rest of the day
 
-;corpse crawler stats
-1,AC 7 HD 3 + 1*  MV 120' (40')  DMG Paralysis  Save F2  ML 9 AL N  XP  75  
-
-;giant vampire bat stats
-1,AC 6 HD 2 MV 30' (10'), Fly 180' (60') DMG Unconsciousness No. App 1-10 (1-10) Save F1 ML 8 AL N XP 20 Special A bite does no damage but a save versus paralysis is required or fall unconscious for 1d10 rounds. They then drain 1d4 damage of blood per round
-
-;bat stats
-1,AC 6 HD 1 hp MV 9' (3'), Fly 120' (40') DMG Nil No. App 1-100 (1-100) Save NM ML 6 AL N XP 5 Special Only cause confusion causing -2 to attacks and spell cannot be cast.
-
-;cave locust stats
-1,AC 4 HD 2 MV 60' (20'), Fly 180' (60') DMG 1d2 or 1d4 or special No. App 2-20 (1-10) Save F2 ML 5 AL N XP 20 
-
-;robber fly stats
-1,AC 6 HD 2 MV 90' (30'), Fly 180' (60') DMG 1d8 Save F1 ML 8 AL N XP 20 Special They hide in shadows and surprise others on a 1-4. They can leap up to 30'.
-
-;insect swarm stats
-1,AC 7 HD 2, 3, or 4 MV 30' (10'), Fly 60' (20') DMG 2 points Save NM ML 11 AL N XP 80 Special [insect swarm type] taking up 10'x30' of space automatically hitting anyone where victims with no armor take double damage. It takes 3 rounds to completely swat away insects after escaping. Torches will only do damage to them as weapons doing 1d4 damage.
-
-;rat stats
-1, AC 9 HD 1 hp MV 60' (20'), Swim 30' (10') DMG 1d6 + disease Save NM ML 5 AL N XP 5 Special There is a 1 in 20 chance that a bite will cause a disease. The victim can save versus poison or die (only if a 1 is rolled on 1d4) one in 1d6 days or they have to remain in bed for a month. If attacking someone, they must make a save versus death or fall down and be covered in rats until they can get back on their feet.
+;creeper
+1,HD 2 AC 7 8×*paralysis* F1 MV 6 XP 200; when hit, save vs. paralysis or be paralysed for 2h – and eventually eaten alive unless rescued
 
 ;giant rat stats
-1,AC 7 HD 1d4 hp MV 120' (40'), Swim 60' (20') DMG 1d3 + disease Save F1 ML 8 AL N XP 5 Special There is a 1 in 20 chance that a bite will cause a disease. The victim can save versus poison or die (only if a 1 is rolled on 1d4) one in 1d6 days or they have to remain in bed for a month.
+1,HD ½ 1d4 hp AC 7 1d3 F1 MV 12 ML 8 XP 50; swim; disease: when hit, save vs. poison or catch a *fever* – all odd d20 results automatically fail for a week, no memorising of new spells
 
 ;troglodyte stats
 1,AC 5 HD 2* MV 120' (40') DMG 1d4/1d4/1d4 Save F2 ML 9 AL C XP 25 Special They have a chameleon ability that lets them surprise others on a 1 to 4. They secrete oil that smells that nauseates unless a save versus poison is successful. Anyone nauseated will suffer -2 to attack.
@@ -2625,7 +2635,7 @@
 1,Wooden shelves from many cabinets and bookcases have been toppled and are rotted, the empty lairs of vanished termites. Stone vaults, their great doorways broken and scattered, sit empty.
 
 ;well desc
-1,A well - a half circle of brick, a half circle of rubble - opens into watery depths, filling the air with the scent of brine and dead fish. In a corner lies a bucket with a broken iron chain.
+1,A well – a half circle of brick, a half circle of rubble – opens into watery depths, filling the air with the scent of brine and dead fish. In a corner lies a bucket with a broken iron chain.
 1,Humid air rises from a small alcove in the corner, where lichens and molds congregate.
 1,The air is damp and brackish; an iron grate over a pit covers a water source.
 1,A small trickle of water splashes quietly into a stone basin here from a bas-relief of a [cherub|satyr|angel|demon|[devil]]. The water seems fresh and pure.
@@ -4798,7 +4808,7 @@
 1,HD 5 AC 4 2d6 F5 MV 24 ML 7 XP 500; *poisonous gas* surrounds it at all times: when within 30ft, save vs. poison or loose 1d6
 
 ;lindwurm companions
-1,The tunnels *above* the lindwurm caverns are inhabited by [6d10] **goblins**, led by [goblin] ([goblin stats]). [poor treasure] They will happily defend the lindwurm using their bows and arrows. If pursued, they will try and lure fools into the nets of 2d4 **giant spiders** ([giant spider stats]). There is a 2 in 6 chance that running leads people into a web trap. Anybody trapped is *helpless*.
+1,The tunnels *above* the lindwurm caverns are inhabited by [6d10] **goblins**, led by *[goblin name]* ([goblin stats]). [poor treasure] They will happily defend the lindwurm using their bows and arrows. If pursued, they will try and lure fools into the nets of 2d4 **giant spiders** ([giant spider stats]). There is a 2 in 6 chance that running leads people into a web trap. Anybody trapped is *helpless*.
 1,The tunnels *below* the lindwurm caverns are inhabited by [1d8 trolls] ([troll stats]). [robber treasure]
 
 ;mountain orcs
@@ -9723,8 +9733,8 @@
 ;bushes
 1,[badlands] [loner]
 1,Hidden between some hills is a valley apparently full of thorn bushes. It hides a hamlet of [halflings]
-1,An old fort overlooking the woods has been taken over by a war party of [4d6] **hobgoblins** ([hobgoblin stats]) led by *[hobgoblin]* (HD 3+1). The fort is defended by [hobgoblin companions]. [old fort] [luxurious context] [robber treasure]
-1,An abandoned watchtower on a promontory overlooking the drylands is home to [4d6] **hobgoblins** ([hobgoblin stats]) led by *[hobgoblin]* (HD 3+1). The approach is guarded by [hobgoblin companions]. [luxurious context] [robber treasure]
+1,An old fort overlooking the woods has been taken over by a war party of [4d6] **hobgoblins** ([hobgoblin stats]) led by *[hobgoblin name]* (HD 3+1). The fort is defended by [hobgoblin companions]. [old fort] [luxurious context] [robber treasure]
+1,An abandoned watchtower on a promontory overlooking the drylands is home to [4d6] **hobgoblins** ([hobgoblin stats]) led by *[hobgoblin name]* (HD 3+1). The approach is guarded by [hobgoblin companions]. [luxurious context] [robber treasure]
 1,Up in these drylands, a massive fortress built by giants long ago is home to the *[evil tribe]* tribe. [orcs] The fortress is [orc fort] [orc plans]
 1,Up here on these hills and overlooking the shrublands is a massive fortress built by giants long ago. [outlaw camp]
 1,There are caves beneath these badlands. [caves]
@@ -10081,7 +10091,10 @@
 ;hobgoblin stats
 1,HD 1+1 AC 6 1d8 F1 MV 9 ML 8 XP 100
 
-;hobgoblin
+;hobgoblin leader stats
+1,HD 3+1 AC 6 1d8 F1 MV 9 ML 8 XP 300
+
+;hobgoblin name
 1,[hobgoblin 1] of [hobgoblin 2]
 
 ;hobgoblin 1
@@ -10150,8 +10163,8 @@
 1,Ambition
 
 ;manticore companions
-1,<p>At the foot of the tower there’s a camp of [4d6] **hobgoblins** ([hobgoblin stats]) led by *[hobgoblin]* (HD 3+1). They are trying to recruit the manticore for their war. [robber treasure]
-1,<p>Beneath the tower is a warren of [6d10] **goblins**, led by [goblin] ([goblin stats]). [poor treasure] They will happily lead fools to the manticore’s tower (and betray them).
+1,<p>At the foot of the tower there’s a camp of [4d6] **hobgoblins** ([hobgoblin stats]) led by *[hobgoblin name]* (HD 3+1). They are trying to recruit the manticore for their war. [robber treasure]
+1,<p>Beneath the tower is a warren of [6d10] **goblins**, led by *[goblin name]* ([goblin stats]). [poor treasure] They will happily lead fools to the manticore’s tower (and betray them).
 1,<p>Two of the buildings at the foot of the tower have been fixed up. Some humans live here in an uneasy truce with the manticore. [outlaw camp]
 2,
 
@@ -10730,7 +10743,7 @@
 1,[swamp intro] If you drink the water here, save vs. poison or spend the rest of the day vomiting. These lakes are home to [3d12] **swamp cranes** ([swamp crane stats]). Their dung is poisonous to most creatures on land. [maybe island barrow]
 1,[swamp intro] [swamp dressing] An abandoned temple of *[power]* stands here, half sunk. The acrid stench is overwhelming. On the small piece of solid ground rising above the water you can see [what you can see of the sunken temple] A **gorgon** has cursed this temple with its presence ([gorgon stats]). [terror treasure]
 1,[swamp intro] [swamp dressing] There’s a wooden hut here. Its inhabitant appears to be a friendly hermit called [human with portrait]. You are invited to stay for the night and have some dinner. This is actually a **doppelgänger** ([doppelgänger stats]). [poor treasure] It will try to lure one of the party members away by [doppelgänger ruse]. Once a party member is alone, [same human name] attacks and tries to replace their victim, leaving the area with the party. [maybe barrow]
-1,[swamp intro] [swamp dressing] The waterways eventually lead to a wooden fort rising out of the water, inhabited by [4d6] **hobgoblins** ([hobgoblin stats]) and led by *[hobgoblin]* (HD 3+1). The fort is defended by [hobgoblin companions]. [robber treasure]
+1,[swamp intro] [swamp dressing] The waterways eventually lead to a wooden fort rising out of the water, inhabited by [4d6] **hobgoblins** ([hobgoblin stats]) and led by *[hobgoblin name]* (HD 3+1). The fort is defended by [hobgoblin companions]. [robber treasure]
 1,This section of the [forest name] swamp is a well known death trap. The trees are older here. They remember every axe wielder, every ship builder, every carpenter, every fire maker, and they hate them with the hate of the primal forest. These trees are protected by [1d8 treants] ([treant stats]) who would like nothing better than to squash anybody capable of wielding tools. [maybe barrow]
 1,[swamp ettercaps]
 1,[swamp intro] [swamp dressing] [swamp gnome colony]
@@ -10756,7 +10769,7 @@
 1,Pale yellow froth clings to the [tree] roots here. A distant splash is followed by frantic waterfowl calls.
 1,The woodpeckers never stop hammering up above in the trees. Incessant buzzing betrays the mosquitoes desperately looking for a place to land.
 1,Turtle rest on a floating log in a murky pool and slip slowly into the water when approached. The air is thick and humid.
-1,Soon, small leeches are squirming furiously against your clothing. Setting up camp here is not safe.
+1,Whenever you stop, leeches are squirming furiously trying to find some unprotected skin.
 1,Beavers have built dams, drowning the land.
 1,A sulphur smell hangs over the swamp.
 
@@ -11458,8 +11471,8 @@
 1,Zerrin
 
 ;goblins
-1,[6d10] **goblins** live here, led by [goblin] ([goblin stats]). [poor treasure]
-5,[6d10] **goblins** live here, led by [goblin] ([goblin stats]). The goblins have tamed [2d6] [goblin companions] Goblins love to ride these into battle. [poor treasure]
+1,[6d10] **goblins** live here, led by *[goblin name]* ([goblin stats]). [poor treasure]
+5,[6d10] **goblins** live here, led by *[goblin name]* ([goblin stats]). The goblins have tamed [2d6] [goblin companions] Goblins love to ride these into battle. [poor treasure]
 1,[goblin town entrance]
 
 ;goblin stats
@@ -11477,7 +11490,7 @@
 1,**giant spiders** ([giant spider stats]). 1 in 6 passages are **web traps**.
 1,**giant beetles** ([giant beetle stats]).
 
-;goblin
+;goblin name
 1,*[goblin 1] [goblin 2]*
 
 ;goblin 1
@@ -11565,7 +11578,7 @@
 1,Slaves
 
 ;goblin town faction
-1,[6d10] **goblins**, led by [goblin] the [goblin title] ([goblin stats]). [poor treasure]
+1,[6d10] **goblins**, led by *[goblin name]* the [goblin title] ([goblin stats]). [poor treasure]
 
 ;goblin title
 1,ranger
@@ -11609,7 +11622,7 @@
 1,[goblin town animal relation] [3d6] **giant beetles** ([giant beetle stats]).
 
 ;goblin fight pit
-1,*[goblin]* is the pit master around here. The current stable of teams:<table><tr class="head"><th>Team</th><th>Members</th></tr><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="odd"><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="odd"><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="odd"><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="end"><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="end"><td colspan=2>[goblin closing fight pitch]</td></tr></table><p>Stats:<ul><li>**ogres** ([ogre stats])<li>**ogre mages** ([ogre mage stats])<li>**orcs** ([orc stats])<li>**trolls** ([troll stats])<li>**war dogs** ([wolf stats])</ul><p>Betting usually starts at a 1:5 rate for the players and gets adjusted based on past performance. Thus, after four wins in a row the odds arrive at 1:1 and the players are excluded from further fighting.
+1,*[goblin name]* is the pit master around here. The current stable of teams:<table><tr class="head"><th>Team</th><th>Members</th></tr><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="odd"><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="odd"><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="odd"><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="end"><tr><td>*[goblin fight team name]*</td><td>[goblin fight team]</td></tr><tr class="end"><td colspan=2>[goblin closing fight pitch]</td></tr></table><p>Stats:<ul><li>**ogres** ([ogre stats])<li>**ogre mages** ([ogre mage stats])<li>**orcs** ([orc stats])<li>**trolls** ([troll stats])<li>**war dogs** ([wolf stats])</ul><p>Betting usually starts at a 1:5 rate for the players and gets adjusted based on past performance. Thus, after four wins in a row the odds arrive at 1:1 and the players are excluded from further fighting.
 
 ;goblin fight team name
 1,Team [evil tribe]
@@ -11623,9 +11636,9 @@
 1,[evil tribe] Cooperative
 
 ;goblin fight team
-3,[3d6] **goblins** led by *[goblin]*
+3,[3d6] **goblins** led by *[goblin name]*
 2,[2d6] **goblins** and [2d6] **orcs** led by *[orc name]*
-2,[2d6] **goblins** led by *[goblin]* and [2d6] **war dogs**
+2,[2d6] **goblins** led by *[goblin name]* and [2d6] **war dogs**
 2,[3d4] **goblins** and *[ogre name]* the **ogre**[ogre portrait]
 1,[3d4] **goblins** and *[ogre mage as ogre name]* the **ogre mage**[ogre portrait]
 1,[3d4] **goblins** and *[troll]* the **troll**
@@ -11647,7 +11660,7 @@
 1,The goblins have the following wares for sale:<table><tr class="head"><th>Item</th><th>Upsell</th><th class="center">Price</th></tr><tr><td>[goblin junk]</td><td>[with goblin upsell]</td><td class="center">[junk price]</tr><tr class="odd"><td>[goblin junk]</td><td>[and goblin upsell]</td><td class="center">[junk price]</tr><tr><td>[goblin junk]</td><td>[and goblin upsell]</td><td class="center">[junk price]</tr><tr class="odd"><td>[goblin junk]</td><td>[and goblin upsell]</td><td class="center">[junk price]</tr><tr><td>[goblin junk]</td><td>[goblin upsell]</td><td class="center">[junk price]</tr><tr class="odd"><td>[goblin junk]</td><td>[with goblin upsell]</td><td class="center">[junk price]</tr><tr><td>[goblin junk]</td><td>[and goblin upsell]</td><td class="center">[junk price]</tr><tr class="end"><td colspan=3>[goblin closing pitch]</td></table><p>The *useful* stuff requires contacts. [goblin patron]
 
 ;goblin patron
-1,Big *[goblin]* wants to increase the prestige of the *[same evil power]* temple and is looking for a special relic: the [relic]. Bring it here and *[same goblin] *will give you a little trinket they recently acquired: [magic item]
+1,Big *[goblin name]* wants to increase the prestige of the *[same evil power]* temple and is looking for a special relic: the [relic]. Bring it here and *[same goblin] *will give you a little trinket they recently acquired: [magic item]
 
 ;goblin junk
 1,[rp] apple cores
@@ -12618,10 +12631,10 @@
 1,**manticore** *[manticore name]* ([manticore stats]). [robber treasure]
 1,**bear** *[bear name]* ([bear stats]).
 1,[bandits]
-1,[6d10] **goblins** led by [goblin] ([goblin stats]). [poor treasure]
+1,[6d10] **goblins** led by [goblin name] ([goblin stats]). [poor treasure]
 
 ;bandits
-1,[1d4x10] **bandits** ([human stats]). [average treasure] They are led by the **[human class]** [human with portrait] (level [1d4+1 as level]).[here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]]
+1,[1d4x10] **bandits** ([bandit stats]). [average treasure] They are led by the **[human class]** [human with portrait] (level [1d4+1 as level]).[here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]]
 
 ;ettercap forest
 1,[spider word] [forest 2]
@@ -12768,7 +12781,7 @@
 6,
 
 ;big spider stats
-1,HD 1-1 AC 7 1d6 + *paralysis* F1 MV 15 ML 7 XP 100; *climb*
+1,HD 1-1 AC 7 1d6 + *paralysis* F1 MV 15 ML 7 XP 100; *climb*; when hit, save vs. paralysis or be *paralysed* for 1h
 
 ;ettercap mother
 1,Up above, where the giant branches form a wide canopy, the **brood mother** ([ettercap brood mother stats]) has laid her eggs, guarding them with her life, and ready to spend hers to feed the young ones when they hatch, ravenous and desperate.
@@ -14530,14 +14543,14 @@
 1,[elementalist school description] [elementalist school village]<blockquote><p>[elementalist job]</blockquote><p>[elementalist school wizards]<p>[And a secret society]<p>[elementalist village trouble]
 
 ;elementalist school description
-1,Fallen trees, beaver dams, standing water – progress is difficult even with light boats since the water ways are blocked again and again. And then: an opening, a small lake. A little fishing village of stilt houses rises from the water, platforms connected by rickety bridges, and a wooden tower in the middle. Make yourself known and a fisher may come and investigate, e.g. *[human with portrait]* (marked as a member of the [element] house).<p>Atop the tower you can see banners showing the symbols of earth (🜃), water (🜄), air (🜁), and fire (🜂). In the village itself, all the houses and all the adults are similarly marked with a coloured dot: earth (brown), water ([green|blue]), air ([yellow|white]), and fire (red).
+1,Fallen trees, beaver dams, standing water – progress is difficult even with light boats since the water ways are blocked again and again. And then: an opening, a small lake. A little fishing village of stilt houses rises from the water, platforms connected by rickety bridges, and a wooden tower in the middle. Make yourself known and a fisher may come and investigate, e.g. *[human with portrait]* (marked as a member of the [elements] house).<p>Atop the tower you can see banners showing the symbols of earth (🜃), water (🜄), air (🜁), and fire (🜂). In the village itself, all the houses and all the adults are similarly marked with a coloured dot: earth (brown), water ([green|blue]), air ([yellow|white]), and fire (red).
 
 ;elementalist school village
 1,<p>This is [here village name], a village of [3d6x10] **humans** ([human stats]). [elementalist village elder] [average treasure] 
 
 ;elementalist village elder
-1,They are led by [elder|warden|bailie|mayor|council|commissar|councillor] *[human with portrait]* (marked as a member of the [element] house).
-1,Every night, they meet at the [tea house|ale house|brew house|sauna|steam bath|hot bath] belonging to *[human with portrait]* (marked as a member of the [element] house).
+1,They are led by [elder|warden|bailie|mayor|council|commissar|councillor] *[human with portrait]* (marked as a member of the [elements] house).
+1,Every night, they meet at the [tea house|ale house|brew house|sauna|steam bath|hot bath] belonging to *[human with portrait]* (marked as a member of the [elements] house).
 
 ;elementalist relationship
 1,These people live to serve the four elementalist masters and their students.
@@ -14554,12 +14567,6 @@
 1,aeromancer
 1,aquamancer
 1,geomancer
-
-;element
-1,fire
-1,air
-1,water
-1,earth
 
 ;elementalist school wizards
 1,[store pyromancer as type][elementalist][store aeromancer as type][elementalist][store aquamancer as type][elementalist][store geomancer as type][elementalist]
@@ -16106,7 +16113,7 @@
 
 ;town
 1,<p>This is [here village name], a town of [1d6x100] **humans** ([human stats]). The [human houses] are protected by a keep, a town wall and the river. [average treasure]<p>The [human leader] lives in the keep. [spellbook for [same class]] [leader treasure for [same class]][patron plot hook]<p>[human retainer]<p>[human friends]<p>[And two secret societies feuding]<p>[law and order jobs]<p>[temple]<p>There is also [town feature]<p>[settlement event]
-1,<p>This is [here village name], a town of [1d6x100] **humans** ([human stats]). The [human houses] are protected by a large keep, [an earthen rampart|a wooden palisade|a stone wall|town wall] and the river. The outer bailey of the keep houses the [most prosperous|richest|wealthiest] tradespeople of the [land|area|region], under the [rule|protection|shelter] of [name for a war party 2]. The inner bailey houses the castellan and [the|town|local] [garrison|guard|watch]. [Entering|Visiting] the outer bailey [requires|takes|is by] [paying|a payment of|a fee of] 1sp per [entrant|person|visitor]. [These|The following] [people|tradespeople] [can be found|have shops|work] there:<ol>[alchemist or not][antiquarian or not][cleric or not][gossip or not][guildmaster or not][herbalist or not][horse trader or not][innkeeper or not][jeweler or not]<li>The **merchant** [human name] [buys] [bulk quantities of|in bulk|wholesale] spices, [ingots|metal ingots|rare minerals], and other trade goods. [townsperson goal]</li>[moneylender or not]<li>The **provisioner** [human name] sells [all standard|all types of|adventuring|standard adventuring] equipment. [townsperson goal]</li>[zealot or not]<li>The **smith** [human name] [sells] new - and [repairs|refurbishes] old - [weapons and armor|weaponry|armor]. [townsperson goal]</li>[new shop or not]<li>The **tavern owner** [human name] runs the *[Royal|Noble|King’s|Queen’s|Prince’s|Princess|Purple|Lord’s|Lady’s] [inn name 2]* here, [visited|frequented] by the [wealthy|well-off|gentry|townspeople|propertied] and [adventure-seekers|those seeking adventure|the rabble-rousers]. [tradesperson goal or feud]</li><li>The **trader** [human name] [buys] [used|old] equipment and [any unusual|rare] finds. [townsperson goal]</li>[factional deputy or not]</ol><p>(For a rumor about allegiances, roll a d10 and a d6. On a d6 of 1-3, tell the truth about the tradesperson corresponding to the results of the d10; on a 4-6, lie about them.)<p>The inner bailey is open [by invitation only|to the select few] and houses these [notable|noted|noteworthy|singular] [officers|personages|people]:</p><ul>[bailiff or not][captain or not]<li>The **castellan** *[human name]*. (Trusted confident of [name for a war party 2].)</li>[corporal or not][marshal or not][scribe or not]</ul>[And two secret societies feuding]<p>[Another|A third|Yet another] secret society [bides its time|waits in the wings|waits patiently for its chance].
+1,<p>This is [here village name], a town of [1d6x100] **humans** ([human stats]). The [human houses] are protected by a large keep, [an earthen rampart|a wooden palisade|a stone wall|town wall] and the river. The outer bailey of the keep houses the [most prosperous|richest|wealthiest] tradespeople of the [land|area|region], under the [rule|protection|shelter] of [name for a war party 2]. The inner bailey houses the castellan and [the|town|local] [garrison|guard|watch]. [Entering|Visiting] the outer bailey [requires|takes|is by] [paying|a payment of|a fee of] 1sp per [entrant|person|visitor]. [These|The following] [people|tradespeople] [can be found|have shops|work] there:<ol>[alchemist or not][antiquarian or not][cleric or not][gossip or not][guildmaster or not][herbalist or not][horse trader or not][innkeeper or not][jeweler or not]<li>The **merchant** [human name] [buys] [bulk quantities of|in bulk|wholesale] spices, [ingots|metal ingots|rare minerals], and other trade goods. [townsperson goal]</li>[moneylender or not]<li>The **provisioner** [human name] sells [all standard|all types of|adventuring|standard adventuring] equipment. [townsperson goal]</li>[zealot or not]<li>The **smith** [human name] [sells] new - and [repairs|refurbishes] old - [weapons and armor|weaponry|armor]. [townsperson goal]</li>[new shop or not]<li>The **tavern owner** [human name] runs the *[Royal|Noble|King’s|Queen’s|Prince’s|Princess|Purple|Lord’s|Lady’s] [inn name 2]* here, [visited|frequented] by the [wealthy|well-off|gentry|townspeople|propertied] and [adventure-seekers|those seeking adventure|the rabble-rousers]. [tradesperson goal or feud]</li><li>The **trader** [human name] [buys] [used|old] equipment and [any unusual|rare] finds. [townsperson goal]</li>[factional deputy or not]</ol><p>(For a rumor about allegiances, roll a d10 and a d6. On a d6 of 1-3, tell the truth about the tradesperson corresponding to the results of the d10; on a 4-6, lie about them.)<p>The inner bailey is open [by invitation only|to the select few] and houses these [notable|noted|noteworthy|singular] [officers|personages|people]:</p><ul>[bailiff or not][captain or not]<li>The **castellan** *[human name]*. (Trusted confident of [name for a war party 2].)</li>[corporal or not][marshal or not][scribe or not]</ul>[And two secret societies feuding]
 
 # outer bailey
 
@@ -19280,8 +19287,8 @@
 ;companions of the netherworld elves
 1,The elves are protected by [1d12 bugbears] living like animals in small caves near the gate ([bugbear stats]). [scout treasure]
 1,The central space around which the elven mansions have been built is a fungus garden. [3d6] **myconids** tend to it ([myconid stats]). [poor treasure]
-1,The elves are served by [6d10] rat-like **goblins**, led by [goblin] ([goblin stats]). [poor treasure] Only dwarves or halflings can fight in the tiny tunnels these creatures use to move from place to place.
-1,The elves are served by [6d10] spider-like **goblins**, led by [goblin] ([goblin stats]). [poor treasure] Every ceiling, every dead end, every empty room has spider webs, bat bones, and worse. [maybe human prisoners of spider goblins]
+1,The elves are served by [6d10] rat-like **goblins**, led by *[goblin name]* ([goblin stats]). [poor treasure] Only dwarves or halflings can fight in the tiny tunnels these creatures use to move from place to place.
+1,The elves are served by [6d10] spider-like **goblins**, led by *[goblin name]* ([goblin stats]). [poor treasure] Every ceiling, every dead end, every empty room has spider webs, bat bones, and worse. [maybe human prisoners of spider goblins]
 
 ;maybe human prisoners of spider goblins
 1,In fact, they keep a prisoner in their central storage room, hanging helplessly in a cocoon, barely alive. This is [human name] who was captured a few days ago. The elves know nothing of it and wouldn’t care if they knew.
