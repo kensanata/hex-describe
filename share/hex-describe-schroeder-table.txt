@@ -756,7 +756,7 @@
 1,The sun-bleached bones of [thousands of|hundreds of|several|a dozen] [horses|antelope|bison|sheep|goats] [fill|dot|blanket] the [dale|gorge|valley|basin|glen|dell|vale|swale|coulee|lowland] here.
 
 ;a warlock fortress
-1,a ruined fortress currently occupied by [warlocks]. [average treasure]<p>The fortress and its surrounding land is ruled by the **medusa** *[medusa name]* ([medusa stats]). The courtyard and rooms are full of her petrified victims and the bones of the dead. [luxurious context] [terror treasure]
+1,a ruined fortress currently occupied by [warlocks]. [average treasure]<p>The fortress and its surrounding land is ruled by the **medusa** *[medusa name]* ([medusa stats]). The courtyard holds [medusa victims] and the bones of countless dead. [luxurious context] [terror treasure]
 
 ;name for hills
 1,[hill 1a] [hill 2a] hills
@@ -803,6 +803,11 @@
 
 ;medusa stats
 1,HD 4 AC 8 1d6 or *poison* F6 MV 9 ML 8 XP 400; *petrification*; <span class="treasure">a *medusa’s head* is worth 5000gp to an alchemist</span>[here store medusa head as alchemist quest]
+
+;medusa victims
+1,[2d6] petrified victims
+0,[2d6] petrified victims including the famous hero *[name for a human story hero 1]*
+0,[2d6] petrified victims including the famous hero *[name for a human story hero 2]*
 
 ;warlocks
 1,a **warlock** ([warlock stats]) and his **giant scorpion** mount ([giant scorpion stats])
@@ -2079,9 +2084,9 @@
 1,[1d8 snakes]
 
 ;snake boss
-1,a **gorgon** named *[medusa name]* ([gorgon stats])[store terror as treasure type]
-1,a **medusa** named *[medusa name]* ([medusa stats])[store terror as treasure type]
-1,a **naga** named *[naga name]* ([naga stats])[store terror as treasure type]
+1,a **gorgon** guarding a broken [statue|effigy|altar] of Set ([gorgon stats])[store terror as treasure type]
+1,the **medusa** *[medusa name]* and [medusa victims] ([medusa stats])[store terror as treasure type]
+1,the **naga** *[naga name]* ([naga stats])[store terror as treasure type]
 1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure][store poor as treasure type]
 
 #AMALGAM THEME
