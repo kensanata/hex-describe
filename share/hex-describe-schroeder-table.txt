@@ -2058,7 +2058,7 @@
 1,[1d6+1] **kobolds** led by *[kobold name]*, [monster activities] ([kobold stats])
 1,**giant lizard** ([giant lizard stats])
 1,[2d4] **lizard men** led by *[lizard people name]*, [monster activities] ([lizard people stats])
-1,[1d8+1] **troglodytes** led by *[lizard people name]*, [monster activities] ([troglodyte stats])
+1,[1d8+1] **troglodytes** led by *[troglodyte name]*, [monster activities] ([troglodyte stats])
 
 ;lizard feature
 9,
@@ -2069,7 +2069,7 @@
 ;lizard boss
 1,the **lizardfolk oracle** *[lizard people name]* (level [1d3+1 as level]). [spellbook for magic user] and [his|her] [2d6] devoted **kobolds** [monster activities] ([kobold stats])[store poor as treasure type]
 1,the **brutishly huge lizard [matriarch|patriarch]**  *[lizard people name]* ([ogre stats]), fanatically guarded by [lizard encounter][store robber as treasure type]
-1,the **troglodyte stench-mage** *[lizard people name]* (level [1d3+4 as level]) who currently smells of [smells], teaching the aromatic arts to [1d8+1] **troglodytes** ([troglodyte stats])[store poor as treasure type]
+1,the **troglodyte stench-mage** *[troglodyte name]* (level [1d3+4 as level]) who currently smells of [smells], teaching the aromatic arts to [1d8+1] **troglodytes** ([troglodyte stats])[store poor as treasure type]
 1,the **naga** *[naga name]* ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span> and her [charmed|ensorcelled|adoring] [lizard encounter][store terror as treasure type]
 1,the **red dragon** *[here red dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
 1,the **black dragon** *[here black dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
@@ -11456,6 +11456,14 @@
 1,[Son|Daughter|Child] of Drake
 1,Bone Crusher
 1,Swamp Layer
+1,Stone Sharper
+1,Mound [Builder|Keeper]
+1,Creek Haunter
+1,Silent Slither
+
+;troglodyte name
+20,[lizard people name]
+1,Fetid [Exhaler|Exuder]
 
 ;lizard companions
 2,spiked barriers
