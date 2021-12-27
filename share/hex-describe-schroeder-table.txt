@@ -11454,9 +11454,9 @@
 1,[Quiet|Starry] Night
 1,[Silver|Golden|Amber|Patient] Eyes
 1,[Son|Daughter|Child] of Drake
-1,Bone Crusher
+1,[Leg|Bone] [Breaker|Crusher]
 1,Swamp Layer
-1,Stone Sharper
+1,Sharp Stone
 1,Mound [Builder|Keeper]
 1,Creek Haunter
 1,Silent Slither
