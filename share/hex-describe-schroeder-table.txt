@@ -1514,6 +1514,7 @@
 1,magic user
 1,snake
 1,undead
+1,wererat
 1,amalgam
 # The amalgam type just mashes up all tables for a random gonzo
 # dungeon experience.
@@ -1725,20 +1726,14 @@
 ;room feature
 2,[[same monsters] encounter] [encounter treasure]
 1,[trap] [trap treasure]
-1,[capitalize special] [sense feature] [empty treasure]
-2,[capitalize empty dressing] [sense feature] [empty treasure]
-
-;sense feature
-#base 25% chance of an additional sensory bullet in Empty/Special Rooms
-6,
-1,</li><li>One can hear a [sound volume] [sounds] ([sound direction]).
-1,</li><li>The [faint|strong|distinct|unmistakable|cloying] odor of [smells].
+1,[capitalize special] [[same monsters] feature] [empty treasure]
+2,[capitalize empty dressing] [[same monsters] feature] [empty treasure]
 
 ;special
 1,[2d4] [strange|fizzing|murky|limpid] pools, filled with [with colour] and [and colour] liquids. 
 1,[2d3] [crumbling|moss covered|vandalized|smashed] [stone|bronze|iron|terracotta] statues
 1,[cheap metal] [cage|chains] hold a dead [orc|human|goblin|elf|dwarf|halfling|frogling|pixie|ogre]
-1,cave paintings
+1,paintings of [orcs|humans|centaurs|[large cat]s] hunting [cows]
 1,frescoes of *[power]*
 1,decorations featuring [[power] decoration]
 1,magic mouth reciting [terrible poetry|[store human as singing humanoid]*[story]*|a loud warning to the denizens of the dungeon|praises to *[power]*|curses to followers of *[power]*]
@@ -1864,6 +1859,11 @@
 ;goblin dungeon
 1,[store goblin as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
 
+;goblin feature
+3,
+1,</li><li>Little stick figures made of twigs and chestnuts
+1,</li><li>High-pitched [laughter|whimpering|howling]
+
 ;goblin encounter
 1,[vermin encounter]
 2,[1d6+1] **goblins** led by *[goblin name]*, [monster activities] ([goblin stats])
@@ -1886,6 +1886,13 @@
 
 ;Greek mythology dungeon
 1,[store Greek mythology as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
+;Greek mythology feature
+9,
+1,</li><li>A crude lyre graffiti on the wall.
+1,</li><li>A drawing of some wine leaves on the wall.
+1,</li><li>Frescoes of naked people running beneath some trees.
+1,</li><li>A drawing of a [centaur|minotaur|medusa] on the wall.
 
 ;Greek mythology encounter
 1,a **basilisk** [monster activities] ([basilisk stats])
@@ -1912,6 +1919,14 @@
 1,[1d6 phase spiders]
 1,[1d8 treants]
 
+;Gygaxian feature
+15,
+1,</li><li>Graffiti saying “[human name] was here!”
+1,</li><li>Graffiti saying “[human name] loves [elf name]!”
+1,</li><li>Graffiti saying “[nearby human patron] is a [liar and a cheat|cheapskate|miser]!”
+1,</li><li>Graffiti saying “[nearby alchemist patron] is a [liar and a cheat|cheapskate|miser]!”
+1,</li><li>Graffiti saying “[nearby alchemist patron] is turning people into beef jerky!”
+
 ;Gygaxian boss
 1,a **balor** named *[devil name]* ([balor stats])[store terror as treasure type]
 1,[wererat boss][store poor as treasure type]
@@ -1923,9 +1938,14 @@
 1,[store undead as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
 
 ;undead encounter
-#can call out to the necromancer companions table for this (might add to this eventually)
-3,[necromancer companions] 
+3,[necromancer companions]
 1,[vermin encounter]
+
+;undead feature
+9,
+1,</li><li>The air is unnaturally [cold|still]
+1,</li><li>The smell of corruption hangs in the air
+1,</li><li>Bone rattling in the distance
 
 ;undead boss
 1,a **wight** [wight stats] and [2d4] **skeletons** [monster activities] ([skeleton stats])[store dead as treasure type]
@@ -1935,11 +1955,6 @@
 1,**[a babbling|an insane|a rambling|a surprisingly polite] ghost** who thinks [he is king|she is queen] of loyal vermin subjects: [vermin encounter][store unguarded as treasure type]
 1,2 **skeletal minotaurs** [monster activities] ([minotaur stats])[store poor as treasure type]
 1,2 **shadows** for each party member ([shadow stats]) who hate all light sources[store terror as treasure type]
-
-#ELEMENTAL THEME
-#ELEMENTAL THEME
-#This could be useful for theming dungeons somewhat by element: ICE dungeons/FIRE Dungeons, etc. 
-#Not currently used, but could envision this working a bit like magic mirrors for a planar gateway in a green glass tower/etc.
 
 # EARTH THEME
 
@@ -1953,6 +1968,10 @@
 1,[gargoyles] [indistinguishable from statues|perched along the ceiling|embedded as bas reliefs in the walls] ([gargoyle stats]) 
 1,a **gorgon** ([gorgon stats])
 1,[1d3+1] **cockatrices** ([cockatrice stats]) guarding a nest
+
+;earth elemental feature
+3,
+1,</li><li>The earth [groans|trembles|shakes] for a bit, then everything is silent again
 
 ;earth elemental boss
 2,[2d3] **earth elementals** ([earth elemental stats])[store unguarded as treasure type]
@@ -1973,6 +1992,13 @@
 1,[2d6] **nixies** led by *[nixie]* ([nixie stats])
 1,a **giant ice crab** ([giant crab stats])
 
+;water elemental feature
+12,
+1,</li><li>The smell of [mold|algae]
+1,</li><li>Water dripping from the ceiling
+1,</li><li>Water running down the walls
+1,</li><li>The sound of water falling in the distance
+
 ;water elemental boss
 2,[2d3] **water elementals** ([water elemental stats])[store unguarded as treasure type]
 1,a **water elemental lord** ([greater water elemental stats])[store ancient as treasure type]
@@ -1987,6 +2013,13 @@
 ;air elemental encounter
 #more air creatures go here: Sylphs, Mephits, etc
 1,[1d4+1] **lesser air elementals** ([lesser air elemental stats]) 
+
+;air elemental feature
+12,
+1,</li><li>The air flow keeps changing directions
+1,</li><li>The smell of ozone in the air
+1,</li><li>A solemn sough of the underground
+1,</li><li>Voices whispering incomprehensible things in the distance
 
 ;air elemental boss
 1,an **air elemental lord** ([greater air elemental stats])[store ancient as treasure type]
@@ -2004,6 +2037,13 @@
 1,[2d4] **hell hounds** ([hell hound stats])
 1,[1d2+1] **fire giants** led by *[fire giant name]* ([fire giant stats])
 
+;fire elemental feature
+12,
+1,</li><li>The air is hot and keeps getting hotter
+1,</li><li>The smell of fire
+1,</li><li>Smoke limits sight to 10ft and makes breathing difficult
+1,</li><li>The sound of fire crackling
+
 ;fire elemental boss
 1,a **pyrohydra** ([pyrohydra stats])[store terror as treasure type]
 1,a **fire elemental lord** ([greater fire elemental stats])[store ancient as treasure type]
@@ -2020,14 +2060,20 @@
 1,[2d4] **lizard men** [monster activities] ([lizard people stats])
 1,[1d8+1] **troglodytes** [monster activities] ([troglodyte stats])
 
+;lizard feature
+9,
+1,</li><li>Hissing and whispering in the distance
+1,</li><li>Broken egg shells in a corner
+1,</li><li>Large reptile scales in a corner
+
 ;lizard boss
-1,1 **lizardfolk oracle** (level [1d3+1 as level]). [spellbook for magic user] and [his|her] [2d6] devoted **kobolds** [monster activities] ([kobold stats])[store poor as treasure type]
-1,1 **brutishly huge lizard [matriarch|patriarch]** ([ogre stats]), fanatically guarded by [lizard encounter][store robber as treasure type]
-1,1 **troglodyte stench-mage** (level [1d3+4 as level]) who currently smells of [smells], teaching the aromatic arts to [1d8+1] **troglodytes** ([troglodyte stats])[store poor as treasure type]
+1,a **lizardfolk oracle** (level [1d3+1 as level]). [spellbook for magic user] and [his|her] [2d6] devoted **kobolds** [monster activities] ([kobold stats])[store poor as treasure type]
+1,a **brutishly huge lizard [matriarch|patriarch]** ([ogre stats]), fanatically guarded by [lizard encounter][store robber as treasure type]
+1,a **troglodyte stench-mage** (level [1d3+4 as level]) who currently smells of [smells], teaching the aromatic arts to [1d8+1] **troglodytes** ([troglodyte stats])[store poor as treasure type]
 1,*[naga name]* the **[Cobra Hooded|Rattle Tail|Coral Striped|Reticulated] Naga** ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span> and her [charmed|ensorcelled|adoring] [lizard encounter][store terror as treasure type]
 1,the **red dragon** *[here red dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
 
-#MAGIC USER THEME
+# MAGIC USER THEME
 
 ;magic user dungeon
 1,[store magic user as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
@@ -2046,14 +2092,28 @@
 1,2 **caryatid columns** in the form of *[beautiful [race] women|mighty female [race] warriors]* ([caryatid column stats])
 2,[2d4] **floating eyes** glaring [balefully|inquisitively|unblinkingly] ([floating eye stats])
 
+;magic user feature
+12,
+1,</li><li>A creaking door somewhere
+1,</li><li>Shuffling feet in the distance
+1,</li><li>The smell of sulphur in the distance
+1,</li><li>Cursing in the distance
+
 ;magic user boss
 1,the [infamous|well-known|cruel|absent-minded|callous|calculating|misunderstood|desperate|greedy|power-hungry|maniacal|stark-raving mad|corrupted|cursed|dangerous|studious|apprentice-seeking|unhinged|unnervingly polite] **[magic user]** [human with portrait][here store [same human name] as alchemist patron] (level [1d3+4 as level]). [spellbook for magic user] [leader treasure for magic user][store poor as treasure type]
 
 #LYCANTHROPE THEME
-#Still working on how to handle this
+
+;wererat dungeon
+1,[store wererat as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
+
 ;wererat encounter
 1,[2d6] **giant rats** ([giant rat stats])
 1,[2d6] **giant beetles** ([giant beetle stats])
+
+;wererat feature
+3,
+1,</li><li>Scratching noise somewhere
 
 ;wererat boss
 1,a *wererat* ([werewolf stats])[store poor as treasure type]
@@ -2075,10 +2135,19 @@
 1,the **dwarf mercenary** [dwarf with portrait] (level [1d6+2 as level]), [working for the highest bidder|blackmailed into service|hoping to usurp the leader]
 1,[ogre leader] ([ogre stats]) who claims a large part of the bandit’s spoils
 
+;bandit feature
+18,
+1,</li><li>The stench of too many humans and very little ventilation
+1,</li><li>Graffiti saying “[human name] loves [elf name]!”
+1,</li><li>Graffiti saying “[human name] [has no brains|cannot read]!”
+1,</li><li>Graffiti saying “[human name] is a [bully|tyrant]!” Somebody else added: “I killed them.”
+1,</li><li>Graffiti saying “[nearby human patron] is a [liar and a cheat|cheapskate|miser]!”
+1,</li><li>Graffiti of naked humans on the wall
+
 ;bandit boss
 1,The [infamous|wanted|recently escaped] **[human class]** [human with portrait] (level [1d4+1 as level]) leading [2d6] **bandits** ([bandit stats]). [here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]][store poor as treasure type]
 
-#SNAKE THEME
+# SNAKE THEME
 
 ;snake dungeon
 1,[store snake as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
@@ -2088,6 +2157,11 @@
 1,[1d4 giant snakes]
 1,[1d8 snakes]
 1,[1d6 snake people]
+
+;snake feature
+6,
+1,</li><li>Somebody playing a flute somewhere
+1,</li><li>Egg shells in a corner
 
 ;snake boss
 1,a **gorgon** guarding a broken [statue|effigy|altar] of Set ([gorgon stats])[store terror as treasure type]
@@ -2105,17 +2179,30 @@
 
 ;amalgam encounter
 1,[goblin encounter]
+1,[bandit encounter]
 1,[vermin encounter]
 1,[undead encounter]
 1,[[elements] elemental encounter]
 1,[lizard encounter]
+1,[snake encounter]
 1,[magic user encounter]
+
+;amalgam feature
+1,[goblin feature]
+1,[bandit feature]
+1,[undead feature]
+1,[[elements] elemental feature]
+1,[lizard feature]
+1,[snake feature]
+1,[magic user feature]
 
 ;amalgam boss
 1,[goblin boss]
+1,[bandit boss]
 1,[undead boss]
 1,[[elements] elemental boss]
 1,[lizard boss]
+1,[snake boss]
 1,[magic user boss]
 
 # DEVIL THEME
@@ -2660,7 +2747,7 @@
 1,Wooden shelves from many cabinets and bookcases have been toppled and are rotted, the empty lairs of vanished termites. Stone vaults, their great doorways broken and scattered, sit empty.
 
 ;well desc
-1,A well – a half circle of brick, a half circle of rubble – opens into watery depths, filling the air with the scent of brine and dead fish. In a corner lies a bucket with a broken iron chain.
+1,A ruined well opens into watery depths filling the air with the scent of brine and dead fish. In a corner lies a bucket with a broken iron chain.
 1,Humid air rises from a small alcove in the corner, where lichens and molds congregate.
 1,The air is damp and brackish; an iron grate over a pit covers a water source.
 1,A small trickle of water splashes quietly into a stone basin here from a bas-relief of a [cherub|satyr|angel|demon|[devil]]. The water seems fresh and pure.
@@ -6152,7 +6239,7 @@
 
 ;exit to Muspelheim
 1,Eventually, you feel a light draught and then at last, there’s light: the tunnel opens up into a steep valley dug by a lava river. The sky above you is black but there are lava falls on all sides, pouring into the river. A trail turns [left|right] and leads you up to a giant building on a cliff overlooking the valley of fire.<p>[store lava as liquid][fire giant building]
-0,The tunnel ends at a huge iron gate. There’s a [hammer on a chain|a big ring] fastened to the gate, a kind of knocker. Using it will summon the **ifrit** called *Furnace of a Thousand Hell Hounds* ([ifrit stats]). He guards this entrance into *Ysabala’s Tower* and will happily escort polite visitors past the 12 **hell hounds** ([hell hound stats]) to the outside.<p>The **sorceress** *Ysabala*[store 10 as level] also lives in this tower (hp [10d4] AC 9 MU10). [store ysabala as spellbook] She’s the author of [[same spellbook]]: [spellbook 10]. [leader treasure for magic user]<p>Just above her quarter lives her best friend, the **red dragon** *Reykja*[store Reykja as dragon name][dragon portrait] ([red dragon stats]). [dragon treasure]
+0,The tunnel ends at a huge iron gate. There’s a [hammer on a chain|a big ring] fastened to the gate, a kind of knocker. Using it will summon the **ifrit** called *Furnace of a Thousand Hell Hounds* ([ifrit stats]). He guards this entrance into *Ysabala’s Tower* and will happily escort polite visitors past the 12 **hell hounds** ([hell hound stats]) to the outside.<p>The **sorceress** *[quote Ysabala as human name]*[store 10 as level] also lives in this tower (hp [10d4] AC 9 MU10). [store ysabala as spellbook] She’s the author of [[same spellbook]]: [spellbook 10]. [leader treasure for magic user]<p>Just above her quarter lives her best friend, the **red dragon** *Reykja*[store Reykja as dragon name][dragon portrait] ([red dragon stats]). [dragon treasure]
 
 ;a post-apocalyptic monster
 1,Statues of dwarven warriors and scholars remind us of the former power of this place. Here lives a **medusa** *[medusa name]* ([medusa stats]). [terror treasure]
@@ -9897,9 +9984,10 @@
 1,Here lives the **necromancer** [human with portrait][here store [same human name] as alchemist patron] (level [1d3+4 as level]), protected by [necromancer companions]. [spellbook for necromancers] [necromancer tower] [luxurious context] [leader treasure for magic user]
 
 ;necromancer companions
+1,[4d6] **skeletons** standing guard ([skeleton stats])
 1,[4d6] watchful **zombies** ([zombie stats])
-1,[2d8] noble **ghouls**, decadent, immortal, foppish, and always hungry ([ghoul stats])
-1,[2d6] **werewolves** in human disguise, welcoming, but rough ([werewolf stats])
+1,[2d8] [noble|decadent|hungry|foppish|sneaky] **ghouls** ([ghoul stats])
+1,[2d6] **werewolves** in human disguise, [cheerful|welcoming|hospitable], but [rough|loud] ([werewolf stats])
 1,[2d4] **hell hounds** ([hell hound stats])
 
 ;werewolf stats
