@@ -397,7 +397,7 @@
 5,[grass intro] [grass dressing] [grass landmark] **[capitalize cows]** can be seen grazing in the distance to the [direction].
 1,[grass intro] [grass dressing] [grass landmark] Without a guide, you may be ambushed by [1d12+1] [warrior ants] protecting their colony from intruders. The ant lair is not far.<p>[giant ant lair]
 3,[grass intro] [grass dressing] [grass landmark] Those who know how to find it can gather *[magic plant]*.
-1,[grass intro] [grass dressing] [grass landmark] The area has been settled by a tribe of [6d6] **lizard people** ([lizard people stats]) led by *[lizard leader]* (HD [1d4+2 as level]). [leader treasure] The little village of sod and grass huts is guarded by [lizard companions]. [average treasure]
+1,[grass intro] [grass dressing] [grass landmark] The area has been settled by a tribe of [6d6] **lizard people** ([lizard people stats]) led by *[lizard people name]* (HD [1d4+2 as level]). [leader treasure] The little village of sod and grass huts is guarded by [lizard companions]. [average treasure]
 1,[grass intro] [grass dressing] [grass landmark] This land is the home of [centaurs].
 1,[grass intro] [grass dressing] [grass landmark] A ruined tower standing on a small rise is home to the **ettin** called *[ettin]* ([ettin stats]). [robber treasure] [ettin tower protection]
 1,[grass intro] [grass dressing] [grass landmark] In the old days, this rocky pit was [a gem] quarry. Concealed in a rocky crevice is the hidden barrow of [1d8 wights] ([wight stats]).
@@ -2055,23 +2055,24 @@
 1,[store lizard as monsters][save rooms]This is *[here dungeon name]*.<p class="sidebar">Wandering monsters: [[same monsters] encounter].<p>[dungeon map with [same rooms] rooms]
 
 ;lizard encounter
-1,[1d6+1] **kobolds** [monster activities] ([kobold stats])
+1,[1d6+1] **kobolds** led by *[kobold name]*, [monster activities] ([kobold stats])
 1,**giant lizard** ([giant lizard stats])
-1,[2d4] **lizard men** [monster activities] ([lizard people stats])
-1,[1d8+1] **troglodytes** [monster activities] ([troglodyte stats])
+1,[2d4] **lizard men** led by *[lizard people name]*, [monster activities] ([lizard people stats])
+1,[1d8+1] **troglodytes** led by *[lizard people name]*, [monster activities] ([troglodyte stats])
 
 ;lizard feature
 9,
 1,</li><li>Hissing and whispering in the distance
-1,</li><li>Broken egg shells in a corner
-1,</li><li>Large reptile scales in a corner
+1,</li><li>[Broken egg shells|Large reptile scales] in a corner
+1,</li><li>A lizard person is singing the [lizard people song]
 
 ;lizard boss
-1,a **lizardfolk oracle** (level [1d3+1 as level]). [spellbook for magic user] and [his|her] [2d6] devoted **kobolds** [monster activities] ([kobold stats])[store poor as treasure type]
-1,a **brutishly huge lizard [matriarch|patriarch]** ([ogre stats]), fanatically guarded by [lizard encounter][store robber as treasure type]
-1,a **troglodyte stench-mage** (level [1d3+4 as level]) who currently smells of [smells], teaching the aromatic arts to [1d8+1] **troglodytes** ([troglodyte stats])[store poor as treasure type]
-1,*[naga name]* the **[Cobra Hooded|Rattle Tail|Coral Striped|Reticulated] Naga** ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span> and her [charmed|ensorcelled|adoring] [lizard encounter][store terror as treasure type]
+1,the **lizardfolk oracle** *[lizard people name]* (level [1d3+1 as level]). [spellbook for magic user] and [his|her] [2d6] devoted **kobolds** [monster activities] ([kobold stats])[store poor as treasure type]
+1,the **brutishly huge lizard [matriarch|patriarch]**  *[lizard people name]* ([ogre stats]), fanatically guarded by [lizard encounter][store robber as treasure type]
+1,the **troglodyte stench-mage** *[lizard people name]* (level [1d3+4 as level]) who currently smells of [smells], teaching the aromatic arts to [1d8+1] **troglodytes** ([troglodyte stats])[store poor as treasure type]
+1,the **naga** *[naga name]* ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span> and her [charmed|ensorcelled|adoring] [lizard encounter][store terror as treasure type]
 1,the **red dragon** *[here red dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
+1,the **black dragon** *[here black dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type]
 
 # MAGIC USER THEME
 
@@ -2165,9 +2166,9 @@
 
 ;snake boss
 1,a **gorgon** guarding a broken [statue|effigy|altar] of Set ([gorgon stats])[store terror as treasure type]
-1,the **medusa** *[medusa name]* and [medusa victims] ([medusa stats])[store terror as treasure type]
-1,the **naga** *[naga name]* ([naga stats])[store terror as treasure type]
-1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure][store poor as treasure type]
+1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) serving the **medusa** *[medusa name]* and [medusa victims] ([medusa stats])[store terror as treasure type]
+1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) serving the **naga** *[naga name]* ([naga stats])[store terror as treasure type]
+1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard people name]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure][store poor as treasure type]
 
 # AMALGAM THEME
 
@@ -2243,9 +2244,6 @@
 
 ;giant rat stats
 1,HD ½ 1d4 hp AC 7 1d3 F1 MV 12 ML 8 XP 50; swim; disease: when hit, save vs. poison or catch a *fever* – all odd d20 results automatically fail for a week, no memorising of new spells
-
-;troglodyte stats
-1,AC 5 HD 2* MV 120' (40') DMG 1d4/1d4/1d4 Save F2 ML 9 AL C XP 25 Special They have a chameleon ability that lets them surprise others on a 1 to 4. They secrete oil that smells that nauseates unless a save versus poison is successful. Anyone nauseated will suffer -2 to attack.
 
 ;kobold stats
 1,HD ½ hp 1d4 AC 7 1d4 NM MV 6 ML 6 XP 50
@@ -3258,7 +3256,7 @@
 1,The necropolis itself is an endless graveyard, tombstone after tombstone, filling every slope in this valley, stone statues, inscriptions, pictures, headstones engraved with [Set decoration] or [Pazuzu decoration]. At night the ghosts rise from their graves, lamenting the state of their graves and the lack of care, the sloth of their descendants, and they curse them and their world, not realising that their world has already faded and that they are the only ones left. Appropriate rites and sacrifices, a purification and a hallowing might bring them peace.
 1,This might have been a necropolis hundreds of years ago but now it’s more like a meadow. There are still some overgrown headstones to see, some mausoleums are still standing, some statues can be discerned, but most of it is pasture now, [mountain animals] grazing and a bunch of orcs working on their [mountain orc product]. The banners on their tents intents identify them as [evil tribe] orcs. [orcs] [mountain orc leader specialty]
 1,The valley is filled with ruins. This must have been a large monastic complex in its heyday. These days the ceilings have fallen, walls have crumbled, weeds are growing everywhere and anything not made of stone has rotten away. It’s hard to say what these buildings were used for. Here you can see an engravings of [Pazuzu decoration], over there is an engraving of [Set decoration].
-1,The necropolis turned to dust over the years and now nothing but a few statues and crumbled mausoleums remain. Amidst this decay stand newer huts made of wood and dried mud, covered in grass and decorated with banners of [with simple colour] and [and simple colour]. [6d6] **lizard people** ([lizard people stats]) live up here, led by *[lizard leader]* (HD [1d4+2 as level]). [leader treasure] The huts are guarded by [lizard companions]. [average treasure] At night they gather around a central fire and sing songs of old, of love, of longing and of leaving, of great deeds and the old days.
+1,The necropolis turned to dust over the years and now nothing but a few statues and crumbled mausoleums remain. Amidst this decay stand newer huts made of wood and dried mud, covered in grass and decorated with banners of [with simple colour] and [and simple colour]. [6d6] **lizard people** ([lizard people stats]) live up here, led by *[lizard people name]* (HD [1d4+2 as level]). [leader treasure] The huts are guarded by [lizard companions]. [average treasure] At night they gather around a central fire and sing songs of old, of love, of longing and of leaving, of great deeds and the old days.
 
 ;necropolis sphinx
 1,In the middle of all this is a platform that rises 20ft into the air. Wide stairs lead up to a baldachin and under this canopy rests the [sphinx]
@@ -3321,11 +3319,11 @@
 1,a *walkway* lined on either side by carved stone pillars, each shaped to give the appearance of an enormous snake wrapped around it, there opened mouths threatening those who pass. If you misstep, the snakes' mouths shoot **poison darts** at the unwary: save vs. poison or die.
 
 ;1d6 snake people
-1,**snake person** *[lizard leader]* ([lizard people stats]; *charm person* 3×/day)
-1,[1d5+1] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]*
+1,**snake person** *[lizard people name]* ([lizard people stats]; *charm person* 3×/day)
+1,[1d5+1] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard people name]*
 
 ;snake people
-1,[6d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard leader]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure] [snake people companions] [average treasure]
+1,[6d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard people name]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure] [snake people companions] [average treasure]
 
 ;snake people companions
 1,The stables nearby are empty.
@@ -11426,29 +11424,36 @@
 1,Wrack
 
 ;lizard people
-1,The area has been settled by a tribe of [6d6] **lizard people** ([lizard people stats]) led by *[lizard leader]* (HD [1d4+2 as level]). [leader treasure] The little village of mud huts is guarded by [lizard companions]. [average treasure]<p>[lizard culture]
+1,The area has been settled by a tribe of [6d6] **lizard people** ([lizard people stats]) led by *[lizard people name]* (HD [1d4+2 as level]). [leader treasure] The little village of mud huts is guarded by [lizard companions]. [average treasure]<p>[lizard culture]
 
 ;lizard culture
-1,These lizard people like to sing the *Songs of [nearby snake place]*, it’s rise, and it’s fall to oblivion.
-1,These lizard people like to sing the *Songs of Loss and Longing*, a cycle of heroic poems involving the wars against *[an old wight leader]*.
-1,These lizard people like to sing the *Songs of Remembrance*, a cycle of ballads involving the wars against *[an old wight leader]*.
-1,These lizard people like to sing songs from the *Epics of Reason*, long and winding poems about ancient machines in the Philosophers’ War.
-1,These lizard people like to sing some of the *Songs from the Dead*, songs about doomed heroes in the *Old Liberation Wars* which the lizard people lost oh so long ago.
+1,These lizard people like to sing the [lizard people song]
+
+;lizard people song
+1,*Songs of [nearby snake place]*, it’s rise, and it’s fall to oblivion.
+1,*Songs of Loss and Longing*, a cycle of heroic poems involving the wars against *[an old wight leader]*.
+1,*Songs of Remembrance*, a cycle of ballads involving the wars against *[an old wight leader]*.
+1,*Songs of Reason*, long and winding poems about ancient machines in the Philosophers’ War.
+1,*Songs from the Dead*, songs about doomed heroes in the *Old Liberation Wars* which the lizard people lost oh so long ago.
 
 ;lizard people stats
 1,HD 2+1 AC 5 1d8 F2 MV 12 ML 7 XP 200
 
-;lizard leader
-1,Son of Set
+;troglodyte stats
+1,[lizard people stats]; *chameleon*: surprise on 1–4 in 6; *stench*: in melee save vs. poison or take -2 to hit for 20min
+
+;lizard people name
+1,[Son|Daughter|Axe|Spear] of Set
 1,Egg Mother
 1,Forked Tongue
 1,Nest Builder
-1,Poet Heart
-1,Silent Hunter
-1,Quiet Night
-1,Golden Eyes
-1,Daughter of Drake
-1,Dragon Spirit
+1,Poet [Heart|Soul|Moon]
+1,Song Singer
+1,Dragon [Child|Born|Son|Daughter|Blood|Spirit]
+1,[Night|Silent|Moon] Hunter
+1,[Quiet|Starry] Night
+1,[Silver|Golden|Amber|Patient] Eyes
+1,[Son|Daughter|Child] of Drake
 
 ;lizard companions
 2,spiked barriers
@@ -16177,9 +16182,9 @@
 1,<p>5d8 **gnomes** ([gnome stats]) led by [gnome with portrait] (HD 5) have recently moved in and would like to take over the mine. [rich treasure] They’ve set up camp a bit further up, protected by [gnome companions].
 
 ;threatening kobolds
-1,<p>[6d10] **kobolds** live here, led by [kobold] ([kobold stats]). [poor treasure]
+1,<p>[6d10] **kobolds** live here, led by *[kobold name]* ([kobold stats]). [poor treasure]
 
-;kobold
+;kobold name
 1,[kobold 1] [kobold 2]
 
 ;kobold 1
