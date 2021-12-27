@@ -1630,6 +1630,8 @@ sub process {
   } else {
     $text =~ s/(<img[^>]+?>)//g;
   }
+  # fix whilespace at the end of spans
+  $text =~ s/\s+<\/span>/<\/span> /g;
   # strip empty paragraphs
   $text =~ s/<p>\s*<\/p>//g;
   $text =~ s/<p>\s*<p>/<p>/g;
