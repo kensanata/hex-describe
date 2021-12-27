@@ -1726,8 +1726,8 @@
 ;room feature
 2,[[same monsters] encounter] [encounter treasure]
 1,[trap] [trap treasure]
-1,[capitalize special] [[same monsters] feature] [empty treasure]
-2,[capitalize empty dressing] [[same monsters] feature] [empty treasure]
+1,[special] [[same monsters] feature] [empty treasure]
+2,[empty dressing] [[same monsters] feature] [empty treasure]
 
 ;special
 1,[2d4] [strange|fizzing|murky|limpid] pools, filled with [with colour] and [and colour] liquids. 
@@ -1744,39 +1744,39 @@
 1,a stairwell down leads into a maze of unmappable corridors, filled with the skeletons of past [human|elf|dwarf|goblin] visitors
 
 ;empty dressing
-1,Cobwebs
-1,Small organized [mounds|piles|domes] of [sand|dirt|pebbles]
-1,A heap of [bird|rat|snake|[race]|goat] bones
-1,A heap of rotten [rags|apples|tubers]
-1,A [midden|dung heap|heap of broken shells]
-1,Phosphorescent fungus [softly|brightly|balefully] glowing [colour]
-1,Rat tunnels
-1,Rodent nests
-1,A minor rockfall, the remaining ceiling seems stable enough
-1,An incomplete [race] skeleton
-1,Partial cave-in and a half buried [race] skeleton
-1,Partial cave-in
+1,cobwebs
+1,small organized [mounds|piles|domes] of [sand|dirt|pebbles]
+1,a heap of [bird|rat|snake|[race]|goat] bones
+1,a heap of rotten [rags|apples|tubers]
+1,a [midden|dung heap|heap of broken shells]
+1,phosphorescent fungus [softly|brightly|balefully] glowing [colour]
+1,rat tunnels
+1,rodent nests
+1,a minor rockfall, the remaining ceiling seems stable enough
+1,an incomplete [race] skeleton
+1,partial cave-in and a half buried [race] skeleton
+1,partial cave-in
 1,[entrance description]
 1,[goblin junk]
-1,Thousands of dead [insect swarm type] that crunch underfoot
-1,An empty [crate|barrel]
-1,A [crate|barrel] full of rotten [furs|apples|tubers]
-1,An abandoned [bag|backpack] containing a salvageable [hemp rope of 50ft|dagger|dart]
-1,A pile of rags
-1,A small pool
-1,A small curtain concealing an empty small alcove
-1,A [beautiful|desecrated|mutilated|defaced|painted|blood smeared] wooden statue of *[power]*
-1,An empty shelf
-1,A doll lying inside a dingy crib
-1,A table and two benches
-1,A table and [three|four|five] stools
-1,A bag full of flour
-1,A slaughtered pig, hanging from a hook
-1,Some [pig|goat|sheep] bones
-1,The remains of a fireplace, cold
-1,Unusable torch remains
-1,A small bag with a collection of [race] teeth
-1,A small bag with a collection of [bear|lion] claws
+1,thousands of dead [insect swarm type] that crunch underfoot
+1,an empty [crate|barrel]
+1,a [crate|barrel] full of rotten [furs|apples|tubers]
+1,an abandoned [bag|backpack] containing a salvageable [hemp rope of 50ft|dagger|dart]
+1,a pile of rags
+1,a small pool
+1,a small curtain concealing an empty small alcove
+1,a [beautiful|desecrated|mutilated|defaced|painted|blood smeared] wooden statue of *[power]*
+1,an empty shelf
+1,a doll lying inside a dingy crib
+1,a table and two benches
+1,a table and [three|four|five] stools
+1,a bag full of flour
+1,a slaughtered pig, hanging from a hook
+1,some [pig|goat|sheep] bones
+1,the remains of a fireplace, cold
+1,unusable torch remains
+1,a small bag with a collection of [race] teeth
+1,a small bag with a collection of [bear|lion] claws
 
 #these may eventually be merged with "interior room" hoards should probably be handled with treasure calls
 ;final room
@@ -1861,8 +1861,8 @@
 
 ;goblin feature
 3,
-1,</li><li>Little stick figures made of twigs and chestnuts
-1,</li><li>High-pitched [laughter|whimpering|howling]
+1,</li><li>little stick figures made of twigs and chestnuts
+1,</li><li>high-pitched [laughter|whimpering|howling]
 
 ;goblin encounter
 1,[vermin encounter]
@@ -1889,10 +1889,10 @@
 
 ;Greek mythology feature
 9,
-1,</li><li>A crude lyre graffiti on the wall.
-1,</li><li>A drawing of some wine leaves on the wall.
-1,</li><li>Frescoes of naked people running beneath some trees.
-1,</li><li>A drawing of a [centaur|minotaur|medusa] on the wall.
+1,</li><li>a crude lyre graffiti on the wall.
+1,</li><li>a drawing of some wine leaves on the wall.
+1,</li><li>frescoes of naked people running beneath some trees.
+1,</li><li>a drawing of a [centaur|minotaur|medusa] on the wall.
 
 ;Greek mythology encounter
 1,a **basilisk** [monster activities] ([basilisk stats])
@@ -1921,11 +1921,11 @@
 
 ;Gygaxian feature
 15,
-1,</li><li>Graffiti saying “[human name] was here!”
-1,</li><li>Graffiti saying “[human name] loves [elf name]!”
-1,</li><li>Graffiti saying “[nearby human patron] is a [liar and a cheat|cheapskate|miser]!”
-1,</li><li>Graffiti saying “[nearby alchemist patron] is a [liar and a cheat|cheapskate|miser]!”
-1,</li><li>Graffiti saying “[nearby alchemist patron] is turning people into beef jerky!”
+1,</li><li>a graffiti saying “[human name] was here!”
+1,</li><li>a graffiti saying “[human name] loves [elf name]!”
+1,</li><li>a graffiti saying “[nearby human patron] is a [liar and a cheat|cheapskate|miser]!”
+1,</li><li>a graffiti saying “[nearby alchemist patron] is a [liar and a cheat|cheapskate|miser]!”
+1,</li><li>a graffiti saying “[nearby alchemist patron] is turning people into beef jerky!”
 
 ;Gygaxian boss
 1,the **balor** named *[devil name]* ([balor stats])[store terror as treasure type]
@@ -1943,9 +1943,9 @@
 
 ;undead feature
 9,
-1,</li><li>The air is unnaturally [cold|still]
-1,</li><li>The smell of corruption hangs in the air
-1,</li><li>Bone rattling in the distance
+1,</li><li>the air is unnaturally [cold|still]
+1,</li><li>the smell of corruption hangs in the air
+1,</li><li>bone rattling in the distance
 
 ;undead boss
 1,a **wight** [wight stats] and [2d4] **skeletons** [monster activities] ([skeleton stats])[store dead as treasure type]
@@ -1971,7 +1971,7 @@
 
 ;earth elemental feature
 3,
-1,</li><li>The earth [groans|trembles|shakes] for a bit, then everything is silent again
+1,</li><li>the earth [groans|trembles|shakes] for a bit, then everything is silent again
 
 ;earth elemental boss
 2,[2d3] **earth elementals** ([earth elemental stats])[store unguarded as treasure type]
@@ -1994,10 +1994,10 @@
 
 ;water elemental feature
 12,
-1,</li><li>The smell of [mold|algae]
-1,</li><li>Water dripping from the ceiling
-1,</li><li>Water running down the walls
-1,</li><li>The sound of water falling in the distance
+1,</li><li>the smell of [mold|algae]
+1,</li><li>water dripping from the ceiling
+1,</li><li>water running down the walls
+1,</li><li>the sound of water falling in the distance
 
 ;water elemental boss
 2,[2d3] **water elementals** ([water elemental stats])[store unguarded as treasure type]
@@ -2016,10 +2016,10 @@
 
 ;air elemental feature
 12,
-1,</li><li>The air flow keeps changing directions
-1,</li><li>The smell of ozone in the air
-1,</li><li>A solemn sough of the underground
-1,</li><li>Voices whispering incomprehensible things in the distance
+1,</li><li>the air flow keeps changing directions
+1,</li><li>the smell of ozone in the air
+1,</li><li>a solemn sough of the underground
+1,</li><li>voices whispering incomprehensible things in the distance
 
 ;air elemental boss
 1,an **air elemental lord** ([greater air elemental stats])[store ancient as treasure type]
@@ -2039,10 +2039,10 @@
 
 ;fire elemental feature
 12,
-1,</li><li>The air is hot and keeps getting hotter
-1,</li><li>The smell of fire
-1,</li><li>Smoke limits sight to 10ft and makes breathing difficult
-1,</li><li>The sound of fire crackling
+1,</li><li>the air is hot and keeps getting hotter
+1,</li><li>the smell of fire
+1,</li><li>smoke limits sight to 10ft and makes breathing difficult
+1,</li><li>the sound of fire crackling
 
 ;fire elemental boss
 1,a **pyrohydra** ([pyrohydra stats])[store terror as treasure type]
@@ -2062,9 +2062,9 @@
 
 ;lizard feature
 9,
-1,</li><li>Hissing and whispering in the distance
-1,</li><li>[Broken egg shells|Large reptile scales] in a corner
-1,</li><li>A lizard person is singing the [lizard people song]
+1,</li><li>hissing and whispering in the distance
+1,</li><li>[broken egg shells|large reptile scales] in a corner
+1,</li><li>a lizard person is singing the [lizard people song]
 
 ;lizard boss
 1,the **lizardfolk oracle** *[lizard people name]* (level [1d3+1 as level]). [spellbook for magic user] and [his|her] [2d6] devoted **kobolds** [monster activities] ([kobold stats])[store poor as treasure type]
@@ -2095,10 +2095,10 @@
 
 ;magic user feature
 12,
-1,</li><li>A creaking door somewhere
-1,</li><li>Shuffling feet in the distance
-1,</li><li>The smell of sulphur in the distance
-1,</li><li>Cursing in the distance
+1,</li><li>a creaking door somewhere
+1,</li><li>shuffling feet in the distance
+1,</li><li>the smell of sulphur is in the air
+1,</li><li>cursing in the distance
 
 ;magic user boss
 1,the [infamous|well-known|cruel|absent-minded|callous|calculating|misunderstood|desperate|greedy|power-hungry|maniacal|stark-raving mad|corrupted|cursed|dangerous|studious|apprentice-seeking|unhinged|unnervingly polite] **[magic user]** [human with portrait][here store [same human name] as alchemist patron] (level [1d3+4 as level]). [spellbook for magic user] [leader treasure for magic user][store poor as treasure type]
@@ -2114,7 +2114,7 @@
 
 ;wererat feature
 3,
-1,</li><li>Scratching noise somewhere
+1,</li><li>scratching noise somewhere
 
 ;wererat boss
 1,a *wererat* ([werewolf stats])[store poor as treasure type]
@@ -2138,12 +2138,12 @@
 
 ;bandit feature
 18,
-1,</li><li>The stench of too many humans and very little ventilation
-1,</li><li>Graffiti saying “[human name] loves [elf name]!”
-1,</li><li>Graffiti saying “[human name] [has no brains|cannot read]!”
-1,</li><li>Graffiti saying “[human name] is a [bully|tyrant]!” Somebody else added: “I killed them.”
-1,</li><li>Graffiti saying “[nearby human patron] is a [liar and a cheat|cheapskate|miser]!”
-1,</li><li>Graffiti of naked humans on the wall
+1,</li><li>the stench of too many humans and very little ventilation
+1,</li><li>a graffiti saying “[human name] loves [elf name]!”
+1,</li><li>a graffiti saying “[human name] [has no brains|cannot read]!”
+1,</li><li>a graffiti saying “[human name] is a [bully|tyrant]!” Somebody else added: “I killed them.”
+1,</li><li>a graffiti saying “[nearby human patron] is a [liar and a cheat|cheapskate|miser]!”
+1,</li><li>a graffiti of naked humans on the wall
 
 ;bandit boss
 1,The [infamous|wanted|recently escaped] **[human class]** [human with portrait] (level [1d4+1 as level]) leading [2d6] **bandits** ([bandit stats]). [here store the bandit *[same human name]* as wanted dead or alive] [spellbook for [same class]] [leader treasure for [same class]][store poor as treasure type]
@@ -2161,8 +2161,8 @@
 
 ;snake feature
 6,
-1,</li><li>Somebody playing a flute somewhere
-1,</li><li>Egg shells in a corner
+1,</li><li>somebody playing a flute somewhere
+1,</li><li>egg shells in a corner
 
 ;snake boss
 1,a **gorgon** guarding a broken [statue|effigy|altar] of Set ([gorgon stats])[store terror as treasure type]
