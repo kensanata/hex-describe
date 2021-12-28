@@ -430,22 +430,37 @@ sub markdown {
     s!<span[^>]*>\s*!｢!g;
     s!\s*</span>!｣!g;
     # emphasis
-    s!</?strong>!**!g;
-    s!</?em>!*!g;
+    s!</?(strong|b)>!**!g;
+    s!</?(em|i)>!*!g;
+    s!</?u>!_!g;
     # remove links but leave their text
     s!</?a\b[^>]*>!!g;
     # closing paragraph tags are optional
     s!</p>!!g;
     # paragraph breaks
-    s!<p>!\n\n!g;
+    s!<p.*?>!\n\n!g;
     # blockquotes
     s!<blockquote>(.*?)</blockquote>!local $_ = $1; s/^/\n> /g; $_!gem;
     # unreplaced references (nearby, other, later)
     s!(.*?)!$1!g;
     # return what's left
-    $_;
+    markdown_lists($_);
   } @$descriptions;
   return join("\n\n---\n\n", @paragraphs);
+}
+
+sub markdown_lists {
+  $_ = shift;
+  my ($str, @list);
+  for (split(/(<.*?>)/)) {
+    if (/^<ol.*>$/) { unshift(@list, '1.'); $str .= "\n" }
+    elsif (/^<ul.*>$/) { unshift(@list, '*'); $str .= "\n" }
+    elsif (/^<li>$/) { $str .= " " x (4 * @list) . $list[0] . " " }
+    elsif (/^<\/(ol|ul)>$/) { shift(@list) }
+    elsif (/^<\/li>$/) { $str .= "\n" unless $str =~ /\n$/ }
+    else { $str .= $_ }
+  }
+  return $str;
 }
 
 =item get /nomap
