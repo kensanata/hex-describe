@@ -404,7 +404,7 @@
 1,[grass intro] [grass dressing] [grass landmark] There is a huge dirt mound with small holes for windows and a rough wooden door. [goblins]
 1,The [grass name] looks burned and shrivelled here and the smell of sulphur hangs in the air. A **manticore** named *[manticore name]* [manticore activity] ([manticore stats]).
 3,[grass intro] [grass dressing] [grass landmark]  If you stay here long, you’ll soon attract the attention of [boars].
-1,[grass intro] A burbling spring seeps out of a small cave here, save vs. poison or spend the rest of the day vomiting. This cave is home to a **basilisk** ([basilisk stats]). The poisonous vapours have polluted the spring water.
+1,[grass intro] A burbling spring seeps out of a small cave here, save vs. poison or spend the rest of the day vomiting. This cave is home to a **basilisk** ([basilisk stats]). The poisonous vapours have polluted the spring water.
 1,[grass intro] [grass dressing] [grass landmark] An abandoned shrine to *[power]* stands here, partly covered in lichens. Patrolling the corridors inside the crumbling shrine is a **straw golem** ([straw golem stats]). <span class="treasure">[2d6] [gem] gems can be recovered from the golem.</span>
 1,[grass intro] [grass dressing] [grass landmark] There’s a wooden hut here. Its inhabitant appears to be a hermit called [human with portrait]. In actual fact, however, this is a **wereboar** ([werewolf stats]). [poor treasure] They will attack if the party discovers their secret.
 1,[grass intro] [grass dressing] [grass landmark] [outlaw camp]. [robber treasure]
@@ -506,7 +506,7 @@
 1,HD 1 AC 9 1d6 MV 12 ML 12 XP 100; immune to *arrows*, immune to *poison*; immune to *spells*
 
 ;basilisk stats
-1,HD 6+1 AC 4 1d10 F6 MV 6 ML 9 XP 600; save vs. poison or die if closer than 30ft because of the *poisoned air*, or when its *killing gaze* falls on you, or when bitten by the *poisonous fangs*; <span class="treasure">*basilisk bile* is worth 5000gp to an alchemist</span>[here store basilisk bile as alchemist quest]
+1,HD 6+1 AC 4 1d10 F6 MV 6 ML 9 XP 600; save vs. poison or die if closer than 30ft because of the *poisoned air*, or when its *killing gaze* falls on you, or when bitten by the *poisonous fangs*; <span class="treasure">*basilisk bile* is worth 5000gp to an alchemist</span>[here store basilisk bile as alchemist quest]
 
 ;horse archers
 1,[1d4x10] **humans** ([archer stats]) led by *[archer leader name as human name]*[human portrait]. They are hunters and gatherers, following the herds of *[cows]*, and they are also excellent *horse archers*. [horse archer activities] They will trade dried meat and finely woven cloth for jewelry or [gem]. Their wool tents are decorated with [with colour] and [and colour] banners and protected by [human companions]. [average treasure]
@@ -1816,7 +1816,6 @@
 1,[1d6]0 gold coins.
 1,
 
-#these are kind of neat, maybe some prepositions eventually to make more logical statements
 ;treasure where
 1,a [barrel|crate] full of rotten [furs|apples|tubers] → at the bottom
 1,an empty [barrel|crate] → hidden in the double bottom
@@ -2360,32 +2359,38 @@
 # Trap room features. General format: hint; hint; hint → effect;
 # effect (no trailing punctuation; the intended use is as a list item.
 
+# Concealed traps are sometimes used to protect treasure
 ;concealed trap
 1,**net**: tripwires trigger a net falling from the ceiling → save vs. rays or be caught for 1d6 rounds; wood blocks attached along the edges cause a ruckus and attracts wandering monsters
-1,**trap door**: hollow sound if tapped → triggered on 1 in 6 per person: 10ft deep pit, take 1d6 damage
+1,**trap door**: hollow sound if tapped → 1–2 in 6: 10ft deep pit, take 1d6 damage
+1,**concealed spiked pit**: hollow sound if tapped → 1–2 in 6: 10ft deep pit with sharpened spikes, take 2d6 damage
 1,**tripwire poison arrow**: triggered by a pole; wall is nicked where arrows missed their target; single hole on the opposing side; visible wire when moving with a light source → roll an attack against the first person: 1d6 damage and save vs. poison or die
 
 ;trap
 3,[concealed trap]
 1,**checkerboard floor**: traces of dirt on the safe tiles; save vs. breath or take 2d6 damage unless you move like a [chess piece]
 1,**chest**: [chest], sweet smell if examined closely → booby-trapped with sleep gas, all must save vs. poison or lose consciousness for 20min
-1,**darts**: walls nicked and holes on the opposing side; raised floor segment indicates pressure plate → roll attacks against the first person: 1d4/1d4/1d4 damage
-1,**deep pit**: a deep pit with a visibly crumbling edge supported by rotting wooden beams → anybody approaching the pit has a 2 in 6 chance of triggering a collapse and falls 30ft for 3d6 damage
-1,**falling rocks**: rickety construction with frail, rotten support beams → anything but careful sneaking triggers a ceiling collapse: all must save vs. death or die
+1,**darts**: walls nicked and holes on the opposing side; raised floor segment indicates pressure plate → roll attacks +0 against the first person: 1d4/1d4/1d4 damage
+1,**deep pit**: a deep pit with a visibly crumbling edge supported by rotting wooden beams → 1–2 in 6 it collapses, fall 30ft for 3d6 damage
+1,**falling rocks**: rickety construction with frail, rotten support beams; dirt falls → anything but careful sneaking triggers a ceiling collapse: all must save vs. death or die
+1,**spiked iron grate**: fixed to the ceiling near the entrance; pressure plate connected by a wire → on 1–2 in 6 it swings down, save vs. breath or take 2d6 damage → locks into place, requiring a strength check to lift
+1,**buried coffin**: knocking from below; swipe the dirt aside to reveal crumbling coffin; muffled cry: “help!” (or: “brains?”) → if stepped upon, 1–2 in 6 chance of the coffin breaking and the **zombie** grabbing a hold of the tasty foot ([zombie stats])
+1,**small catapult**: loaded with a ball-and-chain; trip wires → on 1–2 in 6 it triggers, save vs. breath or take 2d6
+1,**turning trap door**: clean floor ahead; hollow sound if tapped → 1–2 in 6: 10ft deep pit, take 1d6 damage, floor plate is mounted on a rotating axis and turns over, locking in place again (requires similar weight to release), contains [dead human, dagger|bones, **ghoul** ([ghoul stats])|bones, **zombie** ([zombie stats])|[slime]]
 # Buffalo Castle 24A!
-1,**fog chest**: [chest], traces of a metallic green condensate all over it; transformation magic detectable; a tiny plaque reads (roll 1d4): 1. “🜁:🜚→🝗” (gold to ashes), 2. “🜁:🜛→🝗” (silver to ashes), 3. “🜁:🜠→🝗” (copper to ashes), 4. “🜁:🜜→🝗” (iron to ashes) → opening the chest releases the fog which will transform any exposed metal of the indicated type to dust: armour, unsheathed weapons, rings, diadems, or bracelets worn, etc
+1,**fog chest**: [chest], traces of a metallic green condensate all over it; transformation magic detectable; a tiny plaque reads: [“🜁:🜚→🝗” (gold to ashes)|“🜁:🜛→🝗” (silver to ashes)|“🜁:🜠→🝗” (copper to ashes)|“🜁:🜜→🝗” (iron to ashes)] → opening the chest releases the fog which will transform any exposed metal of the indicated type to dust: armour, unsheathed weapons, rings, diadems, or bracelets worn, etc
 1,**oil**: a small coal fire up above is heating a cauldron suspended on a metal rod just below the ceiling; a pressure plate turns the cauldron over → dousing everybody in boiling oil for 1d8 damage; a 2 in 6 chance for the fire falling into the oil and igniting it, causing another 1d8/rd for the next two rounds
 1,**pendulum blade**: a vertical slit on both sides and on the ceiling; a pressure plate → roll an attack against the first person: 1d8 damage; anybody has a 4 in 6 chance of evading the pendulum’s attack
 1,**rope trap**: straw covers the floor; sweeping the straw reveals the rope; a curtain hides a large stone on a rope above a small well → stepping on the trigger releases the stone, pulling the rope, ripping the victim off its feet and leaves it dangling above the well; loud crash of the stone attracts wandering monsters
 1,**scorched pedestal with statue of [power] holding a [gem]**: fire magic detectable; statue’s hand with the gem is connected to the arm with a hinge → movement of the hand unleashes a *fireball*, 5d6 damage to all in the room, save vs. explosions for half
 1,**skunk chest**: [chest], musty smell if examined closely → booby-trapped with skunk oil spray; all present are odoriferous for the next 3 days, i.e. fail all Charisma checks, random encounters underground are doubled: roll 2d6 instead of 1d6
 1,**smoke trap**: obscures visibility while attackers enter from another room
-1,**spiked ball**: save vs. breath or 2d6 dmg
+1,**spiked ball**: fixed to the ceiling; trip wire leads up to it → when released, save vs. breath or take 2d6 damage
 1,**stagnant pool**: boat on the far side
 # from Holmes’ sample dungeon!
 1,**statue pointing**: points at door just entered; must be rotated on base to point to another door; any door it is pointed at can’t be opened
 1,**statue of [power] with diadem**: the diadem holds a [gem] → the diadem is tied to the statue’s head with a very thin wire → pulling the wire releases corrosive gas, save vs. poison or suffer 3d6 damage
-1,**trapped floor**: triggered on 1 in 6 per PC to fall in pit with a **giant spider** ([giant spider stats])
+1,**trapped floor**: 1 in 6 chance to fall into a pit with a **giant spider** ([giant spider stats])
 #H/T Buffalo Castle!
 1,**treasure mirage**: a hoard of gold pieces that has alerted the nearest monsters to come and attack, at which point the gold pieces will disappear
 1,**underground stream**: leads to rapids out of the dungeon, 3d6 damage
@@ -6254,7 +6259,7 @@
 ;green mountain tower entrance
 1,<p>There is no visible entrance, but a person carrying an amulet of passage bearing the [name for a clan of the netherworld elves] sigil will see the hidden door.
 1,<p>Attempting to enter the tower draws the attention of *[jinn name]*, a **jinni** who guards the tower ([jinn stats]).
-1,<p>An ornate archway stands open at the base of the tower allowing any to pass within. In the archway, however, lie [victims of lightning]. Those who do are struck by a *rune of protection* unless copper or iron wiring is used to short-circuit the trap: *lightning bolt* (5d6 damage, save vs. spells for half)
+1,<p>An ornate archway stands open at the base of the tower allowing any to pass within. In the archway, however, lie [victims of lightning]. Those who do are struck by a *rune of protection* unless copper or iron wiring is used to short-circuit the trap: *lightning bolt* (5d6 damage, save vs. spells for half)
 1,<p>The delicately carved [tree] wood doors of the tower have been ripped open and splintered. The bottom floor of the tower is home to [[den type]], [den mood] ([[same den type] stats]).
 1,<p>Inside the tower, in the entry hall, [1d2+1] **crystal living statues** stand silent guard ([stone golem stats]). Unless the party speaks the name of the tower’s builder, *[elf name]*, the guardians will attack any who attempt to ascend to the next level.
 
