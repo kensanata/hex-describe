@@ -2369,14 +2369,17 @@
 ;trap
 3,[concealed trap]
 1,**checkerboard floor**: traces of dirt on the safe tiles; save vs. breath or take 2d6 damage unless you move like a [chess piece]
-1,**chest**: [chest], sweet smell if examined closely → booby-trapped with sleep gas, all must save vs. poison or lose consciousness for 20min
+1,**chest**: [chest], sweet smell if examined closely → booby-trapped with sleep gas, all must save vs. poison or lose consciousness for 20min; two random encounter checks if all are affected
 1,**darts**: walls nicked and holes on the opposing side; raised floor segment indicates pressure plate → roll attacks +0 against the first person: 1d4/1d4/1d4 damage
 1,**deep pit**: a deep pit with a visibly crumbling edge supported by rotting wooden beams → 1–2 in 6 it collapses, fall 30ft for 3d6 damage
 1,**falling rocks**: rickety construction with frail, rotten support beams; dirt falls → anything but careful sneaking triggers a ceiling collapse: all must save vs. death or die
-1,**spiked iron grate**: fixed to the ceiling near the entrance; pressure plate connected by a wire → on 1–2 in 6 it swings down, save vs. breath or take 2d6 damage → locks into place, requiring a strength check to lift
+1,**spiked iron grate**: fixed to the ceiling near the entrance; pressure plate connected by a wire → on 1–2 in 6 it swings down, save vs. breath or take 2d6 damage; locks into place, possibly separating party; requires a strength check to lift
 1,**buried coffin**: knocking from below; swipe the dirt aside to reveal crumbling coffin; muffled cry: “help!” (or: “brains?”) → if stepped upon, 1–2 in 6 chance of the coffin breaking and the **zombie** grabbing a hold of the tasty foot ([zombie stats])
+1,**hanging log**: hanging on the ceiling; trip wire → on 1–2 in 6 it swings down, save vs. breath or take 2d6 damage; also rams into the person behind you (if any)
+1,**protective spear trap**: a hole in the wall at chest level; a pressure plate further back → on 1–2 in 6 it triggers a spear attack +0 for 1d6 on the person standing in front of the hole; can be triggered on purpose
 1,**small catapult**: loaded with a ball-and-chain; trip wires → on 1–2 in 6 it triggers, save vs. breath or take 2d6
 1,**turning trap door**: clean floor ahead; hollow sound if tapped → 1–2 in 6: 10ft deep pit, take 1d6 damage, floor plate is mounted on a rotating axis and turns over, locking in place again (requires similar weight to release), contains [dead human, dagger|bones, **ghoul** ([ghoul stats])|bones, **zombie** ([zombie stats])|[slime]]
+1,**open spiked pit**: a narrow wooden beam leads across a pit 10ft wide and 10ft deep, spiked; wet and slippery → unless you’re an elf or a halfling: on 1–2 in 6 you slip and fall take 2d6
 # Buffalo Castle 24A!
 1,**fog chest**: [chest], traces of a metallic green condensate all over it; transformation magic detectable; a tiny plaque reads: [“🜁:🜚→🝗” (gold to ashes)|“🜁:🜛→🝗” (silver to ashes)|“🜁:🜠→🝗” (copper to ashes)|“🜁:🜜→🝗” (iron to ashes)] → opening the chest releases the fog which will transform any exposed metal of the indicated type to dust: armour, unsheathed weapons, rings, diadems, or bracelets worn, etc
 1,**oil**: a small coal fire up above is heating a cauldron suspended on a metal rod just below the ceiling; a pressure plate turns the cauldron over → dousing everybody in boiling oil for 1d8 damage; a 2 in 6 chance for the fire falling into the oil and igniting it, causing another 1d8/rd for the next two rounds
