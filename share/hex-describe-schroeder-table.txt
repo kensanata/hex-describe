@@ -1947,13 +1947,13 @@
 1,</li><li>bone rattling in the distance
 
 ;undead boss
-1,a **wight** [wight stats] and [2d4] **skeletons** [monster activities] ([skeleton stats])[store dead as treasure type]
-1,a **spectre** ([spectre stats]) and [undead encounter][store dead as treasure type]
+1,the **wight** *[wight name]* ([wight stats]) and [2d4] **skeletons** [monster activities] ([skeleton stats])[store dead as treasure type]
+1,the **spectre** of *[an old hero]* *[spectre name]* ([spectre stats]) and [undead encounter][store dead as treasure type]
 1,a **necromancer** [human with portrait][here store [same human name] as alchemist patron] (level [1d3+4 as level]), protected by [necromancer companions]. [spellbook for necromancers] [leader treasure for magic user][store dead as treasure type]
-1,a **mummy** ([mummy stats]) with wrappings that smell of [smells] guarded by [2d6] **grinning skeleton [spear|shield|ceremonial sword]-bearers** ([skeleton stats])[store dead as treasure type]
+1,the **mummy** of *[an old hero]* ([mummy stats]) with wrappings that smell of [smells] guarded by [2d6] **grinning skeleton [spear|shield|ceremonial sword]-bearers** ([skeleton stats])[store dead as treasure type]
 1,**[a babbling|an insane|a rambling|a surprisingly polite] ghost** who thinks [he is king|she is queen] of loyal vermin subjects: [vermin encounter][store unguarded as treasure type]
 1,2 **skeletal minotaurs** [monster activities] ([minotaur stats])[store poor as treasure type]
-1,2 **shadows** for each party member ([shadow stats]) who hate all light sources[store terror as treasure type]
+1,[1d8 shadows] who hate all light[store terror as treasure type]
 
 # EARTH THEME
 
@@ -2394,7 +2394,7 @@
 1,**statue pointing**: points at door just entered; must be rotated on base to point to another door; any door it is pointed at can’t be opened
 1,**statue of [power] with diadem**: the diadem holds a [gem] → the diadem is tied to the statue’s head with a very thin wire → pulling the wire releases corrosive gas, save vs. poison or suffer 3d6 damage
 1,**trapped floor**: 1 in 6 chance to fall into a pit with a **giant spider** ([giant spider stats])
-#H/T Buffalo Castle!
+# H/T Buffalo Castle!
 1,**treasure mirage**: a hoard of gold pieces that has alerted the nearest monsters to come and attack, at which point the gold pieces will disappear
 1,**underground stream**: leads to rapids out of the dungeon, 3d6 damage
 1,**walls closing in**: once every player has wedged a weapon between the wall and floor, the wall stops closing in, but the weapons are ruined, otherwise roll d20 under your dexterity or be crushed
