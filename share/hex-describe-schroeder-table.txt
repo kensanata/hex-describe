@@ -2169,7 +2169,7 @@
 1,</li><li>egg shells in a corner
 
 ;snake boss
-1,a **gorgon** guarding a broken [statue|effigy|altar] of Set ([gorgon stats])[store terror as treasure type]
+1,a **gorgon** guarding a broken [statue|effigy|altar] of *Set* ([gorgon stats])[store terror as treasure type]
 1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) serving the **medusa** *[medusa name]* and [medusa victims] ([medusa stats])[store terror as treasure type]
 1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) serving the **naga** *[naga name]* ([naga stats])[store terror as treasure type]
 1,[2d6] **snake people** ([lizard people stats]; *charm person* 3×/day) led by *[lizard people name]* (HD [1d4+4 as level], *lightning bolt* ([same level]d6) 2×/day). [leader treasure][store poor as treasure type]
@@ -3099,7 +3099,7 @@
 1,[2d12] **tengu**, led by the master swordsman *[tengu name]* ([tengu stats]). [scout treasure] Master *[same tengu name]* can [teach a fighter]
 
 ;tengu guardian misgivings
-1,“You may pray at the shrine of our lord Pazuzu, but you must leave before nightfall.”
+1,“You may pray at the shrine of our lord *Pazuzu*, but you must leave before nightfall.”
 1,“This land is forbidden to those without wings. Turn back now before you force our hand.”
 1,“In ancient times we swore to guard this mountain against all incursions. Leave peacefully and you shall not be harmed.”
 1,“You have defiled the holy grounds of our people and only your blood can wash this sin away. Prepare to die.”
@@ -3132,8 +3132,8 @@
 
 ;vulture demon lore
 1,Apparently, *[same demon name]* is a traitor from the back in the days when the gods fought amongst themselves.
-1,Apparently, *[same demon name]* is an agent of Pazuzu, a plague demon bent on destroying the world.
-1,Apparently, the gods have bound agents of Pazuzu near gates to Vanaheim, as a warning to all.
+1,Apparently, *[same demon name]* is an agent of *Pazuzu*, a plague demon bent on destroying the world.
+1,Apparently, the gods have bound agents of *Pazuzu* near gates to Vanaheim, as a warning to all.
 
 ;road to Vanaheim
 1,<p>The passage to Vanaheim is sealed by the life blood of *[same demon name]*. If it is killed, the **vulture demons** *[and demon name]* and *[and demon name]* can *planeshift* here from Vanaheim, bent on avenging their sibling. If it is freed, it will try to kill as many of it’s enemies as it can, and then *planeshift* back to Vanaheim. For the trained eye, the foot passage is revealed: [a spidery network of silver veins in the rock|traces of red sand|whispering warm winds] lead the way towards a black [tunnel|crevice] in the rock face.<p>[road to Vanaheim obstacle]<p>[exit to Vanaheim]
@@ -3145,7 +3145,7 @@
 
 ;exit to Vanaheim
 1,Before you stretches a land of red rocks and dust, with green valleys cut into the surface. Down there, water flows and trees grow. Up on the red hillsides stand ancient castle and temple ruins, and countless burial mounds. The sun is about to set and the sky is turning dark purple. At night, wraiths roam the land: [1d6 wraiths] ([wraith stats]). It’s a long way to the safety of the nearest village. Clearing out a tomb is of course also an option. [dead treasure]
-1,Before you stretches a land of red rocks and sand. The sky is pale pink. It promises to be a hot day. In the distance, on a red mountain surrounded by a forest of thorns, stands an ancient tower. This is *Sandstein*, the hall where Pazuzu, the demon lord of [pestilence|famine] and [disease|hunger] holds court. Countless [crows|vultures] circle above. On the dusty road ahead you can see a company of [Vanaheim soldiers] [Vanaheim soldiering]
+1,Before you stretches a land of red rocks and sand. The sky is pale pink. It promises to be a hot day. In the distance, on a red mountain surrounded by a forest of thorns, stands an ancient tower. This is *Sandstein*, the hall where *Pazuzu*, the demon lord of [pestilence|famine] and [disease|hunger] holds court. Countless [crows|vultures] circle above. On the dusty road ahead you can see a company of [Vanaheim soldiers] [Vanaheim soldiering]
 
 ;Vanaheim soldiers
 1,[1d4x10] **soldiers** ([mercenary stats]). [average treasure] They are led by the **[human class]** [Vanaheim title] [human with portrait] (level [1d4+1 as level]). [spellbook for [same class]] [leader treasure for [same class]]
@@ -3159,8 +3159,8 @@
 1,“Join us now for [fame and glory|everlasting fame] as we attack Jarl *[old name]* in his mountain mausoleum.”
 1,“Join us now for [fame and glory|everlasting fame] as we attack the hold of [Vanaheim title] *[human name]*.”
 1,“Join us now for [fame and glory|everlasting fame] as we attack the hold of the cursed jinni *[jinn name]*.”
-1,“Join us now as we raid the oasis of *[jinn name]* in the name of Pazuzu, lord of [disease|pestilence].”
-1,“Join us now as we raid the oasis of [Vanaheim title] *[human name]* to spread *[diseases]* in the name of Pazuzu.”
+1,“Join us now as we raid the oasis of *[jinn name]* in the name of *Pazuzu*, lord of [disease|pestilence].”
+1,“Join us now as we raid the oasis of [Vanaheim title] *[human name]* to spread *[diseases]* in the name of *Pazuzu*.”
 
 # ------------------------------------------------------------
 
@@ -7252,9 +7252,9 @@
 1,build the rainbow bridge for the gods
 1,build the eternal stairs
 1,forge the axe to fell the world tree
-1,forge the collar for the wolf of Freya
-1,forge the collar for the hound of Hel
-1,forge the hammer of Thor
+1,forge the collar for the wolf of *Freya*
+1,forge the collar for the hound of *Hel*
+1,forge the hammer of *Thor*
 1,forge the gates of hell
 
 ;fire material
@@ -11102,7 +11102,7 @@
 1,An *arrow* +1 with an obsidian tip.
 1,A *sling stone* +1.
 1,An *arrow* +1/+3 vs. reptiles, a relic from the *Old Lizard Wars*.
-1,The ancient spear *Scale Eater*[here store Scale Eater as legendary weapon] +1/+3 vs. reptiles, a relic of the *Old Lizard Wars*, blessed by Pazuzu.
+1,The ancient spear *Scale Eater*[here store Scale Eater as legendary weapon] +1/+3 vs. reptiles, a relic of the *Old Lizard Wars*, blessed by *Pazuzu*.
 1,A *javelin of thunder* that explodes like a *fireball* dealing 6d6 to all nearby, save vs. spells for half.
 1,The ancient bow *Giant Killer*[here store Giant Killer as legendary weapon] +1/+3 vs. giants and extinct megafauna, e.g. sabre tooth tigers, mammoths, or giant elk.
 
@@ -12986,7 +12986,7 @@
 1,save vs. poison or die. The locals use this to kill criminals.
 1,save vs. poison or lose your voice for a week. The locals avoid doing this.
 1,save vs. poison or be cursed to turn into a myconid over the coming week.
-1,save vs. poison or be paralysed for 1d4 hours. Local Set cultists will trade in these mushrooms.
+1,save vs. poison or be paralysed for 1d4 hours. Local *Set* cultists will trade in these mushrooms.
 1,gain telepathic powers for a week. The locals use them to spy on the thoughts of any foreigners.
 1,enjoy wild and colorful visions for 1d20 hours. If you roll higher than your wisdom, see something relevant for the current campaign. The locals lead village idiots here to warn them of impeding danger.
 1,heal 1d6+1. The locals assemble here after a fight to recuperate.
@@ -13916,7 +13916,7 @@
 
 ;maybe a road to Niflheim
 3,
-1,<p>These wolves are blessed by Hel. At night, they sleep in the [Niflheim cave]. At the far end of the cave is an iron gate decorated with [Niflheim decoration]. It is guarded by a **chimera** ([chimera stats]) for it leads to *Niflheim*.<p>[road to Niflheim]
+1,<p>These wolves are blessed by *Hel*. At night, they sleep in the [Niflheim cave]. At the far end of the cave is an iron gate decorated with [Niflheim decoration]. It is guarded by a **chimera** ([chimera stats]) for it leads to *Niflheim*.<p>[road to Niflheim]
 
 ;druids
 1,[druid warning sign] Here stands [druid circle] [the locals call it] *[druid circle name]*. [druid allies] [druid trails]
@@ -14646,7 +14646,7 @@
 ;temple of chaos
 1,In these water logged woods, a statue of *[here disease power as temple power][here store temple of [same temple power]]* was built on top of a little hill. Around it, his followers have built a series of wooden huts and a sacrificial pit full of carcasses, maggots and flies. The stench is overpowering. The humans pray for deliverance, for change, for a remaking of the world and the forest. [cultists]
 1,The water pools between the trees here are black and oily. Dead birds, dead fish, everywhere you look there are dead animals. Here is a mound of ash and bones, and standing on it a pillar of pain dedicated to *[here disease power as temple power][here store temple of [same temple power]]*. Humans have gathered here, to worship and to pray. Their faces are ashen and their eyes infected, their tongue black. They pray for the world to end and to be remade, whole and new. [cultists]
-1,From the stagnant water rises a pyramid. It’s bottom lies under the surface, but there is an opening further up. The waters around the pyramid harbour [1d6 crocodiles]. The boat is well hidden (1 in 6 chance per day and search party). Inside the pyramid is a sacrificial altar of *[here Set as temple power][here store temple of [same temple power]]*, a [Set animal] pit, and the halls of the assassins in training, the Set acolytes. [cultists]
+1,From the stagnant water rises a pyramid. It’s bottom lies under the surface, but there is an opening further up. The waters around the pyramid harbour [1d6 crocodiles]. The boat is well hidden (1 in 6 chance per day and search party). Inside the pyramid is a sacrificial altar of *[here Set as temple power][here store temple of [same temple power]]*, a [Set animal] pit, and the halls of the assassins in training, the *Set* acolytes. [cultists]
 1,The trees here are stunted and black, the water is grey and the air carries the smell of sulphur. Beneath the surface lie [undead guardians] waiting for anybody about to enter the water. The boat is well hidden (1 in 6 chance per day and search party). An island made of huge bones rises from the water. On it, necromancers have built a temple to *[here Orcus as temple power][here store temple of [same temple power]]*, including an altar, a bone hall, a skull mound, and several small huts surrounding it all. [cultists]
 1,The trees here are painted with the blood of pigs and men. Carcasses full of maggots hang from hooks and the air is buzzing with flies. This is where a coven of witches has built an altar to *[here Hel as temple power][here store temple of [same temple power]]*, the goddess of magic. They live in the wooden tree houses nearby. The area is guarded by [2d4] **hell hounds** ([hell hound stats]). [cultists led by a woman]
 
@@ -16561,10 +16561,10 @@
 ;small temple dedicated to Set
 1,[small temple]
 1,The temple is nothing but a pit in the earth with a stone ceiling and the statue of a giant snake in the back. In front of the snake there are burning candles and wooden poles with strings attached and at the end of every string is an accusation: names of villagers and their misdeed, the punishment requested, and counter claims, and peace offerings. This is where the elders decide upon blood money to be paid and punishments to be exacted.
-1,Between some rocks, a crack leads deeper into the earth and into a cave. There, a giant snake made of stone watches over all who pray to Set. A deep pit contains the polished bones of all who where killed in revenge for their misdeeds. There are always wooden accusation plates to be found naming bandits, thieves, murders, adulterers, and cowards who ran from a battle, deserting their village comrades. Will you take a plate and exact revenge in the name of Set?
-1,An old stairway leads into the bowels of the earth where warm vapours make your head swim. Down here, the **spirit naga** *[naga name]* will guide your hand, should you need her words ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span>[here store naga tongue as alchemist quest]). Spend an hour down here and any soul dedicated to Set will tell you of the past and the future, for all time goes in circles and the big snake eats itself.
+1,Between some rocks, a crack leads deeper into the earth and into a cave. There, a giant snake made of stone watches over all who pray to *Set*. A deep pit contains the polished bones of all who where killed in revenge for their misdeeds. There are always wooden accusation plates to be found naming bandits, thieves, murders, adulterers, and cowards who ran from a battle, deserting their village comrades. Will you take a plate and exact revenge in the name of *Set*?
+1,An old stairway leads into the bowels of the earth where warm vapours make your head swim. Down here, the **spirit naga** *[naga name]* will guide your hand, should you need her words ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span>[here store naga tongue as alchemist quest]). Spend an hour down here and any soul dedicated to *Set* will tell you of the past and the future, for all time goes in circles and the big snake eats itself.
 1,Deep below, where the **spirit naga** *[naga name]* guards the passages to Myrkheim ([naga stats]; <span class="treasure">a *naga tongue* is worth 1000gp to an alchemist</span>[here store naga tongue as alchemist quest]), pools of Earth Blood corrupt both the living and the dead. If you spend an hour here, your death warrant is sealed: slowly, you will die, or turn into an ettin, or a goblin, or some other dreadful creature.
-1,This is a snake pit, a breeding ground for [1d4 giant snakes] and [1d8 snakes], a place dangerous to every warm blooded creature. And yet, the terror of these snakes also keeps bandits at bay and no orc will set foot near this place, such is the power of Set. They say that those with the secret knowledge can use snake poison to poison their blades and they say that all who serve the temple have done just that.
+1,This is a snake pit, a breeding ground for [1d4 giant snakes] and [1d8 snakes], a place dangerous to every warm blooded creature. And yet, the terror of these snakes also keeps bandits at bay and no orc will set foot near this place, such is the power of *Set*. They say that those with the secret knowledge can use snake poison to poison their blades and they say that all who serve the temple have done just that.
 1,The temple is a school for assassins. This is where you learn to sneak, to lie, to conceal, to poison, to stab, to strangle. Students learn the secrets of the garrote, of the hidden blade and of the crossbow. All of this is known and yet the farce continues: this is where the young ones learn discipline and strength, diligence and respect. It’s a way to put food on the table, and it’s a useful skill to have available if you’re trying to get ahead.
 
 ;naga name
@@ -16655,11 +16655,11 @@
 1,The small temple here is actually a sick house. This is where the sick go to die. There is currently one **old person** here, *[human name]*.
 1,The small temple here is actually a sick house. This is where the sick go to die. There are currently [1d3+1] **old people** here. The healthiest one is *[human name]*.
 1,The small temple here is actually a charnel house. The sick and the dying are brought here and as the plague is currently active in the area, there are [3d6] **sick people** here. Many can no longer speak, but *[human name]* and *[human name]* will talk.
-1,The temple houses a traditional reed boat. This symbolizes the passage into the netherworld. Inscriptions on the wall describe sickness and death as the transition from the world of the living into the realm of Nergal. Behind the temple is the graveyard.
-1,The temple is a school of exorcism. All the dead belong to Nergal and to animate the dead is theft. The temple specialises in the finding and killing of [undead].
+1,The temple houses a traditional reed boat. This symbolizes the passage into the netherworld. Inscriptions on the wall describe sickness and death as the transition from the world of the living into the realm of *Nergal*. Behind the temple is the graveyard.
+1,The temple is a school of exorcism. All the dead belong to *Nergal* and to animate the dead is theft. The temple specialises in the finding and killing of [undead].
 1,The temple used to be a hospice but now most of the building is abandoned and sealed. Should the seal be broken, sickness and death awaits any trespassers. Poisonous molds. Deadly gases. Rotting diseases and blindness. The plague will return.
 1,The temple is a big feasting hall and a meeting place for the sisters and brothers of the hunt. They hunt vampires wherever they go and thus they all carry magical blades. Beneath the hall are fortified sleeping quarters. This is where the elders lock themselves away when the moon is full for they are all **werewolves** ([werewolf stats]).
-1,The temple is an asylum for the demented and the old. Everything is quiet. [3d6] **old people** sit there, staring at you, unblinking. Their caretaker is *[human name]* ([human stats]). Nergal wants the living to forget the dead and the process starts right here, right now.
+1,The temple is an asylum for the demented and the old. Everything is quiet. [3d6] **old people** sit there, staring at you, unblinking. Their caretaker is *[human name]* ([human stats]). *Nergal* wants the living to forget the dead and the process starts right here, right now.
 
 ;undead
 1,zombies
@@ -16671,11 +16671,11 @@
 ;small temple dedicated to Pazuzu
 1,[small temple]
 1,The temple is built like the aerie of a giant vulture into a cliff. A narrow stair winds itself through the rock from the base up 100ft to this nest. There, a stone vulture watches the buildings below. A great many small dolls adorn the shelves at the back. These are all the lost children.
-1,The temple is a four storied windowless square tower. Inside a set of ladders leads to the roof. There’s a lift with which to raise corpses to the roof. The roof itself is covered in broken bones. This is where the sky burial takes place. Meat boys and bone girls cut up the corpses and offer the remains of the dead to the vultures of Pazuzu.
-1,The temple stands right next to hanging tree. There must be at least a hundred crows here. They say Pazuzu sees everything the crows see and thus the local priests are feared and everything that’s secret has to happen in the dark of night.
-1,The temple stands on a rock needle about 100ft high with a rickety sequence of ladders leading up there. The four-winged statue of the crow demon Pazuzu is hard to see in all the smoke produced by smoldering fires in iron pots hanging in all four corners of the temple. The temple is looked after by [1d6 tengus].
+1,The temple is a four storied windowless square tower. Inside a set of ladders leads to the roof. There’s a lift with which to raise corpses to the roof. The roof itself is covered in broken bones. This is where the sky burial takes place. Meat boys and bone girls cut up the corpses and offer the remains of the dead to the vultures of *Pazuzu*.
+1,The temple stands right next to hanging tree. There must be at least a hundred crows here. They say *Pazuzu* sees everything the crows see and thus the local priests are feared and everything that’s secret has to happen in the dark of night.
+1,The temple stands on a rock needle about 100ft high with a rickety sequence of ladders leading up there. The four-winged statue of the crow demon *Pazuzu* is hard to see in all the smoke produced by smoldering fires in iron pots hanging in all four corners of the temple. The temple is looked after by [1d6 tengus].
 1,The temple stands on a large rock about 20ft above the ground. Petitioners have to climb a rope hanging down over the edge. The temple also houses the **vulture demon** *[demon name]* ([vulture demon stats])
-1,The temple is a a roofed platform made of wood built on top of a large rock about 20ft high. The platform has been blasted by fire many times. Many skulls are hanging from the roof. There is a statue of the four-winged god in each corner. Beneath it are the old runes spelling out the name Pazuzu. Whosoever utters his name three times will summon him. Pazuzu will be friendly and grant a wish, and take your soul (never to be resurrected again). To insult him will unleash an unholy blight dealing 20d6 damage to anybody within 10ft of the blasphemer; save vs. death for half damage.
+1,The temple is a a roofed platform made of wood built on top of a large rock about 20ft high. The platform has been blasted by fire many times. Many skulls are hanging from the roof. There is a statue of the four-winged god in each corner. Beneath it are the old runes spelling out the name *Pazuzu*. Whosoever utters his name three times will summon him. *Pazuzu* will be friendly and grant a wish, and take your soul (never to be resurrected again). To insult him will unleash an unholy blight dealing 20d6 damage to anybody within 10ft of the blasphemer; save vs. death for half damage.
 
 ;1d6 tengus
 1,the **tengu** master swordsman [tengu name]: [tengu stats]
@@ -16772,8 +16772,8 @@
 ;why trolls
 1,These trolls are the secret protectors of the settlement. At night, they sneak out and take care of all their enemies.
 1,These trolls are the very trolls that helped the founders settle this area and their safety is part of a covenant as old as the settlement itself.
-1,These trolls are called the Children of Hel and they are sacred. Their contact with the settlement being passed down from generation to generation. The current troll friend is **[human name]**.
-1,These trolls are the true priests of Hel.
+1,These trolls are called the Children of *Hel* and they are sacred. Their contact with the settlement being passed down from generation to generation. The current troll friend is **[human name]**.
+1,These trolls are the true priests of *Hel*.
 1,The temple is dug deep into the rocks below. Unbeknownst to most, the caves down here are inhabited by [1d4+2] trolls led by *[troll]* ([troll stats]). [robber treasure] Human bones are everywhere.
 
 ;gate monster
@@ -16836,7 +16836,7 @@
 2,They are accompanied by [1d2+1] **wolf spiders** ([giant spider stats])
 
 ;exit to Niflheim
-1,Finally, you reach a black lake in a giant cavern, the walls covered in green ice. Far above, there’s a round opening and from it descends a long iron chain with a big bucket at it’s end. Anybody entering the bucket is carried up, but there’s no boat to carry anybody out into the cold lake towards the elevator bucket. The bucket itself is operated by [1d8 trolls] ([troll stats]) living up above, at the behest of Hel.<p>[a sight of Niflheim]
+1,Finally, you reach a black lake in a giant cavern, the walls covered in green ice. Far above, there’s a round opening and from it descends a long iron chain with a big bucket at it’s end. Anybody entering the bucket is carried up, but there’s no boat to carry anybody out into the cold lake towards the elevator bucket. The bucket itself is operated by [1d8 trolls] ([troll stats]) living up above, at the behest of *Hel*.<p>[a sight of Niflheim]
 1,Finally, the tunnels lead you to the underground [lair of the netherworld elves]<p>The [colour] gate from the [direction]ern courtyard is decorated with [Niflheim decoration]. It leads to the other side, to Niflheim.<p>[a sight of Niflheim]
 
 ;a sight of Niflheim
@@ -16847,7 +16847,7 @@
 
 ;nearest objective in Niflheim
 1,In the [direction], you can see the *[dark mountain]*. On it lives the troll-king *[troll name]* with his [3d8] **trolls** ([troll stats]), [2d6] **harpies** [harpy stats], and his entourage of harpies, eternally feasting, served and defended by his [1d6x10] **human slaves** ([human stats]). [rich treasure]
-1,In the [direction], you can see a fantastic jumble of walls, gates, moat, towers with gallows jutting out over the waters, swinging cages holding the dead and the living near the bridges, ravens on every rooftop. This festering castle is *Ejudnir*, Hel’s hall in Niflheim, guarded by [2d6x100] **trolls** ([troll stats]), watched over by [2d6x10] **harpies** ([harpy stats]), and filled with ten thousand despairing souls of cowards and the weak, moaning.<p>Truly, this is hell.
+1,In the [direction], you can see a fantastic jumble of walls, gates, moat, towers with gallows jutting out over the waters, swinging cages holding the dead and the living near the bridges, ravens on every rooftop. This festering castle is *Ejudnir*, *Hel*’s hall in Niflheim, guarded by [2d6x100] **trolls** ([troll stats]), watched over by [2d6x10] **harpies** ([harpy stats]), and filled with ten thousand despairing souls of cowards and the weak, moaning.<p>Truly, this is hell.
 
 ;dark forest
 1,[Dark|Black|Troll] [Forest|Wood]
@@ -16865,8 +16865,8 @@
 
 ;small temple dedicated to Freya
 1,[small temple]
-1,The temple lies on a hill and boasts a great hall, a long house, where beer is always to be had. The walls are full of weapons and shields of famous patrons, and there are wood carvings of the Freya’s beautiful home in Asgard, the city of the gods, a realm all to itself.
-1,The temple lies at the edge of the settlement, under some oak trees and with fields in the back. A few standing stones show Freya in her various guises over the course of the year. Sowing, growing, harvesting, and fighting. There are [3d6] [boars or wolves] living in the vicinity. The building itself is a longhouse with a grass roof.
+1,The temple lies on a hill and boasts a great hall, a long house, where beer is always to be had. The walls are full of weapons and shields of famous patrons, and there are wood carvings of the *Freya*’s beautiful home in Asgard, the city of the gods, a realm all to itself.
+1,The temple lies at the edge of the settlement, under some oak trees and with fields in the back. A few standing stones show *Freya* in her various guises over the course of the year. Sowing, growing, harvesting, and fighting. There are [3d6] [boars or wolves] living in the vicinity. The building itself is a longhouse with a grass roof.
 1,The temple has a courtyard with the wooden statue of a wolf mother raising two human babies. The building is run by [2d6] **midwives** ([human stats]). Old *[woman]* is their spokeswoman. All the parents in this settlement know how much they owe these midwives, and they know it, too.
 1,The temple belongs to the local [shield maidens], a society of armed women sworn to protect each other and their community. There are [3d6] **women** ([human stats]) led by *[woman]* living here and all are considered armed and dangerous by the locals.
 1,The local priests have turned their attention on the sick and as their reputation grew, so did the number of petitioners waiting outside their hall every morning. There are currently [2d4] **priests** ([human stats]) under the guiding hand of *[woman]* tending the [3d10] sick and wounded.
@@ -16885,11 +16885,11 @@
 
 ;small temple dedicated to Odin
 1,[small temple]
-1,The temple houses an 8ft high wooden statue of Odin wielding his magic spear. An **old woman** named [woman with portrait] takes care of the temple. She knows the power of runes and will cast the stones for you, should want to locate a loved one or find a dragon.
+1,The temple houses an 8ft high wooden statue of *Odin* wielding his magic spear. An **old woman** named [woman with portrait] takes care of the temple. She knows the power of runes and will cast the stones for you, should want to locate a loved one or find a dragon.
 1,The temple is actually a feast hall housing a small college of [3d6] **bards** led by [human with portrait].[store human as singing humanoid] During the day, they sing songs, practice balads, and compete in poetry. Their best known pieces are *[with story]* and *[and story]*. In the evening, the drink. All bards are expected to deliver a yearly donation for the upkeep of the college. Failure to do so results in being placed on a list. Should you need rescuing, they will contract a secret society to do that. Should you skip your obligation, they will contract a secret society to remedy that.
 1,The temple is also a famous school for birds of prey. They are trained here and then sold to nobility in far away regions. The rich merchants making this trip often need guards and thus a mercenary house was established here. [mercenary house]
 1,It was built generations ago atop a pool of Earth Blood by *Wise [human name]* in order to prevent its mutagenic power from corrupting the area. Many magic users and elves have come here over the years, drawn by the small eddies of magic energy still emanating from the sealed area: get one extra spell slot of your liking while you sleep nearby. *[inn]* was built next to the temple just for this. It’s run by the **inn keeper** [human with portrait].
-1,The temple functions welcomes all wanderers and homeless people, housing people for up to week for a gold piece per person. This is the *[inn]* run by the **inn keeper** [human with portrait]. The common room has an entire altar built into it, including carved columns with eagles and ravens and showing Odin riding his eight legged horse over the rainbow bridge.
+1,The temple functions welcomes all wanderers and homeless people, housing people for up to week for a gold piece per person. This is the *[inn]* run by the **inn keeper** [human with portrait]. The common room has an entire altar built into it, including carved columns with eagles and ravens and showing *Odin* riding his eight legged horse over the rainbow bridge.
 
 ;mercenary house
 1,*[mercenary house name]* is run by [human with portrait] and consists of 6d6 mercenaries ([mercenary stats]).
@@ -16992,8 +16992,8 @@
 1,[small temple]
 1,The temple is in fact an altar built inside the village smith’s forge. This is where the strongest villagers meet every seven-night to discuss their grievances and resolve their issues. Money changes hands, children are promised into apprenticeship and journeymen are welcomed into the village. [local smith]
 1,The temple is an altar at the foot of a big rock. The top has been hit by lightning countless times. Next to the altar is the wrestling field. Every festival involves wrestling and old *[human name]* is the most proficient **wrestler** here.
-1,The temple stands in the backyard of *[human name]* the **chariot maker**. Inside it is a life sized statue of Thor riding a chariot drawn by two giant goats. The chariot maker is rich and has buried all his gold beneath the chariot.
-1,The temple is one of the few places where they raise **giant goats**. There are currently [2d6] of these giant goats here ([giant goat stats]). The paintings beneath the roof show Thor riding his chariot pulled by his two famous goats. These giant goats are sold to [goat clients].
+1,The temple stands in the backyard of *[human name]* the **chariot maker**. Inside it is a life sized statue of *Thor* riding a chariot drawn by two giant goats. The chariot maker is rich and has buried all his gold beneath the chariot.
+1,The temple is one of the few places where they raise **giant goats**. There are currently [2d6] of these giant goats here ([giant goat stats]). The paintings beneath the roof show *Thor* riding his chariot pulled by his two famous goats. These giant goats are sold to [goat clients].
 
 ;giant goat stats
 1,HD 3 AC 7 1d6 F2 MV 15 ML 7 XP 300; charge into a fight for double damage
@@ -17005,11 +17005,11 @@
 ;small temple dedicated to Mitra
 1,[small temple]
 1,The temple stands on a little elevation, columns carrying a roof, and a stone altar in the middle, a smoking kettle containing the eternal flame that has been burning here ever since its foundation by *[an old hero]*. This sacred fire is the source for all the human fire in the valley.
-1,The temple is dug into a hill, leading into a small chamber, big enough to barely fit twenty men. There’s a statue of a bull being stopped by Mitra herself. It is blackened by many years of blood and fire for the men swear to be like brothers of blood down here.
+1,The temple is dug into a hill, leading into a small chamber, big enough to barely fit twenty men. There’s a statue of a bull being stopped by *Mitra* herself. It is blackened by many years of blood and fire for the men swear to be like brothers of blood down here.
 1,The temple looks like a tower, except that it has a big window from the bottom to the roof. On the inside, there are no extra floors. The room is simply 50ft high. The strip of light from the window falls on one of three oath brother statues in here, each raising their right hand, each pointing three fingers towards the sky. This is the bond of loyalty that makes us strong.
-1,The temple has a door fit for a giant, but inside there is simply a strip of wooden flooring for petitioners to kneel and a big statue of Mitra standing blindfolded in a sea of fire, holding the balance of justice in one hand and the sword of judgement in the other.
-1,A long set of winding stairs leads deep underground to a fiery pit. The fumes are intoxicating and the dreamy babbling of a woman’s voice can be heard but her words make no sense to you. She is one of the eternal servants, gifted to the temple by her parents and bound to pass through the lake of fire into Muspelheim, the realm of Mitra, whence nobody has ever returned. This is of course true: the lake of fire is a one-way gate to [a location in Muspelheim]. Most of these women eventually master the arcane arts of pyromancy.
-1,Deep within the bowels of the earth, a pool of Earth Blood is being kept at bay by circles of banishment and stasis and thus evil **gorgon** and its poison remains imprisoned while these seals last ([gorgon stats]). The temple guards the entry to this underworld and the [2d6] **priests** and *[human name]*, the current head of the temple, inspect and improve their defences every year on the night of the winter solstice. The common folks just see the statues of the three oath brother statues here and come here to renew their bond with Mitra. They call themselves the *Oath Keepers* for this is what they do: they make their bargains here.
+1,The temple has a door fit for a giant, but inside there is simply a strip of wooden flooring for petitioners to kneel and a big statue of *Mitra* standing blindfolded in a sea of fire, holding the balance of justice in one hand and the sword of judgement in the other.
+1,A long set of winding stairs leads deep underground to a fiery pit. The fumes are intoxicating and the dreamy babbling of a woman’s voice can be heard but her words make no sense to you. She is one of the eternal servants, gifted to the temple by her parents and bound to pass through the lake of fire into Muspelheim, the realm of *Mitra*, whence nobody has ever returned. This is of course true: the lake of fire is a one-way gate to [a location in Muspelheim]. Most of these women eventually master the arcane arts of pyromancy.
+1,Deep within the bowels of the earth, a pool of Earth Blood is being kept at bay by circles of banishment and stasis and thus evil **gorgon** and its poison remains imprisoned while these seals last ([gorgon stats]). The temple guards the entry to this underworld and the [2d6] **priests** and *[human name]*, the current head of the temple, inspect and improve their defences every year on the night of the winter solstice. The common folks just see the statues of the three oath brother statues here and come here to renew their bond with *Mitra*. They call themselves the *Oath Keepers* for this is what they do: they make their bargains here.
 
 ;a location in Muspelheim
 1,the *[Muspelheim building] of [Muspelheim material]* where [Muspelheim matriarch] *[old names for women]* rules
@@ -17140,6 +17140,10 @@
 
 ;herder
 1,*[human name]* the [town’s fool|lazy bum|smart ass|know it all|poet|philosopher|lovelorn|lonely|misanthrope]
+
+;large-town
+1,FIXME!
+
 
 # this indirection allows us to reuse "magic user" or "fighter" for treasure
 ;class
@@ -40196,11 +40200,11 @@
 1,Fight
 
 ;valkyrie home
-1,Sessrúmnir, Freya’s hall in Asgard
-1,Valhalla, Odin’s hall in Asgard
+1,Sessrúmnir, *Freya*’s hall in Asgard
+1,Valhalla, *Odin*’s hall in Asgard
 
 ;summoned troll
-1,[troll name], from Ejudnir, Hel’s hall in Niflheim
+1,[troll name], from Ejudnir, *Hel*’s hall in Niflheim
 
 ;troll name
 1,Hunger
@@ -40219,7 +40223,7 @@
 1,Father
 
 ;summoned minotaur
-1,*[minotaur name]*, from Eldivatn, Mitra’s hall in Muspelheim
+1,*[minotaur name]*, from Eldivatn, *Mitra*’s hall in Muspelheim
 
 ;minotaur name
 1,Silence
@@ -40240,13 +40244,13 @@
 1,Taker of Heads
 
 ;summoned vulture demon
-1,*[demon name]*, from Sandstein, Pazuzu’s tower in Vanaheim
+1,*[demon name]*, from Sandstein, *Pazuzu*’s tower in Vanaheim
 
 ;vulture demon stats
 1,HD 8+1 AC 5 1d4/1d4/1d6/1d6/1d8 F16 MV 18 ML 11; flying; only harmed by magic or magic weapons
 
 ;summoned naga
-1,*[naga name]*, from Eiterhorg, Set’s hall in Myrkheim
+1,*[naga name]*, from Eiterhorg, *Set*’s hall in Myrkheim
 
 ;naga stats
 1,HD 9 AC 7 1d8+*poison* F18 MV 6; *fireball* (7d6) 3×/day; *charm person* at will; only harmed by magic or magic weapons
@@ -40257,14 +40261,14 @@
 5,An elven *long bow* +1 with [elven inscription][here store the long bow of [same owner] as elf treasure]
 5,A dwarven *short sword* +2 with [dwarven inscription]
 2,A dwarven *crossbow* +2.
-2,A goblin assassin’s black iron *crossbow* +1, decorated with the seven heads of Set.
+2,A goblin assassin’s black iron *crossbow* +1, decorated with the seven heads of *Set*.
 1,A goblin assassin’s *short bow* +1 with plenty of notches along its side.
 1,The orcish zweihänder *Wall Cutter*[here store Wall Cutter as legendary weapon] +1/+3 vs. city dwellers, in the [orc sword tradition].
 1,An orcish *mace* +1 with [orcish runes].
 1,An orcish *mace* +1 marked with the runes of *[evil power]*.
 1,The orcish spear *Dog Impaler*[here store Dog Impaler as legendary weapon] +1/+3 vs. elves, created by *[orc name]* in *[orc war]*.
 1,The orcish sword *Monkey Slicer*[here store Monkey Slicer as legendary weapon] +1/+3 vs. humans used by *[orc name]* in *[orc war]*.
-1,The ancient spear *Fur Hunter*[here store Fur Hunter as legendary weapon] +1/+3 vs. mammals, a relic of the *Old Lizard Wars*, blessed by Set.
+1,The ancient spear *Fur Hunter*[here store Fur Hunter as legendary weapon] +1/+3 vs. mammals, a relic of the *Old Lizard Wars*, blessed by *Set*.
 1,The long sword *Moonfire*[here store Moonfire as legendary weapon] +1/+3 vs. lycanthropes, inscribed with silver runes of death and banishment, forged by the high inquisitors of *[wight realm]*.
 1,The long sword *Razorblade*[here store Razorblade as legendary weapon] +1/+3 vs. spell casters, forged by ancient machines in the *Philosophers’ War*.
 1,The holy long sword *Angelfire*[here store Angelfire as legendary weapon] +1/+3 vs. undead, forged in Asgard by *[dwarf name]* during the *Vampire Wars*.
@@ -40273,7 +40277,7 @@
 1,The dwarven hammer *Ironslayer*[here store Ironslayer as legendary weapon] +1/+3 vs. armoured foes, made by the legendary *[dwarf name]* of *[dwarf forge]*.
 1,A *long sword of light* +3 (60ft), made in Asgard for the valkyrie *[valkyrie name]*[here store [same valkyrie name]’s sword as legendary weapon] (the sword rejects anybody who refuses to join three fights while carrying the sword).
 1,The *Club of the Slayer*[here store club of the slayer as legendary weapon] +1/+3 vs. giants, blessed by Marduk.
-1,A smoking, quivering *black arrow of death* +2, carrying the curse of Nergal, ready to take root in a target: if hit, save vs. death or die; the arrow’s curse is lost when shot whether it hits or misses.
+1,A smoking, quivering *black arrow of death* +2, carrying the curse of *Nergal*, ready to take root in a target: if hit, save vs. death or die; the arrow’s curse is lost when shot whether it hits or misses.
 1,The two handed *Icekiller*[here store Icekiller as legendary weapon] +3, forged by the frost giant *[frost giant name]* in Jotunheim; when the blade is drawn, snow flakes form; when it is stuck into water, a layer of ice forms (10ft); when left unsheathed, a glacier will eventually form.
 1,The long sword *Swampfire*[here store Swampfire as legendary weapon] +1/+3 vs. runners, forged in the depths of Myrkheim by frogling priests of Tsathoggua; it eeks a phosphorous glowing liquid and smells of rotten eggs; when left unsheathed, everything around it becomes water logged and eventually turns into a swamp.
 1,The *Trident of Fishes*[here store Trident of Fishes as legendary weapon] +1 gives you long, webbed toes and the ability to breathe under water when you step into it, and you can speak the language of fishes.
@@ -40292,7 +40296,7 @@
 1,A magic *tongue dagger* +1 with a sticky tongue wrapped around its grip which can pick up unguarded items within 2m, consecrated to Tsathoggua.
 3,A dwarven *dagger* +2 with [dwarven inscription]
 1,The dagger *Tin Opener*[here store Tin Opener as legendary weapon] +1/+3 vs. armoured foes, with etchings on its blade showing a peasant stabbing a knight into the visor.
-1,The black dagger *Kingslayer*[here store Kingslayer as legendary weapon] +1, blessed by Set: a target hit in the surprise round must save vs. poison or die.
+1,The black dagger *Kingslayer*[here store Kingslayer as legendary weapon] +1, blessed by *Set*: a target hit in the surprise round must save vs. poison or die.
 1,The dagger *Heart Eater*[here store Heart Eater as legendary weapon] +1/+3 vs. humans, with etchings on its blade showing a human sacrifice.
 1,The elven silver dagger *Celestial Guardian*[here store Celestial Guardian as legendary weapon] +1/+3 vs. devils.
 1,A magic silver rune dagger *Moonshine*[here store Moonshine as legendary weapon] +1/+3 vs. were-creatures.
@@ -40368,7 +40372,7 @@
 1,The *amulet of the luck stealer* allows you to borrow luck from a willing person near you: when rolling a d20, roll 2d20 and take the higher result, but the next time they need to roll a d20 in a similar situation, they roll 2d20 and take the lower result.
 1,An *elven cloak* (5 in 6 chance of hiding in the wilderness using magic camouflage when standing still).
 1,A *crystal of starlight* (60ft).
-1,A *compass of hell*, blessed by Hel (it has two pointers: one points to the nearest danger, the other to the nearest safe place).
+1,A *compass of hell*, blessed by *Hel* (it has two pointers: one points to the nearest danger, the other to the nearest safe place).
 1,An *amulet of shape changing*, blessed by Loki ([animal shape]).
 1,A [magic horn].
 1,A *diadem of the slaver* (when targeted by a spell, it is redirected to a person within 10ft if you save vs. spells).
@@ -40452,7 +40456,7 @@
 0,The *[here name for a light elf legendary item]*, an ancient light elf heirloom.
 
 ;spellbooks
-1,<h1 id="appendix-a">Appendix A: Spellbooks</h1><p>These spells are from the <a href="https://alexschroeder.ch/pdfs/spellcasters/">Spellcasters</a> project. [halberds & helmets: spellbooks]
+1,<h1 id="appendix-a">Appendix A: Spellbooks</h1><p>These spells are from the <a href="https://alexschroeder.ch/pdfs/spellcasters/">Spellcasters</a> project.<div style="font-size: smaller; column-count: 2">[halberds & helmets: spellbooks]</div>
 
 # Use make hex-describe in the spellcasters working directory to generate the following
 ;halberds & helmets: spellbooks

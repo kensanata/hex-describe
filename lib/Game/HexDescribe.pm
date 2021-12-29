@@ -1488,7 +1488,7 @@ sub describe {
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
       if ($text) {
 	$locals{$key} = $text;
-	push(@descriptions, $text);
+	push(@descriptions, $text . "*");
       } else {
 	$log->error("[$key] is undefined for $coordinates");
 	push(@descriptions, "…");
