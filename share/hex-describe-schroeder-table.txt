@@ -12609,7 +12609,7 @@
 
 ;charcoal burner extra
 1,Out in the back you can find a crude statue of *[power]* cut from wood.
-1,They used to be an important player in the [name for a secret society ([chaos|law|neutrality])].
+1,They used to be an important player in the *[name for a secret society ([chaos|law|neutrality])]*.
 1,They [fled|were exiled] from *[nearby village name]* many years ago. They don’t want to speak about it. [cause for exile]
 
 ;cause for exile
@@ -14606,7 +14606,7 @@
 
 ;temple of law
 1,On a peak nearby stands a statue of *[here good power as temple power][here store temple of [same temple power]]*, built by [ancients]. At the foot of the statue, a few followers of [same good power] have built a small temple consisting of a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
-1,Between these mountains lies a hidden valley where the [name for a secret society (law)] have built a temple dedicated to *[here good power as temple power][here store temple of [same temple power]]*. The members of this secret society have erected a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
+1,Between these mountains lies a hidden valley where the *[name for a secret society (law)]* have built a temple dedicated to *[here good power as temple power][here store temple of [same temple power]]*. The members of this secret society have erected a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
 1,Between these mountains lies a hidden valley where the followers of *[here good power as temple power][here store temple of [same temple power]]* have built a temple containing a prayer hall, a sleeping hall, and [lawful temple feature] [monks or nuns]
 
 ;lawful temple feature
@@ -16258,7 +16258,7 @@
 
 ;town
 1,<p>This is [here village name], a town of [1d6x100] **humans** ([human stats]). The [human houses] are protected by a keep, a town wall and the river. [average treasure]<p>The [human leader] lives in the keep. [spellbook for [same class]] [leader treasure for [same class]][patron plot hook]<p>[human retainer]<p>[human friends]<p>[And two secret societies feuding]<p>[law and order jobs]<p>[temple]<p>There is also [town feature]<p>[settlement event]
-1,<p>This is [here village name], a town of [1d6x100] **humans** ([human stats]). The [human houses] are protected by a large keep, [an earthen rampart|a wooden palisade|a stone wall|town wall] and the river. The outer bailey of the keep houses the [most prosperous|richest|wealthiest] tradespeople of the [land|area|region], under the [rule|protection|shelter] of [name for a war party 2]. The inner bailey houses the castellan and [the|town|local] [garrison|guard|watch]. [Entering|Visiting] the outer bailey [requires|takes|is by] [paying|a payment of|a fee of] 1sp per [entrant|person|visitor]. [These|The following] [people|tradespeople] [can be found|have shops|work] there:<ol>[alchemist or not][antiquarian or not][cleric or not][gossip or not][guildmaster or not][herbalist or not][horse trader or not][innkeeper or not][jeweler or not]<li>The **merchant** [human name] [buys] [bulk quantities of|in bulk|wholesale] spices, [ingots|metal ingots|rare minerals], and other trade goods. [townsperson goal]</li>[moneylender or not]<li>The **provisioner** [human name] sells [all standard|all types of|adventuring|standard adventuring] equipment. [townsperson goal]</li>[zealot or not]<li>The **smith** [human name] [sells] new - and [repairs|refurbishes] old - [weapons and armor|weaponry|armor]. [townsperson goal]</li>[new shop or not]<li>The **tavern owner** [human name] runs the *[Royal|Noble|King’s|Queen’s|Prince’s|Princess|Purple|Lord’s|Lady’s] [inn name 2]* here, [visited|frequented] by the [wealthy|well-off|gentry|townspeople|propertied] and [adventure-seekers|those seeking adventure|the rabble-rousers]. [tradesperson goal or feud]</li><li>The **trader** [human name] [buys] [used|old] equipment and [any unusual|rare] finds. [townsperson goal]</li>[factional deputy or not]</ol><p>(For a rumor about allegiances, roll a d10 and a d6. On a d6 of 1-3, tell the truth about the tradesperson corresponding to the results of the d10; on a 4-6, lie about them.)<p>The inner bailey is open [by invitation only|to the select few] and houses these [notable|noted|noteworthy|singular] [officers|personages|people]:</p><ul>[bailiff or not][captain or not]<li>The **castellan** *[human name]*. (Trusted confident of [name for a war party 2].)</li>[corporal or not][marshal or not][scribe or not]</ul>[And two secret societies feuding]
+1,<p>This is [here village name], a town of [1d6x100] **humans** ([human stats]). The [human houses] are protected by a large keep, [an earthen rampart|a wooden palisade|a stone wall|town wall] and the river. The outer bailey of the keep houses the [most prosperous|richest|wealthiest] tradespeople of the [land|area|region], under the [rule|protection|shelter] of *[name for a war party 2]*. The inner bailey houses the castellan and [the|town|local] [garrison|guard|watch]. [Entering|Visiting] the outer bailey [requires|takes|is by] [paying|a payment of|a fee of] 1sp per [entrant|person|visitor]. [These|The following] [people|tradespeople] [can be found|have shops|work] there:<ol>[alchemist or not][antiquarian or not][cleric or not][gossip or not][guildmaster or not][herbalist or not][horse trader or not][innkeeper or not][jeweler or not]<li>The **merchant** [human name] [buys] [bulk quantities of|in bulk|wholesale] spices, [ingots|metal ingots|rare minerals], and other trade goods. [townsperson goal]</li>[moneylender or not]<li>The **provisioner** [human name] sells [all standard|all types of|adventuring|standard adventuring] equipment. [townsperson goal]</li>[zealot or not]<li>The **smith** [human name] [sells] new - and [repairs|refurbishes] old - [weapons and armor|weaponry|armor]. [townsperson goal]</li>[new shop or not]<li>The **tavern owner** [human name] runs the *[Royal|Noble|King’s|Queen’s|Prince’s|Princess|Purple|Lord’s|Lady’s] [inn name 2]* here, [visited|frequented] by the [wealthy|well-off|gentry|townspeople|propertied] and [adventure-seekers|those seeking adventure|the rabble-rousers]. [tradesperson goal or feud]</li><li>The **trader** [human name] [buys] [used|old] equipment and [any unusual|rare] finds. [townsperson goal]</li>[factional deputy or not]</ol><p>(For a rumor about allegiances, roll a d10 and a d6. On a d6 of 1-3, tell the truth about the tradesperson corresponding to the results of the d10; on a 4-6, lie about them.)<p>The inner bailey is open [by invitation only|to the select few] and houses these [notable|noted|noteworthy|singular] [officers|personages|people]:</p><ul>[bailiff or not][captain or not]<li>The **castellan** *[human name]*. (Trusted confident of *[name for a war party 2]*.)</li>[corporal or not][marshal or not][scribe or not]</ul>[And two secret societies feuding]
 
 # outer bailey
 
@@ -16371,7 +16371,7 @@
 1,
 
 ;factional deputy or not
-1,<li>The **[factional deputy]** *[human name]* [frequents|wanders] the shops the [party visits|PCs visit] and [keeps an eye on them|spies on them|tails them]. ([Second-in-command|Deputy|Deputy leader] of the [name for a secret society ([chaos|law|neutrality])].)</li>
+1,<li>The **[factional deputy]** *[human name]* [frequents|wanders] the shops the [party visits|PCs visit] and [keeps an eye on them|spies on them|tails them]. ([Second-in-command|Deputy|Deputy leader] of the *[name for a secret society ([chaos|law|neutrality])]*.)</li>
 1,
 
 # inner bailey
@@ -16381,7 +16381,7 @@
 1,
 
 ;captain or not
-1,<li>The **captain of the guard** *[human name]*. ([Corrupt|A soft touch|An open enemy of [name for a secret society ([chaos|law|neutrality])]].)</li>
+1,<li>The **captain of the guard** *[human name]*. ([Corrupt|A soft touch|An open enemy of *[name for a secret society ([chaos|law|neutrality])]*].)</li>
 1,
 
 ;corporal or not
@@ -16417,7 +16417,7 @@
 1,Quietly
 
 ;townsperson goal
-1,([Secretly] [favors|supports] [name for a war party 1].)
+1,([Secretly] [favors|supports] *[name for a war party 1]*.)
 1,([Secretly] [worships|follows] *[evil power]*.)
 1,([Prays to|Worships] *[good power]*.)
 6,(A member of *[name for a secret society ([chaos|law|neutrality])]*.)
@@ -19368,7 +19368,7 @@
 1,In the presence of an amulet of passage bearing the [name for a clan of the netherworld elves] sigil, the door glides opens and reveals stairs leading down to the underground [lair of the netherworld elves]
 
 ;lair of the netherworld elves
-1,*[building of the netherworld elves] of [elf name]*.<p>[gate of the netherworld elves]<p>[companions of the netherworld elves]<p>[save 1d6+4 as level][save spellbook for elves][5d12] **elves** live here ([elf stats]), led by [elf with portrait] (level [same level]). [same spellbook for elves] [leader treasure]
+1,elven *[building of the netherworld elves] of [elf name]*.<p>[gate of the netherworld elves]<p>[companions of the netherworld elves]<p>[save 1d6+4 as level][save spellbook for elves][5d12] **elves** live here ([elf stats]), led by [elf with portrait] (level [same level]). [same spellbook for elves] [leader treasure]
 
 ;building of the netherworld elves
 1,Bastion
