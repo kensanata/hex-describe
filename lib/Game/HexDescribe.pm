@@ -1709,7 +1709,7 @@ sub closest {
   my $coordinates = shift;
   my $key = shift;
   my $redirects = shift;
-  my @coordinates = grep { $_ ne $coordinates } keys %{$globals->{$key}};
+  my @coordinates = grep { $_ ne $coordinates and $_ ne 'global' } keys %{$globals->{$key}};
   if (not @coordinates) {
     $log->info("Did not find any hex with $key ($coordinates)");
     return "…";
