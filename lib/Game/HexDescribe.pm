@@ -1494,18 +1494,18 @@ sub describe {
 	push(@descriptions, "…");
       }
     } elsif ($word =~ /^(?:(here|global) )?with (.+?)(?: as (.+))?$/) {
-      my ($global, $key, $alias) = ($1, $2, $3);
+      my ($where, $key, $alias) = ($1, $2, $3);
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
       next unless $text;
       $locals{$key} = [$text]; # start a new list
       $locals{$alias} = $text if $alias;
-      $globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
-      $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
-      $globals->{$key}->{global} = $text if $global and $global eq 'global';
-      $globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
+      $globals->{$key}->{$coordinates} = $text if $where and $where eq 'here';
+      $globals->{$alias}->{$coordinates} = $text if $where and $where eq 'here' and $alias;
+      $globals->{$key}->{global} = $text if $where and $where eq 'global';
+      $globals->{$alias}->{global} = $text if $where and $where eq 'global' and $alias;
       push(@descriptions, $text);
     } elsif ($word =~ /^(?:(here|global) )?and (.+?)(?: as (.+))?$/) {
-      my ($global, $key, $alias) = ($1, $2, $3);
+      my ($where, $key, $alias) = ($1, $2, $3);
       my $found = 0;
       # limited attempts to find a unique entry for an existing list (instead of
       # modifying the data structures)
@@ -1517,10 +1517,10 @@ sub describe {
 	push(@{$locals{$key}}, $text);
 	push(@descriptions, $text);
 	$locals{$alias} = $text if $alias;
-	$globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
-	$globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
-	$globals->{$key}->{global} = $text if $global and $global eq 'global';
-	$globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
+	$globals->{$key}->{$coordinates} = $text if $where and $where eq 'here';
+	$globals->{$alias}->{$coordinates} = $text if $where and $where eq 'here' and $alias;
+	$globals->{$key}->{global} = $text if $where and $where eq 'global';
+	$globals->{$alias}->{global} = $text if $where and $where eq 'global' and $alias;
 	$found = 1;
 	last;
       }
@@ -1553,7 +1553,7 @@ sub describe {
       $locals{$key} = $text;
       push(@descriptions, $text);
     } elsif ($word =~ /^(?:(here|global) )?(?:(save|store|quote) )?(.+?)(?: as (.+))?$/) {
-      my ($global, $action, $key, $alias) = ($1, $2, $3, $4);
+      my ($where, $action, $key, $alias) = ($1, $2, $3, $4);
       my $text;
       if (not $action or $action eq "save") {
 	# no action and save are with lookup
@@ -1565,10 +1565,10 @@ sub describe {
       next unless $text;
       $locals{$key} = $text;
       $locals{$alias} = $text if $alias;
-      $globals->{$key}->{$coordinates} = $text if $global and $global eq 'here';
-      $globals->{$alias}->{$coordinates} = $text if $global and $global eq 'here' and $alias;
-      $globals->{$key}->{global} = $text if $global and $global eq 'global';
-      $globals->{$alias}->{global} = $text if $global and $global eq 'global' and $alias;
+      $globals->{$key}->{$coordinates} = $text if $where and $where eq 'here';
+      $globals->{$alias}->{$coordinates} = $text if $where and $where eq 'here' and $alias;
+      $globals->{$key}->{global} = $text if $where and $where eq 'global';
+      $globals->{$alias}->{global} = $text if $where and $where eq 'global' and $alias;
       push(@descriptions, $text) if not $action or $action eq "quote";
     } elsif ($level > 1 and not exists $table_data->{$word} and not $locals{$word}) {
       # on level one, many terrain types do not exist (e.g. river-start)
