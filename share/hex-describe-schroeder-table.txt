@@ -21,6 +21,7 @@
 1,[swamp]
 1,[water]
 # settlements
+1,[soil]
 1,[thorp]
 1,[village]
 1,[town]
@@ -17119,6 +17120,22 @@
 1,HD 1 AC 9 2d6 F1 MV 12 ML 8 XP 100; one arm turned into a big pincer
 1,HD 1 AC 3 1d6 F1 MV 12 ML 8 XP 100; back protected by carapace; spear
 1,HD 1 AC 3 2d6 F1 MV 12 ML 8 XP 100; one arm turned into a big pincer; back protected by carapace
+
+;soil
+1,Most of the forest has been cleared. [field detail] [animal husbandry detail]
+
+;field detail
+1,Only the occasional apple orchard can be seen. 
+1,Thorny hedges separate the fields.
+1,Small stone walls separate the fields.
+
+;animal husbandry detail
+1,Some sheep are grazing near the edge of the forest, watched over by **shepherd** *[herder]*.
+1,Some cows are grazing near the edge of the forest, watched over by **cowherd** *[herder]*.
+1,Some pigs are grazing at the edge of forest, watched over by **[swine|hog]herd** *[herder]*.
+
+;herder
+1,*[human name]* the [town’s fool|lazy bum|smart ass|know it all|poet|philosopher|lovelorn|lonely|misanthrope]
 
 # this indirection allows us to reuse "magic user" or "fighter" for treasure
 ;class
