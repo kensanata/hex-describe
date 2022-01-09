@@ -1,3 +1,53 @@
+# Versuchsballon für Rorschachhamster und Alex Schröder.
+
+;swamp
+1,[Wald]
+
+;forest
+1,[Wald]
+
+;Wald
+1,In diesem Ecken vom [Wald Name] leben [Merkwürdige Waldwesen].
+
+;Wald Name
+1,[Wald Name Adjektiv][Wald Name 1]
+
+;Wald Name Adjektiv
+1,Finster
+1,Schwarz
+1,Erz
+
+;Wald Name 1
+1,wald
+
+;Merkwürdige Waldwesen
+1,[name for a Merkwürdige Waldwesen [1d6]]
+
+;name for a Merkwürdige Waldwesen 1
+1,[Merkwürdige Waldwesen Namen]
+;name for a Merkwürdige Waldwesen 2
+1,[Merkwürdige Waldwesen Namen]
+;name for a Merkwürdige Waldwesen 3
+1,[Merkwürdige Waldwesen Namen]
+;name for a Merkwürdige Waldwesen 4
+1,[Merkwürdige Waldwesen Namen]
+;name for a Merkwürdige Waldwesen 5
+1,[Merkwürdige Waldwesen Namen]
+;name for a Merkwürdige Waldwesen 6
+1,[Merkwürdige Waldwesen Namen]
+
+;Merkwürdige Waldwesen (systemneutral)
+1,schwächer als Banditen
+
+;Merkwürdige Waldwesen (Helmbarten)
+1,[Nachtlinge (Helmbarten)]
+
+;Nachtlinge (Helmbarten)
+1,Schaden-2W6, Ausdauer-[1d6], Leben-[1d6], Angriff-[1d6+4], Flucht-[1d6+3], Anzahl-[2d6]
+
+;Merkwürdige Waldwesen Namen
+1,[Merkwürdige Waldwesen Adjektiv] [capitalize Merkwürdige Waldwesen Name 1][Merkwürdige Waldwesen Name 2]
+
 ;Merkwürdige Waldwesen Adjektiv
 1,Aas fressende
 1,aggressive
@@ -302,3 +352,20 @@
 1,zecken
 1,ziegen
 1,zikaden
+
+;Wolf Werte
+1,TW 2+1 RK 3 1W6 RW 17 GS 15 EP 15
+
+;Bär Werte
+1,[Schwarzbär Werte]
+1,[Graubär Werte]
+1,[Polarbär Werte]
+
+;Schwarzbär Werte
+1,TW 4+1 RK 7/12 1W3/1W3/1W6 RW 13 GS 9 ML 6 EP 120; treffen beide Tatzen gibt es nochmal 1W8 wegen der „Umarmung“
+
+;Graubär Werte
+1,TW 6 RK 6/13 1W6/1W6/1W10 RW 11 GS 9 ML 7 EP 400; treffen beide Tatzen gibt es nochmal 2W6 wegen der „Umarmung“ und der Bär lässt nicht mehr los, also automatischer Schaden jede Runde
+
+;Polarbär Werte
+1,TW 7 RK 6/13 1W6+1/1W6+1/1W10+1 RW 9 GS 12 ML 8 EP 600; treffen beide Tatzen gibt es nochmal 3W6 wegen der „Umarmung“
