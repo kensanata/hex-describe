@@ -47,10 +47,12 @@
 1,[Berge]
 
 ;Berge
-1,In dieser Ecke vom [Gebirge Name] leben [Merkwürdige Bergwesen].
+1,In dieser Ecke [Gebirge Name] leben [Merkwürdige Bergwesen].
 
 ;Gebirge Name
-1,[Berg Name Adjektiv][Berg Name 1]
+1,der [Berg Name Adjektiv]alpen
+1,des [Berg Name Adjektiv]gebirges
+1,der [Berg Name Adjektiv]firsten
 
 ;Berg Name Adjektiv
 1,Grau
@@ -59,10 +61,22 @@
 1,Harz
 1,Tannen
 
-;Berg Name 1
-1,gebirge
-1,firsten
-1,alpen
+# --------------------
+
+;grass
+1,[Steppe]
+
+;Steppe
+1,In dieser Ecke [Steppe Name] leben [Merkwürdige Steppenwesen].
+
+;Steppe Name
+1,der [Steppe Name Adjektiv]steppe
+1,des [Steppe Name Adjektiv]graslandes
+
+;Steppe Name Adjektiv
+1,Trocken
+1,Weit
+1,Roll
 
 # --------------------
 
