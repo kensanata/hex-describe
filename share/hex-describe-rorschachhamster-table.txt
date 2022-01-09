@@ -1,8 +1,5 @@
 # Versuchsballon für Rorschachhamster und Alex Schröder.
 
-;swamp
-1,[Wald]
-
 ;forest
 1,[Wald]
 
@@ -20,6 +17,29 @@
 ;Wald Name 1
 1,wald
 
+# --------------------
+
+;swamp
+1,[Sumpf]
+
+;Sumpf
+1,In diesem Ecken vom [Sumpf Name] leben [Merkwürdige Waldwesen].
+
+;Sumpf Name
+1,[Sumpf Name Adjektiv][Sumpf Name 1]
+
+;Sumpf Name Adjektiv
+1,Grau
+1,Alt
+1,Birken
+1,Weiden
+
+;Sumpf Name 1
+1,sumpf
+1,-Auenwald
+
+# --------------------
+
 ;Merkwürdige Waldwesen
 1,[name for a Merkwürdige Waldwesen [1d6]]
 
@@ -35,15 +55,6 @@
 1,[Merkwürdige Waldwesen Namen]
 ;name for a Merkwürdige Waldwesen 6
 1,[Merkwürdige Waldwesen Namen]
-
-;Merkwürdige Waldwesen (systemneutral)
-1,schwächer als Banditen
-
-;Merkwürdige Waldwesen (Helmbarten)
-1,[Nachtlinge (Helmbarten)]
-
-;Nachtlinge (Helmbarten)
-1,Schaden-2W6, Ausdauer-[1d6], Leben-[1d6], Angriff-[1d6+4], Flucht-[1d6+3], Anzahl-[2d6]
 
 ;Merkwürdige Waldwesen Namen
 1,[Merkwürdige Waldwesen Adjektiv] [capitalize Merkwürdige Waldwesen Name 1][Merkwürdige Waldwesen Name 2]
@@ -263,11 +274,11 @@
 1,blobs
 1,böcke
 1,dachse
-1,dämonen
-1,drachen
+1,dämonen ([Teufel Werte])
+1,drachen ([Drache Werte])
 1,drosseln
-1,eber
-1,echsen
+1,eber ([Wildschwein Werte])
+1,echsen ([Echse Werte])
 1,eidechsen
 1,einhörner
 1,elstern
@@ -283,16 +294,16 @@
 1,geistchen
 1,getier
 1,gnömchen
-1,goblinge
+1,goblinge ([Goblin Werte])
 1,grillen
 1,häher
 1,hamster
 1,hasen
-1,hirsche
+1,hirsche ([Pferd Werte])
 1,hörnchen
 1,hornissen
 1,hühner
-1,hunde
+1,hunde ([Wolf Werte])
 1,igel
 1,iltisse
 1,käfer
@@ -305,45 +316,45 @@
 1,kröten
 1,larven
 1,läuse
-1,luchse
+1,luchse ([Raubkatze Werte])
 1,marder
 1,mäuse
 1,meisen
-1,molche
+1,molche ([Echse Werte])
 1,motten
 1,mulle
-1,nattern
+1,nattern ([Schlangen Werte])
 1,ochsen
 1,opossums
-1,pferde
-1,ponies
+1,pferde ([Pferd Werte])
+1,ponies ([Pferd Werte])
 1,ratten
 1,raupen
 1,rehe
-1,salamander
+1,salamander ([Echse Werte])
 1,saurier
 1,schaben
 1,schafe
-1,schlangen
-1,schleichen
+1,schlangen ([Schlangen Werte])
+1,schleichen ([Echse Werte])
 1,schmetterlinge
 1,schnecken
 1,schrecken
-1,schweine
+1,schweine ([Wildschwein Werte])
 1,spechte
 1,sperlinge
-1,spinnen
+1,spinnen ([Spinnen Werte])
 1,tauben
 1,tausendfüßer
-1,teufel
+1,teufel ([Teufel Werte])
 1,tiere
 1,unken
 1,viecher
 1,wachteln
 1,wanzen
-1,wesen
+1,wesen ([Menschen Werte])
 1,wespen
-1,wisente
+1,wisente ([Pferd Werte])
 1,wölfe ([Wolf Werte])
 1,wolpertinger
 1,wurfe
@@ -353,8 +364,7 @@
 1,ziegen
 1,zikaden
 
-;Wolf Werte
-1,TW 2+1 RK 3 1W6 RW 17 GS 15 EP 15
+# --------------------
 
 ;Bär Werte
 1,[Schwarzbär Werte]
@@ -369,3 +379,48 @@
 
 ;Polarbär Werte
 1,TW 7 RK 6/13 1W6+1/1W6+1/1W10+1 RW 9 GS 12 ML 8 EP 600; treffen beide Tatzen gibt es nochmal 3W6 wegen der „Umarmung“
+
+;Drache Werte
+# weiss
+1,TW 5 RK 2/17 1W4/1W4/2W8 RW 12 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 6 RK 2/17 1W4/1W4/2W8 RW 11 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 7 RK 2/17 1W4/1W4/2W8 RW 9 GS 9/24 (fliegen) ML 8 EP 600
+# schwarz
+1,TW 6 RK 2/17 1W4/1W4/3W6 RW 11 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 7 RK 2/17 1W4/1W4/3W6 RW 9 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 8 RK 2/17 1W4/1W4/3W6 RW 8 GS 9/24 (fliegen) ML 8 EP 600
+# grün
+1,TW 7 RK 2/17 1W6/1W6/2W10 RW 9 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 8 RK 2/17 1W6/1W6/2W10 RW 8 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 9 RK 2/17 1W6/1W6/2W10 RW 6 GS 9/24 (fliegen) ML 8 EP 600
+# blau
+1,TW 8 RK 2/17 1W6/1W6/3W6 RW 8 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 9 RK 2/17 1W6/1W6/3W6 RW 6 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 10 RK 2/17 1W6/1W6/3W6 RW 5 GS 9/24 (fliegen) ML 8 EP 600
+# rot
+1,TW 9 RK 2/17 1W8/1W8/3W10 RW 6 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 10 RK 2/17 1W8/1W8/3W10 RW 5 GS 9/24 (fliegen) ML 8 EP 600
+1,TW 11 RK 2/17 1W8/1W8/3W10 RW 4 GS 9/24 (fliegen) ML 8 EP 600
+
+;Echse Werte
+1,?
+
+;Goblin Werte
+1,TW 1W6 RK 7/12 1W6 RW 18 GS 9 ML 6 EP 10
+
+;Pferd Werte
+1,TW 2 RK 7/12 – RW 17 GS 18 ML 3 EP 30
+1,TW 3 RK 7/12 – RW 17 GS 18 ML 3 EP 120
+
+;Raubkatze Werte
+# löwe
+1,TW 5+2 RK 6/13 1W4/1W4/1W8 RW 12 GS 12 ML 6 EP 240
+
+;Teufel Werte
+1,?
+
+;Wildschwein Werte
+1,TW 3+3 RK 7/12 3W4 RW 14 GS 15 ML 10 EP 120; kämpft noch zwei Runden weiter, nachdem es „gestorben“ ist
+
+;Wolf Werte
+1,TW 2+1 RK 3 1W6 RW 17 GS 15 EP 15
