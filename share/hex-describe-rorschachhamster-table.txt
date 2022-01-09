@@ -23,7 +23,7 @@
 1,[Sumpf]
 
 ;Sumpf
-1,In diesem Ecke vom [Sump Name] leben [Merkwürdige Waldwesen].
+1,In dieser Ecke vom [Sumpf Name] leben [Merkwürdige Waldwesen].
 
 ;Sumpf Name
 1,[Sumpf Name Adjektiv][Sumpf Name 1]
@@ -37,6 +37,32 @@
 ;Sumpf Name 1
 1,sumpf
 1,-Auenwald
+
+# --------------------
+
+;mountain
+1,[Berge]
+
+;mountains
+1,[Berge]
+
+;Berge
+1,In dieser Ecke vom [Gebirge Name] leben [Merkwürdige Bergwesen].
+
+;Gebirge Name
+1,[Berg Name Adjektiv][Berg Name 1]
+
+;Berg Name Adjektiv
+1,Grau
+1,Schwarz
+1,Erz
+1,Harz
+1,Tannen
+
+;Berg Name 1
+1,gebirge
+1,firsten
+1,alpen
 
 # --------------------
 
