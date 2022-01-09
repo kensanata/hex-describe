@@ -16,6 +16,9 @@
 1,In dieser Ecke vom [Wald Name] leben [Merkwürdige Waldwesen].
 
 ;Wald Name
+1,[name for forest/forest-hill/trees/fir-forest/firs]
+
+;name for forest/forest-hill/trees/fir-forest/firs
 1,[Wald Name Adjektiv][Wald Name 1]
 
 ;Wald Name Adjektiv
@@ -38,6 +41,9 @@
 1,In dieser Ecke vom [Sumpf Name] leben [Merkwürdige Waldwesen].
 
 ;Sumpf Name
+1,[name for swamp/swamp2]
+
+;name for swamp/swamp2
 1,[Sumpf Name Adjektiv][Sumpf Name 1]
 
 ;Sumpf Name Adjektiv
@@ -62,6 +68,9 @@
 1,In dieser Ecke [Gebirge Name] leben [Merkwürdige Bergwesen].
 
 ;Gebirge Name
+1,[name for mountain/mountains]
+
+;name for mountain/mountains
 1,der [Berg Name Adjektiv]alpen
 1,des [Berg Name Adjektiv]gebirges
 1,der [Berg Name Adjektiv]firsten
@@ -1190,27 +1199,25 @@
 1, (TW: 7 RK: 6/13 S: 1W6+1/1W6+1/1W10+1 RW: 9 GS: 12 ML: 8 EP: 600 Bes: Treffen beide Tatzen gibt es nochmal 3W6 wegen der „Umarmung“)
 
 ;Drache Werte
-15,[Kleine Werte]
-# weiss
-1, (TW: 5 RK: 2/17 S: 1W4/1W4/2W8 RW: 12 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 6 RK: 2/17 S: 1W4/1W4/2W8 RW: 11 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 7 RK: 2/17 S: 1W4/1W4/2W8 RW: 9 GS: 9/24 (fliegen) ML: 8 EP: 600)
-# schwarz
-1, (TW: 6 RK: 2/17 S: 1W4/1W4/3W6 RW: 11 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 7 RK: 2/17 S: 1W4/1W4/3W6 RW: 9 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 8 RK: 2/17 S: 1W4/1W4/3W6 RW: 8 GS: 9/24 (fliegen) ML: 8 EP: 600)
-# grün
-1, (TW: 7 RK: 2/17 S: 1W6/1W6/2W10 RW: 9 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 8 RK: 2/17 S: 1W6/1W6/2W10 RW: 8 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 9 RK: 2/17 S: 1W6/1W6/2W10 RW: 6 GS: 9/24 (fliegen) ML: 8 EP: 600)
-# blau
-1, (TW: 8 RK: 2/17 S: 1W6/1W6/3W6 RW: 8 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 9 RK: 2/17 S: 1W6/1W6/3W6 RW: 6 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 10 RK: 2/17 S: 1W6/1W6/3W6 RW: 5 GS: 9/24 (fliegen) ML: 8 EP: 600)
-# rot
-1, (TW: 9 RK: 2/17 S: 1W8/1W8/3W10 RW: 6 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 10 RK: 2/17 S: 1W8/1W8/3W10 RW: 5 GS: 9/24 (fliegen) ML: 8 EP: 600)
-1, (TW: 11 RK: 2/17 S: 1W8/1W8/3W10 RW: 4 GS: 9/24 (fliegen) ML: 8 EP: 600)
+2,[Kleine Werte]
+1,[Normale Werte]
+
+# Die ‘richtigen’ Drachen sind wohl eher in der Einzahl, wie NSCs.
+# 1, (TW: 5 RK: 2/17 S: 1W4/1W4/2W8 RW: 12 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 6 RK: 2/17 S: 1W4/1W4/2W8 RW: 11 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 7 RK: 2/17 S: 1W4/1W4/2W8 RW: 9 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 6 RK: 2/17 S: 1W4/1W4/3W6 RW: 11 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 7 RK: 2/17 S: 1W4/1W4/3W6 RW: 9 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 8 RK: 2/17 S: 1W4/1W4/3W6 RW: 8 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 7 RK: 2/17 S: 1W6/1W6/2W10 RW: 9 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 8 RK: 2/17 S: 1W6/1W6/2W10 RW: 8 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 9 RK: 2/17 S: 1W6/1W6/2W10 RW: 6 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 8 RK: 2/17 S: 1W6/1W6/3W6 RW: 8 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 9 RK: 2/17 S: 1W6/1W6/3W6 RW: 6 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 10 RK: 2/17 S: 1W6/1W6/3W6 RW: 5 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 9 RK: 2/17 S: 1W8/1W8/3W10 RW: 6 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 10 RK: 2/17 S: 1W8/1W8/3W10 RW: 5 GS: 9/24 (fliegen) ML: 8 EP: 600)
+# 1, (TW: 11 RK: 2/17 S: 1W8/1W8/3W10 RW: 4 GS: 9/24 (fliegen) ML: 8 EP: 600)
 
 ;Echse Werte
 1,[Kleine Werte]
