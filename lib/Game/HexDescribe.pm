@@ -52,7 +52,7 @@ use List::Util qw(shuffle);
 use Array::Utils qw(intersect);
 use Encode qw(decode_utf8);
 use Text::Autoformat;
-use File::ShareDir 'dist_dir';
+use File::ShareDir qw(dist_dir);
 use Cwd;
 
 =head2 Configuration
@@ -107,6 +107,7 @@ my $seckler_table = Mojo::File->new("$dir/hex-describe-seckler-table.txt");
 my $strom_table = Mojo::File->new("$dir/hex-describe-strom-table.txt");
 my $johnston_table = Mojo::File->new("$dir/hex-describe-johnston-table.txt");
 my $traveller_table = Mojo::File->new("$dir/hex-describe-traveller-table.txt");
+my $rorschachhamster_table = Mojo::File->new("$dir/hex-describe-rorschachhamster-table.txt");
 
 =head2 URLs
 
@@ -696,6 +697,17 @@ get '/traveller/table' => sub {
   $c->render(text => decode_utf8($traveller_table->slurp), format => 'txt');
 };
 
+=item get /rorschachhamster/table
+
+Für die deutschen Tabellen von Rorschachhamster Alex Schroeder.
+
+=cut
+
+get '/rorschachhamster/table' => sub {
+  my $c = shift;
+  $c->render(text => decode_utf8($rorschachhamster_table->slurp), format => 'txt');
+};
+
 =item get /source
 
 This gets you the source code of Hex Describe in case the source repository is
@@ -807,6 +819,7 @@ sub get_table {
   $table .= decode_utf8($strom_table->slurp) if $load eq 'strom';
   $table .= decode_utf8($johnston_table->slurp) if $load eq 'johnston';
   $table .= decode_utf8($traveller_table->slurp) if $load eq 'traveller';
+  $table .= decode_utf8($rorschachhamster_table->slurp) if $load eq 'rorschachhamster';
   # the table in the text area overrides the defaults
   $table .= $c->param('table') || '';
   return $url, $table if wantarray;
@@ -2246,6 +2259,9 @@ What random tables should be used to generate the descriptions?
 <%= radio_button load => 'traveller' %>
 <%= link_to 'Traveller' => 'travellertable' %>
 (best for Traveller maps)<br>
+<%= radio_button load => 'rorschachhamster' %>
+<%= link_to 'Rorschachhamster' => 'rorschachhamstertable' %>
+(testing)<br>
 <%= radio_button load => 'none' %>
 none (only use the data provided below)
 
@@ -2358,6 +2374,9 @@ What random tables should be used to generate the text?
 <%= radio_button load => 'traveller' %>
 <%= link_to 'Traveller' => 'travellertable' %>
 (best for Traveller maps)<br>
+<%= radio_button load => 'rorschachhamster' %>
+<%= link_to 'Rorschachhamster' => 'rorschachhamstertable' %>
+(testing)<br>
 <%= radio_button load => 'none' %>
 (only use the data provided below)
 
@@ -2412,6 +2431,9 @@ submit button once you have made your choice.
 <%= radio_button load => 'traveller' %>
 <%= link_to 'Traveller' => 'travellertable' %>
 (best for Traveller maps)<br>
+<%= radio_button load => 'rorschachhamster' %>
+<%= link_to 'Rorschachhamster' => 'rorschachhamstertable' %>
+(testing)<br>
 <%= radio_button load => 'none' %>
 (only use the data provided below)
 

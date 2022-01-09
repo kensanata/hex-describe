@@ -2132,7 +2132,7 @@
 1,[1d6+1] **thugs** led by *[human name]*, [monster activities] ([human stats]; club)
 1,[1d6+1] **assassins** led by *[human name]*, [monster activities] ([human stats]; dagger)
 1,[1d6+1] **archers** led by *[human name]*, [monster activities] ([human stats]; long bow, dagger)
-1,[1d6+1] **rogue militia members** from *[nearby village]* led by *[human name]*, [monster activities] ([militia stats])
+1,[1d6+1] **rogue militia members** from *[nearby village name]* led by *[human name]*, [monster activities] ([militia stats])
 1,[1d6+1] **deserters** that used to fight for *[any war party]* led by *[human name]*, [monster activities] ([mercenary stats])
 1,a [chained|mangy|starving|vicious] **war dog** ([wolf stats])
 1,[1d6+1] [chained|mangy|starving|vicious] **war dogs** ([wolf stats])
