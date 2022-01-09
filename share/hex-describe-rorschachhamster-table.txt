@@ -1,10 +1,10 @@
-# Versuchsballon für Rorschachhamster und Alex Schröder.
+﻿# Versuchsballon für Rorschachhamster und Alex Schröder.
 
 ;forest
 1,[Wald]
 
 ;Wald
-1,In diesem Ecken vom [Wald Name] leben [Merkwürdige Waldwesen].
+1,In dieser Ecke vom [Wald Name] leben [Merkwürdige Waldwesen].
 
 ;Wald Name
 1,[Wald Name Adjektiv][Wald Name 1]
@@ -23,7 +23,7 @@
 1,[Sumpf]
 
 ;Sumpf
-1,In diesem Ecken vom [Sumpf Name] leben [Merkwürdige Waldwesen].
+1,In diesem Ecke vom [Sump Name] leben [Merkwürdige Waldwesen].
 
 ;Sumpf Name
 1,[Sumpf Name Adjektiv][Sumpf Name 1]
@@ -264,105 +264,105 @@
 1,[Merkwürdige Waldwesen Name 1][Merkwürdige Waldwesen Name 1]
 
 ;Merkwürdige Waldwesen Name 2
-1,adler
-1,ameisen
-1,amseln
-1,bären ([Bär Werte])
-1,biber
-1,bienen
-1,biester
-1,blobs
-1,böcke
-1,dachse
-1,dämonen ([Teufel Werte])
-1,drachen ([Drache Werte])
-1,drosseln
-1,eber ([Wildschwein Werte])
-1,echsen ([Echse Werte])
-1,eidechsen
-1,einhörner
-1,elstern
-1,eulen
-1,falter
-1,feen
-1,finken
-1,fledermäuse
-1,fliegen
-1,frösche
-1,füchse
-1,geier
-1,geistchen
-1,getier
-1,gnömchen
-1,goblinge ([Goblin Werte])
-1,grillen
-1,häher
-1,hamster
-1,hasen
-1,hirsche ([Pferd Werte])
-1,hörnchen
-1,hornissen
-1,hühner
-1,hunde ([Wolf Werte])
-1,igel
-1,iltisse
-1,käfer
-1,kaninchen
-1,katzen
-1,käuze
-1,knechte
-1,kojoten
-1,krähen
-1,kröten
-1,larven
-1,läuse
-1,luchse ([Raubkatze Werte])
-1,marder
-1,mäuse
-1,meisen
-1,molche ([Echse Werte])
-1,motten
-1,mulle
-1,nattern ([Schlangen Werte])
-1,ochsen
-1,opossums
-1,pferde ([Pferd Werte])
-1,ponies ([Pferd Werte])
-1,ratten
-1,raupen
-1,rehe
-1,salamander ([Echse Werte])
-1,saurier
-1,schaben
-1,schafe
-1,schlangen ([Schlangen Werte])
-1,schleichen ([Echse Werte])
-1,schmetterlinge
-1,schnecken
-1,schrecken
-1,schweine ([Wildschwein Werte])
-1,spechte
-1,sperlinge
-1,spinnen ([Spinnen Werte])
-1,tauben
-1,tausendfüßer
-1,teufel ([Teufel Werte])
-1,tiere
-1,unken
-1,viecher
-1,wachteln
-1,wanzen
-1,wesen ([Menschen Werte])
-1,wespen
-1,wisente ([Pferd Werte])
-1,wölfe ([Wolf Werte])
-1,wolpertinger
-1,wurfe
-1,würmchen
-1,würmer
-1,zecken
-1,ziegen
-1,zikaden
+1,adler[Kleine Werte]
+1,ameisen[Kleine Werte]
+1,amseln[Kleine Werte]
+1,bären [Bär Werte]
+1,biber[Kleine Werte]
+1,bienen[Kleine Werte]
+1,biester[Kleine Werte]
+1,blobs[Kleine Werte]
+1,böcke[Kleine Werte]
+1,dachse[Kleine Werte]
+1,dämonen [Teufel Werte]
+1,drachen [Drache Werte]
+1,drosseln[Kleine Werte]
+1,eber [Wildschwein Werte]
+1,echsen [Echse Werte]
+1,eidechsen[Kleine Werte]
+1,einhörner[Kleine Werte]
+1,elstern[Kleine Werte]
+1,eulen[Kleine Werte]
+1,falter[Kleine Werte]
+1,feen[Kleine Werte]
+1,finken[Kleine Werte]
+1,fledermäuse[Kleine Werte]
+1,fliegen[Kleine Werte]
+1,frösche[Kleine Werte]
+1,füchse[Kleine Werte]
+1,geier[Kleine Werte]
+1,geistchen[Kleine Werte]
+1,getier[Kleine Werte]
+1,gnömchen[Kleine Werte]
+1,goblinge[Kleine Werte]
+1,grillen[Kleine Werte]
+1,häher[Kleine Werte]
+1,hamster[Kleine Werte]
+1,hasen[Kleine Werte]
+1,hirsche [Pferd Werte]
+1,hörnchen[Kleine Werte]
+1,hornissen[Kleine Werte]
+1,hühner[Kleine Werte]
+1,hunde [Wolf Werte]
+1,igel[Kleine Werte]
+1,iltisse[Kleine Werte]
+1,käfer[Kleine Werte]
+1,kaninchen[Kleine Werte]
+1,katzen[Kleine Werte]
+1,käuze[Kleine Werte]
+1,knechte[Kleine Werte]
+1,kojoten[Kleine Werte]
+1,krähen[Kleine Werte]
+1,kröten[Kleine Werte]
+1,larven[Kleine Werte]
+1,läuse[Kleine Werte]
+1,luchse [Raubkatze Werte]
+1,marder[Kleine Werte]
+1,mäuse[Kleine Werte]
+1,meisen[Kleine Werte]
+1,molche [Echse Werte]
+1,motten[Kleine Werte]
+1,mulle[Kleine Werte]
+1,nattern [Schlangen Werte]
+1,ochsen[Kleine Werte]
+1,opossums[Kleine Werte]
+1,pferde [Pferd Werte]
+1,ponies [Pferd Werte]
+1,ratten[Kleine Werte]
+1,raupen[Kleine Werte]
+1,rehe[Kleine Werte]
+1,salamander [Echse Werte]
+1,saurier[Kleine Werte]
+1,schaben[Kleine Werte]
+1,schafe[Kleine Werte]
+1,schlangen [Schlangen Werte]
+1,schleichen [Echse Werte]
+1,schmetterlinge[Kleine Werte]
+1,schnecken[Kleine Werte]
+1,schrecken[Kleine Werte]
+1,schweine [Wildschwein Werte]
+1,spechte[Kleine Werte]
+1,sperlinge[Kleine Werte]
+1,spinnen [Spinnen Werte]
+1,tauben[Kleine Werte]
+1,tausendfüßer[Kleine Werte]
+1,teufel [Teufel Werte]
+1,tiere[Kleine Werte]
+1,unken[Kleine Werte]
+1,viecher[Kleine Werte]
+1,wachteln[Kleine Werte]
+1,wanzen[Kleine Werte]
+1,wesen [Menschen Werte]
+1,wespen[Kleine Werte]
+1,wisente [Pferd Werte]
+1,wölfe [Wolf Werte]
+1,wolpertinger[Kleine Werte]
+1,wurfe[Kleine Werte]
+1,würmchen[Kleine Werte]
+1,würmer[Kleine Werte]
+1,zecken[Kleine Werte]
+1,ziegen[Kleine Werte]
+1,zikaden[Kleine Werte]
 
 # --------------------
 
@@ -370,57 +370,111 @@
 1,[Schwarzbär Werte]
 1,[Graubär Werte]
 1,[Polarbär Werte]
+1,[Kleine Werte]
+
+;Kleine Werte
+10,
+1, (TW [Kleine TP] RK [Kleine Rüstung] A 1 [Kleiner Schaden] Moral [2d4+1] RW 18 GS [2d6+3] EP [Kleines EP])
+
+;Kleine TP
+1,1 TP
+1,1W2 TP
+1,1W4 TP
+1,1W6 TP
+1,1-1
+
+;Kleine Rüstung
+1,9/10
+1,8/11
+1,7/12
+1,6/13
+
+;Kleiner Schaden
+1,1
+3,1W2
+4,1W3
+2,1W4
+1,1W6
+1,1W2/1W2
+1,1W3/1W3
+
+;Kleines EP
+10,10
+1,30 [Kleines Besonderes]
+
+;Kleines Besonderes
+1,Bes: Kann sich einmal pro Tag unsichtbar machen
+1,Bes: Kann einmal pro Tag [Effekt] spucken, 6m Länge, 1W6 Schaden
+1,Bes: Kann sich einmal pro Tag in einen [Verwandelding] verwandeln
+
+;Effekt
+1,Feuer
+1,Blitze
+1,Kälte
+1,Schnee
+1,Eis
+1,Hagel
+1,Frost
+
+;Verwandelding
+1,Baum
+4,Fels
+4,Stein
 
 ;Schwarzbär Werte
-1,TW 4+1 RK 7/12 1W3/1W3/1W6 RW 13 GS 9 ML 6 EP 120; treffen beide Tatzen gibt es nochmal 1W8 wegen der „Umarmung“
+1,(TW 4+1 RK 7/12 1W3/1W3/1W6 RW 13 GS 9 ML 6 EP 120 Bes: Treffen beide Tatzen gibt es nochmal 1W8 wegen der „Umarmung“)
 
 ;Graubär Werte
-1,TW 6 RK 6/13 1W6/1W6/1W10 RW 11 GS 9 ML 7 EP 400; treffen beide Tatzen gibt es nochmal 2W6 wegen der „Umarmung“ und der Bär lässt nicht mehr los, also automatischer Schaden jede Runde
+1,(TW 6 RK 6/13 1W6/1W6/1W10 RW 11 GS 9 ML 7 EP 400 Bes: Treffen beide Tatzen gibt es nochmal 2W6 wegen der „Umarmung“ und der Bär lässt nicht mehr los, also automatischer Schaden jede Runde)
 
 ;Polarbär Werte
-1,TW 7 RK 6/13 1W6+1/1W6+1/1W10+1 RW 9 GS 12 ML 8 EP 600; treffen beide Tatzen gibt es nochmal 3W6 wegen der „Umarmung“
+1,(TW 7 RK 6/13 1W6+1/1W6+1/1W10+1 RW 9 GS 12 ML 8 EP 600 Bes: Treffen beide Tatzen gibt es nochmal 3W6 wegen der „Umarmung“)
 
 ;Drache Werte
+15,[Kleine Werte]
 # weiss
-1,TW 5 RK 2/17 1W4/1W4/2W8 RW 12 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 6 RK 2/17 1W4/1W4/2W8 RW 11 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 7 RK 2/17 1W4/1W4/2W8 RW 9 GS 9/24 (fliegen) ML 8 EP 600
+1,(TW 5 RK 2/17 1W4/1W4/2W8 RW 12 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 6 RK 2/17 1W4/1W4/2W8 RW 11 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 7 RK 2/17 1W4/1W4/2W8 RW 9 GS 9/24 (fliegen) ML 8 EP 600)
 # schwarz
-1,TW 6 RK 2/17 1W4/1W4/3W6 RW 11 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 7 RK 2/17 1W4/1W4/3W6 RW 9 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 8 RK 2/17 1W4/1W4/3W6 RW 8 GS 9/24 (fliegen) ML 8 EP 600
+1,(TW 6 RK 2/17 1W4/1W4/3W6 RW 11 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 7 RK 2/17 1W4/1W4/3W6 RW 9 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 8 RK 2/17 1W4/1W4/3W6 RW 8 GS 9/24 (fliegen) ML 8 EP 600)
 # grün
-1,TW 7 RK 2/17 1W6/1W6/2W10 RW 9 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 8 RK 2/17 1W6/1W6/2W10 RW 8 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 9 RK 2/17 1W6/1W6/2W10 RW 6 GS 9/24 (fliegen) ML 8 EP 600
+1,(TW 7 RK 2/17 1W6/1W6/2W10 RW 9 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 8 RK 2/17 1W6/1W6/2W10 RW 8 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 9 RK 2/17 1W6/1W6/2W10 RW 6 GS 9/24 (fliegen) ML 8 EP 600)
 # blau
-1,TW 8 RK 2/17 1W6/1W6/3W6 RW 8 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 9 RK 2/17 1W6/1W6/3W6 RW 6 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 10 RK 2/17 1W6/1W6/3W6 RW 5 GS 9/24 (fliegen) ML 8 EP 600
+1,(TW 8 RK 2/17 1W6/1W6/3W6 RW 8 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 9 RK 2/17 1W6/1W6/3W6 RW 6 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 10 RK 2/17 1W6/1W6/3W6 RW 5 GS 9/24 (fliegen) ML 8 EP 600)
 # rot
-1,TW 9 RK 2/17 1W8/1W8/3W10 RW 6 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 10 RK 2/17 1W8/1W8/3W10 RW 5 GS 9/24 (fliegen) ML 8 EP 600
-1,TW 11 RK 2/17 1W8/1W8/3W10 RW 4 GS 9/24 (fliegen) ML 8 EP 600
+1,(TW 9 RK 2/17 1W8/1W8/3W10 RW 6 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 10 RK 2/17 1W8/1W8/3W10 RW 5 GS 9/24 (fliegen) ML 8 EP 600)
+1,(TW 11 RK 2/17 1W8/1W8/3W10 RW 4 GS 9/24 (fliegen) ML 8 EP 600)
 
 ;Echse Werte
-1,?
+1,[Kleine Werte]
+1,(TW 2 RK 5/14 1W6 RW 16 GS 12 ML 7 EP 30)
 
-;Goblin Werte
-1,TW 1W6 RK 7/12 1W6 RW 18 GS 9 ML 6 EP 10
 
 ;Pferd Werte
-1,TW 2 RK 7/12 – RW 17 GS 18 ML 3 EP 30
-1,TW 3 RK 7/12 – RW 17 GS 18 ML 3 EP 120
+1,(TW 2 RK 7/12 1W6/1W6 RW 17 GS 18 ML 3 EP 30)
+1,(TW 3 RK 7/12 1W6/1W6 RW 17 GS 18 ML 3 EP 60)
 
 ;Raubkatze Werte
 # löwe
-1,TW 5+2 RK 6/13 1W4/1W4/1W8 RW 12 GS 12 ML 6 EP 240
+1,(TW 5+2 RK 6/13 1W4/1W4/1W8 RW 12 GS 12 ML 6 EP 240)
+# luchs
+1,(TW 2 RK 7/12 1W2/1W2/1W6 RW 16 GS 12 ML 6 EP 30)
 
 ;Teufel Werte
-1,?
+1,[Kleine Werte]
 
 ;Wildschwein Werte
-1,TW 3+3 RK 7/12 3W4 RW 14 GS 15 ML 10 EP 120; kämpft noch zwei Runden weiter, nachdem es „gestorben“ ist
+1,(TW 3+3 RK 7/12 3W4 RW 14 GS 15 ML 10 EP 120 Bes: Kämpft nach dem „Tod“ noch zwei Runden weiter)
 
 ;Wolf Werte
-1,TW 2+1 RK 3 1W6 RW 17 GS 15 EP 15
+1,(TW 2+1 RK 7/12 1W6 RW 17 GS 15 ML 8 EP 15)
+;Schlangen Werte
+1,(TW 1W6 TP RK 5/14 1+Gift RW 18 GS 18 ML 5 EP 30 Bes: Tödliches Gift, +2 auf RW)
