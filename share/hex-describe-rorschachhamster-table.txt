@@ -696,7 +696,6 @@
 1,hunde[Kleine Werte]
 1,iltisse[Kleine Werte]
 1,käfer[Kleine Werte]
-1,käfer[Kleine Werte]
 1,kaninchen[Kleine Werte]
 1,katzen[Kleine Werte]
 1,käuze[Kleine Werte]
