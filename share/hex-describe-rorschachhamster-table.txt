@@ -648,7 +648,7 @@
 1,yeti
 1,zahn
 1,zwerg
-1,[Merkwürdige Bergwesen Name 1], [Merkwürdige Bergwesen Name 1]
+1,[Merkwürdige Bergwesen Name 1][Merkwürdige Bergwesen Name 1]
 
 ;Merkwürdige Bergwesen Name 2
 1,adler[Kleine Werte]
@@ -1079,8 +1079,9 @@
 # --------------------
 
 ;Kleine Werte
-10,
-1, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] RW: 18 GS: [2d6+3] ML: [2d4+1] EP: [Kleines EP])
+100,
+10, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] RW: 18 GS: [2d6+3] ML: [2d4+1] EP: [Kleines EP])
+1,[Normale Werte]
 
 ;Kleine TP
 1,1 TP
@@ -1128,7 +1129,8 @@
 4,Stein
 
 ;Normale Werte
-1, (TW: [Normale TW] RK: [Normale RK] [Normaler A] RW: [Normaler RW] GS: [2d6+3] ML: [2d4+2] EP: [Normale EP])
+10, (TW: [Normale TW] RK: [Normale RK] [Normaler A] RW: [Normaler RW] GS: [2d6+3] ML: [2d4+2] EP: [Normale EP])
+1,[Kleine Werte]
 
 ;Normale TW
 20,[quote 1 as TW]
