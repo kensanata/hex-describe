@@ -671,7 +671,7 @@
 1,gämse[Ziege Werte]
 1,geier[Kleine Werte]
 1,geistchen[Kleine Werte]
-1,getier[Kleine Werte]
+1,getiere[Kleine Werte]
 1,gnömchen[Kleine Werte]
 1,goblinge[Kleine Werte]
 1,guanakos[Kleine Werte]
@@ -996,7 +996,7 @@
 1,gazellen[Kleine Werte]
 1,geier[Kleine Werte]
 1,geistchen[Kleine Werte]
-1,getier[Kleine Werte]
+1,getiere[Kleine Werte]
 1,grillen[Kleine Werte]
 1,hamster[Kleine Werte]
 1,hasen[Kleine Werte]
@@ -1071,7 +1071,7 @@
 
 ;Kleine Werte
 10,
-1, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] ML: [2d4+1] RW: 18 GS: [2d6+3] EP: [Kleines EP])
+1, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] RW: 18 GS: [2d6+3] ML: [2d4+1] EP: [Kleines EP])
 
 ;Kleine TP
 1,1 TP
@@ -1119,7 +1119,7 @@
 4,Stein
 
 ;Normale Werte
-1, (TW: [Normale TW] RK: [Normale RK] [Normaler A] ML: [2d4+2] RW: [Normaler RW] GS: [2d6+3] EP: [Normale EP])
+1, (TW: [Normale TW] RK: [Normale RK] [Normaler A] RW: [Normaler RW] GS: [2d6+3] ML: [2d4+2] EP: [Normale EP])
 
 ;Normale TW
 20,[quote 1 as TW]
