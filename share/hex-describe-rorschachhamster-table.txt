@@ -323,7 +323,7 @@
 1,molche[Echse Werte]
 1,motten[Kleine Werte]
 1,mulle[Kleine Werte]
-1,nattern[Schlangen Werte]
+1,nattern[Schlange Werte]
 1,ochsen[Kleine Werte]
 1,opossums[Kleine Werte]
 1,pferde[Pferd Werte]
@@ -335,7 +335,7 @@
 1,saurier[Kleine Werte]
 1,schaben[Kleine Werte]
 1,schafe[Kleine Werte]
-1,schlangen[Schlangen Werte]
+1,schlangen[Schlange Werte]
 1,schleichen[Echse Werte]
 1,schmetterlinge[Kleine Werte]
 1,schnecken[Kleine Werte]
@@ -347,14 +347,14 @@
 1,tauben[Kleine Werte]
 1,tausendfüßer[Kleine Werte]
 1,teufel[Teufel Werte]
-1,tiere[Kleine Werte]
+1,tiere[Normale Werte]
 1,unken[Kleine Werte]
 1,viecher[Kleine Werte]
 1,wachteln[Kleine Werte]
 1,wanzen[Kleine Werte]
 1,wesen[Menschen Werte]
 1,wespen[Kleine Werte]
-1,wisente[Pferd Werte]
+1,wisente[Kuh Werte]
 1,wölfe[Wolf Werte]
 1,wolpertinger[Kleine Werte]
 1,wurfe[Kleine Werte]
@@ -365,6 +365,25 @@
 1,zikaden[Kleine Werte]
 
 # --------------------
+
+;Merkwürdige Steppenwesen
+1,[name for a Merkwürdige Steppenwesen [1d6]]
+
+;name for a Merkwürdige Steppenwesen 1
+1,[Merkwürdige Steppenwesen Namen]
+;name for a Merkwürdige Steppenwesen 2
+1,[Merkwürdige Steppenwesen Namen]
+;name for a Merkwürdige Steppenwesen 3
+1,[Merkwürdige Steppenwesen Namen]
+;name for a Merkwürdige Steppenwesen 4
+1,[Merkwürdige Steppenwesen Namen]
+;name for a Merkwürdige Steppenwesen 5
+1,[Merkwürdige Steppenwesen Namen]
+;name for a Merkwürdige Steppenwesen 6
+1,[Merkwürdige Steppenwesen Namen]
+
+;Merkwürdige Steppenwesen Namen
+1,[Merkwürdige Steppenwesen Adjektiv] [capitalize Merkwürdige Steppenwesen Name 1][Merkwürdige Steppenwesen Name 2]
 
 ;Kleine Werte
 10,
@@ -513,9 +532,16 @@
 1,[Kleine Werte]
 1, (TW: 2 RK: 5/14 S: 1W6 RW: 16 GS: 12 ML: 7 EP: 30)
 
+;Elefant Werte
+1, (TW: 8 RK: 6 S: 3W8 RW: 8 GS: 12 ML: 8 EP: 800)
+1, (TW: 9 RK: 5 S: 4W8 RW: 6 GS: 12 ML: 8 EP: 1100)
+
 ;Pferd Werte
 1, (TW: 2 RK: 7/12 S: 1W6/1W6 RW: 17 GS: 18 ML: 3 EP: 30)
 1, (TW: 3 RK: 7/12 S: 1W6/1W6 RW: 17 GS: 18 ML: 3 EP: 60)
+
+;Kuh Werte
+1, (TW: 4 RK: 7/12 S: 1W8 RW: 13 GS: 15 ML: 4 EP: 120 Bes: Zusätzlicher Sturmangriff +2 in der ersten Runde)
 
 ;Raubkatze Werte
 # löwe
@@ -532,7 +558,7 @@
 ;Wolf Werte
 1, (TW: 2+1 RK: 7/12 S: 1W6 RW: 17 GS: 15 ML: 8 EP: 15)
 
-;Schlangen Werte
+;Schlange Werte
 1, (TW: 1W6 TP RK: 5/14 S: 1+Gift RW: 18 GS: 18 ML: 5 EP: 30 Bes: Tödliches Gift, +2 auf RW)
 
 # --------------------
