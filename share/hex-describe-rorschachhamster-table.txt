@@ -3,6 +3,15 @@
 ;forest
 1,[Wald]
 
+;firs
+1,[Wald]
+
+;fir-forest
+1,[Wald]
+
+;trees
+1,[Wald]
+
 ;Wald
 1,In dieser Ecke vom [Wald Name] leben [Merkwürdige Waldwesen].
 
@@ -20,6 +29,9 @@
 # --------------------
 
 ;swamp
+1,[Sumpf]
+
+;swamp2
 1,[Sumpf]
 
 ;Sumpf
@@ -332,7 +344,7 @@
 1,füchse[Kleine Werte]
 1,geier[Kleine Werte]
 1,geistchen[Kleine Werte]
-1,getier[Kleine Werte]
+1,getiere[Kleine Werte]
 1,gnömchen[Kleine Werte]
 1,goblinge[Kleine Werte]
 1,grillen[Kleine Werte]
