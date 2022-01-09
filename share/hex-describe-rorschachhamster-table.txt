@@ -1189,7 +1189,7 @@
 1,[Schwarzbär Werte]
 1,[Graubär Werte]
 1,[Polarbär Werte]
-1,[Kleine Werte]
+1,[Normale Werte]
 
 ;Schwarzbär Werte
 1, (TW: 4+1 RK: 7/12 S: 1W3/1W3/1W6 RW: 13 GS: 9 ML: 6 EP: 120 Bes: Treffen beide Tatzen gibt es nochmal 1W8 wegen der „Umarmung“)
