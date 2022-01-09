@@ -385,6 +385,312 @@
 ;Merkwürdige Steppenwesen Namen
 1,[Merkwürdige Steppenwesen Adjektiv] [capitalize Merkwürdige Steppenwesen Name 1][Merkwürdige Steppenwesen Name 2]
 
+;Merkwürdige Steppenwesen Adjektiv
+1,Aas fressende
+1,aggressive
+1,auffällige
+1,aufgeblähte
+1,ausgelassene
+1,bettelnde
+1,beulige
+1,biestige
+1,bissige
+1,borstige
+1,dumme
+1,dunkle
+1,dürre
+1,einzelgängerische
+1,fette
+1,fliegende
+1,flinke
+1,fröhliche
+1,furchtsame
+1,galoppierende
+1,geisterhafte
+1,gepunktete
+1,gestreifte
+1,getupfte
+1,gewandte
+1,glänzende
+1,gleitende
+1,glitzernde
+1,grabende
+1,Gras fressende
+1,großfüßige
+1,häßliche
+1,heimliche
+1,heisere
+1,helle
+1,herumstreifende
+1,herumtollende
+1,hungrige
+1,hüpfende
+1,intelligente
+1,jagende
+1,knochige
+1,knorrige
+1,krallenbewehrte
+1,kreischende
+1,kugelnde
+1,kurzschwänzige
+1,langbeinige
+1,langhaarige
+1,langschwänzige
+1,laute
+1,leckere
+1,leise
+1,massige
+1,missgelaunte
+1,mobile
+1,nachtaktive
+1,neugierige
+1,prächtige
+1,quietschende
+1,rasende
+1,räudige
+1,riechende
+1,röchelnde
+1,röhrende
+1,scharfsichtige
+1,scheue
+1,schimmernde
+1,schlaksige
+1,schlanke
+1,schleichende
+1,schmale
+1,schmatzende
+1,schnaufende
+1,schnelle
+1,schöne
+1,schreiende
+1,schwärmende
+1,schwebende
+1,seltene
+1,sich vom Wind treiben lassende
+1,singende
+1,spurtende
+1,stachelige
+1,stoische
+1,stolpernde
+1,streitsüchtige
+1,surrende
+1,tanzende
+1,teleportierende
+1,tollpatschige
+1,torkelnde
+1,ungenießbare
+1,verseuchte
+1,verspielte
+1,wohlschmeckende
+1,wühlende
+1,zahme
+1,zutrauliche
+1,[Merkwürdige Steppenwesen Adjektiv], [Merkwürdige Steppenwesen Adjektiv]
+
+;Merkwürdige Steppenwesen Name 1
+1,abend
+1,augen
+1,band
+1,beil
+1,blau
+1,blitz
+1,boden
+1,bunt
+1,busch
+1,büschel
+1,dämmerungs
+1,dickicht
+1,dreck
+1,fauch
+1,feder
+1,feld
+1,feucht
+1,fleck
+1,flink
+1,gabel
+1,gelb
+1,glüh
+1,gold
+1,kamm
+1,gras
+1,grau
+1,groß
+1,gürtel
+1,haut
+1,helm
+1,herden
+1,heu
+1,honig
+1,horn
+1,keulen
+1,klauen
+1,klein
+1,kugel
+1,lauf
+1,leder
+1,leucht
+1,licht
+1,luft
+1,mähnen
+1,maul
+1,morgen
+1,moschus
+1,murmel
+1,nacht
+1,nackt
+1,ohr
+1,panzer
+1,perl
+1,pfeif
+1,plapper
+1,prärie
+1,rauf
+1,regen
+1,ren
+1,renn
+1,ringel
+1,rost
+1,rot
+1,rötel
+1,rund
+1,saiga
+1,sand
+1,schabracken
+1,schalen
+1,schild
+1,schmuck
+1,schreit
+1,schwanz
+1,schwarz
+1,silber
+1,spitz
+1,spring
+1,staub
+1,stein
+1,steiß
+1,steppen
+1,stern
+1,stink
+1,stroh
+1,trampel
+1,trug
+1,trut
+1,wander
+1,warzen
+1,wasser
+1,weber
+1,weiß
+1,wild
+1,wind
+1,woll
+1,würge
+1,zahn
+1,zentauren
+1,zwerg
+1,[Merkwürdige Steppenwesen Name 1][Merkwürdige Steppenwesen Name 1]
+
+;Merkwürdige Steppenwesen Name 2
+1,adler[Kleine Werte]
+1,ameisen[Kleine Werte]
+1,amseln[Kleine Werte]
+1,antilopen[Pferd Werte]
+1,bären[Bär Werte]
+1,bienen[Kleine Werte]
+1,biester[Kleine Werte]
+1,bisons[Pferd Werte]
+1,böcke[Kleine Werte]
+1,büffel[Kuh Werte]
+1,dämonen[Teufel Werte]
+1,drachen[Drache Werte]
+1,drosseln[Kleine Werte]
+1,echsen[Echse Werte]
+1,eidechsen[Kleine Werte]
+1,elstern[Kleine Werte]
+1,emus[Kleine Werte]
+1,eulen[Kleine Werte]
+1,falken[Kleine Werte]
+1,falter[Kleine Werte]
+1,fasane[Kleine Werte]
+1,finken[Kleine Werte]
+1,fledermäuse[Kleine Werte]
+1,fliegen[Kleine Werte]
+1,füchse[Kleine Werte]
+1,gazellen[Kleine Werte]
+1,geier[Kleine Werte]
+1,geistchen[Kleine Werte]
+1,getier[Kleine Werte]
+1,grillen[Kleine Werte]
+1,hamster[Kleine Werte]
+1,hasen[Kleine Werte]
+1,hirsche[Pferd Werte]
+1,hörnchen[Kleine Werte]
+1,hühner[Kleine Werte]
+1,hunde[Wolf Werte]
+1,hüpfer[Kleine Werte]
+1,iltisse[Kleine Werte]
+1,käfer[Kleine Werte]
+1,kamele[Pferd Werte]
+1,kängurus[Kleine Werte]
+1,kaninchen[Kleine Werte]
+1,katzen[Raubkatze Werte]
+1,käuze[Kleine Werte]
+1,kehlchen[Kleine Werte]
+1,kiebitze[Kleine Werte]
+1,knechte[Kleine Werte]
+1,kojoten[Wolf Werte]
+1,krähen[Kleine Werte]
+1,kraniche[Kleine Werte]
+1,kröten[Kleine Werte]
+1,larven[Kleine Werte]
+1,luchse[Raubkatze Werte]
+1,mammuts[Elefant Werte]
+1,mäuse[Kleine Werte]
+1,meisen[Kleine Werte]
+1,mulle[Kleine Werte]
+1,nandus[Kleine Werte]
+1,nashörner[Elefant Werte]
+1,nattern[Schlange Werte]
+1,ochsen[Kuh Werte]
+1,opossums[Kleine Werte]
+1,pferde[Pferd Werte]
+1,ponies[Pferd Werte]
+1,pumas[Raubkatze Werte]
+1,raben[Kleine Werte]
+1,ratten[Kleine Werte]
+1,rehe[Kleine Werte]
+1,saurier[Normale Werte]
+1,schaben[Normale Werte]
+1,schafe[Kleine Werte]
+1,schakale[Wolf Werte]
+1,schlangen[Schlange Werte]
+1,schmetterlinge[Kleine Werte]
+1,schnäbel[Kleine Werte]
+1,schrecken[Kleine Werte]
+1,schweinchen[Kleine Werte]
+1,schweine[Wildschwein Werte]
+1,sittiche[Kleine Werte]
+1,stare[Kleine Werte]
+1,storche[Kleine Werte]
+1,strausse[Kleine Werte]
+1,tauben[Kleine Werte]
+1,tausendfüßer[Kleine Werte]
+1,termiten[Kleine Werte]
+1,teufel[Teufel Werte]
+1,tiere[Normale Werte]
+1,trappen[Kleine Werte]
+1,viecher[Kuh Werte]
+1,wesen[Normale Werte]
+1,wespen[Kleine Werte]
+1,wölfe[Wolf Werte]
+1,wurfe[Kleine Werte]
+1,würmchen[Kleine Werte]
+1,würmer[Kleine Werte]
+1,ziegen[Kleine Werte]
+1,ziesel[Kleine Werte]
+1,züngler[Kleine Werte]
+
+# --------------------
+
 ;Kleine Werte
 10,
 1, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] ML: [2d4+1] RW: 18 GS: [2d6+3] EP: [Kleines EP])
