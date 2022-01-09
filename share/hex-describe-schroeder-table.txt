@@ -14339,7 +14339,7 @@
 1,the **unicorn** *[unicorn]* ([unicorn stats]; [unicorn spells])
 4,[1d7+1] **unicorns** ([unicorn stats]) led by *[unicorn]* ([unicorn spells])
 1,the **unicorn** *[unicorn]* ([unicorn stats]) and her colt
-1,[1d4+1] **unicorns* ([unicorn stats]) and [1d2+1] unicorn foals, led by *[unicorn]* ([unicorn spells])
+1,[1d4+1] **unicorns** ([unicorn stats]) and [1d2+1] unicorn foals, led by *[unicorn]* ([unicorn spells])
 1,[1d4+1] **unicorns** ([unicorn stats]) led by *[unicorn]* and [1d3+1] **sprites** ([sprite stats])
 
 ;unicorn stats
