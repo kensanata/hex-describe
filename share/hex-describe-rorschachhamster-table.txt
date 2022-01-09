@@ -366,6 +366,331 @@
 
 # --------------------
 
+;Merkwürdige Bergwesen
+1,[name for a Merkwürdige Bergwesen [1d6]]
+
+;name for a Merkwürdige Bergwesen 1
+1,[Merkwürdige Bergwesen Namen]
+;name for a Merkwürdige Bergwesen 2
+1,[Merkwürdige Bergwesen Namen]
+;name for a Merkwürdige Bergwesen 3
+1,[Merkwürdige Bergwesen Namen]
+;name for a Merkwürdige Bergwesen 4
+1,[Merkwürdige Bergwesen Namen]
+;name for a Merkwürdige Bergwesen 5
+1,[Merkwürdige Bergwesen Namen]
+;name for a Merkwürdige Bergwesen 6
+1,[Merkwürdige Bergwesen Namen]
+
+;Merkwürdige Bergwesen Namen
+1,[Merkwürdige Bergwesen Adjektiv] [capitalize Merkwürdige Bergwesen Name 1][Merkwürdige Bergwesen Name 2]
+
+;Merkwürdige Bergwesen Adjektiv
+1,Aas fressende
+1,aggressive
+1,ängstliche
+1,auffällige
+1,aufgeblähte
+1,ausgelassene
+1,bettelnde
+1,beulige
+1,biestige
+1,bissige
+1,blasse
+1,borstige
+1,dicht bepelzte
+1,dumme
+1,dunkle
+1,einzelgängerische
+1,eisige
+1,fette
+1,fliegende
+1,frierende
+1,fröhliche
+1,frostresistente
+1,furchtsame
+1,geisterhafte
+1,getupfte
+1,gewandte
+1,glänzende
+1,gleitende
+1,glitzernde
+1,grabende
+1,Gras fressende
+1,großfüßige
+1,hängende
+1,harthäutige
+1,häßliche
+1,heimliche
+1,heisere
+1,helle
+1,herumtollende
+1,hungrige
+1,hüpfende
+1,intelligente
+1,jagende
+1,klebfüßige
+1,kleinköpfige
+1,klettige
+1,knochige
+1,knorrige
+1,krallenbewehrte
+1,kraxelnde
+1,kreischende
+1,kugelnde
+1,kurzbeinige
+1,kurzschwänzige
+1,langhaarige
+1,langschwänzige
+1,laute
+1,leckere
+1,leise
+1,massige
+1,missgelaunte
+1,nachtaktive
+1,neugierige
+1,nistende
+1,prächtige
+1,quietschende
+1,räudige
+1,riechende
+1,röchelnde
+1,röhrende
+1,rutschende
+1,scharfsichtige
+1,schaukelnde
+1,scheue
+1,schimmernde
+1,schlaksige
+1,schlanke
+1,schleichende
+1,schmale
+1,schmatzende
+1,schnaufende
+1,schöne
+1,schreiende
+1,schwärmende
+1,seltene
+1,singende
+1,speckige
+1,stachelige
+1,stoische
+1,streitsüchtige
+1,surrende
+1,tanzende
+1,ungenießbare
+1,verseuchte
+1,verspielte
+1,winterschlafende
+1,wohlschmeckende
+1,zitternde
+1,zutrauliche
+1,[Merkwürdige Bergwesen Adjektiv], [Merkwürdige Bergwesen Adjektiv]
+
+;Merkwürdige Bergwesen Namen 1
+1,abend
+1,alm
+1,auer
+1,bach
+1,band
+1,berg
+1,blau
+1,blizzard
+1,braun
+1,dämmerungs
+1,eis
+1,fall
+1,fauch
+1,feder
+1,fell
+1,fels
+1,flechten
+1,fleck
+1,frost
+1,fuß
+1,gabel
+1,gebirgs
+1,gelb
+1,geröll
+1,gipfel
+1,rassel
+1,bart
+1,grau
+1,groß
+1,grotten
+1,haar
+1,hagel
+1,hang
+1,himmel
+1,hochland
+1,höhen
+1,hohl
+1,höhlen
+1,horn
+1,kälte
+1,kamm
+1,keulen
+1,kiefern
+1,klauen
+1,klein
+1,klippen
+1,kluft
+1,kolk
+1,kugel
+1,lawinen
+1,leucht
+1,luft
+1,mähnen
+1,maul
+1,morgen
+1,murmel
+1,nacht
+1,nackt
+1,ohr
+1,ork
+1,pass
+1,rau
+1,rauf
+1,regen
+1,reif
+1,ren
+1,riesen
+1,ringel
+1,rost
+1,rot
+1,rücken
+1,wolken
+1,schalen
+1,schmuck
+1,schmutz
+1,schnee
+1,schwanz
+1,schwarz
+1,silber
+1,spalt
+1,spitz
+1,spring
+1,steiger
+1,stein
+1,steiß
+1,stern
+1,stink
+1,tal
+1,tatzel
+1,trug
+1,viel
+1,weiß
+1,wild
+1,winter
+1,woll
+1,würge
+1,yeti
+1,zahn
+1,zwerg
+1,[Merkwürdige Bergwesen Namen 1], [Merkwürdige Bergwesen Namen 1]
+
+;Merkwürdige Bergwesen Namen 2
+1,Adler[Kleine Werte]
+1,Alb[Kleine Werte]
+1,Ameisen[Kleine Werte]
+1,Amseln[Kleine Werte]
+1,Bären[Bär Werte]
+1,Biester[Kleine Werte]
+1,Böcke[Ziege Werte]
+1,Bussarde[Kleine Werte]
+1,Chinchillas[Kleine Werte]
+1,Dachse[Kleine Werte]
+1,Dämonen[Kleine Werte]
+1,Dohlen[Kleine Werte]
+1,Drachen[Drache Werte]
+1,Drosseln[Kleine Werte]
+1,Eidechsen[Kleine Werte]
+1,Elstern[Kleine Werte]
+1,Esel[Pferd Werte]
+1,Eulen[Kleine Werte]
+1,Falken[Kleine Werte]
+1,Feen[Kleine Werte]
+1,Finken[Kleine Werte]
+1,Fledermäuse[Kleine Werte]
+1,Fliegen[Kleine Werte]
+1,Fraße[Kleine Werte]
+1,Füchse[Kleine Werte]
+1,Gämse[Ziege Werte]
+1,Geier[Kleine Werte]
+1,Geistchen[Kleine Werte]
+1,Getier[Kleine Werte]
+1,Gnömchen[Kleine Werte]
+1,Goblinge[Kleine Werte]
+1,Guanakos[Kleine Werte]
+1,Habichte[Kleine Werte]
+1,Häher[Kleine Werte]
+1,Hähne[Kleine Werte]
+1,Hasen[Kleine Werte]
+1,Hexchen[Kleine Werte]
+1,Hirsche[Pferd Werte]
+1,Hörnchen[Kleine Werte]
+1,Hühner[Kleine Werte]
+1,Hummeln[Kleine Werte]
+1,Hunde[Kleine Werte]
+1,Iltisse[Kleine Werte]
+1,Käfer[Kleine Werte]
+1,Käfer[Kleine Werte]
+1,Kaninchen[Kleine Werte]
+1,Katzen[Kleine Werte]
+1,Käuze[Kleine Werte]
+1,Keas[Kleine Werte]
+1,Kehlchen[Kleine Werte]
+1,Kobel[Kleine Werte]
+1,Koboldchen[Kleine Werte]
+1,Kojoten[Kleine Werte]
+1,Kondore[Kleine Werte]
+1,Krähen[Kleine Werte]
+1,Kröten[Kleine Werte]
+1,Leoparde[Raubkatze Werte]
+1,Luchse[Kleine Werte]
+1,Männchen[Kleine Werte]
+1,Marder[Kleine Werte]
+1,Mäuse[Kleine Werte]
+1,Meisen[Kleine Werte]
+1,Milane[Kleine Werte]
+1,Molche[Kleine Werte]
+1,Muffel[Ziege Werte]
+1,Nattern[Kleine Werte]
+1,Pudu[Kleine Werte]
+1,Pumas[Raubkatze Werte]
+1,Raben[Kleine Werte]
+1,Ratten[Kleine Werte]
+1,Rehe[Pferd Werte]
+1,Salamander[Kleine Werte]
+1,Schafe[Ziege Werte]
+1,Schakale[Kleine Werte]
+1,Schlangen[Kleine Werte]
+1,Schmetterlinge[Kleine Werte]
+1,Schrate[Kleine Werte]
+1,Schrecken[Kleine Werte]
+1,Seelen[Kleine Werte]
+1,Stare[Kleine Werte]
+1,Stelzen[Kleine Werte]
+1,Tahre[Ziege Werte]
+1,Tauben[Kleine Werte]
+1,Tausendfüßer[Kleine Werte]
+1,Teufel[Kleine Werte]
+1,Tiere[Kleine Werte]
+1,Tiger[Raubkatze Werte]
+1,Tröllchen[Kleine Werte]
+1,Viecher[Kleine Werte]
+1,Vikunjas[Kleine Werte]
+1,Wesen[Kleine Werte]
+1,Wichtelchen[Kleine Werte]
+1,Wölfe[Wolf Werte]
+1,Wolpertinger[Kleine Werte]
+1,Würmer[Kleine Werte]
+1,Yaks[Pferd Werte]
+1,Ziegen[Ziege Werte]
+1,Ziesel[Kleine Werte]
+
+# --------------------
+
 ;Merkwürdige Steppenwesen
 1,[name for a Merkwürdige Steppenwesen [1d6]]
 
@@ -754,13 +1079,13 @@
 1,[quote 4 as TW]+1
 
 ;Normale RK
-1,9
-2,8
-3,7
-4,6
-3,5
-2,4
-1,3
+1,9/10
+2,8/11
+3,7/12
+4,6/13
+3,5/14
+2,4/15
+1,3/16
 
 ;Normaler A
 5,S: 1W6
@@ -855,6 +1180,9 @@
 # luchs
 1, (TW: 2 RK: 7/12 S: 1W2/1W2/1W6 RW: 16 GS: 12 ML: 6 EP: 30)
 
+;Schlange Werte
+1, (TW: 1W6 TP RK: 5/14 S: 1+Gift RW: 18 GS: 18 ML: 5 EP: 30 Bes: Tödliches Gift, +2 auf RW)
+
 ;Teufel Werte
 1,[Kleine Werte]
 
@@ -864,7 +1192,8 @@
 ;Wolf Werte
 1, (TW: 2+1 RK: 7/12 S: 1W6 RW: 17 GS: 15 ML: 8 EP: 15)
 
-;Schlange Werte
-1, (TW: 1W6 TP RK: 5/14 S: 1+Gift RW: 18 GS: 18 ML: 5 EP: 30 Bes: Tödliches Gift, +2 auf RW)
+;Ziege Werte
+1,[Kleine Werte]
+1,(TW 2 RK 7/12 S: 1W6 RW 18 GS 18 ML 5 EP 60 Bes: Doppelter Schaden mit Rammstoß, RW oder umgestoßen)
 
 # --------------------
