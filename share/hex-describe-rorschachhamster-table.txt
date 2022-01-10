@@ -38,7 +38,7 @@
 1,[Sumpf]
 
 ;Sumpf
-1,In dieser Ecke vom [Sumpf Name] leben [Merkwürdige Waldwesen].
+1,In dieser Ecke vom [Sumpf Name] leben [Merkwürdige Sumpfwesen].
 
 ;Sumpf Name
 1,[name for swamp/swamp2]
@@ -653,7 +653,7 @@
 ;Merkwürdige Bergwesen Name 2
 1,adler[Kleine Werte]
 1,affen[Normale Werte]
-1,alb[Kleine Werte]
+1,alben[Kleine Werte]
 1,ameisen[Kleine Werte]
 1,amseln[Kleine Werte]
 1,bären[Bär Werte]
@@ -696,6 +696,7 @@
 1,hunde[Kleine Werte]
 1,iltisse[Kleine Werte]
 1,käfer[Kleine Werte]
+1,motten[Kleine Werte]
 1,kaninchen[Kleine Werte]
 1,katzen[Kleine Werte]
 1,käuze[Kleine Werte]
@@ -1077,6 +1078,333 @@
 
 # --------------------
 
+;Merkwürdige Sumpfwesen
+1,[name for a Merkwürdige Sumpfwesen [1d6]]
+
+;name for a Merkwürdige Sumpfwesen 1
+1,[Merkwürdige Sumpfwesen Namen]
+;name for a Merkwürdige Sumpfwesen 2
+1,[Merkwürdige Sumpfwesen Namen]
+;name for a Merkwürdige Sumpfwesen 3
+1,[Merkwürdige Sumpfwesen Namen]
+;name for a Merkwürdige Sumpfwesen 4
+1,[Merkwürdige Sumpfwesen Namen]
+;name for a Merkwürdige Sumpfwesen 5
+1,[Merkwürdige Sumpfwesen Namen]
+;name for a Merkwürdige Sumpfwesen 6
+1,[Merkwürdige Sumpfwesen Namen]
+
+;Merkwürdige Sumpfwesen Namen
+1,[Merkwürdige Sumpfwesen Adjektiv] [capitalize Merkwürdige Sumpfwesen Name 1][Merkwürdige Sumpfwesen Name 2]
+
+
+;Merkwürdige Sumpfwesen Adjektiv
+1,Aas fressende
+1,aggressive
+1,algige
+1,amphibische
+1,ängstliche
+1,aufgeblähte
+1,badende
+1,bettelnde
+1,beulige
+1,bewachsene
+1,biestige
+1,bissige
+1,blasse
+1,blubbernde
+1,borstige
+1,dumme
+1,dunkle
+1,düstere
+1,einzelgängerische
+1,fette
+1,feuchte
+1,fliegende
+1,furchtsame
+1,geisterhafte
+1,genießbare
+1,getarnte
+1,getupfte
+1,gewandte
+1,glatte
+1,gleitende
+1,glibbrige
+1,glitschige
+1,Gras fressende
+1,großfüßige
+1,häßliche
+1,heimliche
+1,heisere
+1,herumtollende
+1,heulende
+1,hungrige
+1,hüpfende
+1,intelligente
+1,jagende
+1,klagende
+1,klettige
+1,knochige
+1,krabbelnde
+1,kreischende
+1,kurzbeinige
+1,kurzschwänzige
+1,kurzsichtige
+1,langschwänzige
+1,lauernde
+1,laute
+1,leichte
+1,leise
+1,melancholische
+1,missgelaunte
+1,nachtaktive
+1,neugierige
+1,planschende
+1,quietschende
+1,räudige
+1,riechende
+1,röchelnde
+1,röhrende
+1,rutschende
+1,scheue
+1,schimmernde
+1,schlanke
+1,schleichende
+1,schleimige
+1,schmale
+1,schmatzende
+1,schmutzige
+1,schnaufende
+1,schöne
+1,schreiende
+1,schwärmende
+1,seltene
+1,singende
+1,speckige
+1,starrende
+1,stille
+1,stinkende
+1,stoische
+1,streitsüchtige
+1,suhlende
+1,tanzende
+1,traurige
+1,ungenießbare
+1,untertauchende
+1,verseuchte
+1,verspielte
+1,Wasser spuckende
+1,weichhäutige
+1,wohlschmeckende
+1,zitternde
+1,zutrauliche
+1,[Merkwürdige Sumpfwesen Adjektive][Merkwürdige Sumpfwesen Adjektive]
+
+;Merkwürdige Sumpfwesen Name 1
+1,bach
+1,band
+1,bauch
+1,birk
+1,bisam
+1,blau
+1,blut
+1,brach
+1,braun
+1,bruch
+1,damm
+1,dämmerungs
+1,delta
+1,dreck
+1,dunst
+1,erd
+1,fauch
+1,faul
+1,fäulnis
+1,feder
+1,feld
+1,fenn
+1,fieber
+1,fleck
+1,fluß
+1,gas
+1,gelb
+1,glüh
+1,graben
+1,gras
+1,grau
+1,groß
+1,grün
+1,höcker
+1,irr
+1,kanal
+1,klein
+1,knäk
+1,kolk
+1,krick
+1,lach
+1,leucht
+1,loch
+1,marsch
+1,matsch
+1,moder
+1,moor
+1,moos
+1,morast
+1,morgen
+1,nacht
+1,nackt
+1,nass
+1,nebel
+1,pest
+1,pfeif
+1,pfuhl
+1,pilz
+1,reet
+1,regen
+1,ried
+1,riesen
+1,rinnen
+1,rohr
+1,röhricht
+1,rot
+1,schilf
+1,schlamm
+1,schleim
+1,schlick
+1,schmuck
+1,schmutz
+1,schwamm
+1,schwanz
+1,schwarz
+1,schwemm
+1,schwimm
+1,see
+1,silber
+1,spitz
+1,stech
+1,stock
+1,sumpf
+1,tauch
+1,teich
+1,torf
+1,totarm
+1,toten
+1,trauer
+1,trug
+1,tümpel
+1,ufer
+1,wehr
+1,weiden
+1,weiher
+1,wiesen
+1,wild
+1,würge
+1,zwerg
+1,[Merkwürdige Sumpfwesen Name 1][Merkwürdige Sumpfwesen Name 1]
+
+;Merkwürdige Sumpfwesen Name 2
+1,adler[Kleine Werte]
+1,alligatoren[Krokodil Werte]
+1,ammern[Kleine Werte]
+1,amseln[Kleine Werte]
+1,bären[Bär Werte]
+1,biber[Kleine Werte]
+1,biester[Kleine Werte]
+1,bussarde[Kleine Werte]
+1,dämonen[Teufel Werte]
+1,dohlen[Kleine Werte]
+1,drachen[Drache Werte]
+1,drosseln[Kleine Werte]
+1,echsen[Echse Werte]
+1,egel[Kleine Werte]
+1,eidechsen[Kleine Werte]
+1,elche[Kuh Werte]
+1,elstern[Kleine Werte]
+1,enten[Kleine Werte]
+1,eulen[Kleine Werte]
+1,falken[Kleine Werte]
+1,falter[Kleine Werte]
+1,feen[Kleine Werte]
+1,finken[Kleine Werte]
+1,fliegen[Kleine Werte]
+1,frösche[Kleine Werte]
+1,füchse[Wolf Werte]
+1,gänse[Normale Werte]
+1,geistchen[Kleine Werte]
+1,getier[Kleine Werte]
+1,gnömchen[Kleine Werte]
+1,goblinge[Kleine Werte]
+1,habichte[Kleine Werte]
+1,häher[Kleine Werte]
+1,hähne[Kleine Werte]
+1,hexchen[Kleine Werte]
+1,hörnchen[Kleine Werte]
+1,hühner[Kleine Werte]
+1,hummeln[Kleine Werte]
+1,hunde[Wolf Werte]
+1,iltisse[Kleine Werte]
+1,jungfern[Kleine Werte]
+1,käfer[Kleine Werte]
+1,kaninchen[Kleine Werte]
+1,käuze[Kleine Werte]
+1,kehlchen[Kleine Werte]
+1,koboldchen[Kleine Werte]
+1,krabben[Kleine Werte]
+1,krähen[Kleine Werte]
+1,kraniche[Kleine Werte]
+1,krebse[Kleine Werte]
+1,krokodile[Krokodil Werte]
+1,kröten[Kleine Werte]
+1,larven[Kleine Werte]
+1,lerchen[Kleine Werte]
+1,lichter[Kleine Werte]
+1,lurche[Kleine Werte]
+1,maden[Kleine Werte]
+1,männchen[Kleine Werte]
+1,marder[Kleine Werte]
+1,mäuse[Kleine Werte]
+1,meisen[Kleine Werte]
+1,milane[Kleine Werte]
+1,molche[Kleine Werte]
+1,motten[Kleine Werte]
+1,möwen[Kleine Werte]
+1,mücken[Kleine Werte]
+1,nattern[Kleine Werte]
+1,neunaugen[Kleine Werte]
+1,pythons[Normale Werte]
+1,raben[Kleine Werte]
+1,ratten[Kleine Werte]
+1,raupen[Kleine Werte]
+1,rehe[Normale Werte]
+1,reiher[Kleine Werte]
+1,säger[Kleine Werte]
+1,salamander[Echse Werte]
+1,schlangen[Schlange Werte]
+1,schleichen[Echse Werte]
+1,schmetterlinge[Kleine Werte]
+1,schnecken[Kleine Werte]
+1,schnepfen[Kleine Werte]
+1,schrecken[Kleine Werte]
+1,schwäne[Normale Werte]
+1,seelen[Kleine Werte]
+1,spinnen[Kleine Werte]
+1,stare[Kleine Werte]
+1,stelzen[Kleine Werte]
+1,störche[Kleine Werte]
+1,tausendfüßer[Kleine Werte]
+1,teufel[Teufel Werte]
+1,tiere[Kleine Werte]
+1,tiger[Raubkatze Werte]
+1,unken[Kleine Werte]
+1,viecher[Kleine Werte]
+1,vögel[Kleine Werte]
+1,welse[Normale Werte]
+1,wesen[Kleine Werte]
+1,würmchen[Kleine Werte]
+1,würmer[Normale Werte]
+
+# --------------------
+
 ;Kleine Werte
 100,
 10, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] RW: 18 GS: [2d6+3] ML: [2d4+1] EP: [Kleines EP])
@@ -1106,12 +1434,12 @@
 
 ;Kleines EP
 10,10
-1,30[Kleines Besonderes]
+1,30 [Kleines Besonderes]
 
 ;Kleines Besonderes
 1,Bes: Kann sich einmal pro Tag unsichtbar machen
-1,Bes: Kann einmal pro Tag[Effekt] spucken, 6m Länge, 1W6 Schaden
-1,Bes: Kann sich einmal pro Tag in einen[Verwandelding] verwandeln
+1,Bes: Kann einmal pro Tag [Effekt] spucken, 6m Länge, 1W6 Schaden
+1,Bes: Kann sich einmal pro Tag in einen [Verwandelding] verwandeln
 
 ;Effekt
 1,Feuer
@@ -1121,6 +1449,12 @@
 1,Eis
 1,Hagel
 1,Frost
+1,Säure
+1,Schlamm
+1,Mulch
+1,Blätter
+1,Knochen
+1,Halbverdautes
 
 ;Verwandelding
 1,Baum
@@ -1130,6 +1464,7 @@
 ;Normale Werte
 10, (TW: [Normale TW] RK: [Normale RK] [Normaler A] RW: [Normaler RW] GS: [2d6+3] ML: [2d4+2] EP: [Normale EP])
 1,[Kleine Werte]
+1,
 
 ;Normale TW
 20,[quote 1 as TW]
@@ -1232,6 +1567,10 @@
 1, (TW: 2 RK: 7/12 S: 1W6/1W6 RW: 17 GS: 18 ML: 3 EP: 30)
 1, (TW: 3 RK: 7/12 S: 1W6/1W6 RW: 17 GS: 18 ML: 3 EP: 60)
 
+;Krokodil Werte
+1, (TW: 6 RK: 3/16 S: 3W6 RW: 11 GS: 9/Schwimmen 12 ML: 9 EP: 400)
+3, (TW: 3 RK: 4/15 S: 1W6 RW: 14 GS: 9/Schwimmen 12 ML: 8 EP: 60)
+
 ;Kuh Werte
 1, (TW: 4 RK: 7/12 S: 1W8 RW: 13 GS: 15 ML: 4 EP: 120 Bes: Zusätzlicher Sturmangriff +2 in der ersten Runde)
 
@@ -1255,6 +1594,7 @@
 
 ;Ziege Werte
 1,[Kleine Werte]
-1,(TW 2 RK 7/12 S: 1W6 RW 18 GS 18 ML 5 EP 60 Bes: Doppelter Schaden mit Rammstoß, RW oder umgestoßen)
+1, (TW 2 RK 7/12 S: 1W6 RW 18 GS 18 ML 5 EP 60 Bes: Doppelter Schaden mit Rammstoß, RW oder umgestoßen)
 
 # --------------------
+
