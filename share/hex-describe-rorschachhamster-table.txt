@@ -98,9 +98,9 @@
 1,In dieser Ecke [Hügel Name] leben [Merkwürdige Hügelwesen].
 
 ;Hügel Name
-1,[name for hills]
+1,[name for hills/hill/forest-hill]
 
-;name for hills
+;name for hills/hill/forest-hill
 1,der [Hügel Name Adjektiv]heide
 1,der [Hügel Name Adjektiv]hügel
 1,der [Hügel Name Adjektiv]kuppen
@@ -114,7 +114,7 @@
 
 # --------------------;
 
-grass
+;grass
 1,[Steppe]
 
 ;Steppe
