@@ -151,6 +151,9 @@
 
 # --------------------
 
+;thorp
+1,[Dorf]
+
 ;village
 1,[Dorf]
 
@@ -159,12 +162,12 @@
 1,[Dorf Name] wird bewohnt von [1d900+100] [Dorf Stimmung]n [Dorf Bewohner] [Kultur]er Kultur. Es wird regiert von [Regierung].
 
 ;Kultur
-1,[Kultur [1d2]]
+1,[name for a Kultur [1d2]]
 
-;Kultur 1
+;name for a Kultur 1
 1,[Kultur Arten]
 
-;Kultur 2
+;name for a Kultur 2
 1,[Kultur Arten]
 
 ;Kultur Arten
@@ -208,18 +211,18 @@
 1,[1d6+12]
 
 ;Regierung
-1,[Adel Mann ] [Männername [Kultur 1]], [NSCM], durch Eroberung
-1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Eroberung
-1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Geburt
-1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Geburt
-1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Wahl
-1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Wahl der umgebenen [Adelige]
-1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Wahl aus OBERSCHICHT
-1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Wahl
-1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Wahl der umgebenen [Adelige]
-1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Wahl aus OBERSCHICHT
-1,eine kleine Gruppe von [Dorf Bewohner] [Kultur 2]er Kultur, angeführt von [Männername [Kultur 2]], [NSCM]
-1,eine kleine Gruppe von [Dorf Bewohner] [Kultur 2]er Kultur, angeführt von [Frauenname [Kultur 2]], [NSCW]
+1,[Adel Mann ] [Männername [same Kultur]], [NSCM], durch Eroberung
+1,[Adel Frau] [Frauenname [same Kultur]], [NSCW], durch Eroberung
+1,[Adel Mann] [Männername [same Kultur]], [NSCM], durch Geburt
+1,[Adel Frau] [Frauenname [same Kultur]], [NSCW], durch Geburt
+1,[Adel Mann] [Männername [same Kultur]], [NSCM], durch Wahl
+1,[Adel Mann] [Männername [same Kultur]], [NSCM], durch Wahl der umgebenen [Adelige]
+1,[Adel Mann] [Männername [same Kultur]], [NSCM], durch Wahl aus OBERSCHICHT
+1,[Adel Frau] [Frauenname [same Kultur]], [NSCW], durch Wahl
+1,[Adel Frau] [Frauenname [same Kultur]], [NSCW], durch Wahl der umgebenen [Adelige]
+1,[Adel Frau] [Frauenname [same Kultur]], [NSCW], durch Wahl aus OBERSCHICHT
+1,eine kleine Gruppe von [Dorf Bewohner] [same Kultur]er Kultur, angeführt von [Männername [same Kultur]], [NSCM]
+1,eine kleine Gruppe von [Dorf Bewohner] [same Kultur]er Kultur, angeführt von [Frauenname [same Kultur]], [NSCW]
 1,Avatar (RELIGION)
 1,Bürokratie (ohne nominellen Herrscher)
 1,FRAKTIONEN
@@ -230,7 +233,7 @@
 1,Gewählter Diktator, [NSC]
 1,Gildenoberhaupt (1-5 Diebes-, 6 Assassinen-)
 1,Gildenoberhaupt (50% Beruf/50% Handwerk)
-1,Magier, [Frauenname [Kultur 1]], [NSC]
+1,Magier, [Frauenname [same Kultur]], [NSC]
 1,Magnat (Gehört praktisch alles)
 1,MILITÄRoberhaupt
 1,Monster
@@ -370,7 +373,7 @@
 1,feils
 1,fisch
 1,forst
-1,[Frauenname [Kultur 1]]s
+1,[Frauenname [Kultur]]s
 1,frede
 1,ge
 1,geck
@@ -403,7 +406,7 @@
 1,lex
 1,lind
 1,mander
-1,[Männername [Kultur 1]]s
+1,[Männername [Kultur]]s
 1,wisch
 1,hamel
 1,mast
