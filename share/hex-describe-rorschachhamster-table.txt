@@ -114,6 +114,26 @@
 
 # --------------------;
 
+;water
+1,[corals]
+1,[shallows]
+
+;corals
+1,Hier zwischen den Ausläufern [name for reefs] leben [Merkwürdige Tropische Flachwasserwesen].
+
+;name for reefs
+1,des [Korallen Name Adjektiv] Riffs
+1,des [Korallen Name Adjektiv] Atolls
+1,der [Korallen Name Adjektiv] Untiefen
+
+; Korallen Name Adjektiv
+1,Wellenbrecher
+1,Barriere
+1,Insel
+1,Lagunen
+
+# --------------------;
+
 ;grass
 1,[Steppe]
 
@@ -128,6 +148,760 @@
 1,Trocken
 1,Weit
 1,Roll
+
+# --------------------
+
+;village
+1,[Dorf]
+
+;Dorf
+1,[Dorf Name] ist ein[Dorfdetail] mit [1d900+100] [Dorf Stimmung]n [Dorf Bewohner] [Kultur]er Kultur. Herrscher ist [Regierung].
+1,[Dorf Name] wird bewohnt von [1d900+100] [Dorf Stimmung]n [Dorf Bewohner] [Kultur]er Kultur. Es wird regiert von [Regierung].
+
+;Kultur
+1,[Kultur [1d2]]
+
+;Kultur 1
+1,[Kultur Arten]
+
+;Kultur 2
+1,[Kultur Arten]
+
+;Kultur Arten
+1,griechisch
+1,nordisch
+1,deutsch
+1,sumerisch
+
+;NSC
+1,[NSCW], [NSC Details]
+1,[NSCM], [NSC Details]
+
+;NSCW
+10,Kämpferin der [Stufe].
+20,Mensch der Stufe 0.
+6,Klerikerin der [Stufe].
+6,Diebin der [Stufe].
+2,Zauberkundige der [Stufe].
+3,Druidin der [Stufe].
+1,Paladinin der [Stufe].
+2,Waldläuferin der [Stufe].
+
+;NSCM
+10,Kämpfer der [Stufe].
+20,Mensch der Stufe 0.
+6,Kleriker der [Stufe].
+6,Dieb der [Stufe].
+2,Zauberkundiger der [Stufe].
+3,Druide der [Stufe].
+1,Paladin der [Stufe].
+2,Waldläufer der [Stufe].
+
+;NSC Details
+1,grimmig
+1,freundlich
+1,gelangweilt
+
+;Stufe
+85,[1d6]
+14,[1d6+6]
+1,[1d6+12]
+
+;Regierung
+1,[Adel Mann ] [Männername [Kultur 1]], [NSCM], durch Eroberung
+1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Eroberung
+1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Geburt
+1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Geburt
+1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Wahl
+1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Wahl der umgebenen [Adelige]
+1,[Adel Mann] [Männername [Kultur 1]], [NSCM], durch Wahl aus OBERSCHICHT
+1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Wahl
+1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Wahl der umgebenen [Adelige]
+1,[Adel Frau] [Frauenname [Kultur 1]], [NSCW], durch Wahl aus OBERSCHICHT
+1,eine kleine Gruppe von [Dorf Bewohner] [Kultur 2]er Kultur, angeführt von [Männername [Kultur 2]], [NSCM]
+1,eine kleine Gruppe von [Dorf Bewohner] [Kultur 2]er Kultur, angeführt von [Frauenname [Kultur 2]], [NSCW]
+1,Avatar (RELIGION)
+1,Bürokratie (ohne nominellen Herrscher)
+1,FRAKTIONEN
+1,FRAKTIONEN
+1,FRAKTIONEN
+1,Geld
+1,Gewählter Bürgermeister, [NSC]
+1,Gewählter Diktator, [NSC]
+1,Gildenoberhaupt (1-5 Diebes-, 6 Assassinen-)
+1,Gildenoberhaupt (50% Beruf/50% Handwerk)
+1,Magier, [Frauenname [Kultur 1]], [NSC]
+1,Magnat (Gehört praktisch alles)
+1,MILITÄRoberhaupt
+1,Monster
+1,OBERSCHICHT
+1,Parlament
+1,Priester
+1,Räte
+1,Richter
+1,Senat (OBERSCHICHT)
+1,Tyrann
+1,Verwaltungsbeamter
+1,[Doppelregierung] von [Regierung] und [Regierung]
+
+;Doppelregierung
+1,Bürgerkrieg 
+1,Koexistenz 
+1,Zusammenarbeit 
+1,Verschiedene Stadtteile 
+1,Getrennte Aufgaben 
+1,Personalunion
+
+;Adel Mann
+1,Ritter
+1,Freiherr
+1,Baron
+1,Graf
+1,Herzog
+1,Fürst
+1,Prinz
+1,König
+1,Markgraf
+1,Vicomte
+1,Patrizier
+1,Oberherr
+1,Regent
+1,Hetmann
+1,Jarl
+1,Archon
+1,Basileus
+1,Nobellisimos
+1,Potentat
+1,Sebastokrator
+1,Sebastos
+
+;Adel Frau
+1,Ritterin
+1,Freifrau
+1,Baroness
+1,Gräfin
+1,Herzogin
+1,Fürstin
+1,Prinzessin
+1,Königin
+1,Markgräfin
+1,Vicomtin
+1,Matrone
+1,Oberherrin
+1,Regentin
+1,Hetfrau
+1,Jarl
+1,Archonin
+1,Basilissa
+1,Nobellissima
+1,Potentatin
+1,Sebastokratorissa
+1,Sebaste
+
+;Adelige
+1,Ritter und Ritterinnen
+1,Freifrauen und Freiherren
+1,Barone und Baronesse
+1,Gräfinnen und Gräfe
+1,Herzoge und Herzoginnen
+1,Fürstinnen und Fürsten
+1,Prinzen und Prinzessinnen
+1,Königinnen und Königen
+1,Markgrafen und Markgräfinnen
+1,Vicomtinnen und Vicomtes
+1,Patriziern und Matronen
+1,Oberherren und Oberherrinnen
+1,Regenten und Regentinnen
+1,Hetmännern und Hetfrauen
+1,Jarls
+1,Archonen und Archoninnen
+1,Basileis und Basilissai
+1,Nobellisimi und Nobellissimae
+1,Potentaten und Potentatinnen
+1,Sebastokratoren und Sebastokratorissen
+1,Sebastoi und Sebastei
+
+;Dorf Name
+1,[capitalize Dorfname 1][Dorfname 2][Dorfname 3]
+20,[capitalize Dorfname 2][Dorfname 3]
+
+;Dorfdetail
+1, Dorf
+1,e Gemeinde
+1, Nest
+
+;Dorfname 1
+1,west
+1,ost
+1,norder
+1,süder
+1,wester
+1,oster
+1,nord
+1,süd
+1,ober
+1,unter
+1,nieder
+1,klein
+1,groß
+
+;Dorfname 2
+1,äbtissin
+1,aff
+1,ammel
+1,bau
+1,ber
+1,berge
+1,birt
+1,bock
+1,brau
+1,brück
+1,burg
+1,bütt
+1,dier
+1,dregg
+1,eil
+1,eisen
+1,en
+1,et
+1,ettel
+1,eulen
+1,falken
+1,feils
+1,fisch
+1,forst
+1,[Frauenname [Kultur 1]]s
+1,frede
+1,ge
+1,geck
+1,gersten
+1,gött
+1,gröd
+1,hamm
+1,haus
+1,heinzen
+1,herbst
+1,herz
+1,hill
+1,hö
+1,höft
+1,hohen
+1,hor
+1,hör
+1,husen
+1,hütt
+1,idel
+1,kaschen
+1,keppes
+1,kickes
+1,kinzen
+1,koll
+1,königs
+1,küh
+1,lauch
+1,leim
+1,lex
+1,lind
+1,mander
+1,[Männername [Kultur 1]]s
+1,wisch
+1,hamel
+1,mast
+1,matze
+1,mau
+1,merl
+1,mersch
+1,mus
+1,muxe
+1,nasing
+1,nitz
+1,ober
+1,pier
+1,pintes
+1,rad
+1,reh
+1,reiff
+1,reime
+1,ro
+1,ro
+1,röm
+1,sax
+1,scheid
+1,scheiten
+1,scheu
+1,schwarzen
+1,schwer
+1,senge
+1,seve
+1,solk
+1,strick
+1,toden
+1,ueß
+1,uppers
+1,usch
+1,wagen
+1,wald
+1,wall
+1,welschen
+1,wett
+1,wieden
+1,will
+1,win
+1,wit
+1,zweifel
+
+;Dorfname 3
+1,au
+9,bach
+3,berg
+1,born
+1,borstel
+2,burg
+1,dingen
+3,dorf
+1,e
+1,edra
+2,el
+3,en
+1,ern
+1,ers
+3,feld
+1,felde
+1,gaard
+1,gabe
+1,gert
+1,graben
+1,groven
+1,grund
+4,hausen
+2,koog
+1,hof
+1,horn
+1,in
+1,itz
+1,kopp
+1,korb
+4,ler
+2,lingen
+1,moor
+1,mühle
+1,münd
+1,ning
+1,nitz
+1,raden
+3,rath
+1,rich
+1,ringen
+1,rodt
+1,roth
+8,scheid
+1,stein
+1,sten
+1,sum
+1,tal
+1,vede
+3,weiler
+1,werscheid
+1,wisch
+1,witz
+1,wen
+1,wörden
+1,zen
+1,hafen
+7,
+
+;Frauenname griechisch
+1,Ariadne
+1,Xanthippe
+
+;Männername griechisch
+1,Sophokles
+1,Platon
+
+;Frauenname nordisch
+1,Alfbjörg
+1,Gundis
+
+;Männername nordisch
+1,Thorulf
+1,Hakan
+
+;Frauenname deutsch
+1,Käthe
+1,Emma
+
+;Männername deutsch
+1,Siegfried
+1,Hagen
+
+;Frauenname sumerisch
+1,Namimma
+1,Ergirtu
+
+;Männername sumerisch
+1,Iblal
+1,Mespit-Kum
+
+;Dorf Stimmung
+1,ängstliche
+1,arbeitsame
+1,zum Aufbruch bereite
+1,betriebsame
+1,bewegte
+1,böse
+1,dekadente
+1,brutale
+1,empathielose
+1,empathische
+1,familiäre
+1,hoffnungslose
+1,gelangweilte
+1,gelassene
+1,geschäftige
+1,unheimliche
+1,gute
+1,hedonistische
+1,hervorragende
+1,lustige
+1,nationalistische
+1,panische
+1,pflichterfüllte
+1,revolutionäre
+1,trauernde
+1,unzufriedene
+1,wohlwollende
+1,zielstrebige
+1,zufriedene
+
+;Dorf Bewohner
+1,Menschen
+1,Zwergen
+1,Elfen
+
+# --------------------
+;Merkwürdige Tropische Flachwasserwesen
+1,[name for a Merkwürdige Tropische Flachwasserwesen [1d6]]
+
+;name for a Merkwürdige Tropische Flachwasserwesen 1
+1,[Merkwürdige Tropische Flachwasserwesen Namen]
+;name for a Merkwürdige Tropische Flachwasserwesen 2
+1,[Merkwürdige Tropische Flachwasserwesen Namen]
+;name for a Merkwürdige Tropische Flachwasserwesen 3
+1,[Merkwürdige Tropische Flachwasserwesen Namen]
+;name for a Merkwürdige Tropische Flachwasserwesen 4
+1,[Merkwürdige Tropische Flachwasserwesen Namen]
+;name for a Merkwürdige Tropische Flachwasserwesen 5
+1,[Merkwürdige Tropische Flachwasserwesen Namen]
+;name for a Merkwürdige Tropische Flachwasserwesen 6
+1,[Merkwürdige Tropische Flachwasserwesen Namen]
+
+;Merkwürdige Tropische Flachwasserwesen Namen
+1,[Merkwürdige Tropische Flachwasserwesen Adjektiv] [capitalize Merkwürdige Tropische Flachwasserwesen Name 1][Merkwürdige Tropische Flachwasserwesen Name 2]
+
+;Merkwürdige Tropische Flachwasserwesen Adjektiv
+1,agile
+1,aktive
+1,allesfressende
+1,am Grund laufende
+1,amphibische
+1,auffällige
+1,außergewöhnliche
+1,behutsame
+1,bewegungslose
+1,bizzare
+1,blaugeringelte
+1,Blut riechende
+1,bodenbewohnende
+1,breite
+1,breitmäulige
+1,bunte
+1,dämmerungsaktive
+1,eigenartige
+1,eindrucksvolle
+1,einzelgängerische
+1,elegante
+1,empfindliche
+1,energische
+1,erstaunliche
+1,farbändernde
+1,farbenfrohe
+1,faule
+1,fleißige
+1,fransige
+1,freundliche
+1,friedliche
+1,furchtlose
+1,fusselige
+1,gebänderte
+1,gefrässige
+1,gefürchtete
+1,gesellige
+1,getarnte
+1,gewandte
+1,gewöhnliche
+1,giftige
+1,grabende
+1,großäugige
+1,große
+1,haarige
+1,harmlose
+1,hungrige
+1,intelligente
+1,interessante
+1,kleine
+1,knackende
+1,kommunizierende
+1,kränkliche
+1,laichende
+1,lange
+1,langsame
+1,lauernde
+1,leuchtende
+1,Luft atmende
+1,massige
+1,nachtaktive
+1,Nachts auftauchende
+1,ortsgebundene
+1,Parasiten fressende
+1,Plankton fressende
+1,quirlige
+1,räuberische
+1,Röhren bauende
+1,scheue
+1,schleimige
+1,schmale
+1,schnelle
+1,schwankende
+1,seitlich abgeflachte
+1,sesshafte
+1,stoische
+1,stressige
+1,strudelnde
+1,sympathische
+1,tarnfarbene
+1,tauchende
+1,territoriale
+1,träge
+1,treibende
+1,unauffällige
+1,undulierende
+1,unheimliche
+1,unsymetrische
+1,urtümliche
+1,verborgene
+1,verspielte
+1,vielflossige
+1,wandernde
+1,wimmelnde
+1,wohlschmeckende
+1,wühlende
+1,zahllose
+1,zappelige
+1,zutrauliche
+1,[Merkwürdige Tropische Flachwasserwesen Adjektiv], [Merkwürdige Tropische Flachwasserwesen Adjektiv]
+
+;Merkwürdige Tropische Flachwasserwesen Name 1
+1,adler
+1,bananen
+1,blau
+1,blumen
+1,borsten
+1,braun
+1,breitarm
+1,buckel
+1,clown
+1,doktor
+1,dornen
+1,drachen
+1,drücker
+1,einsiedler
+1,faden
+1,falter
+1,fang
+1,fels
+1,feuer
+1,gelbflossen
+1,geweih
+1,glas
+1,gorgonen
+1,haar
+1,hammer
+1,hand
+1,hirn
+1,horn
+1,ichthyo
+1,juwelen
+1,kaiser
+1,kamm
+1,kardinal
+1,karett
+1,katzen
+1,kegel
+1,kugel
+1,kurz
+1,lang
+1,langflossen
+1,leder
+1,leucht
+1,lipp
+1,loch
+1,löcher
+1,masken
+1,meer
+1,mosa
+1,mund
+1,nackt
+1,napf
+1,nasen
+1,nessel
+1,panzer
+1,papagei
+1,perl
+1,pfeilschwanz
+1,pinzett
+1,plesio
+1,pracht
+1,purpur
+1,riesen
+1,riff
+1,rippen
+1,rosa
+1,rot
+1,rücken
+1,ruder
+1,säge
+1,samt
+1,sand
+1,scheren
+1,schiffs
+1,schläfer
+1,schwarz
+1,schwimm
+1,see
+1,segelflossen
+1,spitzen
+1,stachel
+1,stech
+1,stein
+1,streifen
+1,suppen
+1,süß
+1,taschen
+1,teppich
+1,teufels
+1,tiger
+1,tupfen
+1,vasen
+1,warzen
+1,weich
+1,weiß
+1,wimpel
+1,wolfs
+1,zacken
+1,zitronen
+1,zwerg
+1,[Merkwürdige Tropische Flachwasserwesen Name 1][Merkwürdige Tropische Flachwasserwesen Name 1]
+
+;Merkwürdige Tropische Flachwasserwesen Name 2
+1,aale
+1,algen
+1,ammoniten
+1,anemonen
+1,asseln
+1,austern
+1,barben
+1,barrakudas
+1,barsche
+1,belemniten
+1,boote
+1,brassen
+1,chimären
+1,delphine
+1,echsen
+1,engel
+1,fische
+1,fledermäuse
+1,flosser
+1,füsiliere
+1,füßer
+1,garnelen
+1,groppen
+1,grundeln
+1,gurken
+1,hähne
+1,haie
+1,halter
+1,hasen
+1,häupter
+1,häuter
+1,hechte
+1,heringe
+1,hocker
+1,hüpfer
+1,hydren
+1,igel
+1,jungfrauen
+1,kalmare
+1,ketea
+1,kiemer
+1,köpfe
+1,korallen
+1,krabben
+1,kraken
+1,krebse
+1,krokodile
+1,kronen
+1,langusten
+1,leguane
+1,lilien
+1,makrelen
+1,manatis
+1,mantas
+1,mäuler
+1,mäuse
+1,medusen
+1,muränen
+1,muscheln
+1,nadeln
+1,nautilusse
+1,nereidchen
+1,nixen
+1,ohren
+1,oktopoi
+1,pferdchen
+1,placodermi
+1,pocken
+1,polypen
+1,quallen
+1,quastenflosser
+1,raupen
+1,robben
+1,rochen
+1,saurier
+1,schaler
+1,scheiden
+1,schildkröten
+1,schlangen
+1,schnapper
+1,schnecken
+1,schwämme
+1,sepias
+1,sirenen
+1,skorpione
+1,spinnen
+1,sterne
+1,tänzerinnen
+1,tiere
+1,tintenfische
+1,trilobiten
+1,tritönchen
+1,tümmler
+1,wächter
+1,wale
+1,walzen
+1,welse
+1,wespen
+1,würmer
 
 # --------------------
 
