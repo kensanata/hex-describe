@@ -115,22 +115,24 @@
 # --------------------;
 
 ;water
-1,[corals]
-1,[shallows]
+1,[See]
 
-;corals
-1,Hier zwischen den Ausläufern [name for reefs] leben [Merkwürdige Tropische Flachwasserwesen].
 
-;name for reefs
-1,des [Korallen Name Adjektiv] Riffs
-1,des [Korallen Name Adjektiv] Atolls
-1,der [Korallen Name Adjektiv] Untiefen
+;See
+1,Im ruhigen Wasser [name for lakes] leben [Merkwürdige Süßwasserwesen].
+1,In Ufernähe [name for lakes] findet man [Merkwürdige Süßwasserwesen]. 
+1,Im seichten Wasser am Ufer [name for lakes] tummeln sich [Merkwürdige Süßwasserwesen]. 
 
-; Korallen Name Adjektiv
-1,Wellenbrecher
-1,Barriere
-1,Insel
-1,Lagunen
+;name for lakes
+1,des [See Name Adjektiv]sees
+1,des [See Name Adjektiv]wassers
+1,des [See Name Adjektiv]teiches
+
+;See Name Adjektiv
+1,Schilf
+1,Dunkel
+1,Mond
+1,Kalt
 
 # --------------------;
 
@@ -806,24 +808,24 @@
 1,[Merkwürdige Tropische Flachwasserwesen Name 1][Merkwürdige Tropische Flachwasserwesen Name 1]
 
 ;Merkwürdige Tropische Flachwasserwesen Name 2
-1,aale
+1,aale[Normale Fischwerte]
 1,algen
 1,ammoniten
 1,anemonen
 1,asseln
 1,austern
 1,barben
-1,barrakudas
-1,barsche
+1,barrakudas[Normale Fischwerte]
+1,barsche[Normale Fischwerte]
 1,belemniten
-1,boote
+1,boote[Qualle Werte]
 1,brassen
 1,chimären
-1,delphine
+1,delphine[Normale Fischwerte]
 1,echsen
 1,engel
 1,fische
-1,fledermäuse
+1,fledermäuse[Normale Fischwerte]
 1,flosser
 1,füsiliere
 1,füßer
@@ -841,7 +843,7 @@
 1,heringe
 1,hocker
 1,hüpfer
-1,hydren
+1,hydren[Qualle Werte]
 1,igel
 1,jungfrauen
 1,kalmare
@@ -852,17 +854,17 @@
 1,krabben
 1,kraken
 1,krebse
-1,krokodile
+1,krokodile[Krokodil Werte]
 1,kronen
 1,langusten
 1,leguane
 1,lilien
-1,makrelen
+1,makrelen[Normale Fischwerte]
 1,manatis
-1,mantas
+1,mantas[Normale Fischwerte]
 1,mäuler
 1,mäuse
-1,medusen
+1,medusen[Qualle Werte]
 1,muränen
 1,muscheln
 1,nadeln
@@ -872,14 +874,14 @@
 1,ohren
 1,oktopoi
 1,pferdchen
-1,placodermi
+1,placodermi[Normale Fischwerte]
 1,pocken
-1,polypen
-1,quallen
-1,quastenflosser
+1,polypen[Qualle Werte]
+1,quallen[Qualle Werte]
+1,quastenflosser[Normale Fischwerte]
 1,raupen
 1,robben
-1,rochen
+1,rochen[Normale Fischwerte]
 1,saurier
 1,schaler
 1,scheiden
@@ -898,13 +900,337 @@
 1,tintenfische
 1,trilobiten
 1,tritönchen
-1,tümmler
+1,tümmler[Normale Fischwerte]
 1,wächter
 1,wale
 1,walzen
-1,welse
-1,wespen
+1,welse[Normale Fischwerte]
+1,wespen[Qualle Werte]
 1,würmer
+# --------------------
+;Merkwürdige Süßwasserwesen
+1,[name for a Merkwürdige Süßwasserwesen [1d6]]
+
+;name for a Merkwürdige Süßwasserwesen 1
+1,[Merkwürdige Süßwasserwesen Namen]
+;name for a Merkwürdige Süßwasserwesen 2
+1,[Merkwürdige Süßwasserwesen Namen]
+;name for a Merkwürdige Süßwasserwesen 3
+1,[Merkwürdige Süßwasserwesen Namen]
+;name for a Merkwürdige Süßwasserwesen 4
+1,[Merkwürdige Süßwasserwesen Namen]
+;name for a Merkwürdige Süßwasserwesen 5
+1,[Merkwürdige Süßwasserwesen Namen]
+;name for a Merkwürdige Süßwasserwesen 6
+1,[Merkwürdige Süßwasserwesen Namen]
+
+;Merkwürdige Süßwasserwesen Namen
+1,[Merkwürdige Süßwasserwesen Adjektiv] [capitalize Merkwürdige Süßwasserwesen Name 1][Merkwürdige Süßwasserwesen Name 2]
+
+;Merkwürdige Süßwasserwesen Adjektiv
+1,aggressive
+1,agile
+1,aktive
+1,algenbewachsene
+1,allesfressende
+1,amphibische
+1,auffällige
+1,außergewöhnliche
+1,behutsame
+1,bewegungslose
+1,bizzare
+1,blubernde
+1,bodenbewohnende
+1,breite
+1,breitmäulige
+1,dämmerungsaktive
+1,dornbewehrte
+1,dunkle
+1,eigenartige
+1,eindrucksvolle
+1,einzelgängerische
+1,elegante
+1,empfindliche
+1,energische
+1,entzückende
+1,erstaunliche
+1,faule
+1,fleißige
+1,freundliche
+1,friedliche
+1,furchtlose
+1,gebänderte
+1,gefleckte
+1,gefrässige
+1,gefürchtete
+1,gesellige
+1,gestreifte
+1,getarnte
+1,gewandte
+1,gewöhnliche
+1,grabende
+1,großäugige
+1,große
+1,harmlose
+1,helle
+1,hungrige
+1,intelligente
+1,interessante
+1,kleine
+1,kommunizierende
+1,kränkliche
+1,laichende
+1,lange
+1,langsame
+1,lauernde
+1,Luft/Wasser atmende
+1,massige
+1,nachtaktive
+1,nestbauende
+1,ortsgebundene
+1,plätschernde
+1,quakende
+1,quirlige
+1,räuberische
+1,robuste
+1,Röhren bauende
+1,scheue
+1,schleimige
+1,schmale
+1,schnelle
+1,schwankende
+1,sesshafte
+1,spuckende
+1,stachelige
+1,stoische
+1,stressige
+1,strudelnde
+1,sympathische
+1,tarnfarbene
+1,tauchende
+1,territoriale
+1,träge
+1,treibende
+1,unauffällige
+1,unheimliche
+1,urtümliche
+1,verborgene
+1,verspielte
+1,vielgestaltige
+1,walzenförmige
+1,wandernde
+1,wimmelnde
+1,winterschlafende
+1,wohlschmeckende
+1,wühlende
+1,zahllose
+1,zahnlose
+1,zappelige
+1,zutrauliche
+1,[Merkwürdige Süßwasserwesen Adjektiv], [Merkwürdige Süßwasserwesen Adjektiv]
+
+;Merkwürdige Süßwasserwesen Name 1
+1,Ähren
+1,Bach
+1,Band
+1,Bär
+1,Bauch
+1,Bauern
+1,Berg
+1,Bisam
+1,Bläß
+1,Blau
+1,Blut
+1,Brach
+1,Brunnen
+1,Buckel
+1,Büffel
+1,Bunt
+1,Dunkel
+1,Edel
+1,Eintags
+1,Faden
+1,Fels
+1,Feuer
+1,Finger
+1,Flach
+1,Floh
+1,Fluß
+1,Gelb
+1,Gelbrand
+1,Glanz
+1,Glatt
+1,Gold
+1,Gras
+1,Grau
+1,Grund
+1,Haken
+1,Hand
+1,Höcker
+1,Hunds
+1,Kamm
+1,Keil
+1,Kiefer
+1,Kies
+1,Kobold
+1,Köcher
+1,Kräusel
+1,Kriebel
+1,Krokodil
+1,Kronen
+1,Kurz
+1,Lang
+1,Mähnen
+1,Maler
+1,Marmor
+1,Moder
+1,Mosaik
+1,Mund
+1,Mützen
+1,Quell
+1,Regenbogen
+1,Ried
+1,Riesen
+1,Ringel
+1,Rippen
+1,Rohr
+1,Rot
+1,Rücken
+1,Sand
+1,Schild
+1,Schlamm
+1,Schleim
+1,Schlick
+1,Schnatter
+1,Schneider
+1,Schopf
+1,Schrei
+1,Schuppen
+1,Schuster
+1,Schwanz
+1,Schwarz
+1,Silber
+1,Sing
+1,Spiegel
+1,Stachel
+1,Stein
+1,Stelz
+1,Stock
+1,Süßwasser
+1,Teich
+1,Tiefen
+1,Tümpel
+1,Tüpfel
+1,Ufer
+1,Wander
+1,Wasser
+1,Weiß
+1,Woll
+1,Zahn
+1,Zuck
+1,Zwerg
+1,[Merkwürdige Süßwasserwesen Name 1][Merkwürdige Süßwasserwesen Name 1]
+
+;Merkwürdige Süßwasserwesen Name 2
+1,aale[Kleine Fischwerte]
+1,adler
+1,amöben
+1,amseln
+1,äschen[Kleine Fischwerte]
+1,asseln
+1,barben[Kleine Fischwerte]
+1,barsche[Normale Fischwerte]
+1,beißer
+1,biber
+1,bitterlinge[Normale Fischwerte]
+1,brassen
+1,döbel[Kleine Fischwerte]
+1,dommeln
+1,egel[Kleine Fischwerte]
+1,elritzen[Kleine Fischwerte]
+1,enten
+1,federn
+1,feen
+1,felchen[Kleine Fischwerte]
+1,fische[Kleine Fischwerte]
+1,fliegen
+1,flöhe
+1,forellen[Normale Fischwerte]
+1,frösche
+1,gänse
+1,geistchen
+1,groppen[Kleine Fischwerte]
+1,grundeln[Kleine Fischwerte]
+1,gründlinge[Kleine Fischwerte]
+1,güster[Kleine Fischwerte]
+1,hechte[Normale Fischwerte]
+1,huchen[Kleine Fischwerte]
+1,hühner
+1,jungfern
+1,käfer
+1,karauschen[Normale Fischwerte]
+1,karpfen[Normale Fischwerte]
+1,kärpflinge[Kleine Fischwerte]
+1,kormorane
+1,krabben
+1,krebschen
+1,krebse
+1,lachse[Normale Fischwerte]
+1,larven
+1,läufer
+1,libellen
+1,lieschen
+1,lurche
+1,männchen
+1,maränen[Kleine Fischwerte]
+1,milben
+1,molche
+1,mücken
+1,muscheln
+1,nasen[Kleine Fischwerte]
+1,nattern
+1,neunaugen[Kleine Fischwerte]
+1,nixen
+1,nymphchen
+1,otter
+1,peitzger[Kleine Fischwerte]
+1,plötzen[Kleine Fischwerte]
+1,quappen[Kleine Fischwerte]
+1,ratten
+1,reiher
+1,renken[Kleine Fischwerte]
+1,rotaugen[Kleine Fischwerte]
+1,säger
+1,saiblinge[Kleine Fischwerte]
+1,salamander
+1,salmler[Kleine Fischwerte]
+1,scharben
+1,schlangen
+1,schleien[Kleine Fischwerte]
+1,schmerlen[Kleine Fischwerte]
+1,schnecken
+1,schnepfen
+1,schwäne
+1,schwimmer[Kleine Fischwerte]
+1,sichler
+1,skorpione
+1,spinnen
+1,sterlets[Kleine Fischwerte]
+1,stichlinge[Kleine Fischwerte]
+1,stinte[Kleine Fischwerte]
+1,stögel[Kleine Fischwerte]
+1,störche
+1,störe[Normale Fischwerte]
+1,streber[Kleine Fischwerte]
+1,strömer[[Kleine Fischwerte]
+1,tierchen
+1,unken
+1,vögel
+1,wanzen
+1,welse[Normale Fischwerte]
+1,wesen
+1,würmer
+1,zander[Kleine Fischwerte]
 
 # --------------------
 
@@ -2538,6 +2864,12 @@
 
 # --------------------
 
+;Kleine Fischwerte
+100,
+10, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] RW: 18 GS: Schwimmen [2d6+3] ML: [2d4+1] EP: [Kleines EP])
+1,[Normale Werte]
+
+
 ;Kleine Werte
 100,
 10, (TW: [Kleine TP] RK: [Kleine Rüstung] S: [Kleiner Schaden] RW: 18 GS: [2d6+3] ML: [2d4+1] EP: [Kleines EP])
@@ -2594,6 +2926,11 @@
 4,Fels
 4,Stein
 
+;Normale Fischwerte
+10, (TW: [Normale TW] RK: [Normale RK] [Normaler FischA] RW: [Normaler RW] GS: Schwimmen [2d6+3] ML: [2d4+2] EP: [Normale EP])
+1,[Kleine Fischwerte]
+1,
+
 ;Normale Werte
 10, (TW: [Normale TW] RK: [Normale RK] [Normaler A] RW: [Normaler RW] GS: [2d6+3] ML: [2d4+2] EP: [Normale EP])
 1,[Kleine Werte]
@@ -2624,6 +2961,13 @@
 3,S: 1W4/1W4/1W6
 2,S: 1W6/1W6
 1,S: 1W10
+
+;Normaler FischA
+5,S: 1W4
+4,S: 1W6
+3,S: 1W8
+2,S: 1W10
+1,S: 1W12
 
 # Der Rettungswurf bezieht sich auf die Trefferwürfel
 ;Normaler RW
@@ -2707,6 +3051,11 @@
 ;Kuh Werte
 1, (TW: 4 RK: 7/12 S: 1W8 RW: 13 GS: 15 ML: 4 EP: 120 Bes: Zusätzlicher Sturmangriff +2 in der ersten Runde)
 
+;Qualle Werte
+1,
+1, (TW: 1W4 TP RK: 9/10 S: 1+Gift RW: 18 GS: Schwimmen 1 ML: [1d6+1] EP: 30 Bes: [Gift])
+1, (TW: 1 TP RK: 8/11 S: 1W3+Gift RW: 17 GS: Schwimmen [1d3] ML: [1d6+2] EP: 60 Bes: [Gift])
+
 ;Raubkatze Werte
 # löwe
 1, (TW: 5+2 RK: 6/13 S: 1W4/1W4/1W8 RW: 12 GS: 12 ML: 6 EP: 240)
@@ -2714,7 +3063,8 @@
 1, (TW: 2 RK: 7/12 S: 1W2/1W2/1W6 RW: 16 GS: 12 ML: 6 EP: 30)
 
 ;Schlange Werte
-1, (TW: 1W6 TP RK: 5/14 S: 1+Gift RW: 18 GS: 18 ML: 5 EP: 30 Bes: Tödliches Gift, +2 auf RW)
+1, (TW: 1W6 TP RK: 5/14 S: 1+Gift RW: 18 GS: 18 ML: 5 EP: 30 Bes: [Gift])
+1, (TW: 2 RK: 5/14 S: 1W2+Gift RW: 16 GS: 15 ML: 7 EP: 60 Bes: [Gift])
 
 ;Teufel Werte
 1,[Kleine Werte]
@@ -2729,5 +3079,37 @@
 1,[Kleine Werte]
 1, (TW 2 RK 7/12 S: 1W6 RW 18 GS 18 ML 5 EP 60 Bes: Doppelter Schaden mit Rammstoß, RW oder umgestoßen)
 
+;Gift
+1,Gift, Tödliches[Rettungswurf Gift][Onset Gift]
+1,Gift, 5 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 1W6 Phasen Schlaf[Rettungswurf Gift][Onset Gift]
+1,Gift, 10 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 1W6 Phasen Lähmung[Rettungswurf Gift][Onset Gift]
+1,Gift, 15 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 20 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 25 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 30 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 40 TP Schaden[Rettungswurf Gift][Onset Gift]
+1,Gift, 50 TP Schaden[Rettungswurf Gift][Onset Gift]
+
+;Rettungswurf Gift
+2,, RW mit +1 Bonus
+1,, RW mit +2 Bonus
+1,, RW mit +3 Bonus
+1,, RW mit +4 Bonus
+4,
+2,, RW mit -1 Malus
+1,, RW mit -2 Malus
+1,, RW mit -3 Malus
+1,, RW mit -4 Malus
+
+;Onset Gift
+5,
+1,, wirkt nach einer Runde
+1,, wirkt nach 1W4 Runden
+1,, wirkt nach 1W8 Runden
+1,, wirkt nach einer Phase
+1,, wirkt nach 1W4 Phasen
 # --------------------
+
 
