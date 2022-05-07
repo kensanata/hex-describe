@@ -2150,6 +2150,7 @@ sub describe_text {
     # recusion level 2 makes sure we don't reset %locals
     $text =~ s/\[(.*?)\]/describe({},$table_data,2,"no map",[$1],$redirects)/ge;
     push(@descriptions, process($text, $redirects));
+    %locals = (); # reset once per paragraph
   }
   return \@descriptions;
 }
