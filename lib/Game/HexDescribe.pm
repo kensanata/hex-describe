@@ -1259,8 +1259,13 @@ sub resolve_redirect {
   $url =~ s!^https://campaignwiki\.org/face!$face_generator_url! if app->mode eq 'development';
   $url =~ s!^https://campaignwiki\.org/text-mapper!$text_mapper_url! if app->mode eq 'development';
   my $ua = Mojo::UserAgent->new;
-  my $res = $ua->get($url)->result;
-  if ($res->code == 301 or $res->code == 302) {
+  my $res = eval { $ua->get($url)->result };
+  if (not $res) {
+    my $warning = $@;
+    chomp($warning);
+    $log->warn("connecting to $url: $warning");
+    return "";
+  } elsif ($res->code == 301 or $res->code == 302) {
     return Mojo::URL->new($res->headers->location)
 	->base(Mojo::URL->new($url))
 	->to_abs;
