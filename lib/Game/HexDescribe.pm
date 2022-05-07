@@ -2850,19 +2850,26 @@ doing quick and dirty prototyping: using a vertical line to separate options.
 % end
 
 <p>
-Note that two vertical lines separate are read like an "or". Use these for
-rules stuff like treasure, for example:
+Note that two vertical lines are read like an "either/or". The first part is
+evaluated and if nothing is returned, the second part is evaluated. Use this for
+rules stuff like treasure. In the following example, treasure is "either" some
+silver and gold "or" some copper (if there was no real treasure to be found).
 
 %= example begin
+;pirate treasure
+1,[[treasure]||Some copper coins]
+
 ;treasure
-1,[[50% gold]|you find some copper]
+1,[70% gold] [70% silver]
 
-# assuming you use this a lot and often want there to be no gold
-;50% gold
-1,you find some gold
-1,
+;70% gold
+7,[1d6],000 gp.
+3,
+
+;70% silver
+7,[1d6],000 sp.
+3,
 % end
-
 
 <p>
 You can also test for the presence of definitions:
