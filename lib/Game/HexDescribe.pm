@@ -2737,6 +2737,9 @@ brackets. So let’s specify how many ogres you will encounter:
 % end
 
 <p>
+Note that all these rules and table names are case sensitive!
+
+<p>
 Then again, it makes me sad when the generated text then says “1
 ogres”. It should say “1 ogre!” We can do that by creating a separate
 table for ogres. Separate tables come in square brackets, like dice
@@ -2782,6 +2785,9 @@ ogre to talk to?
 1,Much Pain
 1,Bone Crusher
 % end
+
+<p>
+Again, please note that all these rules and table names are case sensitive!
 
 <p>
 As you can see, these three tables can already generate a lot of
