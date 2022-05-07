@@ -2553,9 +2553,9 @@ These results are based on the <strong><%= $rule %></strong> table.
 </div>
 
 % if ($seed) {
+%   my $different_seed = int(rand(~0)); # maxint
 %   if ($rule) {
 %= form_for rule_markdown => (method => 'POST') => begin
-<p>
 %= submit_button 'Markdown', name => 'submit'
 %= hidden_field load => $load
 %= hidden_field rule => $rule
@@ -2564,15 +2564,31 @@ These results are based on the <strong><%= $rule %></strong> table.
 %= hidden_field n => $n
 %= hidden_field seed => $seed
 %= end
+%= form_for rule => (method => 'POST') => begin
+%= submit_button 'Regenerate', name => 'submit'
+%= hidden_field load => $load
+%= hidden_field rule => $rule
+%= hidden_field url => $url
+%= hidden_field table => $table
+%= hidden_field n => $n
+%= hidden_field seed => $different_seed
+%= end
 %   } elsif ($input) {
 %= form_for nomap_markdown => (method => 'POST') => begin
-<p>
 %= submit_button 'Markdown', name => 'submit'
 %= hidden_field input => $input
 %= hidden_field load => $load
 %= hidden_field url => $url
 %= hidden_field table => $table
 %= hidden_field seed => $seed
+%= end
+%= form_for describetext => (method => 'POST') => begin
+%= submit_button 'Regenerate', name => 'submit'
+%= hidden_field input => $input
+%= hidden_field load => $load
+%= hidden_field url => $url
+%= hidden_field table => $table
+%= hidden_field seed => $different_seed
 %= end
 %   } else {
 <p>
@@ -4231,6 +4247,9 @@ body {
 }
 .spell, .caster {
   color: inherit;
+}
+form {
+  display: inline;
 }
 textarea {
   width: 100%;
