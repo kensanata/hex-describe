@@ -1416,7 +1416,7 @@ sub describe {
     } elsif ($word =~ /^name for an? /) {
       # for global things like factions, dukes
       my $name = $names{$word};
-      # $log->debug("Memoized: $word is $name") if $name;
+      # $log->debug("memoized: $word is $name") if $name;
       return $name if $name;
       $name = pick($map_data, $table_data, $level, $coordinates, $words, $word, $redirects);
       next unless $name;
@@ -2145,9 +2145,8 @@ sub describe_text {
   my $table_data = shift;
   my $redirects = shift;
   my @descriptions;
+  init();
   for my $text (split(/\r?\n/, $input)) {
-    # $log->debug("replacing lookups in $text");
-    init();
     # recusion level 2 makes sure we don't reset %locals
     $text =~ s/\[(.*?)\]/describe({},$table_data,2,"no map",[$1],$redirects)/ge;
     push(@descriptions, process($text, $redirects));
