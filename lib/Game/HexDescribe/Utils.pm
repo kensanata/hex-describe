@@ -41,6 +41,7 @@ use Mojo::File;
 use List::Util qw(shuffle);
 use Array::Utils qw(intersect);
 use Encode qw(decode_utf8);
+use utf8;
 
 my $log = Game::HexDescribe::Log->get;
 

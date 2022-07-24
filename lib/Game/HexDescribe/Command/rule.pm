@@ -34,8 +34,11 @@ C<--help> prints the man page.
 C<--table> specifies the table to load. Without this option, print all the
 tables there are.
 
-C<--rule> specifies the rule to use. Without this option, print all all the
-rules there are.
+C<--rule> specifies the rule to use.
+
+C<--text> specifies the text to use (with rules in square brackets).
+
+Without C<--rule> or C<--text>, print all the rules there are.
 
 C<--limit> limits the output to a certain number of entries. The default is 10.
 
@@ -74,12 +77,13 @@ has usage => sub { my $self = shift; $self->extract_usage };
 
 sub run {
   my ($self, @args) = @_;
-  my ($help, $table, $rule, $limit, $separator);
+  my ($help, $table, $rule, $text, $limit, $separator);
   GetOptionsFromArray (
     \@args,
     "help" => \$help,
     "table=s" => \$table,
     "rule=s" => \$rule,
+    "text=s" => \$text,
     "limit=i" => \$limit,
     "separator=s" => \$separator);
   if ($help) {
@@ -94,12 +98,12 @@ sub run {
     say for list_tables($dir);
     return 1;
   }
-  if (not $rule) {
+  if (not $rule and not $text) {
     say for keys %{parse_table(load_table($table, $dir))};
     return 1;
   }
   my $data = parse_table(load_table($table, $dir));
-  my $text = "[$rule]\n" x ($limit || 10);
+  $text //= "[$rule]\n" x ($limit || 10);
   say join("\n", markdown(describe_text($text, $data), $separator));
   1;
 }
