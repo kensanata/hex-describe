@@ -31,8 +31,9 @@ Prints the random results of rules.
 
 C<--help> prints the man page.
 
-C<--table> specifies the table to load. Without this option, print all the
-tables there are.
+C<--table> specifies the table to load.
+
+Without C<--table>, print all the tables there are.
 
 C<--rule> specifies the rule to use.
 
