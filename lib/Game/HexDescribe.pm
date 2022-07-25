@@ -59,7 +59,7 @@ push @{app->commands->namespaces}, 'Game::HexDescribe::Command';
 
 As a Mojolicious application, it will read a config file called
 F<hex-describe.conf> in the same directory, if it exists. As the default log
-level is 'debug', one use of the config file is to change the log level using
+level is 'warn', one use of the config file is to change the log level using
 the C<loglevel> key, and if you're not running the server in a terminal, using
 the C<logfile> key to set a file.
 
@@ -82,7 +82,7 @@ anymore.
 
 plugin Config => {
   default => {
-    loglevel => 'debug',
+    loglevel => 'warn',
     logfile => undef,
     contrib => dist_dir('Game-HexDescribe'),
   },
