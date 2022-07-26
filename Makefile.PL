@@ -23,6 +23,7 @@ WriteMakefile(
     'List::MoreUtils' => 0,
     'Text::Autoformat' => 0,
     'File::ShareDir' => 0,
+    'Role::Tiny' => 0,
     'IO::Socket::SSL' => 0, # if text-mapper requires https
   },
   CONFIGURE_REQUIRES => {
