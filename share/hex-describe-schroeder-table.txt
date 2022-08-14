@@ -8779,7 +8779,7 @@
 1,[name for forest/forest-hill/trees/fir-forest/firs/swamp/swamp2]
 
 ;forest-hill
-1,One of the hills has an old lookout from which you can see most of the [forest name]. It is also [treant]’s favourite spot. The old **treant** loves to watch the sun set from here ([treant stats]). [maybe barrow]
+1,One of the hills has an old lookout from which you can see most of the [forest name]. It is also *[treant name]*’s favourite spot. The old **treant** loves to watch the sun set from here ([treant stats]). [maybe barrow]
 1,A steep hill rises from the forest and at its top stands an old statue of *[power]*, about 20ft tall. Who ever built this statue is long gone but the trail leading up to the statue looks well worn. [maybe barrow]
 1,Small creeks have dug deep [gorge]s into [forest name]. The going is tough. Some of the hidden valleys are very hard to reach. [giant apes] [small temple near giant apes]
 1,[forest name] covers a few hills here. [ogre hill]
@@ -13067,11 +13067,11 @@
 1,[animated tree stats] ML 6 XP 800; *surprise* on 1–3 in 6; *animate trees* two trees each, using the same stats
 
 ;1d8 treants
-1,the **treant** called [treant]
-7,[1d7+1] **treants** led by [treant]
+1,the **treant** called *[treant name]*
+7,[1d7+1] **treants** led by *[treant name]*
 
-;treant
-1,*[treant 1] [treant 2]*
+;treant name
+1,[treant 1] [treant 2]
 
 ;treant 1
 1,Old
@@ -40457,7 +40457,7 @@
 ;elven inscription
 2,elven runes naming its maker: *[elf name as owner]*.
 2,elven runes naming its owner: *[elf name as owner]*.
-1,elven runes in memory of *[treant as owner]*.
+1,elven runes in memory of *[treant name as owner]*.
 1,elven runes commemorating the slaying of the green dragon *[green dragon name as owner]*.
 
 ;animal shape
