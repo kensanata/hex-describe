@@ -17234,7 +17234,7 @@
 
 ;agrimach 5
 1,<a class="spell" href="#raise-dead">raise dead</a>
-1,<a class="spell" href="#cloud-kill">cloud kill</a>
+1,<a class="spell" href="#cloudkill">cloud kill</a>
 
 ;asphyx
 1,*The Book of the Mountain Witch* by <a class="caster" href="https://alexschroeder.ch/pdfs/spellcasters/Asphyx.pdf">Asphyx</a> the Aeromancer
@@ -17733,7 +17733,6 @@
 
 ;zorkan 2
 1,<a class="spell" href="#speak-with-stones">speak with stones</a>
-1,<a class="spell" href="#throw-a-rock">throw a rock</a>
 1,<a class="spell" href="#golem-craft">golem craft</a>
 1,<a class="spell" href="#raise-stone">raise stone</a>
 
