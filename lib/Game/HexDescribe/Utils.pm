@@ -74,6 +74,7 @@ sub load_table {
   $log->debug("Looking for table '$name' in the contrib directory '$dir'");
   my $file = Mojo::File->new("$dir/hex-describe-$name-table.txt");
   return decode_utf8($file->slurp) if -e $file;
+  return '';
 }
 
 =item load_map($name, $dir)
