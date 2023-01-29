@@ -1177,7 +1177,7 @@ These results are based on the <strong><%= $rule %></strong> table.
 </div>
 
 % if ($seed) {
-%   my $different_seed = int(rand(~0)); # maxint
+%   my $different_seed = int(rand(1000000000));
 %   if ($rule) {
 %= form_for rule_markdown => (method => 'POST') => begin
 %= submit_button 'Markdown', name => 'submit'
