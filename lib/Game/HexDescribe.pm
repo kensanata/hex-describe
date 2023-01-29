@@ -1525,18 +1525,22 @@ You can also test for the absence of definitions:
 1,Berta
 % end
 
-<p> An expression consisting solely of the characters - + * / % < > = ( ) and
-0–9 is resolved like a mathematical expression.
+<p>An expression consisting solely of the characters - + * / % < > = ( ) and 0–9
+is resolved like a mathematical expression. In the following example, population
+is a number 100–1000 and the chance of them organising a militia is proportional
+to that number. So we compare a d1000 roll to the same population number. The
+result is either 1 (true) or undefined (false). This allows us to return an
+appropriate description.
 
 %= example begin
 ;village
-1,This village of [population] people [has-militia][militia]
+1,This village of [population] people [organised][militia]
 
 ;population
 1,[1d10x100]
 
-;has-militia
-1,[store [[1d1000]<[same population]] as organised]
+;organised
+1,[[1d1000]<[same population]]
 
 ;militia
 1,[organised?||has a militia][!organised||has not managed to organise a militia]
