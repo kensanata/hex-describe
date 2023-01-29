@@ -119,7 +119,7 @@ Would be:
 =cut
 
 my $dice_re = qr/^(save )?(?:(\d+)d(\d+)(?:x(\d+))?(?:([+-]\d+))?(?:>=(-?\d+))?(?:<=(-?\d+))?|(\d+))(?: as (.+))?$/;
-my $math_re = qr/^(save )?([-+*\/%()0-9]+)(?: as (.+))?$/;
+my $math_re = qr/^(save )?([-+*\/%<>=()0-9]+)(?: as (.+))?$/;
 
 sub parse_table {
   my $text = shift;

@@ -1525,6 +1525,23 @@ You can also test for the absence of definitions:
 1,Berta
 % end
 
+<p> An expression consisting solely of the characters - + * / % < > = ( ) and
+0–9 is resolved like a mathematical expression.
+
+%= example begin
+;village
+1,This village of [population] people [has-militia][militia]
+
+;population
+1,[1d10x100]
+
+;has-militia
+1,[store [[1d1000]<[same population]] as organised]
+
+;militia
+1,[organised?||has a militia][!organised||has not managed to organise a militia]
+% end
+
 <p>
 And now you just keep adding. Take a look at the <%= link_to 'Schroeder table'
 => 'schroedertable' %> if you want to see more examples. You might be better off
