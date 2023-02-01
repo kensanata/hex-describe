@@ -235,10 +235,11 @@ get '/stats/random/alpine' => sub {
 
 This is where the actual map is described.
 
-B<map> is the map, B<url> is the URL to an external table, B<table> is the text
-of the table, and a table will be loaded based on the B<load> parameter. Current
-valid values are I<seckler>, I<strom>, I<schroeder>, I<johnston>, and
-I<traveller>.
+B<map> is the map, B<url> is the URL to an external table. B<table> is the text
+of the table. B<load> determines the table to load. Current valid values are
+I<seckler>, I<strom>, I<schroeder>, I<johnston>, and I<traveller>. B<markdown>
+returns Markdown and no map. B<faces> determines whether images are kept in the
+HTML output. B<show> determines whether the map is kept in the HTML output.
 
 If we want to call this from the command line, we will need to request a map
 from Text Mapper, too.
@@ -256,6 +257,7 @@ any '/describe' => sub {
   my $labels = $c->param('labels');
   my $markdown = $c->param('markdown');
   my $faces = $c->param('faces');
+  my $show = $c->param('show');
   my $table = get_table($c);
   init();
   my $descriptions = describe_map(parse_map($map), parse_table($table), $faces);
@@ -269,11 +271,16 @@ any '/describe' => sub {
     }
     push(@$texts, $end) if $end;
     $c->render(text => markdown($texts), format => 'txt');
-  } else {
+  } elsif ($show) {
     $map = add_labels($map) if $labels;
     my $svg = get_post_data($text_mapper_url . '/render', map => $map);
     $c->render(template => 'description',
 	       svg => add_links($svg),
+	       descriptions => $descriptions);
+  } else {
+    $map = add_labels($map) if $labels;
+    $c->render(template => 'description',
+	       svg => '',
 	       descriptions => $descriptions);
   }
 };
@@ -865,6 +872,10 @@ Create Markdown instead of HTML output.
 <label>
 %= check_box 'faces' => 1, checked => 1
 Include images (faces, dungeon maps) in the HTML output (slow)
+</label><br>
+<label>
+%= check_box 'show' => 1, checked => 1
+Include map in the HTML output (slow)
 </label>
 
 <p>
