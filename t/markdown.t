@@ -1,4 +1,4 @@
-# Copyright (C) 2021–2022  Alex Schroeder <alex@gnu.org>
+# Copyright (C) 2023  Alex Schroeder <alex@gnu.org>
 
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU Affero General Public License as published by the Free
@@ -22,26 +22,9 @@ use utf8;
 $ENV{HEX_DESCRIBE_OFFLINE} = 1;
 my $t = Test::Mojo->new('Game::HexDescribe');
 
-$t->get_ok('/')
+$t->post_ok('/describe' => form => {map => "0101 water\n", markdown => "on", load => "schroeder"})
     ->status_is(200)
-    ->text_is('h1' => 'Hex Describe')
-    ->text_like('textarea[name=map]' => qr/^0101 dark-green trees village$/m);
-
-$t->get_ok('/rules')
-    ->status_is(200)
-    ->text_is('h1' => 'Hex Describe (rules)')
-    ->element_exists('input[value="schroeder"]')
-    ->text_like('input + a' => qr/Alex Schroeder/m);
-
-$t->get_ok('/rules/list?load=schroeder')
-    ->status_is(200)
-    ->text_is('h1' => 'Hex Describe (list of rules)')
-    ->content_like(qr/>orcs</);
-
-$t->get_ok('/rule?rule=orcs&load=schroeder')
-    ->status_is(200)
-    ->text_is('h1' => 'Hex Descriptions (no map)')
-    ->text_is('p a' => 'orcs')
-    ->text_is('div.description p strong' => 'orcs');
+    ->content_like(qr/^\*\*Procedures\*\*: /) # first line
+    ->content_like(qr/^\*\*0101\*\*: /m);
 
 done_testing;

@@ -46,7 +46,7 @@ use Mojo::UserAgent;
 use Mojo::Util qw(html_unescape);
 use Mojo::ByteStream;
 use Game::HexDescribe::Utils qw(init describe_text parse_table load_table
-				describe_map parse_map load_map);
+				describe_map parse_map load_map markdown);
 use Game::HexDescribe::Log;
 use Encode qw(decode_utf8);
 use File::ShareDir qw(dist_dir);
