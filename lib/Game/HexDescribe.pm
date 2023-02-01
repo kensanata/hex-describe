@@ -905,7 +905,7 @@ What random tables should be used to generate the descriptions?
 none (only use the data provided below)
 
 <p>
-If you have your own tables somewhere public (a pastebin, a public file at a
+If you have your own tables somewhere public (a pastebin, github raw text, a public file at a
 file hosting service), you can provide the URL to your tables right here:
 
 <p>
