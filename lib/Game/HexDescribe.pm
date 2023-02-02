@@ -2501,7 +2501,7 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 
 <p>
 Sometimes you want to establish some sort of fact and access it from everywhere.
-This can be achieved by <a href="#naming_things">naming things</a>. But but you
+This can be achieved by <a href="#naming_things">naming things</a>. But you
 could also do it using the rules mentioned previously: "save", "store", "quote"
 and regular lookups, if you use the "global" modifier.
 
