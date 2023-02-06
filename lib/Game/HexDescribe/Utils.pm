@@ -605,7 +605,7 @@ sub describe {
   $log->error("Recursion level $level exceeds 20 in $coordinates (@$words)!") if $level > 20;
   return '' if $level > 20;
   if ($level == 1) {
-    %locals = (); # reset once per paragraph
+    %locals = (hex => $coordinates); # reset once per paragraph
     for my $word (@$words) {
       if ($word =~ /^([a-z]+)="(.*)"/ or
 	  $word =~ /(.*)-(\d+)$/) {
