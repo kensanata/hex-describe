@@ -16,4 +16,5 @@ share/hex-describe-seckler-table.txt
 share/hex-describe-strom-table.txt
 share/hex-describe-traveller-table.txt
 t/basic.t
+t/markdown.t
 t/rule.t

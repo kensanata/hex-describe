@@ -38,7 +38,7 @@ See L<Mojolicious::Guides> for more information.
 
 package Game::HexDescribe;
 
-our $VERSION = 1.02;
+our $VERSION = 1.03;
 
 use Modern::Perl;
 use Mojolicious::Lite;
@@ -819,7 +819,7 @@ Start the app at the very end. The rest is templates for the various web pages.
 
 =cut
 
-app->start;
+app->start || 1;
 
 __DATA__
 @@ edit.html.ep
