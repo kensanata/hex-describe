@@ -1827,6 +1827,11 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,cryo-hydra
 % end
 
+<p>
+In addition to that, the "hex" key with the current coordinates is always
+available as a local. <code>[same hex]</code> returns something like "0101".
+</p>
+
 <h2 id="alias">Alias: as</h2>
 
 <p>
