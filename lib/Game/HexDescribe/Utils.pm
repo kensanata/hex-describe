@@ -203,7 +203,7 @@ name.
 Note that for C</describe/text>, C<init> is called for every paragraph.
 
 B<%locals> is a hash of all the "normal" table lookups encountered so far. It is
-is reset for every paragraph. To refer to a previous result, start a reference
+reset for every paragraph. To refer to a previous result, start a reference
 with the word "same". This doesn't work for references to adjacent hexes, dice
 rolls, or names. Here's an example:
 
