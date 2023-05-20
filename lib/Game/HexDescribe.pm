@@ -122,6 +122,30 @@ $log->debug("Face Generator URL: $Game::HexDescribe::Util::face_generator_url");
 As this is a web app, the URLs you can call are basically the API it exposes.
 Each URL can accept either I<get> or I<post> requests, or I<any>.
 
+The config file key C<under> can be used to host the entire application on a
+specific path. Example C<hex-describe.conf> file:
+
+    {
+      loglevel => 'debug',
+      logfile => undef,
+      contrib => 'share',
+      text_mapper_url => 'http://localhost:3010',
+      face_generator_url => 'http://localhost:3020',
+      under => 'hex-describe',
+    };
+
+Command line to start it:
+
+    morbo --mode development --listen http://*:3000 script/hex-describe
+
+The result is that Hex Describe is now available via
+C<http://localhost:3000/hex-describe>.
+
+=cut
+
+my $under = app->config('under');
+under $under if $under;
+
 =over 4
 
 =item get /
