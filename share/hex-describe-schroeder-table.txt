@@ -3348,7 +3348,7 @@
 
 ;temple of Set
 1,[here store Set as temple power][here store temple of [same temple power]]Once past the entrance, a tunnel winds itself up into the hollow sphere of the snake sanctum: the upper hemisphere is decorated with [with Set decoration] and [and Set decoration]. Above hangs a chandelier about 50ft wide beset with a thousand stones glowing in a warm light. It’s impossibly hot in here.<p>Ramps connect rows and rows of circular platforms leading down the lower hemisphere to the bottom of the sphere. One these platforms are the huts of [temple servants]<p>At the very bottom of the sphere is a ramp descending into the darkness below.
-1,[here store Set as temple power][here store temple of [same temple power]]Inside, the central temple contains four bronze snake statues oriented towards the cardinal directions. Large red candles at the base of each statute give a flickering and smoky light. Each statute has a different colored gem set in its forehead (500gp each). The north wall contains a giant mural of [with Set decoration] and the floor is decorated with a mosaic of [and Set decoration].<p> Under the mural, a passage leads further north, past the quarters of [temple servants]<p>At the end of the hallway, stairs lead upwards.
+1,[here store Set as temple power][here store temple of [same temple power]]Inside, the central temple contains four bronze snake statues oriented towards the cardinal directions. Large red candles at the base of each statue give a flickering and smoky light. Each statue has a different colored gem set in its forehead (500gp each). The north wall contains a giant mural of [with Set decoration] and the floor is decorated with a mosaic of [and Set decoration].<p> Under the mural, a passage leads further north, past the quarters of [temple servants]<p>At the end of the hallway, stairs lead upwards.
 1,[here store Set as temple power][here store temple of [same temple power]]The air inside the temple is surprisingly warm and damp. Lush green plants scramble over stairs and wrap around pools of steaming water. Hidden in the greenery, humans with patches of iridescent scales on their skin observe and wait, for now. [snake people]
 
 ;temple servants
@@ -17148,7 +17148,7 @@
 1,*[human name]* the [town’s fool|lazy bum|smart ass|know it all|poet|philosopher|lovelorn|lonely|misanthrope]
 
 ;large-town
-1,This is [here village name], a large town of [10d6x100] **humans** ([human stats]). [town protection] [rich treasure]<p>The [human leader] lives in a [formidable|dilapidated|stern|well kept] castle. [spellbook for [same class]] [leader treasure for [same class]][patron plot hook]<p>[human retainer]<p>[law and order jobs]<p>[And two secret societies feuding]<p>[temples]<p>There is also [town feature]<p>[settlement event]
+1,This is [here village name], a large town of [10d6x100] **humans** ([human stats]). [town protection] [rich treasure]<p>[human ruler] lives in a [formidable|dilapidated|stern|well kept] castle. [spellbook for [same class]] [leader treasure for [same class]][patron plot hook]<p>[human retainer]<p>[law and order jobs]<p>[And two secret societies feuding]<p>[temples]<p>There is also [town feature]<p>[settlement event]
 
 ;town protection
 1,The town is surrounded by a [sturdy|massive|dilapidated] wall.
@@ -19337,6 +19337,249 @@
 1,Winter
 1,World
 1,Wyrm
+
+;human ruler
+1,[man ruler]
+1,[woman ruler]
+
+;man ruler
+1,[ruler title 1 man] [ruler title 2] [ruler title 3] [ruler title 4] [ruler title 5 man] [man with portrait], [ruler title 6] [ruler title 7] [same village name], **[human class]** (level [1d2+8 as level])[here store [same human name] as human patron]
+
+;woman ruler
+1,[ruler title 1 woman] [ruler title 2] [ruler title 3] [ruler title 4] [ruler title 5 woman] [woman with portrait], [ruler title 6] [ruler title 7] [same village name], **[human class]** (level [1d2+8 as level])[here store [same human name] as human patron]
+
+;ruler title 1 man
+1,The Lord Protector
+1,Marshall
+1,General
+1,Admiral
+1,Viceroy
+1,Chancellor
+1,Lord Mayor
+1,Chamberlain
+1,Captain
+1,Governor
+1,Captain General
+1,Guildmaster
+
+;ruler title 1 woman
+1,The Lady Protector
+1,Marshall
+1,General
+1,Admiral
+1,Viceroy
+1,Chancellor
+1,Lady Mayor
+1,Chamberlain
+1,Captain
+1,Governor
+1,Captain Genera
+1,Guildmistress
+
+;ruler title 2
+1,His
+1,His Most
+1,His All
+1,ever
+1,All
+1,
+
+;ruler title 3
+1,Distinguished
+1,Peeress
+1,Sage
+1,Matchless
+1,Puissant
+1,Incomparable
+1,Omnipotent
+1,Devout
+1,Excellent
+1,Reknown
+1,Supreme
+1,August
+1,Eminent
+1,Heroic
+1,Glorious
+1,Exalted
+1,Illustious
+1,Marvelous
+1,Majestic
+1,Miraculous
+1,Sublime
+1,Wondrous
+1,Brilliant
+1,Stupendous
+1,Radiant
+1,Amazing
+1,Grand
+1,Astonishing
+1,Splendid
+1,Chivalrous
+1,Munificent
+1,Just
+1,Magnificent
+1,Resolute
+1,Noble
+1,Triumphant
+1,Superior
+
+;ruler title 4
+1,Illustriousness
+1,Honour
+1,Immensity
+1,Munificence
+1,Sagacity
+1,Magnificence
+1,Puissance
+1,Highness
+1,Omnipotence
+1,Piety
+1,Potency
+1,Lordship
+1,Greatness
+1,Excellence
+1,Supremacy
+1,Eminence
+1,Majesty
+1,Sublimity
+1,Brilliancy
+1,Radiance
+1,Primacy
+1,Grandeur
+1,Splendour
+1,Sufficiency
+1,Grace
+
+;ruler title 5 man
+1,The Crown Prince
+1,King
+1,Prince
+1,Duke
+1,Archduke
+1,Marquis
+1,Grand Duke
+1,Earl
+1,Count
+1,Viscount
+1,Baron
+1,Baronet
+1,Sir
+1,Emperor
+1,Lord
+
+;ruler title 5 woman
+1,The Crown Princess
+1,Queen
+1,Princess
+1,Duchess
+1,Archduchess
+1,Marquess
+1,Grand Duchess
+1,Countess
+1,Viscountess
+1,Baroness
+1,Lady
+1,Madam
+1,Empress
+
+;ruler title 6
+1,The Incomparable
+1,Heroic
+1,Clever
+1,Determined
+1,Distinguished
+1,Elite
+1,Shrew
+1,Relentless
+1,Superior
+1,Superlative
+1,Powerful
+1,Triumphant
+1,Greater
+1,Exalted
+1,Irresistible
+1,Usurper
+1,Peerless
+1,Grave
+1,Matchless
+1,Honorable
+1,Invulnerable
+1,Devout
+1,Unsurpassed
+1,Bloodletter
+1,Silent
+1,Marvellous
+1,Strangler
+1,Loyal
+1,Miraculous
+1,Poisoner
+1,Insurgent
+1,Wondrous
+1,Deadly
+1,Reknown
+1,Mysterious
+1,Crusader
+1,Glorious
+1,Stupendous
+1,Belligerent
+1,Illustrious
+1,Amazing
+1,Chivalrous
+1,Honorable
+1,Astounding
+1,Splendid
+1,Colossal
+1,Contentious
+1,Brilliant
+1,Adroit
+1,Perverse
+1,Proud
+1,Adept
+1,Unyielding
+1,August
+1,Deft
+1,Resolute
+1,Invincible
+1,Terrible
+1,Just
+
+;ruler title 7
+1,Protector of
+1,Lord of
+1,Slaughterer of
+1,Killer of
+1,Slayer of
+1,Peer of
+1,Victor over
+1,Light of
+1,Strength of
+1,Destroyer of
+1,Subduer of
+1,Murderer of
+1,Subjugator of
+1,Vanquisher of
+1,Commander of
+1,Enslaver of
+1,Queller of
+1,Hero of
+1,Silencer of
+1,Lion of
+1,Dispatcher of
+1,Keeper of
+1,Butcher of
+1,Guardian of
+1,Decimator of
+1,Scourge of
+1,Immolator of
+1,Terror of
+1,Fighter of
+1,Horror of
+1,Champion of
+1,Sword of
+1,Master of
+1,Hammer of
+1,Dominator of
+1,Scythe of
 
 # there is but a single organisation of dark elves
 ;name for a clan of the netherworld elves
