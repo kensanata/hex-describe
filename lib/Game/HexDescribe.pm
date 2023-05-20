@@ -111,13 +111,11 @@ Mapper.
 =cut
 
 my $text_mapper_url = app->config('text_mapper_url') || 'https://campaignwiki.org/text-mapper';
+$Game::HexDescribe::Util::text_mapper_url = $text_mapper_url;
 $log->debug("Text Mapper URL: $text_mapper_url");
 
 $Game::HexDescribe::Util::face_generator_url = app->config('face_generator_url') || 'https://campaignwiki.org/face';
 $log->debug("Face Generator URL: $Game::HexDescribe::Util::face_generator_url");
-
-$Game::HexDescribe::Util::text_mapper_url = app->config('text_mapper_url') || 'https://campaignwiki.org/text-mapper';
-$log->debug("Text Mapper URL: $Game::HexDescribe::Util::text_mapper_url");
 
 =head2 Entry Points
 
