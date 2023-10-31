@@ -6247,7 +6247,7 @@
 1,You enter a cave with that smells of stomach acid and wet dog. The air is warm and the sound of breathing surrounds you. This is the home of the **three-headed giant hell hound** *[cerberus name]* ([cerberus stats]). [terror treasure]
 1,The tunnels start branching off in all directions and the heat grows more intense. Some of these passages glowing red hot. These are the hunting grounds of [2d4] *hell hounds* led by *[hell hound name]* ([hell hound stats]).
 1,The air grows hotter, a red glow fills the tunnel, and finally it opens into a cavern filled with a lava lake inhabited by [2d4] **salamanders** led by *[salamander name]* ([salamander stats]). [terror treasure]
-1,The tunnel opens up into a cavern 100ft across and at the far end, the exit is guarded by a **pyrohydra** ([pyrohydra stats]).
+1,The tunnel opens up into a cavern 100ft across and at the far end, the exit is guarded by a **pyrohydra** ([pyrohydra stats]). [terror treasure]
 1,The tunnel leads up to a great iron gate. This is the upper gate of the dwarven forge *[here dwarf forge]*. [5d8] **dwarves** live and work here ([dwarf stats]) led by [dwarf with portrait] (level [1d6+2 as level]). [luxurious context] [dwarven treasure] From the lower gate, the tunnel continues towards Muspelheim.
 1,The tunnel opens up into a huge vertical shaft, disappearing into darkness above and ending in a bubbling lava lake at the bottom. Narrow stairs lead down to the lake. This is the home of the **red dragon** *[here red dragon name as dragon name]*[dragon portrait] ([red dragon stats])[store dragon as treasure type] A path continues along the lava lake and leads to the next tunnel entrance.
 
