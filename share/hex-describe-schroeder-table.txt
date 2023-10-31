@@ -40621,6 +40621,7 @@
 1,A pair of *gloves of strength* (strength 18).
 1,A *ring of invisibility* which turns you invisible until you attempt to harm somebody.
 1,A *ring of the bully* which allows you to shove anybody and anything within 60ft, and if this puts your victim in harm’s way then they must save vs. death or suffer the consequence.
+1,A *ring of seeing* which allows you to send your gaze out over the land and see anybody who mentions your name and what they’re looking at within 60ft; they feel your eye fall on them may save vs. spells to avoid being seein. For this to work both you and the target must be able to see the sky.
 1,A *helmet of the bull*, grants an extra attack when charging into a fight: on a hit, an opponent no larger than yourself is thrown to the ground such that your allies get a +4 to attack them.
 1,The *helmet of the dark lord* with smoke and red light dripping out of its visor grants the ability to tell when others within 10ft are lying.
 1,The *gloves of the dark lord* allows you to lift anybody no larger than yourself and strangle them: they must save vs. spells or be held and suffer 1d6 damage.
