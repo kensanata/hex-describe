@@ -38,7 +38,7 @@ use Game::HexDescribe::Log;
 use Modern::Perl;
 use Mojo::URL;
 use Mojo::File;
-use List::Util qw(shuffle);
+use List::Util qw(shuffle sum);
 use Array::Utils qw(intersect);
 use Encode qw(decode_utf8);
 use utf8;
@@ -1444,7 +1444,12 @@ sub markdown_lists {
   for (split(/(<.*?>)/)) {
     if (/^<ol.*>$/) { unshift(@list, '1.'); $str .= "\n" }
     elsif (/^<ul.*>$/) { unshift(@list, '*'); $str .= "\n" }
-    elsif (/^<li>$/) { $str .= " " x (4 * @list) . $list[0] . " " }
+    elsif (/^<li>$/) {
+      $str .= (@list > 1
+               # all the list markers except for the current one
+               ? (" " x (sum map { length($_) + 1 } @list[1..$#list]))
+               : "")
+          . $list[0] . " " }
     elsif (/^<\/(ol|ul)>$/) { shift(@list) }
     elsif (/^<\/li>$/) { $str .= "\n" unless $str =~ /\n$/ }
     else { $str .= $_ }
