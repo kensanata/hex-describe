@@ -59,6 +59,10 @@ check:
 # 3020, start Hex Describe on port 3000.
 run:
 	morbo --mode development --listen http://*:3000 script/hex-describe
+
+upload:
+	ssh sibirocobombus make hex-describe
+	ssh sibirocobombus.root systemctl restart hex-describe
 EOT
   return join "\n", @ret;
 }
