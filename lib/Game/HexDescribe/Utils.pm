@@ -748,15 +748,8 @@ sub describe {
       return $locals{$key}->[0] if exists $locals{$key} and ref($locals{$key}) eq 'ARRAY';
       return $locals{$key} if exists $locals{$key};
       return $globals->{$key}->{global} if $globals->{$key} and $globals->{$key}->{global};
-      $log->warn("[same $key] is undefined for $coordinates, attempt picking a new one");
-      my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
-      if ($text) {
-	$locals{$key} = $text;
-	push(@descriptions, $text . "*");
-      } else {
-	$log->error("[$key] is undefined for $coordinates");
-	push(@descriptions, "…");
-      }
+      $log->warn("[same $key] is undefined for $coordinates");
+      push(@descriptions, "…");
     } elsif ($word =~ /^(?:(here|global) )?with (.+?)(?: as (.+))?$/) {
       my ($where, $key, $alias) = ($1, $2, $3);
       my $text = pick($map_data, $table_data, $level, $coordinates, $words, $key, $redirects);
