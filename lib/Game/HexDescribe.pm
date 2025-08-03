@@ -2510,7 +2510,7 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 1,The inn houses a pilgrim looking for the temple of *[other temple]*.
 % end
 
-<h2 id="here">Reuse: here, same, and nearby</h2>
+<h2 id="here">Reuse: here, same, closest and nearby</h2>
 
 <p>
 We said that if a references starts with the word "here" then the result of the
@@ -2555,6 +2555,9 @@ include https://campaignwiki.org/contrib/gnomeyland.txt
 ;village
 1,The village alchemist is looking for the horn of a [nearby ice monster].
 % end
+
+The difference between "closest" and "nearby" is that "nearby" excludes the
+current hex whereas "closest" does not.
 
 <h2 id="global">Global values</h2>
 

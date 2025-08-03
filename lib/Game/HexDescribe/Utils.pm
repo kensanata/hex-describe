@@ -167,7 +167,7 @@ sub parse_table {
 	next if $subtable =~ /^(?:capitalize|titlecase|highlightcase|normalize-elvish) (.*)/ and $data->{$1};
 	next if $subtable =~ /^adjacent hex$/; # experimental
 	next if $subtable =~ /^same (.*)/ and ($data->{$1} or $aliases{$1} or $1 eq 'adjacent hex');
-	next if $subtable =~ /^(?:here|nearby|other|append|later|with|and|save|store) (.+?)( as (.+))?$/ and $data->{$1};
+	next if $subtable =~ /^(?:here|nearby|closest|other|append|later|with|and|save|store) (.+?)( as (.+))?$/ and $data->{$1};
 	$subtable = $1 if $subtable =~ /^(.+) as (.+)/;
 	$log->error("Error in table $table: subtable $subtable is missing")
 	    unless $data->{$subtable};
@@ -734,7 +734,7 @@ sub describe {
       my $location = $coordinates eq 'no map' ? 'somewhere' : one(neighbours($map_data, $coordinates));
       $locals{$word} = $location;
       return $location;
-    } elsif ($word =~ /^(?:nearby|other|later) ./) {
+    } elsif ($word =~ /^(?:nearby|closest|other|later) ./) {
       # skip on the first pass
       return "｢$word｣";
     } elsif ($word =~ /^append (.*)/) {
@@ -956,9 +956,9 @@ sub resolve_appends {
 
 =item resolve_nearby
 
-We have nearly everything resolved except for references starting with the word
-"nearby" because these require all of the other data to be present. This
-modifies the third parameter, C<$descriptions>.
+We have nearly everything resolved except for references starting with the words
+"closest" and "nearby" because these require all of the other data to be
+present. This modifies the third parameter, C<$descriptions>.
 
 =cut
 
@@ -969,7 +969,7 @@ sub resolve_nearby {
   my $redirects = shift;
   for my $coord (keys %$descriptions) {
     $descriptions->{$coord} =~
-	s/｢nearby ([^][｣]*)｣/closest($map_data,$table_data,$coord,$1, $redirects) or '…'/ge
+	s/｢(nearby|closest) ([^][｣]*)｣/closest($map_data,$table_data,$coord,$2,$1,$redirects) or '…'/ge
 	for 1 .. 2; # two levels deep of ｢nearby ...｣
     $descriptions->{$coord} =~ s!( \(<a href="#desc\d+">\d+</a>\))</em>!</em>$1!g; # fixup
   }
@@ -977,8 +977,8 @@ sub resolve_nearby {
 
 =item closest
 
-This picks the closest instance of whatever we're looking for, but not from the
-same coordinates, obviously.
+This picks the closest instance of whatever we're looking for. If the type
+argument is "nearby", the same coordinates are excluded.
 
 =cut
 
@@ -987,8 +987,10 @@ sub closest {
   my $table_data = shift;
   my $coordinates = shift;
   my $key = shift;
+  my $type = shift;
   my $redirects = shift;
-  my @coordinates = grep { $_ ne $coordinates and $_ ne 'global' } keys %{$globals->{$key}};
+  my @coordinates = grep { $_ ne 'global' } keys %{$globals->{$key}};
+  @coordinates = grep { $_ ne $coordinates } @coordinates if $type eq "nearby";
   if (not @coordinates) {
     $log->info("Did not find any hex with $key ($coordinates)");
     return "…";
